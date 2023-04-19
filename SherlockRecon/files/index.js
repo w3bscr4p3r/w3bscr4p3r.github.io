@@ -15,7 +15,7 @@ function recon(){
     var dom = document.getElementById('index_input').value;
     for (let index = 0; index < Object.keys(datas).length; index++) {
         
-        res = datas[index].link.replace(/domainname/gi, dom? (dom):("You need to enter a domain name"));
+        res = datas[index].link.replace(/domainname/gi, dom? (dom):("Você precisa inserir o dominio"));
         document.getElementById('cards').innerHTML += `<div class='subcard'>
         <a class="link" href="${res}" target="_blank" >
         <div class='test'>
