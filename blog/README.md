@@ -1,3 +1,0 @@
-## BLOG - Daniel Alves
-
-Em construção...
