@@ -38,7 +38,7 @@
 <br/>
 
 <a href="https://github.com/w3bScr4pp3r" title="Perfil do Daniel Alves">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=w3bScr4pp3r&theme=dracula&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=w3bScr4pp3r&theme=react&show_icons=true" />
 </a>
 
 ## Onde me encontrar
