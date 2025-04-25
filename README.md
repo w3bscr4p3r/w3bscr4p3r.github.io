@@ -8,8 +8,6 @@ Desenvolvedor Python apaixonado pelas áreas de IA e Cibersegurança.
 📧 **Contato:** danielmoura.tech@gmail.com  
 🚀 **Portfólio:** https://github.com/w3bscr4p3r
 
----
-
 ## 🛠 Tecnologias e Ferramentas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -18,7 +16,6 @@ Desenvolvedor Python apaixonado pelas áreas de IA e Cibersegurança.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
----
 
 ## 📂 Projetos em desenvolvimento
 
@@ -44,5 +41,3 @@ Desenvolvedor Python apaixonado pelas áreas de IA e Cibersegurança.
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-moura-alves)](https://www.linkedin.com/in/daniel-moura-alves)
 [![Gmail Badge](https://img.shields.io/badge/-danielmoura.tech@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danielmoura.tech@gmail.com)](mailto:danielmoura.tech@gmail.com)
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/seu-perfil)
