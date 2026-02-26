@@ -1,43 +1,48 @@
-# Olá, meu nome é Daniel Alves! 👋
+![](https://komarev.com/ghpvc/?username=w3bScr4p3r&color=006bed)
 
-<img align="right" width="300" src="https://media.licdn.com/dms/image/v2/D4D03AQFfl8eb81ZdCA/profile-displayphoto-shrink_800_800/B4DZZepC3zGsAg-/0/1745344541002?e=1750896000&v=beta&t=UJ-QTqRGl2jFacogAC6avRSyFeoeyAowkEcz3yRcIlY">
+## Sobre mim
 
-Desenvolvedor Python apaixonado pelas áreas de IA e Cibersegurança.  
+- 🤔 Explorando novas tecnologias e desenvolvendo soluções de Cibersegurança e RPA;
+- 🎓 MBA em Gestão de Cibersegurança e Tecnologo em Análise e Desenvolvimento de Sistemas pela Estácio de Sá;
+- 🌱 Aprendendo mais sobre ESG e Cyber Security.
 
-🌍 **Localização:** Vila Velha/ES  
-📧 **Contato:** danielmoura.tech@gmail.com  
-🚀 **Portfólio:** https://github.com/w3bscr4p3r
+## Minhas Skills
 
-## 🛠 Tecnologias e Ferramentas
+**Aplicações e dados**
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-333333?style=flat&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
 
+**Utilidades**
 
-## 📂 Projetos em desenvolvimento
+![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
+![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
 
-### [Plataforma de Segurança](https://github.com/seu-usuário/repositório)
-📌 Plataforma de segurança que une SIEM a outras ferramentas.  
-🔨 **Tecnologias:** HTML, JS e Python.  
-⭐ **Destaque:** Terá diversas integrações com ferramentas de CTI.
+**DevOps**
 
-### [SAST-DAST](https://github.com/seu-usuário/repositório)
-📌 Descrição do projeto.  
-🔧 **Tecnologias:** Python com integração de ferramentas de DevSecOps  
+![Linux](https://img.shields.io/badge/Linux-333333?style=flat&logo=linux&logoColor=ffdd54)
+![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
 
----
+**Ferramentas de desenvolvimento**
 
-## 📈 Estatísticas do GitHub
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![Eclipse](https://img.shields.io/badge/-Eclipse-333333?style=flat&logo=eclipse-ide&logoColor=2C2255)
+![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
 
-![Estatísticas](https://github-readme-stats.vercel.app/api?username=w3bscr4p3r&show_icons=true&theme=radical)
-![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=w3bscr4p3r&layout=compact)
+<br/>
 
----
+<a href="https://github.com/w3bscr4p3r" title="Perfil do Daniel Alves">
+  <img height="180em" src="https://avatars.githubusercontent.com/u/92269045?s=400&u=b7509c2b337d7bd42d3324e3f987ebfb1a74c347&v=4" />
+</a>
 
-## 🌐 Contato
+## Onde me encontrar
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-moura-alves)](https://www.linkedin.com/in/daniel-moura-alves)
 [![Gmail Badge](https://img.shields.io/badge/-danielmoura.tech@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danielmoura.tech@gmail.com)](mailto:danielmoura.tech@gmail.com)
+[![GitHub](https://img.shields.io/github/followers/w3bScr4p3r?label=follow&style=social)](https://github.com/w3bScr4p3r/)
+
