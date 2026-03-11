@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus Dev — Engenharia de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #060608;
+      --surface: #0e0e12;
+      --surface2: #15151c;
+      --border: rgba(255,255,255,0.07);
+      --accent: #00e5a0;
+      --accent2: #7b5ea7;
+      --accent3: #ff6b35;
+      --text: #e8e8f0;
+      --muted: #6b6b80;
+      --heading: #ffffff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      overflow-x: hidden;
+      cursor: none;
+    }
+
+    /* Custom Cursor */
+    .cursor {
+      width: 12px; height: 12px;
+      background: var(--accent);
+      border-radius: 50%;
+      position: fixed;
+      pointer-events: none;
+      z-index: 9999;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+      mix-blend-mode: difference;
+    }
+    .cursor-ring {
+      width: 36px; height: 36px;
+      border: 1.5px solid var(--accent);
+      border-radius: 50%;
+      position: fixed;
+      pointer-events: none;
+      z-index: 9998;
+      transition: transform 0.08s ease, opacity 0.15s ease;
+      opacity: 0.5;
+    }
+
+    /* Noise overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: 0.025;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 1.25rem 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid transparent;
+      transition: background 0.4s, border-color 0.4s;
+    }
+    nav.scrolled {
+      background: rgba(6,6,8,0.85);
+      backdrop-filter: blur(20px);
+      border-color: var(--border);
+    }
+    .logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: var(--heading);
+      letter-spacing: -0.03em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .logo-dot {
+      width: 8px; height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: inline-block;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.5); opacity: 0.7; }
+    }
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--heading); }
+    .nav-cta {
+      background: var(--accent);
+      color: #060608 !important;
+      padding: 0.5rem 1.25rem;
+      border-radius: 4px;
+      font-weight: 700 !important;
+      letter-spacing: 0 !important;
+      transition: transform 0.2s, box-shadow 0.2s !important;
+    }
+    .nav-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px rgba(0,229,160,0.3) !important;
+      color: #060608 !important;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 8rem 3rem 5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,229,160,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,229,160,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 0%, black 40%, transparent 100%);
+    }
+    .hero-glow {
+      position: absolute;
+      top: -20%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(circle, rgba(0,229,160,0.08) 0%, rgba(123,94,167,0.06) 40%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeUp 0.6s 0.3s forwards;
+    }
+    .hero-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(3.5rem, 8vw, 8rem);
+      font-weight: 800;
+      color: var(--heading);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeUp 0.8s 0.5s forwards;
+    }
+    .hero-title em {
+      font-style: normal;
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255,255,255,0.3);
+    }
+    .hero-title .accent { color: var(--accent); }
+    .hero-bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 3rem;
+      opacity: 0;
+      animation: fadeUp 0.8s 0.8s forwards;
+    }
+    .hero-desc {
+      max-width: 440px;
+      color: var(--muted);
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #060608;
+      padding: 0.875rem 2rem;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.02em;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,229,160,0.35);
+    }
+    .btn-ghost {
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.875rem 2rem;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-ghost:hover {
+      border-color: rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.04);
+    }
+    .hero-scroll {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      opacity: 0;
+      animation: fadeUp 0.6s 1.2s forwards;
+    }
+    .scroll-line {
+      width: 1px;
+      height: 60px;
+      background: linear-gradient(to bottom, var(--accent), transparent);
+      animation: scrollLine 2s infinite;
+    }
+    @keyframes scrollLine {
+      0% { transform: scaleY(0); transform-origin: top; }
+      50% { transform: scaleY(1); transform-origin: top; }
+      51% { transform: scaleY(1); transform-origin: bottom; }
+      100% { transform: scaleY(0); transform-origin: bottom; }
+    }
+
+    /* MARQUEE */
+    .marquee-section {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 1.25rem 0;
+      overflow: hidden;
+      background: var(--surface);
+    }
+    .marquee-track {
+      display: flex;
+      gap: 4rem;
+      animation: marquee 25s linear infinite;
+      white-space: nowrap;
+    }
+    .marquee-item {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+    .marquee-item::before {
+      content: '◆';
+      color: var(--accent);
+      font-size: 0.5rem;
+    }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* SECTION COMMON */
+    section { padding: 7rem 3rem; }
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--accent);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .section-label::before {
+      content: '';
+      width: 24px;
+      height: 1px;
+      background: var(--accent);
+    }
+    .section-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 800;
+      color: var(--heading);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    /* SERVICES */
+    .services { background: var(--bg); }
+    .services-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 4rem;
+      gap: 3rem;
+    }
+    .services-intro { max-width: 400px; color: var(--muted); margin-top: 1.5rem; line-height: 1.8; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+    .service-card {
+      background: var(--surface);
+      padding: 2.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.3s;
+      cursor: none;
+    }
+    .service-card:hover { background: var(--surface2); }
+    .service-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .service-card:hover::after { transform: scaleX(1); }
+    .service-number {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      margin-bottom: 2rem;
+    }
+    .service-icon {
+      width: 48px; height: 48px;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-icon svg { width: 100%; height: 100%; }
+    .service-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--heading);
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+    .service-desc {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.75;
+    }
+    .service-tags {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--accent);
+      border: 1px solid rgba(0,229,160,0.2);
+      background: rgba(0,229,160,0.05);
+      padding: 0.2rem 0.6rem;
+      border-radius: 2px;
+      letter-spacing: 0.05em;
+    }
+
+    /* PROCESS */
+    .process { background: var(--surface); }
+    .process-grid {
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      position: relative;
+    }
+    .process-grid::before {
+      content: '';
+      position: absolute;
+      top: 2rem;
+      left: calc(12.5% + 1rem);
+      right: calc(12.5% + 1rem);
+      height: 1px;
+      background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3), transparent);
+    }
+    .process-step {
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .step-num {
+      width: 4rem; height: 4rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--accent);
+      position: relative;
+      z-index: 1;
+    }
+    .step-title {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      color: var(--heading);
+      margin-bottom: 0.75rem;
+      font-size: 1rem;
+    }
+    .step-desc { color: var(--muted); font-size: 0.85rem; line-height: 1.7; }
+
+    /* STATS */
+    .stats-section {
+      padding: 5rem 3rem;
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .stat-item {
+      padding: 2rem 3rem;
+      border-right: 1px solid var(--border);
+      position: relative;
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      font-weight: 800;
+      color: var(--heading);
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .stat-num span { color: var(--accent); }
+    .stat-label { color: var(--muted); font-size: 0.85rem; }
+
+    /* TECH STACK */
+    .tech { background: var(--surface); }
+    .tech-list {
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .tech-item {
+      border: 1px solid var(--border);
+      background: var(--bg);
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+      transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    }
+    .tech-item:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    /* TESTIMONIALS */
+    .testimonials { background: var(--bg); }
+    .testimonials-grid {
+      margin-top: 3.5rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .testimonial-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 2rem;
+      border-radius: 4px;
+      position: relative;
+    }
+    .testimonial-card::before {
+      content: '"';
+      font-family: 'Syne', sans-serif;
+      font-size: 5rem;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.15;
+      position: absolute;
+      top: -0.5rem;
+      left: 1.5rem;
+      line-height: 1;
+    }
+    .testimonial-text {
+      color: var(--text);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 1.5rem;
+    }
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .author-avatar {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: white;
+    }
+    .author-name {
+      font-weight: 600;
+      color: var(--heading);
+      font-size: 0.9rem;
+    }
+    .author-role { color: var(--muted); font-size: 0.8rem; }
+
+    /* CTA */
+    .cta-section {
+      padding: 8rem 3rem;
+      background: var(--surface);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-glow {
+      position: absolute;
+      bottom: -40%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(0,229,160,0.1) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .cta-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 5rem);
+      font-weight: 800;
+      color: var(--heading);
+      letter-spacing: -0.04em;
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+    .cta-title em {
+      font-style: normal;
+      color: var(--accent);
+    }
+    .cta-sub {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 480px;
+      margin: 0 auto 3rem;
+      line-height: 1.7;
+    }
+    .cta-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      position: relative;
+    }
+
+    /* CONTACT FORM */
+    .contact { background: var(--bg); }
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      margin-top: 4rem;
+    }
+    .contact-info h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--heading);
+      margin-bottom: 1rem;
+    }
+    .contact-info p { color: var(--muted); line-height: 1.8; margin-bottom: 2rem; }
+    .contact-detail {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .contact-detail svg { color: var(--accent); flex-shrink: 0; }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .form-input, .form-textarea, .form-select {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.875rem 1rem;
+      border-radius: 4px;
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-size: 0.95rem;
+      transition: border-color 0.2s;
+      outline: none;
+      appearance: none;
+    }
+    .form-input:focus, .form-textarea:focus, .form-select:focus {
+      border-color: var(--accent);
+    }
+    .form-textarea { resize: vertical; min-height: 120px; }
+    .form-select option { background: var(--surface); }
+
+    /* FOOTER */
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 4rem 3rem 2rem;
+    }
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+      gap: 4rem;
+    }
+    .footer-brand p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      max-width: 280px;
+      margin-top: 1rem;
+      line-height: 1.7;
+    }
+    .footer-links { display: flex; gap: 5rem; }
+    .footer-col h4 {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--heading);
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.02em;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 0.75rem; }
+    .footer-col a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--accent); }
+    .footer-bottom {
+      padding-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-copy {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .footer-socials { display: flex; gap: 1.5rem; }
+    .social-link {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.75rem;
+      font-family: 'DM Mono', monospace;
+      letter-spacing: 0.05em;
+      transition: color 0.2s;
+    }
+    .social-link:hover { color: var(--accent); }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      nav { padding: 1.25rem 1.5rem; }
+      .nav-links { display: none; }
+      section { padding: 5rem 1.5rem; }
+      .hero { padding: 7rem 1.5rem 4rem; }
+      .hero-title { font-size: clamp(2.8rem, 12vw, 5rem); }
+      .hero-bottom { flex-direction: column; align-items: flex-start; }
+      .services-header { flex-direction: column; }
+      .services-grid { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .process-grid::before { display: none; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .stat-item { border-bottom: 1px solid var(--border); }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .footer-top { flex-direction: column; }
+      .footer-links { flex-wrap: wrap; gap: 2.5rem; }
+      .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+      .stats-section { padding: 4rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="logo">
+      <span class="logo-dot"></span>Nexus<span style="color:var(--accent)">Dev</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#processo">Processo</a></li>
+      <li><a href="#tecnologias">Tecnologias</a></li>
+      <li><a href="#clientes">Clientes</a></li>
+      <li><a href="#contato" class="nav-cta">Falar com a gente</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <p class="hero-tag">Consultoria em Engenharia de Software</p>
+    <h1 class="hero-title">
+      Transformamos<br/>
+      <em>ideias</em> em<br/>
+      <span class="accent">software</span> real.
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        Da automação de processos à integração de APIs complexas — entregamos soluções sob medida para o crescimento do seu negócio.
+      </p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn-primary">
+          Iniciar projeto
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#servicos" class="btn-ghost">Ver serviços</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">Landing Pages</span>
+      <span class="marquee-item">Integração de APIs</span>
+      <span class="marquee-item">RPA & Automação</span>
+      <span class="marquee-item">Sistemas Web</span>
+      <span class="marquee-item">Dashboards & BI</span>
+      <span class="marquee-item">E-commerce</span>
+      <span class="marquee-item">Mobile Apps</span>
+      <span class="marquee-item">Consultoria Técnica</span>
+      <span class="marquee-item">DevOps & Cloud</span>
+      <span class="marquee-item">Landing Pages</span>
+      <span class="marquee-item">Integração de APIs</span>
+      <span class="marquee-item">RPA & Automação</span>
+      <span class="marquee-item">Sistemas Web</span>
+      <span class="marquee-item">Dashboards & BI</span>
+      <span class="marquee-item">E-commerce</span>
+      <span class="marquee-item">Mobile Apps</span>
+      <span class="marquee-item">Consultoria Técnica</span>
+      <span class="marquee-item">DevOps & Cloud</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="servicos">
+    <div class="services-header reveal">
+      <div>
+        <p class="section-label">O que fazemos</p>
+        <h2 class="section-title">Soluções que<br/>movem negócios</h2>
+      </div>
+      <p class="services-intro">
+        Cada projeto é único. Trabalhamos com tecnologias modernas para entregar produtos escaláveis, rápidos e com excelência técnica — do briefing ao deploy.
+      </p>
+    </div>
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <p class="service-number">01 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="8" width="40" height="28" rx="3" stroke="#00e5a0" stroke-width="2"/>
+            <path d="M16 44h16M24 36v8" stroke="#00e5a0" stroke-width="2" stroke-linecap="round"/>
+            <path d="M14 22l5 5 10-10" stroke="#00e5a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Landing Pages</h3>
+        <p class="service-desc">Páginas de alta conversão com design moderno, animações fluidas e performance otimizada para gerar leads e vendas reais.</p>
+        <div class="service-tags">
+          <span class="tag">Next.js</span>
+          <span class="tag">React</span>
+          <span class="tag">SEO</span>
+          <span class="tag">CRO</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <p class="service-number">02 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="24" r="6" stroke="#00e5a0" stroke-width="2"/>
+            <circle cx="36" cy="12" r="6" stroke="#00e5a0" stroke-width="2"/>
+            <circle cx="36" cy="36" r="6" stroke="#00e5a0" stroke-width="2"/>
+            <path d="M18 24h6M30 15l-6 7M30 33l-6-7" stroke="#00e5a0" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Integração de APIs</h3>
+        <p class="service-desc">Conectamos plataformas, ERPs, CRMs e serviços externos de forma robusta, segura e com monitoramento em tempo real.</p>
+        <div class="service-tags">
+          <span class="tag">REST</span>
+          <span class="tag">GraphQL</span>
+          <span class="tag">Webhooks</span>
+          <span class="tag">OAuth</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <p class="service-number">03 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="16" width="14" height="16" rx="2" stroke="#00e5a0" stroke-width="2"/>
+            <rect x="26" y="8" width="14" height="32" rx="2" stroke="#00e5a0" stroke-width="2"/>
+            <path d="M8 32l14-8M26 28l14-12" stroke="#00e5a0" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+          </svg>
+        </div>
+        <h3 class="service-name">RPA & Automação</h3>
+        <p class="service-desc">Eliminamos tarefas repetitivas com bots inteligentes que operam 24/7, reduzindo custos operacionais e erros humanos.</p>
+        <div class="service-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Selenium</span>
+          <span class="tag">n8n</span>
+          <span class="tag">Make</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <p class="service-number">04 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="6" width="36" height="36" rx="4" stroke="#00e5a0" stroke-width="2"/>
+            <path d="M16 32V22M24 32V18M32 32V26" stroke="#00e5a0" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Dashboards & BI</h3>
+        <p class="service-desc">Visualizações de dados customizadas que transformam informações brutas em insights acionáveis para decisões estratégicas.</p>
+        <div class="service-tags">
+          <span class="tag">Recharts</span>
+          <span class="tag">D3.js</span>
+          <span class="tag">Metabase</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <p class="service-number">05 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4L4 14v20l20 10 20-10V14L24 4z" stroke="#00e5a0" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M4 14l20 10M44 14L24 24M24 44V24" stroke="#00e5a0" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Sistemas Web</h3>
+        <p class="service-desc">Aplicações completas sob medida: painéis administrativos, plataformas SaaS, portais B2B e sistemas de gestão interna.</p>
+        <div class="service-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <p class="service-number">06 —</p>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="6" width="24" height="36" rx="3" stroke="#00e5a0" stroke-width="2"/>
+            <path d="M20 38h8" stroke="#00e5a0" stroke-width="2" stroke-linecap="round"/>
+            <path d="M18 18l4 4-4 4" stroke="#00e5a0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="service-name">Aplicativos Mobile</h3>
+        <p class="service-desc">Apps iOS e Android com experiência nativa, performance excepcional e integração completa com seu ecossistema digital.</p>
+        <div class="service-tags">
+          <span class="tag">React Native</span>
+          <span class="tag">Expo</span>
+          <span class="tag">Flutter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-section">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-num"><span id="c1">0</span>+</div>
+        <div class="stat-label">Projetos entregues</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num"><span id="c2">0</span>+</div>
+        <div class="stat-label">Clientes satisfeitos</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num"><span id="c3">0</span>%</div>
+        <div class="stat-label">Taxa de satisfação</div>
+      </div>
+      <div class="stat-item reveal">
+        <div class="stat-num"><span id="c4">0</span>+</div>
+        <div class="stat-label">Anos de experiência</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROCESS -->
+  <section class="process" id="processo">
+    <div class="reveal">
+      <p class="section-label">Como trabalhamos</p>
+      <h2 class="section-title">Do briefing ao<br/>deploy com agilidade</h2>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Discovery</h3>
+        <p class="step-desc">Mapeamos seus objetivos, dores e requisitos técnicos para criar um plano sólido desde o início.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Design & Prototipagem</h3>
+        <p class="step-desc">Criamos wireframes e protótipos interativos para validar a solução antes de codar uma única linha.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Desenvolvimento</h3>
+        <p class="step-desc">Sprints curtos com entregas contínuas, revisões semanais e comunicação transparente em cada etapa.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Deploy & Suporte</h3>
+        <p class="step-desc">Lançamento com monitoramento ativo, suporte pós-entrega e planos de manutenção contínua.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="tech" id="tecnologias">
+    <div class="reveal">
+      <p class="section-label">Tecnologias</p>
+      <h2 class="section-title">Stack moderno &<br/>battle-tested</h2>
+    </div>
+    <div class="tech-list reveal">
+      <span class="tech-item">React</span>
+      <span class="tech-item">Next.js</span>
+      <span class="tech-item">TypeScript</span>
+      <span class="tech-item">Node.js</span>
+      <span class="tech-item">Python</span>
+      <span class="tech-item">FastAPI</span>
+      <span class="tech-item">PostgreSQL</span>
+      <span class="tech-item">MongoDB</span>
+      <span class="tech-item">Redis</span>
+      <span class="tech-item">Docker</span>
+      <span class="tech-item">Kubernetes</span>
+      <span class="tech-item">AWS</span>
+      <span class="tech-item">Google Cloud</span>
+      <span class="tech-item">Vercel</span>
+      <span class="tech-item">Tailwind CSS</span>
+      <span class="tech-item">GraphQL</span>
+      <span class="tech-item">Prisma</span>
+      <span class="tech-item">React Native</span>
+      <span class="tech-item">Selenium</span>
+      <span class="tech-item">Playwright</span>
+      <span class="tech-item">n8n</span>
+      <span class="tech-item">Stripe</span>
+      <span class="tech-item">Supabase</span>
+      <span class="tech-item">Firebase</span>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="clientes">
+    <div class="reveal">
+      <p class="section-label">O que dizem</p>
+      <h2 class="section-title">Clientes que<br/>confiam em nós</h2>
+    </div>
+    <div class="testimonials-grid reveal">
+      <div class="testimonial-card">
+        <p class="testimonial-text">A NexusDev entregou nossa landing page em 10 dias com uma qualidade surpreendente. Nossa taxa de conversão aumentou 3x no primeiro mês.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">CM</div>
+          <div>
+            <p class="author-name">Carlos Mendes</p>
+            <p class="author-role">CEO · StartupBR</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">Precisávamos integrar 5 sistemas diferentes. A equipe resolveu em tempo recorde com uma arquitetura limpa e bem documentada. Recomendo demais.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#ff6b35,#7b5ea7)">AV</div>
+          <div>
+            <p class="author-name">Ana Vieira</p>
+            <p class="author-role">CTO · Logflow</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">O bot de automação que desenvolveram economizou 40 horas de trabalho manual por semana. ROI em menos de 30 dias. Parceria de longo prazo garantida.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:linear-gradient(135deg,#00e5a0,#0066cc)">RF</div>
+          <div>
+            <p class="author-name">Ricardo Fontes</p>
+            <p class="author-role">Diretor de Operações · GrupoBeta</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-glow"></div>
+    <div class="reveal">
+      <h2 class="cta-title">Pronto para<br/><em>construir</em> algo incrível?</h2>
+      <p class="cta-sub">Vamos conversar sobre seu projeto. Diagnóstico técnico gratuito na primeira reunião.</p>
+      <div class="cta-actions">
+        <a href="#contato" class="btn-primary">
+          Agendar conversa gratuita
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="mailto:contato@nexusdev.com.br" class="btn-ghost">contato@nexusdev.com.br</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contato">
+    <div class="reveal">
+      <p class="section-label">Contato</p>
+      <h2 class="section-title">Fale com a gente</h2>
+    </div>
+    <div class="contact-inner">
+      <div class="contact-info reveal">
+        <h3>Vamos começar seu projeto</h3>
+        <p>Preencha o formulário ou entre em contato diretamente. Respondemos em até 24 horas úteis com uma análise inicial do seu projeto.</p>
+        <div class="contact-detail">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          contato@nexusdev.com.br
+        </div>
+        <div class="contact-detail">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          +55 (11) 99999-0000
+        </div>
+        <div class="contact-detail">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          São Paulo, SP — Brasil
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="form-group">
+          <label class="form-label">Seu nome</label>
+          <input type="text" class="form-input" placeholder="João Silva" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">E-mail</label>
+          <input type="email" class="form-input" placeholder="joao@empresa.com" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tipo de projeto</label>
+          <select class="form-select">
+            <option value="">Selecione um serviço</option>
+            <option>Landing Page</option>
+            <option>Integração de APIs</option>
+            <option>RPA & Automação</option>
+            <option>Dashboard & BI</option>
+            <option>Sistema Web</option>
+            <option>Aplicativo Mobile</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Conte sobre seu projeto</label>
+          <textarea class="form-textarea" placeholder="Descreva brevemente o que você precisa..."></textarea>
+        </div>
+        <button class="btn-primary" style="width:100%;justify-content:center;border:none;font-size:1rem;padding:1rem">
+          Enviar mensagem
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-dot"></span>Nexus<span style="color:var(--accent)">Dev</span></div>
+        <p>Engenharia de software de alto nível para empresas que querem crescer com tecnologia.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#">Landing Pages</a></li>
+            <li><a href="#">APIs & Integrações</a></li>
+            <li><a href="#">RPA & Automação</a></li>
+            <li><a href="#">Dashboards</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 NEXUSDEV LTDA — CNPJ 00.000.000/0001-00</span>
+      <div class="footer-socials">
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Custom Cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX; mouseY = e.clientY;
+      cursor.style.left = mouseX - 6 + 'px';
+      cursor.style.top = mouseY - 6 + 'px';
+    });
+    function animRing() {
+      ringX += (mouseX - ringX - 18) * 0.12;
+      ringY += (mouseY - ringY - 18) * 0.12;
+      ring.style.left = ringX + 'px';
+      ring.style.top = ringY + 'px';
+      requestAnimationFrame(animRing);
+    }
+    animRing();
+    document.querySelectorAll('a, button, .service-card, .tech-item').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.style.transform = 'scale(2.5)';
+        ring.style.opacity = '0';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursor.style.transform = 'scale(1)';
+        ring.style.opacity = '0.5';
+      });
+    });
+
+    // Nav scroll
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          e.target.style.transitionDelay = (i % 3) * 0.1 + 's';
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => obs.observe(el));
+
+    // Counter animation
+    function animateCounter(el, target, duration = 1800) {
+      let start = null;
+      const step = timestamp => {
+        if (!start) start = timestamp;
+        const progress = Math.min((timestamp - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(eased * target);
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = target;
+      };
+      requestAnimationFrame(step);
+    }
+
+    const counters = [
+      { id: 'c1', val: 120 }, { id: 'c2', val: 85 },
+      { id: 'c3', val: 98 }, { id: 'c4', val: 7 }
+    ];
+    const statsObs = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        counters.forEach(c => animateCounter(document.getElementById(c.id), c.val));
+        statsObs.disconnect();
+      }
+    }, { threshold: 0.5 });
+    statsObs.observe(document.querySelector('.stats-section'));
+  </script>
+</body>
+</html>
