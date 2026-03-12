@@ -1,6 +1,4 @@
-![](https://komarev.com/ghpvc/?username=w3bScr4p3r&color=006bed)
-
-## Sobre mim
+# Sobre mim
 
 - 🤔 Explorando novas tecnologias e desenvolvendo soluções de Cibersegurança e RPA;
 - 🎓 MBA em Gestão de Cibersegurança e Tecnologo em Análise e Desenvolvimento de Sistemas pela Estácio de Sá;
@@ -37,7 +35,7 @@
 <br/>
 
 <a href="https://github.com/w3bscr4p3r" title="Perfil do Daniel Alves">
-  <img height="180em" src="https://avatars.githubusercontent.com/u/92269045?s=400&u=b7509c2b337d7bd42d3324e3f987ebfb1a74c347&v=4" />
+  <img height="180em" src="https://media.licdn.com/dms/image/v2/D4D03AQE1zeN33xOx2w/profile-displayphoto-scale_200_200/B4DZxAJgg0JUAY-/0/1770602763639?e=1775088000&v=beta&t=BymzRHkkHAPwGgaA6UdL2hSaO8CTJBmaEAbHOLBw4PM" />
 </a>
 
 ## Onde me encontrar
