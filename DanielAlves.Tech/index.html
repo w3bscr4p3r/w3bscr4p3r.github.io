@@ -1,0 +1,2050 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<!-- ═══════════════════════════════════════════
+     DANIEL ALVES — CONSULTORIA EM AUTOMAÇÃO
+     Smart Home Premium · Grande Vitória ES
+     ═══════════════════════════════════════════ -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO PREMIUM -->
+<title>Daniel Alves | Consultoria em Automação Residencial Premium — Grande Vitória ES</title>
+<meta name="description" content="Projetos exclusivos de automação residencial, conectividade premium e segurança inteligente para clientes exigentes na Grande Vitória, ES. Smart Home de alto padrão.">
+<meta name="keywords" content="automação residencial, smart home, Grande Vitória, Vitória ES, casa inteligente, segurança residencial, Wi-Fi premium, Daniel Alves">
+<meta name="author" content="Daniel Alves Consultoria">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="BR-ES">
+<meta name="geo.placename" content="Grande Vitória, Espírito Santo">
+
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Daniel Alves | Smart Home Premium — Grande Vitória ES">
+<meta property="og:description" content="Projetos exclusivos de automação residencial para clientes exigentes. Conforto, segurança e sofisticação em cada detalhe.">
+<meta property="og:url" content="https://danielalves.tech">
+<meta property="og:locale" content="pt_BR">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daniel Alves | Smart Home Premium">
+<meta name="twitter:description" content="Automação residencial de alto padrão na Grande Vitória ES.">
+
+<!-- SECURITY HEADERS via META -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self';">
+
+<!-- SCHEMA LOCAL BUSINESS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Daniel Alves Consultoria em Automação",
+  "description": "Projetos exclusivos de automação residencial, Smart Home premium e segurança inteligente na Grande Vitória ES",
+  "url": "https://danielalves.tech",
+  "email": "suporte@danielalves.tech",
+  "telephone": "+5527981344224",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "ES",
+    "addressLocality": "Grande Vitória",
+    "addressCountry": "BR"
+  },
+  "areaServed": "Grande Vitória, Espírito Santo",
+  "priceRange": "$$$$",
+  "sameAs": ["https://instagram.com/danielalves.tech"]
+}
+</script>
+
+<!-- GOOGLE FONTS — CORMORANT + JOST -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ═══════════════════════════════════════════
+   DESIGN SYSTEM — LUXURY OBSIDIAN + GOLD
+   ═══════════════════════════════════════════ */
+:root {
+  /* Paleta */
+  --obsidian: #080808;
+  --obsidian-2: #0e0e0e;
+  --obsidian-3: #141414;
+  --obsidian-4: #1c1c1c;
+  --gold: #c9a84c;
+  --gold-light: #e0c070;
+  --gold-pale: #f5e6c0;
+  --gold-dim: rgba(201,168,76,0.12);
+  --gold-border: rgba(201,168,76,0.22);
+  --gold-glow: rgba(201,168,76,0.08);
+  --petroleum: #1a2a35;
+  --petroleum-light: #243545;
+  --white: #f8f5ef;
+  --white-80: rgba(248,245,239,0.8);
+  --white-50: rgba(248,245,239,0.5);
+  --white-25: rgba(248,245,239,0.25);
+  --white-10: rgba(248,245,239,0.1);
+  --white-05: rgba(248,245,239,0.05);
+
+  /* Tipografia */
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Jost', sans-serif;
+
+  /* Espaços */
+  --section-py: clamp(80px, 10vw, 140px);
+  --max-w: 1240px;
+
+  /* Transições */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --dur: 0.6s;
+}
+
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  background: var(--obsidian);
+  color: var(--white);
+  font-family: var(--sans);
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* ── CUSTOM CURSOR ── */
+.cursor-dot {
+  position: fixed;
+  width: 6px; height: 6px;
+  background: var(--gold);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
+
+.cursor-ring {
+  position: fixed;
+  width: 32px; height: 32px;
+  border: 1px solid var(--gold-border);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: width 0.4s var(--ease), height 0.4s var(--ease), border-color 0.3s;
+}
+
+body:hover .cursor-dot { opacity: 1; }
+a:hover ~ .cursor-ring, button:hover ~ .cursor-ring { width: 48px; height: 48px; border-color: var(--gold); }
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--obsidian); }
+::-webkit-scrollbar-thumb { background: var(--gold-border); border-radius: 2px; }
+
+/* ── NOISE TEXTURE ── */
+body::after {
+  content: '';
+  position: fixed; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+/* ── CONTAINER ── */
+.wrap { max-width: var(--max-w); margin: 0 auto; padding: 0 clamp(20px, 5vw, 60px); }
+
+/* ── TYPOGRAPHY ── */
+.serif { font-family: var(--serif); }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.1; letter-spacing: -0.01em; }
+
+.label-tag {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: flex; align-items: center; gap: 12px;
+}
+
+.label-tag::before {
+  content: '';
+  display: inline-block;
+  width: 30px; height: 1px;
+  background: var(--gold);
+}
+
+.gold { color: var(--gold); }
+.gold-text {
+  background: linear-gradient(135deg, var(--gold-pale) 0%, var(--gold) 50%, var(--gold-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── DIVIDER ── */
+.divider {
+  width: 60px; height: 1px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+  margin: 2rem 0;
+}
+
+/* ── BUTTONS ── */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2.2rem;
+  border-radius: 0;
+  transition: all 0.4s var(--ease);
+  cursor: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gold);
+  transform: translateX(-101%);
+  transition: transform 0.5s var(--ease);
+}
+
+.btn:hover::before { transform: translateX(0); }
+.btn:hover { color: var(--obsidian); }
+
+.btn-gold {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold-border);
+}
+
+.btn-gold:hover { border-color: var(--gold); }
+
+.btn-outline {
+  background: transparent;
+  color: var(--white-80);
+  border: 1px solid var(--white-25);
+}
+
+.btn-outline:hover { color: var(--obsidian); border-color: var(--gold); }
+.btn-outline::before { background: var(--gold); }
+
+.btn span { position: relative; z-index: 1; }
+.btn-arrow { position: relative; z-index: 1; font-size: 1rem; transition: transform 0.3s; }
+.btn:hover .btn-arrow { transform: translateX(4px); }
+
+.btn-solid {
+  background: var(--gold);
+  color: var(--obsidian);
+  border: 1px solid var(--gold);
+  font-weight: 500;
+}
+
+.btn-solid::before { background: var(--gold-light); }
+.btn-solid:hover { color: var(--obsidian); }
+
+/* ── NAVIGATION ── */
+#nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 500;
+  padding: 0 clamp(20px, 5vw, 60px);
+  height: 76px;
+  display: flex; align-items: center; justify-content: space-between;
+  transition: background 0.5s var(--ease), border-color 0.5s;
+  border-bottom: 1px solid transparent;
+}
+
+#nav.scrolled {
+  background: rgba(8,8,8,0.92);
+  backdrop-filter: blur(24px);
+  border-color: var(--gold-border);
+}
+
+.nav-logo {
+  display: flex; flex-direction: column;
+  text-decoration: none;
+}
+
+.nav-logo-name {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--white);
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.nav-logo-sub {
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: 3px;
+}
+
+.nav-links {
+  display: flex; gap: 2.5rem; list-style: none;
+}
+
+.nav-links a {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white-50);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover { color: var(--gold); }
+
+.nav-cta {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--obsidian);
+  background: var(--gold);
+  padding: 0.7rem 1.6rem;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-cta:hover { background: var(--gold-light); }
+
+.nav-hamburger { display: none; flex-direction: column; gap: 6px; cursor: none; }
+.nav-hamburger span { width: 26px; height: 1px; background: var(--white-80); transition: var(--dur) var(--ease); }
+
+/* ── HERO ── */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex; align-items: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(160deg, rgba(26,42,53,0.6) 0%, rgba(8,8,8,0.85) 50%, rgba(8,8,8,0.97) 100%),
+    url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80&fit=crop') center/cover no-repeat;
+  z-index: 0;
+}
+
+.hero-bg::after {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 80% at 80% 50%, rgba(201,168,76,0.05) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 60% at 10% 80%, rgba(26,42,53,0.3) 0%, transparent 60%);
+}
+
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 120px 0 80px;
+  max-width: 720px;
+}
+
+.hero-eyebrow {
+  margin-bottom: 2rem;
+  animation: fadeUp 1s 0.2s both;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 6.5vw, 5.5rem);
+  font-weight: 300;
+  line-height: 1.02;
+  margin-bottom: 1.8rem;
+  animation: fadeUp 1s 0.4s both;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.hero-sub {
+  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  color: var(--white-50);
+  max-width: 480px;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  animation: fadeUp 1s 0.6s both;
+}
+
+.hero-btns {
+  display: flex; gap: 1rem; flex-wrap: wrap;
+  animation: fadeUp 1s 0.8s both;
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 40px; left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  animation: fadeIn 1s 1.2s both;
+}
+
+.hero-scroll-line {
+  width: 1px; height: 50px;
+  background: linear-gradient(180deg, var(--gold), transparent);
+  animation: scrollPulse 2s infinite;
+}
+
+.hero-scroll-text {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--white-25);
+}
+
+.hero-badge {
+  position: absolute;
+  right: clamp(20px, 5vw, 80px);
+  bottom: 80px;
+  z-index: 2;
+  text-align: right;
+  animation: fadeUp 1s 1s both;
+}
+
+.hero-badge-num {
+  font-family: var(--serif);
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.hero-badge-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--white-25);
+  margin-top: 4px;
+}
+
+/* ── BENEFITS ── */
+#beneficios {
+  padding: var(--section-py) 0;
+  background: var(--obsidian-2);
+  position: relative;
+}
+
+#beneficios::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+}
+
+.benefits-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: end;
+  margin-bottom: 5rem;
+}
+
+.benefits-header h2 {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 300;
+}
+
+.benefits-header p {
+  font-size: 0.9rem;
+  color: var(--white-50);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--gold-border);
+  border: 1px solid var(--gold-border);
+}
+
+.benefit-card {
+  background: var(--obsidian-2);
+  padding: 2.5rem 2rem;
+  transition: background var(--dur) var(--ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 1px;
+  background: var(--gold);
+  transition: width 0.5s var(--ease);
+}
+
+.benefit-card:hover { background: var(--obsidian-3); }
+.benefit-card:hover::after { width: 100%; }
+
+.benefit-icon {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  opacity: 0.8;
+}
+
+.benefit-card h3 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  color: var(--white-80);
+}
+
+.benefit-card p {
+  font-size: 0.8rem;
+  color: var(--white-25);
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+
+/* ── PROJECTS ── */
+#projetos {
+  padding: var(--section-py) 0;
+  background: var(--obsidian);
+  position: relative;
+}
+
+.projects-intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: start;
+  margin-bottom: 5rem;
+}
+
+.projects-intro h2 {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 300;
+}
+
+.projects-intro p {
+  font-size: 0.9rem;
+  color: var(--white-50);
+  line-height: 1.8;
+  max-width: 560px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--gold-border);
+  border: 1px solid var(--gold-border);
+}
+
+.project-card {
+  background: var(--obsidian);
+  padding: 3rem 2.5rem;
+  position: relative;
+  transition: background var(--dur) var(--ease);
+  display: flex; flex-direction: column;
+}
+
+.project-card.featured {
+  background: var(--obsidian-3);
+}
+
+.project-badge {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--obsidian);
+  background: var(--gold);
+  padding: 0.3rem 0.9rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.project-tier {
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+}
+
+.project-card h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.project-desc {
+  font-size: 0.82rem;
+  color: var(--white-50);
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+
+.project-divider {
+  width: 100%; height: 1px;
+  background: var(--gold-border);
+  margin-bottom: 2rem;
+}
+
+.project-list {
+  list-style: none;
+  display: flex; flex-direction: column; gap: 0.7rem;
+  margin-bottom: 2.5rem;
+  flex: 1;
+}
+
+.project-list li {
+  font-size: 0.8rem;
+  color: var(--white-50);
+  letter-spacing: 0.03em;
+  display: flex; align-items: flex-start; gap: 10px;
+}
+
+.project-list li::before {
+  content: '—';
+  color: var(--gold);
+  flex-shrink: 0;
+  font-size: 0.7rem;
+}
+
+.project-card:hover { background: var(--obsidian-4); }
+.project-card.featured:hover { background: var(--obsidian-4); }
+
+/* ── DIFERENTIALS ── */
+#diferenciais {
+  padding: var(--section-py) 0;
+  background: var(--obsidian-2);
+  position: relative;
+  overflow: hidden;
+}
+
+.diff-bg-text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--serif);
+  font-size: clamp(8rem, 20vw, 18rem);
+  font-weight: 300;
+  color: rgba(201,168,76,0.025);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -0.05em;
+}
+
+.diff-header {
+  text-align: center;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.diff-header h2 {
+  font-size: clamp(2.2rem, 4.5vw, 4rem);
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.diff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.diff-item {
+  padding: 2.5rem;
+  border: 1px solid var(--gold-border);
+  position: relative;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.diff-item::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 30px; height: 2px;
+  background: var(--gold);
+  transition: width 0.5s var(--ease);
+}
+
+.diff-item:hover { border-color: var(--gold); background: var(--gold-glow); }
+.diff-item:hover::before { width: 60px; }
+
+.diff-num {
+  font-family: var(--serif);
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--gold-border);
+  line-height: 1;
+  margin-bottom: 1.2rem;
+  transition: color var(--dur);
+}
+
+.diff-item:hover .diff-num { color: var(--gold); }
+
+.diff-item h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+  color: var(--white-80);
+}
+
+.diff-item p {
+  font-size: 0.8rem;
+  color: var(--white-25);
+  line-height: 1.7;
+}
+
+/* ── TESTIMONIALS ── */
+#depoimentos {
+  padding: var(--section-py) 0;
+  background: var(--obsidian);
+  position: relative;
+}
+
+#depoimentos::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.testimonials-header h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.testimonials-slider {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--gold-border);
+  border: 1px solid var(--gold-border);
+}
+
+.testimonial {
+  background: var(--obsidian);
+  padding: 3rem 2.5rem;
+  position: relative;
+  transition: background var(--dur) var(--ease);
+}
+
+.testimonial:hover { background: var(--obsidian-3); }
+
+.testimonial-quote {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--white-80);
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.testimonial-mark {
+  font-family: var(--serif);
+  font-size: 5rem;
+  color: var(--gold);
+  opacity: 0.15;
+  line-height: 0.5;
+  margin-bottom: 1rem;
+}
+
+.testimonial-divider {
+  width: 30px; height: 1px;
+  background: var(--gold);
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-author {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white-50);
+}
+
+.testimonial-role {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-top: 3px;
+}
+
+/* ── FAQ ── */
+#faq {
+  padding: var(--section-py) 0;
+  background: var(--obsidian-2);
+}
+
+.faq-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  align-items: start;
+}
+
+.faq-aside h2 {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq-aside p {
+  font-size: 0.85rem;
+  color: var(--white-50);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.faq-list { display: flex; flex-direction: column; }
+
+.faq-item {
+  border-bottom: 1px solid var(--gold-border);
+  overflow: hidden;
+}
+
+.faq-item:first-child { border-top: 1px solid var(--gold-border); }
+
+.faq-q {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.4rem 0;
+  cursor: none;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--white-80);
+  transition: color 0.3s;
+  gap: 1.5rem;
+}
+
+.faq-q:hover { color: var(--gold); }
+
+.faq-icon {
+  width: 24px; height: 24px;
+  border: 1px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.3s, border-color 0.3s, transform 0.4s var(--ease);
+  font-size: 0.75rem;
+  color: var(--gold);
+}
+
+.faq-item.open .faq-icon { background: var(--gold); color: var(--obsidian); transform: rotate(45deg); }
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s var(--ease);
+}
+
+.faq-item.open .faq-a { max-height: 200px; }
+
+.faq-a p {
+  padding-bottom: 1.5rem;
+  font-size: 0.83rem;
+  color: var(--white-50);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+/* ── CTA FINAL ── */
+#cta {
+  padding: var(--section-py) 0;
+  background: var(--petroleum);
+  position: relative;
+  overflow: hidden;
+}
+
+#cta::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 50% 80% at 80% 50%, rgba(201,168,76,0.07) 0%, transparent 70%),
+    linear-gradient(135deg, rgba(8,8,8,0.7) 0%, transparent 100%);
+}
+
+.cta-content {
+  position: relative; z-index: 2;
+  max-width: 700px;
+}
+
+.cta-content h2 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 300;
+  margin: 1rem 0 1.5rem;
+  line-height: 1.05;
+}
+
+.cta-content h2 em { font-style: italic; color: var(--gold-light); }
+
+.cta-content p {
+  font-size: 0.9rem;
+  color: var(--white-50);
+  margin-bottom: 3rem;
+  letter-spacing: 0.02em;
+}
+
+.cta-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+.cta-aside {
+  position: absolute;
+  right: clamp(20px, 8vw, 120px);
+  top: 50%; transform: translateY(-50%);
+  text-align: right;
+}
+
+.cta-aside-text {
+  font-family: var(--serif);
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 300;
+  color: rgba(201,168,76,0.06);
+  line-height: 0.9;
+  pointer-events: none;
+}
+
+/* ── CONTACT FORM MODAL STYLE ── */
+#contactModal {
+  display: none;
+  position: fixed; inset: 0;
+  z-index: 800;
+  background: rgba(8,8,8,0.92);
+  backdrop-filter: blur(20px);
+  align-items: center; justify-content: center;
+}
+
+#contactModal.open { display: flex; }
+
+.modal-box {
+  background: var(--obsidian-3);
+  border: 1px solid var(--gold-border);
+  padding: 3.5rem;
+  max-width: 560px; width: 90%;
+  position: relative;
+  animation: fadeUp 0.5s var(--ease) both;
+}
+
+.modal-close {
+  position: absolute; top: 1.5rem; right: 1.5rem;
+  background: none; border: none;
+  color: var(--white-50);
+  font-size: 1.2rem; cursor: none;
+  transition: color 0.2s;
+  font-family: var(--sans);
+}
+
+.modal-close:hover { color: var(--gold); }
+
+.modal-title {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.modal-sub { font-size: 0.82rem; color: var(--white-50); margin-bottom: 2.5rem; }
+
+.form-group { margin-bottom: 1.2rem; }
+
+.form-group label {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--white-25);
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  background: var(--obsidian);
+  border: 1px solid var(--gold-border);
+  color: var(--white);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 300;
+  padding: 0.9rem 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+  border-radius: 0;
+  appearance: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: var(--white-25); }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: var(--gold); }
+.form-group textarea { resize: vertical; min-height: 90px; }
+.form-group select { cursor: none; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+/* Honeypot */
+.hp-field { display: none !important; }
+
+.form-note { font-size: 0.72rem; color: var(--white-25); margin-top: 1rem; letter-spacing: 0.03em; }
+
+.form-success { display: none; text-align: center; padding: 1rem 0; }
+.form-success-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.form-success h3 { font-family: var(--serif); font-size: 1.5rem; font-weight: 300; margin-bottom: 0.5rem; }
+.form-success p { font-size: 0.82rem; color: var(--white-50); }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--obsidian);
+  border-top: 1px solid var(--gold-border);
+  padding: 4rem 0 2.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand { }
+
+.footer-name {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  margin-bottom: 0.3rem;
+}
+
+.footer-tagline {
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+
+.footer-brand p { font-size: 0.8rem; color: var(--white-25); line-height: 1.8; max-width: 300px; }
+
+.footer-col h4 {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+
+.footer-col ul li a {
+  font-size: 0.82rem;
+  color: var(--white-25);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover { color: var(--gold); }
+
+.footer-bottom {
+  border-top: 1px solid var(--gold-border);
+  padding-top: 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--white-25);
+  letter-spacing: 0.05em;
+  flex-wrap: wrap; gap: 1rem;
+}
+
+.footer-bottom a { color: var(--white-25); text-decoration: none; transition: color 0.3s; }
+.footer-bottom a:hover { color: var(--gold); }
+
+/* ── WA FLOAT ── */
+.wa-btn {
+  position: fixed;
+  bottom: 32px; right: 32px;
+  z-index: 600;
+  width: 56px; height: 56px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 24px rgba(37,211,102,0.35);
+  transition: transform 0.3s var(--ease), box-shadow 0.3s;
+  animation: waPulse 3s ease-in-out infinite;
+}
+
+.wa-btn:hover { transform: scale(1.08); box-shadow: 0 6px 32px rgba(37,211,102,0.5); animation: none; }
+
+.wa-btn svg { width: 26px; height: 26px; fill: white; }
+
+/* ── STICKY MOBILE CTA ── */
+.sticky-mobile {
+  display: none;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 600;
+  background: rgba(8,8,8,0.95);
+  border-top: 1px solid var(--gold-border);
+  backdrop-filter: blur(16px);
+  padding: 0.8rem 1rem;
+  gap: 0.6rem;
+}
+
+/* ── COOKIE BANNER ── */
+#cookieBanner {
+  display: none;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 700;
+  background: var(--obsidian-3);
+  border-top: 1px solid var(--gold-border);
+  padding: 1.5rem clamp(20px, 5vw, 60px);
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 2rem; flex-wrap: wrap;
+}
+
+#cookieBanner p {
+  font-size: 0.78rem;
+  color: var(--white-50);
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+#cookieBanner a { color: var(--gold); }
+
+.cookie-btns { display: flex; gap: 0.8rem; flex-shrink: 0; }
+
+.cookie-accept {
+  background: var(--gold);
+  color: var(--obsidian);
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: none;
+  transition: background 0.3s;
+}
+
+.cookie-accept:hover { background: var(--gold-light); }
+
+.cookie-decline {
+  background: transparent;
+  color: var(--white-50);
+  border: 1px solid var(--gold-border);
+  padding: 0.6rem 1.5rem;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: none;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.cookie-decline:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.4; transform: scaleY(1); }
+  50% { opacity: 1; transform: scaleY(0.6); }
+}
+
+@keyframes waPulse {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Reveal classes */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+}
+
+.reveal.visible { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.1s; }
+.reveal-d2 { transition-delay: 0.2s; }
+.reveal-d3 { transition-delay: 0.3s; }
+.reveal-d4 { transition-delay: 0.4s; }
+.reveal-d5 { transition-delay: 0.5s; }
+
+/* ── MOBILE NAV ── */
+.mobile-menu {
+  display: none;
+  position: fixed; top: 76px; left: 0; right: 0; bottom: 0;
+  background: rgba(8,8,8,0.98);
+  z-index: 499;
+  flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 2rem;
+}
+
+.mobile-menu.open { display: flex; }
+
+.mobile-menu a {
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--white-80);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.3s;
+}
+
+.mobile-menu a:hover { color: var(--gold); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+  .projects-intro { grid-template-columns: 1fr; gap: 1.5rem; }
+  .faq-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .diff-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .benefits-header { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+@media (max-width: 768px) {
+  .benefits-grid { grid-template-columns: 1fr 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .testimonials-slider { grid-template-columns: 1fr; }
+  .diff-grid { grid-template-columns: 1fr; }
+  .hero-badge { display: none; }
+  .nav-links { display: none; }
+  .nav-cta { display: none; }
+  .nav-hamburger { display: flex; }
+  .footer-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .cta-aside { display: none; }
+  .wa-btn { bottom: 80px; }
+  .sticky-mobile { display: flex; }
+  .hero-scroll { display: none; }
+  body { cursor: auto; }
+  .cursor-dot, .cursor-ring { display: none; }
+}
+
+@media (max-width: 480px) {
+  .benefits-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ═══════════ NAVIGATION ═══════════ -->
+<nav id="nav">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-name">Daniel Alves</div>
+    <div class="nav-logo-sub">Automação Residencial Premium</div>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#beneficios">Benefícios</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#diferenciais">Diferenciais</a></li>
+    <li><a href="#depoimentos">Clientes</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+
+  <a href="#" class="nav-cta" onclick="openModal(); return false;">Consultoria Privada</a>
+
+  <div class="nav-hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#beneficios" onclick="closeMobileMenu()">Benefícios</a>
+  <a href="#projetos" onclick="closeMobileMenu()">Projetos</a>
+  <a href="#diferenciais" onclick="closeMobileMenu()">Diferenciais</a>
+  <a href="#depoimentos" onclick="Clientes</a>
+  <a href="#faq" onclick="closeMobileMenu()">FAQ</a>
+  <a href="#" onclick="openModal(); closeMobileMenu(); return false;" class="btn btn-gold" style="margin-top:1rem;"><span>Consultoria Privada</span></a>
+</div>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+
+  <div class="wrap" style="width:100%;">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="label-tag">Grande Vitória · Espírito Santo</span>
+      </div>
+
+      <h1>
+        Sua residência<br>
+        no próximo nível<br>
+        de <em>sofisticação</em>
+      </h1>
+
+      <p class="hero-sub">
+        Projetos exclusivos de automação residencial, conectividade premium e segurança inteligente para clientes exigentes.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#" class="btn btn-gold" onclick="openModal(); return false;">
+          <span>Solicitar Consultoria Privada</span>
+          <span class="btn-arrow">→</span>
+        </a>
+        <a href="#projetos" class="btn btn-outline">
+          <span>Conhecer Projetos</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-badge">
+    <div class="hero-badge-num">100%</div>
+    <div class="hero-badge-label">Projetos sob medida</div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span class="hero-scroll-text">Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════ BENEFITS ═══════════ -->
+<section id="beneficios">
+  <div class="wrap">
+    <div class="benefits-header">
+      <div>
+        <div class="label-tag reveal">O que você ganha</div>
+        <h2 class="reveal reveal-d1">Viver com<br>mais qualidade<br>é uma decisão.</h2>
+      </div>
+      <div class="reveal reveal-d2">
+        <p>
+          Automatizar sua residência não é sobre gadgets — é sobre recuperar tempo, garantir segurança e criar um ambiente que responde às suas necessidades antes mesmo de você precisar pedir.
+        </p>
+        <div class="divider"></div>
+        <a href="#projetos" class="btn btn-gold" style="margin-top:1rem;"><span>Ver projetos</span> <span class="btn-arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="benefits-grid">
+      <div class="benefit-card reveal">
+        <div class="benefit-icon">✦</div>
+        <h3>Conforto Absoluto</h3>
+        <p>Iluminação, temperatura e áudio que se adaptam ao seu ritmo de vida com um toque ou comando de voz.</p>
+      </div>
+      <div class="benefit-card reveal reveal-d1">
+        <div class="benefit-icon">◈</div>
+        <h3>Segurança Patrimonial</h3>
+        <p>Câmeras inteligentes, fechaduras digitais e alarmes integrados com monitoramento em tempo real.</p>
+      </div>
+      <div class="benefit-card reveal reveal-d2">
+        <div class="benefit-icon">◎</div>
+        <h3>Controle Total via App</h3>
+        <p>Gestão completa da sua residência pelo smartphone — de qualquer lugar do mundo, a qualquer hora.</p>
+      </div>
+      <div class="benefit-card reveal reveal-d3">
+        <div class="benefit-icon">⟡</div>
+        <h3>Wi-Fi Premium</h3>
+        <p>Cobertura total sem pontos cegos. Sinal estável para streaming 4K, videoconferências e todos os dispositivos.</p>
+      </div>
+      <div class="benefit-card reveal reveal-d4">
+        <div class="benefit-icon">◐</div>
+        <h3>Economia de Tempo</h3>
+        <p>Automações que eliminam tarefas repetitivas e criam rotinas inteligentes para sua vida cotidiana.</p>
+      </div>
+      <div class="benefit-card reveal reveal-d5">
+        <div class="benefit-icon">✧</div>
+        <h3>Valorização do Imóvel</h3>
+        <p>Residências automatizadas se destacam no mercado e agregam valor significativo ao patrimônio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section id="projetos">
+  <div class="wrap">
+    <div class="projects-intro">
+      <div>
+        <div class="label-tag reveal">Linha de projetos</div>
+        <h2 class="reveal reveal-d1">Cada espaço<br>merece um projeto<br><em>único</em></h2>
+      </div>
+      <div class="reveal reveal-d2" style="padding-top: 1rem;">
+        <p>
+          Trabalhamos com três linhas de projeto, cada uma pensada para um perfil de cliente e nível de transformação desejado. Todos são personalizados, instalados com rigor técnico e entregues com documentação completa.
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.82rem; color: var(--white-25); font-style: italic; font-family: var(--serif);">
+          Os valores são apresentados exclusivamente em proposta personalizada após consultoria diagnóstica.
+        </p>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ESSENTIAL -->
+      <div class="project-card reveal">
+        <div class="project-tier">Linha I</div>
+        <h3>Essential</h3>
+        <p class="project-desc">Entrada elegante no universo Smart Home.</p>
+        <div class="project-divider"></div>
+        <ul class="project-list">
+          <li>Iluminação inteligente por ambiente</li>
+          <li>Integração Alexa / Google Home</li>
+          <li>Wi-Fi premium com cobertura total</li>
+          <li>Segurança básica com câmeras</li>
+          <li>App de controle centralizado</li>
+        </ul>
+        <a href="#" class="btn btn-outline" onclick="openModal(); return false;"><span>Solicitar proposta</span> <span class="btn-arrow">→</span></a>
+      </div>
+
+      <!-- SIGNATURE -->
+      <div class="project-card featured reveal reveal-d2">
+        <div class="project-badge">Mais Escolhido</div>
+        <div class="project-tier">Linha II</div>
+        <h3>Signature</h3>
+        <p class="project-desc">Automação completa para quem não abre mão do melhor.</p>
+        <div class="project-divider"></div>
+        <ul class="project-list">
+          <li>Automação completa residencial</li>
+          <li>Cena cinema com projeção e áudio</li>
+          <li>Fechadura digital biométrica</li>
+          <li>Rede mesh premium gerenciada</li>
+          <li>Segurança avançada com IA</li>
+          <li>Cortinas e persianas motorizadas</li>
+        </ul>
+        <a href="#" class="btn btn-gold" onclick="openModal(); return false;"><span>Agendar consultoria</span> <span class="btn-arrow">→</span></a>
+      </div>
+
+      <!-- EXECUTIVE ELITE -->
+      <div class="project-card reveal reveal-d4">
+        <div class="project-tier">Linha III</div>
+        <h3>Executive<br>Elite</h3>
+        <p class="project-desc">O máximo padrão residencial disponível.</p>
+        <div class="project-divider"></div>
+        <ul class="project-list">
+          <li>Automação total integrada</li>
+          <li>Segurança com inteligência artificial</li>
+          <li>Home office executivo completo</li>
+          <li>Gestão energética inteligente</li>
+          <li>Climatização automatizada</li>
+          <li>Projeto personalizado e exclusivo</li>
+        </ul>
+        <a href="#" class="btn btn-gold" onclick="openModal(); return false;"><span>Consulta privada</span> <span class="btn-arrow">→</span></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ DIFFERENTIALS ═══════════ -->
+<section id="diferenciais">
+  <div class="diff-bg-text">Premium</div>
+  <div class="wrap">
+    <div class="diff-header">
+      <div class="label-tag reveal" style="justify-content:center; margin: 0 auto; width: fit-content;">Por que Daniel Alves</div>
+      <h2 class="reveal reveal-d1">O padrão que<br>separa o bom<br>do <em>excepcional</em></h2>
+    </div>
+
+    <div class="diff-grid">
+      <div class="diff-item reveal">
+        <div class="diff-num">01</div>
+        <h3>Atendimento Consultivo Discreto</h3>
+        <p>Entendemos que clientes de alto padrão valorizam privacidade. Nossa abordagem é exclusiva, sem pressão e totalmente confidencial.</p>
+      </div>
+      <div class="diff-item reveal reveal-d1">
+        <div class="diff-num">02</div>
+        <h3>Instalação Limpa e Profissional</h3>
+        <p>Passagem de cabos invisível, acabamentos impecáveis e zero entulho. Sua casa permanece em ordem durante e após o projeto.</p>
+      </div>
+      <div class="diff-item reveal reveal-d2">
+        <div class="diff-num">03</div>
+        <h3>Equipamentos de Primeira Linha</h3>
+        <p>Trabalhamos exclusivamente com marcas premium: Lutron, Control4, Ubiquiti, Hikvision. Sem concessões em qualidade.</p>
+      </div>
+      <div class="diff-item reveal reveal-d3">
+        <div class="diff-num">04</div>
+        <h3>Escalabilidade Garantida</h3>
+        <p>Sua automação cresce com você. Adicionamos novas funcionalidades sem refazer o que já foi instalado.</p>
+      </div>
+      <div class="diff-item reveal reveal-d4">
+        <div class="diff-num">05</div>
+        <h3>Suporte Prioritário</h3>
+        <p>Canal direto com o responsável técnico. Atendimento em até 4 horas para clientes com contrato de suporte ativo.</p>
+      </div>
+      <div class="diff-item reveal reveal-d5">
+        <div class="diff-num">06</div>
+        <h3>Privacidade Total</h3>
+        <p>Nenhum dado da sua residência é compartilhado. Sistemas configurados para máxima segurança e privacidade digital.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TESTIMONIALS ═══════════ -->
+<section id="depoimentos">
+  <div class="wrap">
+    <div class="testimonials-header">
+      <div class="label-tag reveal" style="justify-content:center; margin: 0 auto; width: fit-content;">Clientes</div>
+      <h2 class="reveal reveal-d1">A experiência de quem<br>já vive no <em>próximo nível</em></h2>
+    </div>
+
+    <div class="testimonials-slider">
+      <div class="testimonial reveal">
+        <div class="testimonial-mark">"</div>
+        <p class="testimonial-quote">Minha casa ficou em outro nível. Tudo funciona de forma integrada e elegante — controlo tudo pelo celular. O atendimento foi discreto e extremamente profissional.</p>
+        <div class="testimonial-divider"></div>
+        <div class="testimonial-author">R. M.</div>
+        <div class="testimonial-role">Empresário — Vitória, ES</div>
+      </div>
+
+      <div class="testimonial reveal reveal-d2">
+        <div class="testimonial-mark">"</div>
+        <p class="testimonial-quote">Atendimento impecável do início ao fim. Daniel entendeu exatamente o que eu precisava sem eu precisar explicar duas vezes. O resultado superou todas as expectativas.</p>
+        <div class="testimonial-divider"></div>
+        <div class="testimonial-author">C. F.</div>
+        <div class="testimonial-role">Advogada — Vila Velha, ES</div>
+      </div>
+
+      <div class="testimonial reveal reveal-d4">
+        <div class="testimonial-mark">"</div>
+        <p class="testimonial-quote">Segurança e conforto que eu nunca imaginei ter em casa. O projeto foi personalizado, a instalação foi limpa e hoje não consigo imaginar viver sem automação.</p>
+        <div class="testimonial-divider"></div>
+        <div class="testimonial-author">A. B.</div>
+        <div class="testimonial-role">Médico — Serra, ES</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FAQ ═══════════ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="faq-layout">
+      <div class="faq-aside">
+        <div class="label-tag reveal">Dúvidas</div>
+        <h2 class="reveal reveal-d1">Perguntas<br>frequentes</h2>
+        <p class="reveal reveal-d2">Respondemos com transparência. Se sua dúvida não estiver aqui, fale conosco diretamente.</p>
+        <a href="https://wa.me/5527981344224" target="_blank" class="btn btn-gold reveal reveal-d3"><span>Falar com Daniel</span> <span class="btn-arrow">→</span></a>
+      </div>
+
+      <div class="faq-list reveal reveal-d1">
+
+        <div class="faq-item">
+          <div class="faq-q">
+            Quanto custa um projeto de automação?
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Cada projeto é personalizado, então não trabalhamos com tabela de preços fixa. O investimento é apresentado exclusivamente após uma consultoria diagnóstica gratuita, onde avaliamos seu espaço, necessidades e expectativas. Trabalhamos com clientes que valorizam qualidade e resultado acima de tudo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            É possível instalar sem obra ou quebra de parede?
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Sim, na maioria dos casos. Utilizamos tecnologias sem fio de última geração e técnicas de passagem de cabos que preservam o acabamento da sua residência. Instalação limpa e sem transtorno é um dos nossos principais diferenciais.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            Os sistemas são seguros contra hackers?
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Absolutamente. Configuramos todos os sistemas com protocolos de segurança avançados: redes segregadas, criptografia end-to-end, firewalls e VPN. Sua privacidade é levada a sério em cada detalhe do projeto.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            Posso expandir o projeto no futuro?
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Sim, e isso é um dos pilares do nosso trabalho. Projetamos toda a infraestrutura pensando em escalabilidade. Adicionar novos ambientes, dispositivos ou funcionalidades é simples e não exige refazer o que já foi instalado.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">
+            Quais cidades da Grande Vitória vocês atendem?
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a">
+            <p>Atendemos toda a Grande Vitória: Vitória, Vila Velha, Serra, Cariacica, Viana e Guarapari. Para projetos de grande porte, podemos avaliar atendimento em outras regiões do Espírito Santo.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CTA FINAL ═══════════ -->
+<section id="cta">
+  <div class="wrap" style="position:relative; z-index:2;">
+    <div class="cta-content">
+      <div class="label-tag reveal">Próximo passo</div>
+      <h2 class="reveal reveal-d1">
+        Sua casa deve<br>
+        <em>trabalhar</em><br>
+        por você.
+      </h2>
+      <p class="reveal reveal-d2">
+        Uma consultoria gratuita e discreta para entender seu espaço, suas necessidades e apresentar as possibilidades. Sem compromisso.
+      </p>
+      <div class="cta-btns reveal reveal-d3">
+        <a href="https://wa.me/5527981344224" target="_blank" class="btn btn-solid">
+          <span>WhatsApp</span>
+          <span class="btn-arrow">→</span>
+        </a>
+        <a href="#" class="btn btn-gold" onclick="openModal(); return false;">
+          <span>Solicitar Proposta</span>
+        </a>
+        <a href="https://wa.me/5527981344224?text=Gostaria%20de%20agendar%20uma%20visita%20técnica" target="_blank" class="btn btn-outline">
+          <span>Agendar Visita Técnica</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="cta-aside">
+    <div class="cta-aside-text">Smart<br>Home</div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-name">Daniel Alves</div>
+        <div class="footer-tagline">Consultoria em Automação Residencial Premium</div>
+        <p>Projetos exclusivos de Smart Home, conectividade e segurança inteligente para clientes exigentes na Grande Vitória, ES.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Projetos</h4>
+        <ul>
+          <li><a href="#projetos">Essential</a></li>
+          <li><a href="#projetos">Signature</a></li>
+          <li><a href="#projetos">Executive Elite</a></li>
+          <li><a href="#" onclick="openModal(); return false;">Consultoria Privada</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5527981344224" target="_blank">WhatsApp (27) 98134-4224</a></li>
+          <li><a href="mailto:suporte@danielalves.tech">suporte@danielalves.tech</a></li>
+          <li><a href="https://instagram.com/danielalves.tech" target="_blank">@danielalves.tech</a></li>
+          <li><a href="#">Grande Vitória — ES</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Daniel Alves Consultoria. Todos os direitos reservados.</span>
+      <div style="display:flex; gap:2rem;">
+        <a href="#" onclick="document.getElementById('privacyModal').style.display='flex'; return false;">Política de Privacidade</a>
+        <a href="#" onclick="document.getElementById('privacyModal').style.display='flex'; return false;">LGPD</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════ WA FLOAT ═══════════ -->
+<a href="https://wa.me/5527981344224" target="_blank" class="wa-btn" title="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.843L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 01-5.027-1.378l-.36-.214-3.732.89.937-3.63-.234-.374A9.799 9.799 0 012.182 12C2.182 6.578 6.578 2.182 12 2.182S21.818 6.578 21.818 12 17.422 21.818 12 21.818z"/></svg>
+</a>
+
+<!-- ═══════════ STICKY MOBILE CTA ═══════════ -->
+<div class="sticky-mobile" id="stickyMobile">
+  <a href="https://wa.me/5527981344224" target="_blank" class="btn btn-solid" style="flex:1; justify-content:center; padding:.75rem 1rem; font-size:.65rem;"><span>WhatsApp</span></a>
+  <a href="#" onclick="openModal(); return false;" class="btn btn-gold" style="flex:1; justify-content:center; padding:.75rem 1rem; font-size:.65rem;"><span>Solicitar Proposta</span></a>
+</div>
+
+<!-- ═══════════ CONTACT MODAL ═══════════ -->
+<div id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()" aria-label="Fechar">✕</button>
+
+    <div id="modalForm">
+      <div class="modal-title" id="modalTitle">Consultoria Privada</div>
+      <p class="modal-sub">Preencha os dados abaixo. Respondemos em até 4 horas em dias úteis.</p>
+
+      <form id="contactForm" onsubmit="submitForm(event)" novalidate>
+        <!-- Honeypot anti-spam -->
+        <div class="hp-field" aria-hidden="true">
+          <input type="text" name="website" id="hp_website" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f_name">Nome</label>
+            <input type="text" id="f_name" name="name" placeholder="Seu nome" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="f_phone">WhatsApp</label>
+            <input type="tel" id="f_phone" name="phone" placeholder="(27) 99999-9999" required autocomplete="tel">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="f_email">E-mail</label>
+          <input type="email" id="f_email" name="email" placeholder="seu@email.com" required autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="f_interest">Interesse</label>
+          <select id="f_interest" name="interest">
+            <option value="">Selecione uma linha</option>
+            <option value="essential">Essential</option>
+            <option value="signature">Signature</option>
+            <option value="elite">Executive Elite</option>
+            <option value="custom">Projeto personalizado</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="f_msg">Descreva brevemente seu projeto (opcional)</label>
+          <textarea id="f_msg" name="message" placeholder="Tipo de imóvel, necessidades principais..."></textarea>
+        </div>
+
+        <!-- Rate limit indicator (hidden) -->
+        <input type="hidden" id="submittedAt" name="submitted_at" value="">
+
+        <button type="submit" class="btn btn-gold" style="width:100%; justify-content:center; margin-top:.5rem;">
+          <span>Enviar Solicitação</span>
+          <span class="btn-arrow">→</span>
+        </button>
+
+        <p class="form-note">✦ Seus dados são tratados com total confidencialidade conforme nossa <a href="#" style="color:var(--gold);" onclick="document.getElementById('privacyModal').style.display='flex'; return false;">Política de Privacidade</a> e a LGPD.</p>
+      </form>
+    </div>
+
+    <div class="form-success" id="formSuccess">
+      <div class="form-success-icon">✦</div>
+      <h3>Solicitação recebida</h3>
+      <p>Obrigado, <span id="successName"></span>. Entraremos em contato em breve para agendar sua consultoria privada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ PRIVACY MODAL ═══════════ -->
+<div id="privacyModal" style="display:none; position:fixed; inset:0; z-index:900; background:rgba(8,8,8,0.95); backdrop-filter:blur(20px); align-items:center; justify-content:center;">
+  <div style="background:var(--obsidian-3); border:1px solid var(--gold-border); padding:3rem; max-width:600px; width:90%; max-height:80vh; overflow-y:auto; position:relative;">
+    <button onclick="document.getElementById('privacyModal').style.display='none';" style="position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:var(--white-50);font-size:1.1rem;cursor:pointer;font-family:var(--sans);">✕</button>
+    <div class="label-tag" style="margin-bottom:1rem;">LGPD · Privacidade</div>
+    <h3 style="font-family:var(--serif);font-size:1.8rem;font-weight:300;margin-bottom:1.5rem;">Política de Privacidade</h3>
+    <div style="font-size:0.82rem;color:var(--white-50);line-height:1.9;display:flex;flex-direction:column;gap:1rem;">
+      <p><strong style="color:var(--white-80);">Coleta de dados:</strong> Coletamos apenas as informações fornecidas voluntariamente através do formulário de contato (nome, e-mail, telefone). Esses dados são utilizados exclusivamente para responder às suas solicitações.</p>
+      <p><strong style="color:var(--white-80);">Armazenamento:</strong> Seus dados são armazenados de forma segura e não são compartilhados com terceiros sem seu consentimento explícito.</p>
+      <p><strong style="color:var(--white-80);">Cookies:</strong> Utilizamos cookies essenciais para o funcionamento do site e cookies de análise (com seu consentimento) para melhorar a experiência de navegação.</p>
+      <p><strong style="color:var(--white-80);">Seus direitos (LGPD):</strong> Você tem direito ao acesso, correção, exclusão e portabilidade dos seus dados. Para exercer esses direitos, entre em contato pelo e-mail suporte@danielalves.tech.</p>
+      <p><strong style="color:var(--white-80);">Contato do Responsável:</strong> suporte@danielalves.tech</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ COOKIE BANNER ═══════════ -->
+<div id="cookieBanner">
+  <p>
+    Utilizamos cookies para melhorar sua experiência de navegação. Ao continuar, você concorda com nossa
+    <a href="#" onclick="document.getElementById('privacyModal').style.display='flex'; return false;">Política de Privacidade</a>
+    e com o tratamento de dados conforme a LGPD.
+  </p>
+  <div class="cookie-btns">
+    <button class="cookie-accept" onclick="acceptCookies()">Aceitar</button>
+    <button class="cookie-decline" onclick="declineCookies()">Recusar</button>
+  </div>
+</div>
+
+<!-- ═══════════ SCRIPTS ═══════════ -->
+<script>
+/* ── SECURITY: Sanitize string ── */
+function sanitize(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.appendChild(document.createTextNode(String(str).trim()));
+  return div.innerHTML.substring(0, 500);
+}
+
+/* ── CUSTOM CURSOR ── */
+const dot = document.getElementById('cursorDot');
+const ring = document.getElementById('cursorRing');
+let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX; mouseY = e.clientY;
+  dot.style.left = mouseX + 'px';
+  dot.style.top = mouseY + 'px';
+});
+
+function animateRing() {
+  ringX += (mouseX - ringX) * 0.12;
+  ringY += (mouseY - ringY) * 0.12;
+  ring.style.left = ringX + 'px';
+  ring.style.top = ringY + 'px';
+  requestAnimationFrame(animateRing);
+}
+animateRing();
+
+document.querySelectorAll('a, button, [onclick]').forEach(el => {
+  el.addEventListener('mouseenter', () => { ring.style.width = '48px'; ring.style.height = '48px'; ring.style.borderColor = 'var(--gold)'; });
+  el.addEventListener('mouseleave', () => { ring.style.width = '32px'; ring.style.height = '32px'; ring.style.borderColor = 'var(--gold-border)'; });
+});
+
+/* ── NAV SCROLL ── */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+/* ── HAMBURGER ── */
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+  const spans = hamburger.querySelectorAll('span');
+  if (mobileMenu.classList.contains('open')) {
+    spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+    spans[1].style.opacity = '0';
+    spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+  } else {
+    spans.forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+  }
+});
+
+function closeMobileMenu() {
+  mobileMenu.classList.remove('open');
+  hamburger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+}
+
+/* ── REVEAL ON SCROLL ── */
+const revealEls = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.08 });
+revealEls.forEach(el => observer.observe(el));
+
+/* ── FAQ ── */
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+/* ── MODAL ── */
+function openModal() {
+  document.getElementById('contactModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('submittedAt').value = Date.now();
+}
+
+function closeModal() {
+  document.getElementById('contactModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('contactModal').addEventListener('click', (e) => {
+  if (e.target === document.getElementById('contactModal')) closeModal();
+});
+
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+/* ── FORM SUBMIT — Rate limit + Honeypot ── */
+let lastSubmit = 0;
+
+function submitForm(e) {
+  e.preventDefault();
+
+  /* Honeypot check */
+  if (document.getElementById('hp_website').value !== '') return;
+
+  /* Rate limit: 60s entre envios */
+  const now = Date.now();
+  if (now - lastSubmit < 60000) {
+    alert('Por favor, aguarde um momento antes de enviar novamente.');
+    return;
+  }
+
+  /* Validate */
+  const name = sanitize(document.getElementById('f_name').value);
+  const phone = sanitize(document.getElementById('f_phone').value);
+  const email = sanitize(document.getElementById('f_email').value);
+
+  if (!name || !phone || !email) {
+    alert('Por favor, preencha nome, WhatsApp e e-mail.');
+    return;
+  }
+
+  /* Basic email validation */
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    alert('Por favor, insira um e-mail válido.');
+    return;
+  }
+
+  /* Basic phone validation */
+  if (phone.replace(/\D/g, '').length < 10) {
+    alert('Por favor, insira um telefone válido.');
+    return;
+  }
+
+  lastSubmit = now;
+
+  /* Show success */
+  document.getElementById('modalForm').style.display = 'none';
+  document.getElementById('successName').textContent = name.split(' ')[0];
+  document.getElementById('formSuccess').style.display = 'block';
+
+  /* GA4 Event */
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'form_submit', { event_category: 'lead', event_label: 'contact_modal' });
+  }
+}
+
+/* ── COOKIE CONSENT ── */
+function checkCookies() {
+  const consent = localStorage.getItem('da_cookie_consent');
+  if (!consent) {
+    setTimeout(() => { document.getElementById('cookieBanner').style.display = 'flex'; }, 1500);
+  }
+}
+
+function acceptCookies() {
+  localStorage.setItem('da_cookie_consent', 'accepted');
+  document.getElementById('cookieBanner').style.display = 'none';
+  // GA4 Event
+  if (typeof gtag !== 'undefined') gtag('consent', 'update', { analytics_storage: 'granted' });
+}
+
+function declineCookies() {
+  localStorage.setItem('da_cookie_consent', 'declined');
+  document.getElementById('cookieBanner').style.display = 'none';
+}
+
+checkCookies();
+
+/* ── SMOOTH SCROLL ── */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', (e) => {
+    const id = a.getAttribute('href');
+    if (id === '#' || id.startsWith('#') && !document.querySelector(id)) return;
+    const target = document.querySelector(id);
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+  });
+});
+
+/* ── CTA SCROLL TRACKING (heatmap ready) ── */
+let scrollTracked = {};
+window.addEventListener('scroll', () => {
+  const scrollPct = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+  [25, 50, 75, 90].forEach(mark => {
+    if (scrollPct >= mark && !scrollTracked[mark]) {
+      scrollTracked[mark] = true;
+      if (typeof gtag !== 'undefined') gtag('event', 'scroll_depth', { value: mark });
+    }
+  });
+});
+
+/* ── CTA CLICK TRACKING ── */
+document.querySelectorAll('.btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'cta_click', { event_label: btn.textContent.trim().substring(0, 40) });
+    }
+  });
+});
+
+/* ── LAZY LOAD HERO BG ── */
+const heroBg = document.querySelector('.hero-bg');
+if (heroBg) {
+  const img = new Image();
+  img.onload = () => { heroBg.style.opacity = '1'; };
+  img.src = 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80&fit=crop';
+}
+</script>
+
+<!-- ═══════════ ANALYTICS (Template — configure com seus IDs reais) ═══════════ -->
+<!-- Google Analytics 4: substitua G-XXXXXXXXXX pelo seu Measurement ID -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+</script>
+-->
+
+<!-- Meta Pixel: substitua XXXXXXXXXXXXXXXX pelo seu Pixel ID -->
+<!--
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'XXXXXXXXXXXXXXXX');
+  fbq('track', 'PageView');
+</script>
+-->
+
+</body>
+</html>
