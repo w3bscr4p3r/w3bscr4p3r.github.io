@@ -1,51 +1,712 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./files/index.css">
-    <title>SherlockRecon | Uma ferramenta de reconhecimento</title>
-    <meta name="description" content="A ferramenta SherlockRecon é uma ferramenta que simplificará a primeira fase do hacking. Ferramenta de reconhecimento que pode ser usada para
-    teste de penetração.">
-    <meta name="keywords" content="recon, robot.txt,open redirect, login pages, crt.sh, wordpress scan, pastebin entries, find cms,search amazon s3 bucket, github search, reverse ip etc">
-    <link rel="icon" type="image/ico" href="https://i.ibb.co/Jz0qDQ3/cowboy-logo-design-black-negative-260nw-1218348328.jpg" />    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SherlockRecon</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-base: #0c0e12;
+    --bg-surface: #111318;
+    --bg-card: #161921;
+    --bg-card-hover: #1c2030;
+    --border: #242835;
+    --border-hover: #3a4160;
+    --accent: #4a7fb5;
+    --accent-dim: #2e5280;
+    --accent-glow: rgba(74,127,181,0.12);
+    --accent-2: #5b9ea0;
+    --text-primary: #d6dae8;
+    --text-secondary: #7a8399;
+    --text-muted: #485165;
+    --text-accent: #6fa3d8;
+    --tag-bg: #1a2030;
+    --tag-border: #2a3550;
+    --red: #c25555;
+    --green: #4e9a72;
+    --amber: #b08a3e;
+    --teal: #3d8c8e;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'IBM Plex Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg-base);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grid bg */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(74,127,181,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(74,127,181,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid var(--border);
+    background: rgba(12,14,18,0.95);
+    backdrop-filter: blur(12px);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 64px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+  .brand-icon {
+    width: 32px; height: 32px;
+    background: var(--accent-dim);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 13px; font-weight: 600;
+    color: var(--text-accent);
+  }
+  .brand-text {
+    font-family: var(--font-mono);
+    font-size: 15px; font-weight: 500;
+    color: var(--text-primary);
+    letter-spacing: 0.02em;
+  }
+  .brand-text span { color: var(--accent); }
+
+  /* search bar */
+  .search-wrap {
+    flex: 1;
+    max-width: 640px;
+    position: relative;
+  }
+  .search-wrap svg {
+    position: absolute; left: 14px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    width: 16px; height: 16px;
+    pointer-events: none;
+  }
+  #target-input {
+    width: 100%;
+    height: 38px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0 100px 0 42px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-primary);
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  #target-input::placeholder { color: var(--text-muted); }
+  #target-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+  .search-badge {
+    position: absolute; right: 10px; top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 2px 8px;
+  }
+
+  .header-actions {
+    display: flex; gap: 8px; align-items: center; margin-left: auto;
+  }
+  .badge-status {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--green);
+    background: rgba(78,154,114,0.08);
+    border: 1px solid rgba(78,154,114,0.2);
+    border-radius: 4px;
+    padding: 4px 10px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .badge-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse-dot 2s infinite;
+  }
+  @keyframes pulse-dot {
+    0%,100%{opacity:1} 50%{opacity:.3}
+  }
+
+  /* ── TARGET BAR ── */
+  .target-bar {
+    position: relative; z-index: 5;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 2rem;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .target-label {
+    font-family: var(--font-mono);
+    font-size: 11px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: .08em;
+    flex-shrink: 0;
+  }
+  #target-display {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-accent);
+    flex: 1;
+  }
+  .tool-count {
+    font-family: var(--font-mono);
+    font-size: 11px; color: var(--text-muted);
+  }
+
+  /* ── MAIN ── */
+  main {
+    position: relative; z-index: 2;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* ── CATEGORIES ── */
+  .category-nav {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 2rem;
+  }
+  .cat-btn {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all .15s;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .cat-btn:hover { border-color: var(--accent); color: var(--text-accent); }
+  .cat-btn.active {
+    background: var(--accent-dim);
+    border-color: var(--accent);
+    color: var(--text-accent);
+  }
+
+  /* ── SECTION ── */
+  .section { margin-bottom: 2.5rem; }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 1rem;
+  }
+  .section-title {
+    font-family: var(--font-mono);
+    font-size: 11px; font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .section-line {
+    flex: 1; height: 1px;
+    background: var(--border);
+  }
+  .section-count {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 2px 8px;
+  }
+
+  /* ── GRID ── */
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  /* ── TOOL CARD ── */
+  .tool-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex; flex-direction: column; gap: 10px;
+    transition: border-color .2s, background .2s, transform .15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .tool-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--card-accent, var(--accent)), transparent);
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .tool-card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+    transform: translateY(-1px);
+  }
+  .tool-card:hover::before { opacity: 1; }
+
+  .card-icon {
+    width: 38px; height: 38px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    border: 1px solid;
+    flex-shrink: 0;
+  }
+  .card-meta { flex: 1; min-width: 0; }
+  .card-name {
+    font-family: var(--font-sans);
+    font-size: 13px; font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 3px;
+    line-height: 1.3;
+  }
+  .card-desc {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--text-muted);
+    align-self: flex-start;
+    letter-spacing: .04em;
+  }
+  .card-arrow {
+    position: absolute;
+    right: 12px; top: 12px;
+    font-size: 14px;
+    color: var(--text-muted);
+    opacity: 0;
+    transition: opacity .15s;
+  }
+  .tool-card:hover .card-arrow { opacity: 1; }
+
+  /* color variants */
+  .icon-blue  { background: rgba(74,127,181,0.1);  border-color: rgba(74,127,181,0.25); color: #6fa3d8; }
+  .icon-teal  { background: rgba(61,140,142,0.1);  border-color: rgba(61,140,142,0.25); color: #5ab5b8; }
+  .icon-red   { background: rgba(194,85,85,0.1);   border-color: rgba(194,85,85,0.25);  color: #d47070; }
+  .icon-amber { background: rgba(176,138,62,0.1);  border-color: rgba(176,138,62,0.25); color: #c9a556; }
+  .icon-green { background: rgba(78,154,114,0.1);  border-color: rgba(78,154,114,0.25); color: #5ab882; }
+  .icon-slate { background: rgba(122,131,153,0.1); border-color: rgba(122,131,153,0.2); color: #8e9ab5; }
+  .icon-violet{ background: rgba(130,100,200,0.1); border-color: rgba(130,100,200,0.25);color: #a888e8; }
+
+  /* ── FOOTER ── */
+  footer {
+    position: relative; z-index: 2;
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px; color: var(--text-muted);
+  }
+
+  /* ── EMPTY STATE ── */
+  .empty {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 13px;
+  }
+
+  /* animations */
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .tool-card { animation: fadeInUp .3s ease both; }
+
+  @media (max-width: 768px) {
+    header { flex-wrap: wrap; height: auto; padding: 12px 1rem; }
+    .search-wrap { order: 3; width: 100%; max-width: 100%; }
+    .header-actions { display: none; }
+    main { padding: 1rem; }
+    .tool-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  }
+</style>
 </head>
 <body>
-    <div class="headtitle">
-        <h1>O SherlockRecon ajuda você a verificar e coletar informações rapidamente sobre o nome de domínio de destino.</h1>
-    </div>
 
-    <div class="container">
+<header>
+  <a class="brand" href="#">
+    <div class="brand-icon">SR</div>
+    <span class="brand-text">Sherlock<span>Recon</span></span>
+  </a>
 
-        <div class="head_gro">
-            <h2 class="head_title">SherlockRecon</h2>
-            <p class="head_down">Uma ferramenta de reconhecimento.</p>
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <input id="target-input" type="text" placeholder="alvo.com.br" autocomplete="off" spellcheck="false">
+    <span class="search-badge">ALVO</span>
+  </div>
+
+  <div class="header-actions">
+    <span class="badge-status">online</span>
+  </div>
+</header>
+
+<div class="target-bar">
+  <span class="target-label">Alvo atual →</span>
+  <span id="target-display">nenhum alvo definido</span>
+  <span class="tool-count" id="tool-count">25 ferramentas disponíveis</span>
+</div>
+
+<main>
+
+  <div class="category-nav" id="cat-nav">
+    <button class="cat-btn active" data-cat="all">Todos</button>
+    <button class="cat-btn" data-cat="discovery">Descoberta</button>
+    <button class="cat-btn" data-cat="exposure">Exposição</button>
+    <button class="cat-btn" data-cat="intel">Inteligência</button>
+    <button class="cat-btn" data-cat="cms">CMS / Web</button>
+    <button class="cat-btn" data-cat="infra">Infraestrutura</button>
+  </div>
+
+  <div id="sections-wrap"></div>
+
+</main>
+
+<footer>
+  <span>SherlockRecon — OSINT &amp; Pentest Recon Toolkit</span>
+  <span>Clique em qualquer ferramenta para abrir com o alvo definido</span>
+</footer>
+
+<script>
+const TOOLS = [
+  // ── DESCOBERTA
+  {
+    id:'subdomains', name:'Subdomain Finder', desc:'Enumeração de subdomínios',
+    icon:'🌐', iconClass:'icon-blue', tag:'DNS',
+    cat:'discovery',
+    url: t => `https://www.google.com/search?q=site:*.${t}`
+  },
+  {
+    id:'crtsh', name:'crt.sh', desc:'Certificados SSL / subdomínios',
+    icon:'🔏', iconClass:'icon-teal', tag:'SSL',
+    cat:'discovery',
+    url: t => `https://crt.sh/?q=%25.${t}`
+  },
+  {
+    id:'reverseip', name:'Reverse IP', desc:'Outros sites no mesmo IP',
+    icon:'🔁', iconClass:'icon-amber', tag:'IP',
+    cat:'discovery',
+    url: t => `https://viewdns.info/reverseip/?host=${t}&t=1`
+  },
+  {
+    id:'wayback', name:'Wayback Machine', desc:'Histórico de snapshots',
+    icon:'🗄️', iconClass:'icon-slate', tag:'Archive',
+    cat:'discovery',
+    url: t => `https://web.archive.org/web/*/${t}/*`
+  },
+  {
+    id:'github', name:'GitHub Search', desc:'Segredos e código vazado',
+    icon:'🐙', iconClass:'icon-violet', tag:'Code',
+    cat:'intel',
+    url: t => `https://github.com/search?q=${t}&type=code`
+  },
+
+  // ── EXPOSIÇÃO
+  {
+    id:'openredirect', name:'Open Redirect', desc:'Dork para redirecionamento aberto',
+    icon:'↪️', iconClass:'icon-red', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:redirect+OR+inurl:url=+OR+inurl:returnto=`
+  },
+  {
+    id:'robots', name:'Robots.txt', desc:'Caminhos ocultos no robots',
+    icon:'🤖', iconClass:'icon-slate', tag:'File',
+    cat:'exposure',
+    url: t => `https://${t}/robots.txt`
+  },
+  {
+    id:'passwords', name:'Password Files', desc:'Arquivos de senha expostos',
+    icon:'🔑', iconClass:'icon-amber', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+ext:log+OR+ext:txt+"password"+OR+"passwd"`
+  },
+  {
+    id:'dirlisting', name:'Directory Listing', desc:'Listagem de diretórios aberta',
+    icon:'📁', iconClass:'icon-amber', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+intitle:"index+of+/"+-html+-htm`
+  },
+  {
+    id:'database', name:'Database Files', desc:'Dumps e arquivos DB expostos',
+    icon:'🗃️', iconClass:'icon-red', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+ext:sql+OR+ext:dbf+OR+ext:mdb`
+  },
+  {
+    id:'config', name:'Config & Log Files', desc:'Arquivos de configuração e log',
+    icon:'⚙️', iconClass:'icon-red', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+ext:conf+OR+ext:cnf+OR+ext:log+OR+ext:env`
+  },
+  {
+    id:'backup', name:'Backup Files', desc:'Backups esquecidos no servidor',
+    icon:'💾', iconClass:'icon-amber', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+ext:bak+OR+ext:old+OR+ext:backup+OR+ext:zip`
+  },
+  {
+    id:'login', name:'Login Pages', desc:'Painéis de admin e login',
+    icon:'🔐', iconClass:'icon-teal', tag:'Dork',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:login+OR+inurl:admin+OR+inurl:panel`
+  },
+  {
+    id:'phpinfo', name:'phpinfo()', desc:'Páginas phpinfo expostas',
+    icon:'🐘', iconClass:'icon-violet', tag:'PHP',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:phpinfo.php`
+  },
+  {
+    id:'vulnstring', name:'Vulnerable Strings', desc:'Parâmetros de injeção comuns',
+    icon:'💉', iconClass:'icon-red', tag:'SQLi/XSS',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:"id="+OR+inurl:"page="+OR+inurl:"search="`
+  },
+  {
+    id:'s3', name:'S3 Bucket', desc:'Buckets AWS S3 relacionados',
+    icon:'🪣', iconClass:'icon-amber', tag:'Cloud',
+    cat:'exposure',
+    url: t => `https://www.google.com/search?q=site:s3.amazonaws.com+"${t}"`
+  },
+
+  // ── INTELIGÊNCIA
+  {
+    id:'shodan', name:'Shodan.io', desc:'Dispositivos e portas expostas',
+    icon:'📡', iconClass:'icon-blue', tag:'Scanner',
+    cat:'intel',
+    url: t => `https://www.shodan.io/search?query=hostname:${t}`
+  },
+  {
+    id:'grep', name:'grep.app', desc:'Busca em repositórios públicos',
+    icon:'🔎', iconClass:'icon-teal', tag:'Code',
+    cat:'intel',
+    url: t => `https://grep.app/search?q=${t}`
+  },
+  {
+    id:'pastebin', name:'Pasting Sites', desc:'Segredos em pastes públicos',
+    icon:'📋', iconClass:'icon-violet', tag:'OSINT',
+    cat:'intel',
+    url: t => `https://pastebin.com/search?q=${t}`
+  },
+  {
+    id:'stackoverflow', name:'StackOverflow', desc:'Erros e stack traces do alvo',
+    icon:'📚', iconClass:'icon-amber', tag:'OSINT',
+    cat:'intel',
+    url: t => `https://stackoverflow.com/search?q=${t}`
+  },
+
+  // ── CMS / WEB
+  {
+    id:'whatcms', name:'What CMS?', desc:'Detecção de CMS utilizado',
+    icon:'🏗️', iconClass:'icon-teal', tag:'CMS',
+    cat:'cms',
+    url: t => `https://whatcms.org/?s=${t}`
+  },
+  {
+    id:'wpcontent', name:'WordPress Content', desc:'Listagem de conteúdo WP',
+    icon:'🅦', iconClass:'icon-blue', tag:'WordPress',
+    cat:'cms',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:wp-content`
+  },
+  {
+    id:'wpdeep', name:'WordPress Deep', desc:'Dorks avançados para WP',
+    icon:'🔩', iconClass:'icon-violet', tag:'WordPress',
+    cat:'cms',
+    url: t => `https://www.google.com/search?q=site:${t}+inurl:wp-login+OR+inurl:wp-admin+OR+inurl:wp-json`
+  },
+
+  // ── INFRAESTRUTURA
+  {
+    id:'ssl', name:'SSL Server Test', desc:'Análise de configuração SSL/TLS',
+    icon:'🛡️', iconClass:'icon-green', tag:'SSL/TLS',
+    cat:'infra',
+    url: t => `https://www.ssllabs.com/ssltest/analyze.html?d=${t}&hideResults=on`
+  },
+  {
+    id:'secheaders', name:'Security Headers', desc:'Verificação de headers HTTP',
+    icon:'🔒', iconClass:'icon-green', tag:'Headers',
+    cat:'infra',
+    url: t => `https://securityheaders.com/?q=${t}&followRedirects=on`
+  },
+];
+
+const CATEGORIES = {
+  discovery: { label: 'Descoberta de Ativos', accent: '#4a7fb5' },
+  exposure:  { label: 'Arquivos & Exposição', accent: '#c25555' },
+  intel:     { label: 'Inteligência / OSINT',  accent: '#8264c8' },
+  cms:       { label: 'CMS & Web Apps',        accent: '#3d8c8e' },
+  infra:     { label: 'Infraestrutura & TLS',  accent: '#4e9a72' },
+};
+
+let currentTarget = '';
+let currentCat = 'all';
+
+const targetInput = document.getElementById('target-input');
+const targetDisplay = document.getElementById('target-display');
+const toolCount = document.getElementById('tool-count');
+const sectionsWrap = document.getElementById('sections-wrap');
+const catNav = document.getElementById('cat-nav');
+
+function getTarget() {
+  return currentTarget || 'ALVO';
+}
+
+function buildURL(tool) {
+  const t = currentTarget || 'example.com';
+  return tool.url(t);
+}
+
+function render() {
+  const cats = currentCat === 'all'
+    ? Object.keys(CATEGORIES)
+    : [currentCat];
+
+  const filtered = TOOLS.filter(t => currentCat === 'all' || t.cat === currentCat);
+  toolCount.textContent = `${filtered.length} ferramentas disponíveis`;
+
+  sectionsWrap.innerHTML = '';
+
+  if (filtered.length === 0) {
+    sectionsWrap.innerHTML = '<div class="empty">// nenhuma ferramenta encontrada</div>';
+    return;
+  }
+
+  cats.forEach(cat => {
+    const tools = TOOLS.filter(t => t.cat === cat && (currentCat === 'all' || t.cat === currentCat));
+    if (!tools.length) return;
+
+    const sec = document.createElement('div');
+    sec.className = 'section';
+
+    const hdr = document.createElement('div');
+    hdr.className = 'section-header';
+    hdr.innerHTML = `
+      <span class="section-title">${CATEGORIES[cat].label}</span>
+      <div class="section-line"></div>
+      <span class="section-count">${tools.length}</span>
+    `;
+    sec.appendChild(hdr);
+
+    const grid = document.createElement('div');
+    grid.className = 'tool-grid';
+
+    tools.forEach((tool, i) => {
+      const a = document.createElement('a');
+      a.className = 'tool-card';
+      a.href = buildURL(tool);
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.style.animationDelay = `${i * 30}ms`;
+      a.style.setProperty('--card-accent', CATEGORIES[cat].accent);
+      a.innerHTML = `
+        <div class="card-icon ${tool.iconClass}">${tool.icon}</div>
+        <div class="card-meta">
+          <div class="card-name">${tool.name}</div>
+          <div class="card-desc">${tool.desc}</div>
         </div>
+        <span class="card-tag">${tool.tag}</span>
+        <span class="card-arrow">↗</span>
+      `;
+      a.addEventListener('click', e => {
+        if (!currentTarget) {
+          e.preventDefault();
+          targetInput.focus();
+          targetInput.style.borderColor = '#c25555';
+          targetInput.placeholder = 'defina um alvo primeiro...';
+          setTimeout(() => {
+            targetInput.style.borderColor = '';
+            targetInput.placeholder = 'alvo.com.br';
+          }, 2000);
+        }
+      });
+      grid.appendChild(a);
+    });
 
-        <div class="input">
-            <div class='in_div'>
-                <img class="search" src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" />
-                <input class="index_input" id="index_input" type="text" onchange="textch(this.value)" placeholder="Insira o site aqui" />
+    sec.appendChild(grid);
+    sectionsWrap.appendChild(sec);
+  });
+}
 
-            </div>
+function updateLinks() {
+  document.querySelectorAll('.tool-card').forEach(card => {
+    const toolId = card.dataset && card.dataset.id;
+    const tool = TOOLS.find(t => t.id === toolId);
+    if (tool) card.href = buildURL(tool);
+  });
+  render();
+}
 
-        </div>
+targetInput.addEventListener('input', e => {
+  let val = e.target.value.trim().replace(/^https?:\/\//i, '').split('/')[0];
+  currentTarget = val;
+  targetDisplay.textContent = val || 'nenhum alvo definido';
+  render();
+});
 
-    </div>
+targetInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter') targetInput.blur();
+});
 
+catNav.addEventListener('click', e => {
+  const btn = e.target.closest('.cat-btn');
+  if (!btn) return;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentCat = btn.dataset.cat;
+  render();
+});
 
-    <div class="cards" id="cards">
-
-    </div>
-
-    </div>
-
-    <p class="footer"><a href="https://github.com/w3bScr4pp3r/w3bScr4pp3r.github.io/tree/main/SherlockRecon">SherlockRecon</a> <span>by</span> <a href="https://www.linkedin.com/in/daniel-moura-alves">Daniel M. Alves</a></p>
-    </div>
-    <h1 class="mobile"><span style="font-size:25px;color:navy;">SherlockRecon</span> <br> FAVOR ABRIR O SITE PELO COMPUTADOR</h1>
-    <div class="actual">
+render();
+</script>
 </body>
-<script type="text/javascript" src="./files/index.js"></script>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 </html>
