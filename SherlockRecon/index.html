@@ -404,8 +404,8 @@
     <button class="cat-btn" data-cat="discovery">Descoberta</button>
     <button class="cat-btn" data-cat="exposure">Exposição</button>
     <button class="cat-btn" data-cat="intel">Inteligência</button>
-    <button class="cat-btn" data-cat="cms">CMS / Web</button>
-    <button class="cat-btn" data-cat="infra">Infraestrutura</button>
+    <button class="cat-btn" data-cat="cms">CMS / WP</button>
+    <button class="cat-btn" data-cat="infra">HTTP/SSL</button>
   </div>
 
   <div id="sections-wrap"></div>
@@ -424,7 +424,7 @@ const TOOLS = [
     id:'subdomains', name:'Subdomain Finder', desc:'Enumeração de subdomínios',
     icon:'🌐', iconClass:'icon-blue', tag:'DNS',
     cat:'discovery',
-    url: t => `https://www.google.com/search?q=site:*.${t}`
+    url: t => `https://dnsdumpster.com/?utm_source=sherlockrecon&q=${t}`
   },
   {
     id:'crtsh', name:'crt.sh', desc:'Certificados SSL / subdomínios',
@@ -536,7 +536,7 @@ const TOOLS = [
     id:'pastebin', name:'Pasting Sites', desc:'Segredos em pastes públicos',
     icon:'📋', iconClass:'icon-violet', tag:'OSINT',
     cat:'intel',
-    url: t => `https://pastebin.com/search?q=${t}`
+    url: t => `https://www.google.com/search?q=site%3Apastebin.com+intext%3A%22${t}%22`
   },
   {
     id:'stackoverflow', name:'StackOverflow', desc:'Erros e stack traces do alvo',
@@ -545,7 +545,7 @@ const TOOLS = [
     url: t => `https://stackoverflow.com/search?q=${t}`
   },
 
-  // ── CMS / WEB
+  // ── CMS e WP
   {
     id:'whatcms', name:'What CMS?', desc:'Detecção de CMS utilizado',
     icon:'🏗️', iconClass:'icon-teal', tag:'CMS',
@@ -565,7 +565,7 @@ const TOOLS = [
     url: t => `https://www.google.com/search?q=site:${t}+inurl:wp-login+OR+inurl:wp-admin+OR+inurl:wp-json`
   },
 
-  // ── INFRAESTRUTURA
+  // ── HTTP e SSL
   {
     id:'ssl', name:'SSL Server Test', desc:'Análise de configuração SSL/TLS',
     icon:'🛡️', iconClass:'icon-green', tag:'SSL/TLS',
@@ -583,9 +583,9 @@ const TOOLS = [
 const CATEGORIES = {
   discovery: { label: 'Descoberta de Ativos', accent: '#4a7fb5' },
   exposure:  { label: 'Arquivos & Exposição', accent: '#c25555' },
-  intel:     { label: 'Inteligência / OSINT',  accent: '#8264c8' },
-  cms:       { label: 'CMS & Web Apps',        accent: '#3d8c8e' },
-  infra:     { label: 'Infraestrutura & TLS',  accent: '#4e9a72' },
+  intel:     { label: 'Inteligência',  accent: '#8264c8' },
+  cms:       { label: 'CMS & Wordpress',        accent: '#3d8c8e' },
+  infra:     { label: 'HTTP, SSL & TLS',  accent: '#4e9a72' },
 };
 
 let currentTarget = '';
