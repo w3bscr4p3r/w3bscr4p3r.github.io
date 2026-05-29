@@ -424,7 +424,7 @@ const TOOLS = [
     id:'subdomains', name:'Subdomain Finder', desc:'Enumeração de subdomínios',
     icon:'🌐', iconClass:'icon-blue', tag:'DNS',
     cat:'discovery',
-    url: t => `https://www.google.com/search?q=site%3Apastebin.com+intext%3A%22${t}%22`
+    url: t => `https://www.google.com/search?q=site%3A*.${t}`
   },
   {
     id:'crtsh', name:'crt.sh', desc:'Certificados SSL / subdomínios',
