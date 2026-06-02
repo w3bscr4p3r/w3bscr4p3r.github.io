@@ -19,19 +19,7 @@ Site portfólio de serviços de desenvolvimento de software.
 Ferramenta de reconhecimento web usando Google Dorking e técnicas de OSINT.
 
 - **Tecnologias:** HTML5, CSS3, JavaScript
-- **Dados:** `files/data.json` com alvos pré-configurados
 - **Acesso:** https://w3bscr4p3r.github.io/SherlockRecon
-
-**Estrutura:**
-```
-SherlockRecon/
-├── index.html      # Página principal
-├── files/
-│   ├── index.css   # Estilos customizados
-│   ├── index.js    # Lógica de reconhecimento
-│   └── data.json   # Base de dados de alvos
-└── images/         # Assets visuais
-```
 
 > **Aviso Legal:** Esta ferramenta é destinada apenas para fins educacionais. Não utilize em ambientes sem autorização legal.
 
