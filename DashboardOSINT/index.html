@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard OSINT by Daniel Alves</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:       #0b0f1a;
+      --surface:  #111827;
+      --card:     #161d2e;
+      --border:   #1e2d45;
+      --cyan:     #00d4ff;
+      --cyan-dim: rgba(0,212,255,0.12);
+      --amber:    #f59e0b;
+      --red:      #ef4444;
+      --green:    #22c55e;
+      --text:     #e2e8f0;
+      --muted:    #64748b;
+      --mono:     'JetBrains Mono', monospace;
+      --sans:     'Space Grotesk', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: linear-gradient(180deg, #0d1526 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 24px 24px;
+      text-align: center;
+    }
+    .header-eyebrow {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      color: var(--cyan);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+    .header h1 span { color: var(--cyan); }
+    .header-sub {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    .stat {
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--mono);
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--cyan);
+      display: block;
+    }
+    .stat-lbl {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── LAYOUT ── */
+    .shell {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      min-height: calc(100vh - 160px);
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      height: calc(100vh - 160px);
+      overflow-y: auto;
+    }
+    .sidebar-section {
+      padding: 8px 16px 4px;
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 9px 20px;
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-align: left;
+      transition: color 0.15s, background 0.15s;
+      border-left: 3px solid transparent;
+    }
+    .nav-btn:hover { color: var(--text); background: var(--cyan-dim); }
+    .nav-btn.active {
+      color: var(--cyan);
+      background: var(--cyan-dim);
+      border-left-color: var(--cyan);
+    }
+    .nav-btn .count {
+      margin-left: auto;
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--muted);
+    }
+    .nav-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 10px 20px;
+    }
+
+    /* ── MAIN ── */
+    .main {
+      padding: 24px;
+      overflow-y: auto;
+    }
+
+    /* ── TOOLBAR ── */
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 220px;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      padding: 10px 14px 10px 40px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      transition: border-color 0.2s;
+    }
+    .search-input::placeholder { color: var(--muted); }
+    .search-input:focus { outline: none; border-color: var(--cyan); }
+
+    .view-toggle {
+      display: flex;
+      gap: 4px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 4px;
+    }
+    .view-btn {
+      padding: 6px 10px;
+      background: transparent;
+      border: none;
+      border-radius: 5px;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.15s;
+    }
+    .view-btn.active { background: var(--cyan-dim); color: var(--cyan); }
+
+    .results-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    /* ── TABS (Docs / Legal) ── */
+    .tab-bar {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0;
+    }
+    .tab-btn {
+      padding: 8px 18px;
+      background: transparent;
+      border: none;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+    .tab-btn:hover:not(.active) { color: var(--text); }
+
+    /* ── GRID ── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 14px;
+    }
+    .services-grid.list-view {
+      grid-template-columns: 1fr;
+    }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: border-color 0.2s, transform 0.2s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover {
+      border-color: var(--cyan);
+      transform: translateY(-2px);
+    }
+    .list-view .card {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .card-badge {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      align-self: flex-start;
+      flex-shrink: 0;
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #fff;
+      line-height: 1.3;
+    }
+    .card-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+      flex: 1;
+    }
+    .card-url {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--cyan);
+      opacity: 0.7;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: auto;
+    }
+    .list-view .card-body { flex: 1; min-width: 0; }
+    .list-view .card-body .card-title { margin-bottom: 2px; }
+
+    /* category badge colors */
+    .badge-pesquisas-gerais { background: rgba(0,212,255,0.15); color: var(--cyan); }
+    .badge-veiculos         { background: rgba(245,158,11,0.15); color: var(--amber); }
+    .badge-voos             { background: rgba(34,197,94,0.15);  color: var(--green); }
+    .badge-telefonia        { background: rgba(167,139,250,0.15);color: #a78bfa; }
+    .badge-governo          { background: rgba(251,191,36,0.15); color: #fbbf24; }
+    .badge-judiciario       { background: rgba(239,68,68,0.15);  color: var(--red); }
+    .badge-certidoes        { background: rgba(96,165,250,0.15); color: #60a5fa; }
+    .badge-seguranca        { background: rgba(239,68,68,0.2);   color: #f87171; }
+    .badge-educacao         { background: rgba(52,211,153,0.15); color: #34d399; }
+    .badge-saude            { background: rgba(244,114,182,0.15);color: #f472b6; }
+    .badge-ambiental        { background: rgba(34,197,94,0.2);   color: #4ade80; }
+    .badge-geolocalizacao   { background: rgba(0,212,255,0.1);   color: #67e8f9; }
+    .badge-redes-sociais    { background: rgba(167,139,250,0.2); color: #c4b5fd; }
+    .badge-dominios         { background: rgba(245,158,11,0.2);  color: #fcd34d; }
+    .badge-emails           { background: rgba(251,146,60,0.15); color: #fb923c; }
+    .badge-imagens          { background: rgba(232,121,249,0.15);color: #e879f9; }
+    .badge-ferramentas      { background: rgba(100,116,139,0.25);color: #94a3b8; }
+
+    /* ── EMPTY STATE ── */
+    .empty-state {
+      grid-column: 1 / -1;
+      padding: 60px 0;
+      text-align: center;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.85rem;
+    }
+    .empty-state svg { margin-bottom: 12px; color: var(--border); }
+
+    /* ── DOCS / LEGAL ── */
+    .prose h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--cyan);
+      margin: 28px 0 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    .prose h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--amber);
+      margin: 20px 0 8px;
+    }
+    .prose p, .prose li {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .prose ul, .prose ol { padding-left: 18px; }
+    .prose li { margin-bottom: 4px; }
+    .prose strong { color: var(--text); }
+    .operator {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--cyan);
+      padding: 8px 14px;
+      border-radius: 6px;
+      margin: 6px 0;
+      color: var(--text);
+    }
+    .legal-box {
+      background: rgba(245,158,11,0.06);
+      border: 1px solid rgba(245,158,11,0.25);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin: 16px 0;
+    }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .shell { grid-template-columns: 1fr; }
+      .sidebar {
+        position: static;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding: 12px;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+      .sidebar-section, .nav-divider { display: none; }
+      .nav-btn {
+        border-left: none;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        width: auto;
+      }
+      .nav-btn.active { border-color: var(--cyan); }
+      .main { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-eyebrow">Cyber Threat Intelligence</div>
+  <h1>Dashboard <span>OSINT</span></h1>
+  <p class="header-sub">Catálogo de fontes abertas para pesquisa e inteligência operacional</p>
+  <div class="stats-row">
+    <div class="stat"><span class="stat-num" id="statTotal">0</span><span class="stat-lbl">Serviços</span></div>
+    <div class="stat"><span class="stat-num">18</span><span class="stat-lbl">Categorias</span></div>
+    <div class="stat"><span class="stat-num" id="statFiltered">0</span><span class="stat-lbl">Visíveis</span></div>
+  </div>
+</header>
+
+<div class="shell">
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-section">Navegação</div>
+    <button class="nav-btn active" data-cat="all" data-view="services">🔍 Todos os serviços</button>
+    <div class="nav-divider"></div>
+    <div class="sidebar-section">Categorias</div>
+    <button class="nav-btn" data-cat="pesquisas-gerais"  data-view="services">🌐 Pesquisas Gerais</button>
+    <button class="nav-btn" data-cat="veiculos"          data-view="services">🚗 Veículos</button>
+    <button class="nav-btn" data-cat="voos"              data-view="services">✈️ Voos &amp; Navegação</button>
+    <button class="nav-btn" data-cat="telefonia"         data-view="services">📞 Telefonia</button>
+    <button class="nav-btn" data-cat="governo"           data-view="services">🏛️ Governo</button>
+    <button class="nav-btn" data-cat="judiciario"        data-view="services">⚖️ Judiciário</button>
+    <button class="nav-btn" data-cat="certidoes"         data-view="services">📋 Certidões</button>
+    <button class="nav-btn" data-cat="seguranca"         data-view="services">🛡️ Segurança</button>
+    <button class="nav-btn" data-cat="educacao"          data-view="services">🎓 Educação</button>
+    <button class="nav-btn" data-cat="saude"             data-view="services">🏥 Saúde</button>
+    <button class="nav-btn" data-cat="ambiental"         data-view="services">🌿 Ambiental</button>
+    <button class="nav-btn" data-cat="geolocalizacao"    data-view="services">🌍 Geolocalização</button>
+    <button class="nav-btn" data-cat="redes-sociais"     data-view="services">📱 Redes Sociais</button>
+    <button class="nav-btn" data-cat="dominios"          data-view="services">🌐 Domínios</button>
+    <button class="nav-btn" data-cat="emails"            data-view="services">📧 E-mails</button>
+    <button class="nav-btn" data-cat="imagens"           data-view="services">🖼️ Imagens</button>
+    <button class="nav-btn" data-cat="ferramentas"       data-view="services">🔧 Ferramentas</button>
+    <div class="nav-divider"></div>
+    <div class="sidebar-section">Referência</div>
+    <button class="nav-btn" data-view="docs">📖 Operadores Google</button>
+    <button class="nav-btn" data-view="legal">⚖️ Aspectos Legais</button>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- SERVICES VIEW -->
+    <div id="view-services">
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input class="search-input" id="searchInput" placeholder="buscar serviço, URL ou descrição..." autocomplete="off">
+        </div>
+        <div class="view-toggle">
+          <button class="view-btn active" id="btnGrid" title="Grade">⊞</button>
+          <button class="view-btn" id="btnList" title="Lista">☰</button>
+        </div>
+        <span class="results-label" id="resultsLabel"></span>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </div>
+
+    <!-- DOCS VIEW -->
+    <div id="view-docs" class="hidden prose">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-doc="operadores">Operadores Google</button>
+        <button class="tab-btn" data-doc="exemplos">Exemplos Práticos</button>
+      </div>
+      <div id="doc-operadores">
+        <h2>Operadores Básicos</h2>
+        <div class="operator">"termo exato" — busca pela frase exata</div>
+        <div class="operator">termo1 + termo2 — deve conter ambos os termos</div>
+        <div class="operator">termo1 -termo2 — exclui o segundo termo</div>
+        <div class="operator">termo1 OR termo2 — contém um ou outro</div>
+        <div class="operator">* — curinga para palavra desconhecida</div>
+        <div class="operator">( ) — agrupa expressões lógicas</div>
+
+        <h2>Operadores Avançados</h2>
+        <div class="operator">site:exemplo.com — restringe ao domínio</div>
+        <div class="operator">filetype:pdf — busca tipo de arquivo (pdf, xls, doc, ppt…)</div>
+        <div class="operator">intitle:termo — termo no título da página</div>
+        <div class="operator">inurl:termo — termo na URL</div>
+        <div class="operator">intext:termo — termo no corpo do texto</div>
+        <div class="operator">cache:URL — versão em cache do Google</div>
+        <div class="operator">related:URL — sites similares ao informado</div>
+        <div class="operator">define:termo — definição do termo</div>
+        <div class="operator">AROUND(n) — termos a até n palavras de distância</div>
+
+        <h2>Combinações Úteis</h2>
+        <div class="operator">site:linkedin.com/in "João Silva" "Pará" — perfil LinkedIn</div>
+        <div class="operator">filetype:pdf site:gov.br "relatório" 2024 — PDFs governamentais</div>
+        <div class="operator">inurl:gov.br intitle:"licitação" filetype:pdf — editais públicos</div>
+        <div class="operator">intitle:"index of" "parent directory" — diretórios expostos</div>
+        <div class="operator">"@gmail.com" OR "@hotmail.com" filetype:xlsx — planilhas com e-mails</div>
+        <div class="operator">site:facebook.com "trabalha na" "Belém" — dados profissionais</div>
+      </div>
+      <div id="doc-exemplos" class="hidden">
+        <h2>OSINT com Google Dorks</h2>
+        <h3>Localização de pessoas</h3>
+        <div class="operator">site:facebook.com "nome completo" — perfil no Facebook</div>
+        <div class="operator">site:instagram.com "nome" — perfis no Instagram</div>
+        <div class="operator">"nome completo" filetype:pdf site:tse.jus.br — dados eleitorais</div>
+        <div class="operator">"CPF" "nome" site:gov.br — informações em portais oficiais</div>
+
+        <h3>Pesquisa de empresas</h3>
+        <div class="operator">site:receita.fazenda.gov.br "CNPJ"</div>
+        <div class="operator">"razão social" site:jusbrasil.com.br — processos judiciais</div>
+        <div class="operator">filetype:pdf "contrato" "nome da empresa" site:gov.br — contratos públicos</div>
+
+        <h3>Infraestrutura e tecnologia</h3>
+        <div class="operator">site:shodan.io — dispositivos conectados</div>
+        <div class="operator">inurl:"/phpmyadmin/" — painéis administrativos expostos</div>
+        <div class="operator">intitle:"webcamXP" — câmeras IP abertas</div>
+
+        <h3>Documentos sensíveis</h3>
+        <div class="operator">filetype:xls inurl:"password" — planilhas com senhas</div>
+        <div class="operator">filetype:log intext:"password" — arquivos de log</div>
+        <div class="operator">intitle:"index of" ".env" — arquivos de configuração</div>
+      </div>
+    </div>
+
+    <!-- LEGAL VIEW -->
+    <div id="view-legal" class="hidden prose">
+      <h2>Princípios Fundamentais</h2>
+      <div class="legal-box">
+        <ul>
+          <li><strong>Legalidade:</strong> aplicação das normas do devido processo legal</li>
+          <li><strong>Imparcialidade:</strong> análise imparcial na coleta e na análise dos dados</li>
+          <li><strong>Dignidade Humana:</strong> não violar a dignidade mesmo para fins probatórios</li>
+          <li><strong>Mínima Coleta:</strong> coletar apenas dados indispensáveis à investigação</li>
+          <li><strong>Dupla Verificação:</strong> confirmar informações por segunda fonte independente</li>
+          <li><strong>Temporalidade:</strong> documentar data e hora da extração de cada dado</li>
+          <li><strong>Resultado Determinístico:</strong> método repetível que produz o mesmo resultado</li>
+        </ul>
+      </div>
+
+      <h2>Segurança Operacional</h2>
+      <h3>Mínimo Rastro</h3>
+      <p>Não deixar vestígios da investigação — usar VPNs, máquinas virtuais, perfis navegação anônima e redes isoladas quando necessário.</p>
+      <h3>Oportunidade</h3>
+      <p>Preservar e capturar dados que podem ser alterados ou removidos pelo alvo. Usar ferramentas de arquivamento (ex: Archive.org, HTTrack) para documentar páginas.</p>
+      <h3>Busca Eficiente</h3>
+      <p>Evitar processamentos desnecessários que possam alertar o alvo. Planejar as buscas antes de executá-las.</p>
+
+      <h2>Metodologia OSINT — 5 Fases</h2>
+      <ol>
+        <li><strong>Planejamento:</strong> definir escopo, avaliar riscos, mapear recursos disponíveis e estabelecer hipóteses</li>
+        <li><strong>Seleção:</strong> escolher fontes e métodos apropriados ao escopo definido</li>
+        <li><strong>Coleta:</strong> executar buscas ativas (interação direta) e passivas (observação)</li>
+        <li><strong>Análise:</strong> categorizar, expandir, vincular e validar dados coletados</li>
+        <li><strong>Formalização:</strong> organizar o conhecimento em formato adequado à difusão e ao processo</li>
+      </ol>
+
+      <h2>LGPD e Proteção de Dados</h2>
+      <p>A atividade de OSINT em contexto de segurança pública encontra base legal no art. 4º, III da LGPD (Lei 13.709/2018), que prevê tratamento de dados para segurança pública, defesa nacional, segurança do Estado ou atividades de investigação e repressão de infrações penais. Ainda assim, aplica-se o princípio da proporcionalidade: coletar apenas o necessário, pelo tempo necessário, com acesso restrito.</p>
+    </div>
+
+  </main>
+</div>
+
+<script>
+const services = [
+  // ── PESQUISAS GERAIS ──────────────────────────────────────────
+  { title:"Google Search",           cat:"pesquisas-gerais", url:"https://www.google.com",                              desc:"Busca geral com suporte a operadores avançados; maior índice da internet." },
+  { title:"Google Advanced Search",  cat:"pesquisas-gerais", url:"https://www.google.com/advanced_search",             desc:"Interface visual para buscas avançadas sem necessidade de operadores lógicos." },
+  { title:"Google Alerts",           cat:"pesquisas-gerais", url:"https://www.google.com/alerts",                      desc:"Alertas automáticos por e-mail quando novo conteúdo sobre um termo é indexado." },
+  { title:"Google News",             cat:"pesquisas-gerais", url:"https://news.google.com",                            desc:"Agregador de notícias com fluxo personalizado de milhares de fontes." },
+  { title:"Google Cache / Wayback",  cat:"pesquisas-gerais", url:"https://web.archive.org",                            desc:"Arquivo histórico da web — acessa versões antigas de páginas removidas." },
+  { title:"DuckDuckGo",              cat:"pesquisas-gerais", url:"https://duckduckgo.com",                             desc:"Motor de busca focado em privacidade; não coleta dados pessoais do pesquisador." },
+  { title:"Bing",                    cat:"pesquisas-gerais", url:"https://www.bing.com",                               desc:"Segundo maior motor de busca; indexa conteúdo não encontrado no Google." },
+  { title:"Yandex",                  cat:"pesquisas-gerais", url:"https://yandex.com",                                 desc:"Motor russo com excelente busca reversa de imagens e indexação de conteúdo em Cyrillic." },
+  { title:"Talkwalker Free Search",  cat:"pesquisas-gerais", url:"https://www.talkwalker.com/free-social-media-monitoring-analytics-tools", desc:"Monitoramento gratuito de redes sociais e análise de menções em tempo real." },
+  { title:"Boardreader",             cat:"pesquisas-gerais", url:"https://boardreader.com",                            desc:"Busca em fóruns, boards e grupos de discussão na internet." },
+
+  // ── VEÍCULOS ─────────────────────────────────────────────────
+  { title:"Detran ES",             cat:"veiculos", url:"https://detran.es.gov.br/veiculos", desc:"Serviços online de veículos." },
+  { title:"Sinesp Cidadão",          cat:"veiculos", url:"https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android",         desc:"App oficial: situação de roubo/furto de veículos, mandados de prisão, desaparecidos." },
+  { title:"Consulta Multas PRF",     cat:"veiculos", url:"https://www.prf.gov.br/nada_consta/index.jsf",                desc:"Multas por placa, CPF ou CNPJ do proprietário — Polícia Rodoviária Federal." },
+  { title:"Condições Rodovias DNIT", cat:"veiculos", url:"http://servicos.dnit.gov.br/condicoes/",                      desc:"Estado das rodovias federais: pista, sinalização e ocorrências." },
+  { title:"Placas Mercosul / Fipe",  cat:"veiculos", url:"https://www.fipe.org.br/pt-br/indices/veiculos/",             desc:"Tabela FIPE de valores de veículos; consulta histórico de modelos e versões." },
+  { title:"DETRAN Nacional (Denatran)",cat:"veiculos",url:"https://portalservicos.senatran.serpro.gov.br/",             desc:"Portal de serviços do Senatran — histórico de habilitações, restrições e recalls." },
+  { title:"RecallCheck Brasil",      cat:"veiculos", url:"https://recallcheck.com.br",                                  desc:"Verifica se um veículo tem recall aberto por placa ou chassi." },
+  { title:"Câmeras PRF nas Rodovias",cat:"veiculos", url:"https://www.prf.gov.br/cameras",                             desc:"Câmeras ao vivo nas rodovias federais monitoradas pela PRF." },
+
+  // ── VOOS & NAVEGAÇÃO ─────────────────────────────────────────
+  { title:"FlightRadar24",           cat:"voos", url:"https://www.flightradar24.com",                                  desc:"Rastreamento em tempo real de 180.000+ voos de 1.200+ companhias aéreas." },
+  { title:"FlightAware",             cat:"voos", url:"https://pt.flightaware.com",                                     desc:"Dados de voos em 55+ países via ADS-B e datalink por satélite." },
+  { title:"ADS-B Exchange",          cat:"voos", url:"https://globe.adsbexchange.com",                                 desc:"Rastreamento não censurado de aeronaves — inclui voos militares e privados." },
+  { title:"MarineTraffic",           cat:"voos", url:"https://www.marinetraffic.com",                                  desc:"Posição em tempo real de navios: bandeira, velocidade, dimensões e rota." },
+  { title:"VesselFinder",            cat:"voos", url:"https://www.vesselfinder.com",                                   desc:"Monitoramento AIS de embarcações comerciais e privadas em tempo real." },
+  { title:"ShipFinder",              cat:"voos", url:"https://shipfinder.co",                                          desc:"App e portal para rastreamento de navios com histórico de rotas." },
+  { title:"OpenSky Network",         cat:"voos", url:"https://opensky-network.org",                                    desc:"Rede colaborativa de rastreamento ADS-B; dados históricos e em tempo real." },
+
+  // ── TELEFONIA ────────────────────────────────────────────────
+  { title:"Telebrasil ERBs",         cat:"telefonia", url:"http://www.telebrasil.org.br/panorama-do-setor/mapa-de-erbs-antenas", desc:"Mapa das Estações Rádio Base (antenas) das operadoras de celular." },
+  { title:"Consulta Número ABR",     cat:"telefonia", url:"http://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg", desc:"Identifica operadora de número telefônico para requisições judiciais." },
+  { title:"Qual Operadora",          cat:"telefonia", url:"https://www.qualoperadora.net",                             desc:"Consulta rápida da operadora responsável por um número de telefone." },
+  { title:"Truecaller",              cat:"telefonia", url:"https://www.truecaller.com",                                desc:"Identifica o possível proprietário de um número com base em banco de dados global." },
+  { title:"Dono do Zap",             cat:"telefonia", url:"https://donodozap.com",                                    desc:"Localiza o responsável por uma conta WhatsApp pelo número de telefone." },
+  { title:"GetContact",              cat:"telefonia", url:"https://www.getcontact.com",                                desc:"Identifica nomes associados a números com base nos contatos de outros usuários." },
+  { title:"Anatel Consulta Outorgas",cat:"telefonia", url:"https://sistemas.anatel.gov.br/sap/",                      desc:"Sistema da Anatel para consulta de outorgas, licenças e rádio-frequências." },
+
+  // ── GOVERNO ──────────────────────────────────────────────────
+  { title:"Receita Federal — CPF",   cat:"governo", url:"https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp", desc:"Consulta a situação cadastral de CPF na Receita Federal." },
+  { title:"Receita Federal — CNPJ",  cat:"governo", url:"https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp", desc:"Consulta dados cadastrais de empresas pelo CNPJ." },
+  { title:"Portal Transparência Federal", cat:"governo", url:"https://portaldatransparencia.gov.br", desc:"Gastos do governo federal: servidores, benefícios sociais, licitações e contratos." },
+  { title:"Transparência ES",      cat:"governo", url:"https://www.transparencia.es.gov.br",                        desc:"Portal de transparência do Governo do Estado do ES." },
+  { title:"Diário Oficial da União", cat:"governo", url:"https://www.in.gov.br",                                      desc:"Publicações oficiais do Governo Federal: portarias, nomeações e atos normativos." },
+  { title:"Diário Oficial ES",     cat:"governo", url:"https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial",                                   desc:"Diário Oficial do Estado do ES — atos do governo estadual." },
+  { title:"SIGBM / ANM",             cat:"governo", url:"https://app.anm.gov.br/sigbm/publico/listarDadosAbertos",    desc:"Barragens e mineração — dados da Agência Nacional de Mineração." },
+  { title:"SIGA — Senado Federal",   cat:"governo", url:"https://www.senado.leg.br/senado/transparencia/siga/",       desc:"Consulta de gastos e atividades dos senadores." },
+  { title:"Câmara dos Deputados — Cota Parlamentar", cat:"governo", url:"https://www.camara.leg.br/cota-parlamentar/", desc:"Gastos parlamentares com Cota para Exercício da Atividade Parlamentar." },
+
+  // ── JUDICIÁRIO ───────────────────────────────────────────────
+  { title:"Jusbrasil",               cat:"judiciario", url:"https://www.jusbrasil.com.br",                            desc:"Busca integrada de processos, jurisprudência e publicações judiciais." },
+  { title:"CNJ — Consulta Processos",cat:"judiciario", url:"https://www.cnj.jus.br/intranet.php?codigoPagina=379",   desc:"Consulta processos em todos os tribunais pelo CNJ." },
+  { title:"STF — Consulta Processos",cat:"judiciario", url:"https://portal.stf.jus.br/processos/",                   desc:"Peticionamento e consulta de processos no Supremo Tribunal Federal." },
+  { title:"TJ-ES",           cat:"judiciario", url:"https://www.tjes.jus.br/consultas/processos/",                   desc:"Tribunal de Justiça do ES — consulta de processos e certidões." },
+  { title:"TRF1 — Consulta",         cat:"judiciario", url:"https://processual.trf1.jus.br/consultaProcessual/",     desc:"Consulta processual no Tribunal Regional Federal da 1ª Região (Norte)." },
+  { title:"BNMP — Mandados de Prisão",cat:"judiciario",url:"https://bnmp.cnj.jus.br",                                desc:"Banco Nacional de Mandados de Prisão — busca por nome ou CPF." },
+  { title:"Serasajud / Infojud",     cat:"judiciario", url:"https://www.cnj.jus.br/sistemas/infojud/",               desc:"Sistema para consulta judicial de dados fiscais e financeiros pela Receita Federal." },
+  { title:"TSE — Dados Eleitorais",  cat:"judiciario", url:"https://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1", desc:"Repositório com dados de candidaturas, bens declarados e financiamento eleitoral." },
+
+  // ── CERTIDÕES ────────────────────────────────────────────────
+  { title:"Certidão Negativa Federal", cat:"certidoes", url:"https://servicos.receita.fazenda.gov.br/Servicos/certidaointer/default.asp", desc:"Certidão Negativa de Débitos da Receita Federal e PGFN." },
+  { title:"SERASA Experian",         cat:"certidoes", url:"https://www.serasa.com.br",                                desc:"Consulta CPF/CNPJ: negativações, dívidas, score de crédito." },
+  { title:"SPC Brasil",              cat:"certidoes", url:"https://www.spcbrasil.org.br",                             desc:"Situação de crédito — inadimplências e restrições financeiras." },
+  { title:"Certidão TJES",           cat:"certidoes", url:"https://www.tjes.jus.br/certidao-negativa-2/",            desc:"Certidões de antecedentes criminais e de distribuição do TJES." },
+  { title:"Cadastro Positivo",       cat:"certidoes", url:"https://www.consumidorpositivo.com.br",                   desc:"Histórico de bom pagador — consulta e gestão do Cadastro Positivo." },
+  { title:"Detran — Prontuário CNH", cat:"certidoes", url:"https://portalservicos.senatran.serpro.gov.br",           desc:"Consulta pontuação e situação da CNH (Carteira Nacional de Habilitação)." },
+  { title:"CEIS / CNEP",             cat:"certidoes", url:"https://portaldatransparencia.gov.br/sancoes/",           desc:"Cadastro de Empresas e Pessoas Sancionadas pelo Governo Federal." },
+
+  // ── SEGURANÇA ────────────────────────────────────────────────
+  { title:"Have I Been Pwned",       cat:"seguranca", url:"https://haveibeenpwned.com",                              desc:"Verifica se e-mail ou senha foi exposto em vazamentos de dados." },
+  { title:"Dehashed",                cat:"seguranca", url:"https://dehashed.com",                                    desc:"Busca avançada em banco de dados de credenciais vazadas." },
+  { title:"Shodan",                  cat:"seguranca", url:"https://www.shodan.io",                                   desc:"Motor de busca de dispositivos conectados à internet — câmeras, roteadores, SCADA." },
+  { title:"Censys",                  cat:"seguranca", url:"https://search.censys.io",                                desc:"Mapeamento de ativos na internet: certificados, portas abertas e banners." },
+  { title:"Cybercrime Tracker",      cat:"seguranca", url:"https://cybercrime-tracker.net",                          desc:"Monitoramento de botnets, C2 e infraestrutura de cibercrime." },
+  { title:"VirusTotal",              cat:"seguranca", url:"https://www.virustotal.com",                              desc:"Análise de arquivos, URLs, IPs e domínios com 70+ motores antivírus." },
+  { title:"AbuseIPDB",               cat:"seguranca", url:"https://www.abuseipdb.com",                              desc:"Base colaborativa de IPs maliciosos — consulta histórico de atividade." },
+  { title:"URLScan.io",              cat:"seguranca", url:"https://urlscan.io",                                      desc:"Escaneia e captura screenshot de URLs suspeitas com análise de comportamento." },
+
+  // ── EDUCAÇÃO ─────────────────────────────────────────────────
+  { title:"MEC — Consulta Diplomas", cat:"educacao", url:"https://diplomadigital.mec.gov.br",                        desc:"Verificação de autenticidade de diplomas de ensino superior." },
+  { title:"e-MEC Instituições",      cat:"educacao", url:"https://emec.mec.gov.br",                                  desc:"Consulta de cursos e instituições de ensino superior credenciadas pelo MEC." },
+  { title:"INEP — Microdados",       cat:"educacao", url:"https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados", desc:"Dados do ENEM, SAEB, Censo Escolar e outros levantamentos educacionais." },
+  { title:"Scielo Brasil",           cat:"educacao", url:"https://scielo.br",                                        desc:"Biblioteca científica de periódicos revisados por pares." },
+  { title:"BDTD — Teses e Dissertações", cat:"educacao", url:"https://bdtd.ibict.br",                               desc:"Biblioteca Digital Brasileira de Teses e Dissertações." },
+
+  // ── SAÚDE ────────────────────────────────────────────────────
+  { title:"CFM — Consulta CRM",      cat:"saude", url:"https://portal.cfm.org.br/busca-medicos/",                   desc:"Verifica situação do registro de médicos no Conselho Federal de Medicina." },
+  { title:"CFF — Consulta CRF",      cat:"saude", url:"https://consultas.cff.org.br",                               desc:"Consulta de farmacêuticos no Conselho Federal de Farmácia." },
+  { title:"CFO — Cirurgiões-Dentistas", cat:"saude", url:"https://website.cfo.org.br/servicos/consulta-de-inscricao-de-cirurgiao-dentista/", desc:"Situação de registro de cirurgiões-dentistas no CFO." },
+  { title:"CNES — Estabelecimentos", cat:"saude", url:"https://cnes.datasus.gov.br",                                desc:"Cadastro Nacional de Estabelecimentos de Saúde — hospitais, clínicas, UBSs." },
+  { title:"Anvisa — Medicamentos",   cat:"saude", url:"https://consultas.anvisa.gov.br",                            desc:"Consulta de medicamentos, cosméticos e alimentos registrados na Anvisa." },
+  { title:"DataSUS — Óbitos (SIM)",  cat:"saude", url:"https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus/", desc:"Sistema de Informações sobre Mortalidade — registros de óbitos no SUS." },
+
+  // ── AMBIENTAL ────────────────────────────────────────────────
+  { title:"IBAMA — Consulta Infratores", cat:"ambiental", url:"https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php", desc:"Áreas embargadas e autos de infração ambiental aplicados pelo Ibama." },
+  { title:"SINAFLOR / DOF",          cat:"ambiental", url:"https://servicos.ibama.gov.br/phpdof/publico/consultar_dof.php", desc:"Documento de Origem Florestal — rastreamento de produtos florestais." },
+  { title:"INPE — Prodes / DETER",   cat:"ambiental", url:"http://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes", desc:"Monitoramento de desmatamento e alertas em tempo real na Amazônia." },
+  { title:"MapBiomas",               cat:"ambiental", url:"https://mapbiomas.org",                                   desc:"Mapeamento anual do uso e cobertura da terra no Brasil desde 1985." },
+  { title:"CAR — Cadastro Ambiental Rural", cat:"ambiental", url:"https://www.car.gov.br/publico/municipios/downloads", desc:"Polígonos e dados do Cadastro Ambiental Rural por município." },
+  { title:"SEMAS Pará",              cat:"ambiental", url:"https://monitoramento.semas.pa.gov.br",                  desc:"Secretaria de Meio Ambiente do Pará — alertas de desmatamento e licenças." },
+
+  // ── GEOLOCALIZAÇÃO ───────────────────────────────────────────
+  { title:"Google Maps",             cat:"geolocalizacao", url:"https://maps.google.com",                            desc:"Mapas, Street View, localização de endereços e imagens de satélite." },
+  { title:"Google Earth Web",        cat:"geolocalizacao", url:"https://earth.google.com/web",                      desc:"Imagens de satélite em alta resolução com histórico temporal." },
+  { title:"OpenStreetMap",           cat:"geolocalizacao", url:"https://www.openstreetmap.org",                     desc:"Mapa colaborativo aberto — útil para áreas rurais e fronteiriças." },
+  { title:"Waze",                    cat:"geolocalizacao", url:"https://www.waze.com",                              desc:"Trânsito em tempo real, incidentes e câmeras de velocidade reportados por usuários." },
+  { title:"Mapas IBGE",              cat:"geolocalizacao", url:"https://mapas.ibge.gov.br",                         desc:"Mapas temáticos do Brasil: censo, limites municipais e cartografia oficial." },
+  { title:"GeoServer INPE",          cat:"geolocalizacao", url:"http://www.dsr.inpe.br/laf/series/",               desc:"Séries históricas de focos de incêndio e queimadas por município." },
+  { title:"SentiWiki / WikiMapia",   cat:"geolocalizacao", url:"https://wikimapia.org",                            desc:"Mapa colaborativo com pontos de interesse marcados por usuários." },
+  { title:"What3Words",              cat:"geolocalizacao", url:"https://what3words.com",                            desc:"Localização precisa por combinação de três palavras — útil em áreas sem CEP." },
+
+  // ── REDES SOCIAIS ────────────────────────────────────────────
+  { title:"Facebook Search",         cat:"redes-sociais", url:"https://www.facebook.com/search",                    desc:"Busca de pessoas, grupos e páginas no Facebook." },
+  { title:"Instagram",               cat:"redes-sociais", url:"https://www.instagram.com",                         desc:"Busca de perfis, hashtags e localização de publicações no Instagram." },
+  { title:"X (Twitter) Search",      cat:"redes-sociais", url:"https://twitter.com/search-advanced",               desc:"Busca avançada de tweets por data, usuário, local e palavras-chave." },
+  { title:"LinkedIn",                cat:"redes-sociais", url:"https://www.linkedin.com",                          desc:"Perfis profissionais, histórico de empregos e conexões corporativas." },
+  { title:"TikTok",                  cat:"redes-sociais", url:"https://www.tiktok.com",                            desc:"Busca de perfis e conteúdos em vídeo no TikTok." },
+  { title:"Telegram Search",         cat:"redes-sociais", url:"https://tgstat.com",                                 desc:"Estatísticas e busca de canais e grupos públicos do Telegram." },
+  { title:"Social Searcher",         cat:"redes-sociais", url:"https://www.social-searcher.com",                   desc:"Monitoramento em tempo real de múltiplas redes sociais simultaneamente." },
+  { title:"BuzzSumo",                cat:"redes-sociais", url:"https://buzzsumo.com",                              desc:"Análise de conteúdo viral e influenciadores por tema ou domínio." },
+  { title:"Snapchat Map",            cat:"redes-sociais", url:"https://map.snapchat.com",                          desc:"Mapa público de snaps — conteúdo geolocalizado compartilhado por usuários." },
+
+  // ── DOMÍNIOS ─────────────────────────────────────────────────
+  { title:"Whois DomainTools",       cat:"dominios", url:"https://whois.domaintools.com",                           desc:"Consulta WHOIS de domínios — titular, registradora, datas e nameservers." },
+  { title:"Registro.br",             cat:"dominios", url:"https://registro.br/tecnologia/ferramentas/whois/",       desc:"WHOIS oficial para domínios .br — proprietário, CNPJ/CPF e contatos." },
+  { title:"DNSDumpster",             cat:"dominios", url:"https://dnsdumpster.com",                                 desc:"Mapeamento de infraestrutura DNS — subdomínios, servidores e registros MX/TXT." },
+  { title:"SecurityTrails",          cat:"dominios", url:"https://securitytrails.com",                             desc:"Histórico DNS, subdomínios e IPs associados a um domínio." },
+  { title:"crt.sh",                  cat:"dominios", url:"https://crt.sh",                                          desc:"Transparência de certificados SSL/TLS — descobre subdomínios via CT logs." },
+  { title:"ViewDNS.info",            cat:"dominios", url:"https://viewdns.info",                                   desc:"Conjunto de ferramentas DNS: WHOIS, IP reverso, ASN lookup e Traceroute." },
+  { title:"BGP.he.net",              cat:"dominios", url:"https://bgp.he.net",                                     desc:"Informações de ASN, prefixos de IP e roteamento BGP por organização." },
+  { title:"Shodan (domínios)",       cat:"dominios", url:"https://www.shodan.io",                                  desc:"Dispositivos e serviços expostos por domínio ou faixa de IP." },
+
+  // ── E-MAILS ──────────────────────────────────────────────────
+  { title:"Hunter.io",               cat:"emails", url:"https://hunter.io",                                         desc:"Encontra e-mails corporativos associados a domínios empresariais." },
+  { title:"EmailRep",                cat:"emails", url:"https://emailrep.io",                                       desc:"Reputação de endereços de e-mail — detecta contas suspeitas ou temporárias." },
+  { title:"Epieos",                  cat:"emails", url:"https://epieos.com",                                       desc:"Pesquisa de e-mails em serviços Google, redes sociais e vazamentos." },
+  { title:"Holehe",                  cat:"emails", url:"https://github.com/megadose/holehe",                       desc:"Ferramenta open source: verifica em quais serviços um e-mail está cadastrado." },
+  { title:"Have I Been Pwned (email)",cat:"emails", url:"https://haveibeenpwned.com",                              desc:"Verifica se um e-mail aparece em bases de dados de vazamentos." },
+  { title:"MXToolbox",               cat:"emails", url:"https://mxtoolbox.com",                                    desc:"Diagnóstico de e-mail: MX records, blacklists, SPF, DKIM e DMARC." },
+  { title:"Mailtester",              cat:"emails", url:"https://www.mailtester.com",                               desc:"Verifica se um endereço de e-mail é válido e ativo sem enviar mensagem." },
+
+  // ── IMAGENS ──────────────────────────────────────────────────
+  { title:"Google Imagens (reversa)", cat:"imagens", url:"https://images.google.com",                              desc:"Busca reversa de imagens — encontra origem, versões e contexto de fotos." },
+  { title:"Yandex Images",            cat:"imagens", url:"https://yandex.com/images",                              desc:"Busca reversa de imagens com excelente reconhecimento facial." },
+  { title:"TinEye",                   cat:"imagens", url:"https://tineye.com",                                     desc:"Especializado em encontrar cópias e versões de uma imagem na web." },
+  { title:"Bing Visual Search",       cat:"imagens", url:"https://www.bing.com/visualsearch",                      desc:"Busca visual reversa da Microsoft — identifica objetos em imagens." },
+  { title:"PimEyes",                  cat:"imagens", url:"https://pimeyes.com",                                    desc:"Busca reversa por rosto — encontra aparições de uma pessoa na web." },
+  { title:"Forensically (análise)",   cat:"imagens", url:"https://29a.ch/photo-forensics",                         desc:"Ferramentas de análise forense de imagens: clone detection, ELA, metadata." },
+  { title:"Jeffrey's Exif Viewer",    cat:"imagens", url:"http://exif.regex.info/exif.cgi",                       desc:"Extrai e exibe todos os metadados EXIF de fotos — GPS, câmera, data." },
+  { title:"InVID / WeVerify",         cat:"imagens", url:"https://www.invid-project.eu",                           desc:"Plugin para verificação de imagens e vídeos — detecta manipulações e data." },
+
+  // ── FERRAMENTAS ──────────────────────────────────────────────
+  { title:"Maltego",                  cat:"ferramentas", url:"https://www.maltego.com",                            desc:"Plataforma visual de OSINT e análise de links — mapeamento de relações." },
+  { title:"SpiderFoot",               cat:"ferramentas", url:"https://www.spiderfoot.net",                         desc:"Automação de OSINT: coleta dados de domínios, e-mails, IPs e pessoas." },
+  { title:"Recon-ng",                 cat:"ferramentas", url:"https://github.com/lanmaster53/recon-ng",            desc:"Framework modular de reconhecimento — similar ao Metasploit para OSINT." },
+  { title:"TheHarvester",             cat:"ferramentas", url:"https://github.com/laramies/theHarvester",           desc:"Coleta e-mails, nomes, subdomínios e IPs de fontes públicas." },
+  { title:"OSINT Framework",          cat:"ferramentas", url:"https://osintframework.com",                         desc:"Árvore interativa de ferramentas OSINT organizadas por categoria." },
+  { title:"Bellingcat Toolkit",       cat:"ferramentas", url:"https://www.bellingcat.com/resources/how-tos/",      desc:"Guias e ferramentas de investigação de código aberto da Bellingcat." },
+  { title:"Metagoofil",               cat:"ferramentas", url:"https://github.com/opsdisk/metagoofil",             desc:"Extrai metadados de documentos públicos (PDF, DOCX, XLS) de um domínio." },
+  { title:"Creepy (Geolocation)",     cat:"ferramentas", url:"https://www.geocreepy.com",                          desc:"Extrai dados de geolocalização de posts em redes sociais." },
+  { title:"GHunt",                    cat:"ferramentas", url:"https://github.com/mxrch/GHunt",                    desc:"Reconhecimento de contas Google — obtém nome, foto, serviços e histórico." },
+  { title:"Sherlock",                 cat:"ferramentas", url:"https://github.com/sherlock-project/sherlock",       desc:"Busca um nome de usuário em 300+ redes sociais e plataformas simultaneamente." },
+];
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+let currentCat  = 'all';
+let currentView = 'services';
+let isListView  = false;
+let searchQuery = '';
+
+// ── CATEGORY LABELS ───────────────────────────────────────────────────────────
+const CAT_LABELS = {
+  'pesquisas-gerais':'Pesquisas Gerais','veiculos':'Veículos','voos':'Voos & Navegação',
+  'telefonia':'Telefonia','governo':'Governo','judiciario':'Judiciário',
+  'certidoes':'Certidões','seguranca':'Segurança','educacao':'Educação',
+  'saude':'Saúde','ambiental':'Ambiental','geolocalizacao':'Geolocalização',
+  'redes-sociais':'Redes Sociais','dominios':'Domínios','emails':'E-mails',
+  'imagens':'Imagens','ferramentas':'Ferramentas'
+};
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function urlHost(url) {
+  try { return new URL(url).hostname; } catch(e) { return url; }
+}
+
+function renderServices() {
+  const grid = document.getElementById('servicesGrid');
+  const q    = searchQuery.toLowerCase();
+  let filtered = services;
+
+  if (currentCat !== 'all') filtered = filtered.filter(s => s.cat === currentCat);
+  if (q) filtered = filtered.filter(s =>
+    s.title.toLowerCase().includes(q) ||
+    s.desc.toLowerCase().includes(q)  ||
+    s.url.toLowerCase().includes(q)
+  );
+
+  document.getElementById('statFiltered').textContent = filtered.length;
+  document.getElementById('resultsLabel').textContent =
+    filtered.length + ' de ' + services.length + ' serviços';
+
+  grid.className = 'services-grid' + (isListView ? ' list-view' : '');
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <div>Nenhum serviço encontrado para "<strong>${searchQuery}</strong>"</div>
+    </div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(s => {
+    const label = CAT_LABELS[s.cat] || s.cat;
+    if (isListView) {
+      return `<a class="card" href="${s.url}" target="_blank" rel="noopener noreferrer">
+        <span class="card-badge badge-${s.cat}">${label}</span>
+        <div class="card-body">
+          <div class="card-title">${s.title}</div>
+          <div class="card-desc">${s.desc}</div>
+          <div class="card-url">${urlHost(s.url)}</div>
+        </div>
+      </a>`;
+    }
+    return `<a class="card" href="${s.url}" target="_blank" rel="noopener noreferrer">
+      <span class="card-badge badge-${s.cat}">${label}</span>
+      <div class="card-title">${s.title}</div>
+      <div class="card-desc">${s.desc}</div>
+      <div class="card-url">${urlHost(s.url)}</div>
+    </a>`;
+  }).join('');
+}
+
+function switchView(view) {
+  currentView = view;
+  ['services','docs','legal'].forEach(v => {
+    document.getElementById('view-'+v).classList.toggle('hidden', v !== view);
+  });
+  document.querySelectorAll('.nav-btn[data-view]').forEach(b => {
+    b.classList.toggle('active',
+      b.dataset.view === view && (view !== 'services' || b.dataset.cat === currentCat));
+  });
+}
+
+// ── COUNT PER CATEGORY ────────────────────────────────────────────────────────
+function injectCounts() {
+  document.querySelectorAll('.nav-btn[data-cat]').forEach(btn => {
+    const cat = btn.dataset.cat;
+    const n = cat === 'all' ? services.length : services.filter(s => s.cat === cat).length;
+    if (!btn.querySelector('.count')) {
+      const span = document.createElement('span');
+      span.className = 'count';
+      btn.appendChild(span);
+    }
+    btn.querySelector('.count').textContent = n;
+  });
+  document.getElementById('statTotal').textContent = services.length;
+  document.getElementById('statFiltered').textContent = services.length;
+}
+
+// ── EVENTS ────────────────────────────────────────────────────────────────────
+document.querySelectorAll('.nav-btn[data-cat]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentCat = btn.dataset.cat;
+    document.querySelectorAll('.nav-btn[data-cat]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    switchView('services');
+    renderServices();
+  });
+});
+
+document.querySelectorAll('.nav-btn[data-view]:not([data-cat])').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    switchView(btn.dataset.view);
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchQuery = e.target.value;
+  renderServices();
+});
+
+document.getElementById('btnGrid').addEventListener('click', () => {
+  isListView = false;
+  document.getElementById('btnGrid').classList.add('active');
+  document.getElementById('btnList').classList.remove('active');
+  renderServices();
+});
+
+document.getElementById('btnList').addEventListener('click', () => {
+  isListView = true;
+  document.getElementById('btnList').classList.add('active');
+  document.getElementById('btnGrid').classList.remove('active');
+  renderServices();
+});
+
+// Doc tabs
+document.querySelectorAll('.tab-btn[data-doc]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn[data-doc]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    ['operadores','exemplos'].forEach(id => {
+      document.getElementById('doc-'+id).classList.toggle('hidden', id !== btn.dataset.doc);
+    });
+  });
+});
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+injectCounts();
+renderServices();
+</script>
+</body>
+</html>
