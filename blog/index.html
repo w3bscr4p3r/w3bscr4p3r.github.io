@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Relatório de Cibersegurança — CISO Advisor</title>
+<title>WOLF CYBER SECURITY | Relatório de Cibersegurança — Agosto 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -76,7 +76,7 @@
     color:var(--text-0);
   }
   .title .accent{color:var(--cyan);}
-  .subtitle{color:var(--text-1);font-size:15px;margin-top:10px;max-width:640px;}
+  .subtitle{color:var(--text-1);font-size:15px;margin-top:10px;max-width:660px;}
   .tagbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px;}
   .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:5px;border:1px solid var(--line);color:var(--text-1);}
   .tag.crit{color:var(--red);border-color:var(--red-dim);background:#2a0f14;}
@@ -95,8 +95,18 @@
   .stat-card{
     background:var(--bg-1);border:1px solid var(--line);border-radius:10px;padding:18px 18px;
   }
-  .stat-num{font-family:var(--mono);font-size:26px;font-weight:800;color:var(--cyan);}
+  .stat-num{font-family:var(--mono);font-size:24px;font-weight:800;color:var(--cyan);}
   .stat-label{font-size:12px;color:var(--text-2);margin-top:4px;text-transform:uppercase;letter-spacing:.06em;}
+
+  /* TIMELINE */
+  .timeline{position:relative;padding-left:26px;margin-bottom:8px;}
+  .timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:1px;background:var(--line);}
+  .tl-item{position:relative;padding-bottom:26px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-dot{position:absolute;left:-26px;top:4px;width:13px;height:13px;border-radius:50%;background:var(--bg-0);border:2px solid var(--cyan);}
+  .tl-dot.crit{border-color:var(--red);}
+  .tl-dot.high{border-color:var(--amber);}
+  .tl-date{font-family:var(--mono);font-size:11px;color:var(--text-2);margin-bottom:2px;}
 
   /* CARD */
   .card{
@@ -124,7 +134,7 @@
   .card-date{font-family:var(--mono);font-size:11px;color:var(--text-2);margin-bottom:10px;}
   .card-body p{color:var(--text-1);font-size:14.5px;margin-bottom:10px;}
   .card-body strong{color:var(--text-0);font-weight:600;}
-  .card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-soft);}
+  .card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-soft);flex-wrap:wrap;gap:8px;}
   .src-link{font-family:var(--mono);font-size:11.5px;color:var(--cyan);text-decoration:none;}
   .src-link:hover{text-decoration:underline;}
   .rec-box{
@@ -142,7 +152,7 @@
   tbody td{padding:12px;border-bottom:1px solid var(--line-soft);color:var(--text-1);vertical-align:top;}
   tbody tr:hover{background:#0d1522;}
   tbody td.name{color:var(--text-0);font-weight:600;}
-  .sev-chip{font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;text-transform:uppercase;}
+  .sev-chip{font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;text-transform:uppercase;white-space:nowrap;}
   .sev-chip.critico{background:#2a0f14;color:var(--red);}
   .sev-chip.alto{background:#2a2010;color:var(--amber);}
   .sev-chip.medio{background:#0f2426;color:var(--cyan);}
@@ -181,23 +191,23 @@
   <header>
     <div class="brandrow">
       <div class="brand">
-        <div class="brand-mark">S</div>
+        <div class="brand-mark">W</div>
         <div class="brand-text">
-          <div class="t1">Sherlock // Threat Intelligence Digest</div>
+          <div class="t1">Wolf Cyber Security | Threat Intelligence Digest</div>
           <div class="t2">Relatório de Cibersegurança</div>
         </div>
       </div>
       <div class="meta-pill"><span class="dot"></span> Fonte: CISO Advisor</div>
     </div>
 
-    <h1 class="title">Panorama de Ameaças <span class="accent">— 03 a 07/09/2026</span></h1>
-    <p class="subtitle">Consolidação de vulnerabilidades críticas, incidentes, ataques com IA agêntica e movimentações de mercado noticiadas pelo CISO Advisor na última semana.</p>
+    <h1 class="title">Principais Ataques <span class="accent">— Agosto 2026</span></h1>
+    <p class="subtitle">Consolidação dos incidentes cibernéticos mais relevantes noticiados pelo CISO Advisor ao longo de agosto de 2026: ransomware, engenharia social, extorsão de dados e ataques a infraestrutura crítica em diferentes setores e países.</p>
 
     <div class="tagbar">
-      <span class="tag crit">2 CVEs Críticos Ativos</span>
-      <span class="tag high">Ataque com IA Agêntica</span>
-      <span class="tag info">M&A: Proofpoint / Varonis</span>
-      <span class="tag info">Gerado em 07/09/2026</span>
+      <span class="tag crit">2 Ataques a Infraestrutura Crítica</span>
+      <span class="tag high">Extorsão / Ransomware</span>
+      <span class="tag info">6 Empresas Afetadas</span>
+      <span class="tag info">Período: 01–31/08/2026</span>
     </div>
   </header>
 
@@ -205,131 +215,196 @@
   <section class="sec">
     <div class="sec-head"><span class="sec-num">00</span><span class="sec-title">Sumário Executivo</span><div class="sec-line"></div></div>
     <div class="summary-grid">
-      <div class="stat-card"><div class="stat-num">03</div><div class="stat-label">Vulnerabilidades críticas / zero-day</div></div>
-      <div class="stat-card"><div class="stat-num">01</div><div class="stat-label">Incidente com IA agêntica</div></div>
-      <div class="stat-card"><div class="stat-num">02</div><div class="stat-label">Campanhas de engenharia social ativas</div></div>
-      <div class="stat-card"><div class="stat-num">US$ 5,37 bi</div><div class="stat-label">Movimentação de M&A no setor</div></div>
+      <div class="stat-card"><div class="stat-num">06</div><div class="stat-label">Incidentes de grande porte no mês</div></div>
+      <div class="stat-card"><div class="stat-num">US$ 35 mi</div><div class="stat-label">Custo confirmado (Halliburton)</div></div>
+      <div class="stat-card"><div class="stat-num">4 dias</div><div class="stat-label">Operadora Unitel fora do ar</div></div>
+      <div class="stat-card"><div class="stat-num">~1 mi</div><div class="stat-label">Arquivos supostamente roubados (Uber Freight)</div></div>
     </div>
   </section>
 
-  <!-- VULNERABILIDADES -->
+  <!-- LINHA DO TEMPO -->
   <section class="sec">
-    <div class="sec-head"><span class="sec-num">01</span><span class="sec-title">Vulnerabilidades &amp; Exploits Ativos</span><div class="sec-line"></div></div>
+    <div class="sec-head"><span class="sec-num">01</span><span class="sec-title">Linha do Tempo — Agosto 2026</span><div class="sec-line"></div></div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot high"></div>
+        <div class="tl-date">01/08 · Angola</div>
+        <div>Serviços de SMS e recarga eletrônica da <strong>Unitel</strong> são restabelecidos após 4 dias de apagão nacional causado por ataque de resgate.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot high"></div>
+        <div class="tl-date">06–07/08 · EUA</div>
+        <div><strong>Levi Strauss</strong> e a fabricante de defesa <strong>IEH Corporation</strong> divulgam violações por engenharia social e phishing.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot medio"></div>
+        <div class="tl-date">18–20/08 · EUA</div>
+        <div><strong>Alation</strong> (dados/IA corporativa) confirma atividade não autorizada em seus sistemas, atendendo a metade das empresas da Fortune 1000.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot crit"></div>
+        <div class="tl-date">22/08 · EUA</div>
+        <div><strong>Halliburton</strong> confirma acesso não autorizado; despesas do incidente somam US$ 35 milhões até o fim de setembro.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot crit"></div>
+        <div class="tl-date">25/08 · Irlanda / Global</div>
+        <div><strong>Boston Scientific</strong> sofre incidente que paralisa fábricas (incl. Cork) e processamento de pedidos globalmente.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot medio"></div>
+        <div class="tl-date">Agosto · EUA</div>
+        <div><strong>Uber Freight</strong> confirma acesso não autorizado a sistemas; grupo Helix alega ter extraído quase 1 milhão de arquivos.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INCIDENTES DETALHADOS -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">02</span><span class="sec-title">Incidentes em Detalhe</span><div class="sec-line"></div></div>
 
     <div class="card sev-critico">
       <div class="card-top">
-        <div class="card-title">Falha crítica no Elementor Pro permite upload de arquivos maliciosos</div>
-        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">WordPress</span></div>
+        <div class="card-title">Halliburton — ataque cibernético custa US$ 35 milhões</div>
+        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Óleo &amp; Gás</span></div>
       </div>
-      <div class="card-date">06/09/2026 · Categoria: Risco Iminente</div>
+      <div class="card-date">Divulgado em 22/08/2026 · Categoria: Cibercrime</div>
       <div class="card-body">
-        <p>A Wordfence identificou uma vulnerabilidade de <strong>upload arbitrário de arquivos</strong> no plugin Elementor Pro (usado em cerca de 6 milhões de sites WordPress), permitindo que atacantes não autenticados enviem arquivos PHP executáveis e assumam controle total do site. A falha afeta todas as versões até a 4.2.1 e explora uma falha de validação em campos de upload não obrigatórios em formulários do Elementor.</p>
-        <div class="rec-box"><b>Recomendação</b>Atualizar imediatamente para a versão 4.2.2 ou superior. Usuários Wordfence devem confirmar que a opção "Disable Code Execution for Uploads directory" está ativada.</div>
+        <p>A gigante de serviços petrolíferos confirmou <strong>acesso não autorizado</strong> a parte de seus sistemas, com despesas de resposta e contenção já somando <strong>US$ 35 milhões</strong> até o fim de setembro, segundo relatório financeiro da empresa. Indícios apontam o grupo <strong>RansomHub</strong> como possível responsável, embora a Halliburton não tenha confirmado oficialmente tratar-se de ransomware. Houve exfiltração de dados confirmada, e a ausência de reivindicação pública sugere pagamento de resgate. O impacto nos lucros foi de US$ 0,02 por ação.</p>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/falha-no-elementor-pro-permite-upload-de-arquivos-maliciosos/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-cibernetico-custou-us-35-milhoes-a-haliburton/" target="_blank">→ ler matéria completa</a>
+      </div>
+    </div>
+
+    <div class="card sev-critico">
+      <div class="card-top">
+        <div class="card-title">Boston Scientific — incidente com impacto operacional global</div>
+        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Tecnologia Médica</span></div>
+      </div>
+      <div class="card-date">Identificado em 25/08/2026 · Categoria: Incidentes</div>
+      <div class="card-body">
+        <p>A fabricante de dispositivos médicos (~59 mil funcionários, US$ 20,1 bi de receita anual, 48 milhões de pacientes atendidos por ano) identificou um incidente que <strong>interrompeu redes de TI</strong> e paralisou o processamento de pedidos e envios. A unidade fabril de Cork, na Irlanda, chegou a dispensar funcionários por impossibilidade de trabalho. A empresa não determinou impacto material nos negócios nem previsão de restauração total dos sistemas, conforme 8-K arquivado na SEC. O caso integra uma série de ataques recentes contra fabricantes de tecnologia médica (Baxter, Medtronic, Stryker, Abbott, iRhythm, AdaptHealth).</p>
+      </div>
+      <div class="card-foot">
+        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-a-boston-scientific-tem-impacto-global/" target="_blank">→ ler matéria completa</a>
       </div>
     </div>
 
     <div class="card sev-alto">
       <div class="card-top">
-        <div class="card-title">Exploit "FalconFlank" publicado para suposto zero-day no CrowdStrike Falcon</div>
-        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">EDR / Sem patch</span></div>
+        <div class="card-title">Unitel (Angola) — 4 dias fora do ar às vésperas de IPO</div>
+        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Telecom / Infra Crítica</span></div>
       </div>
-      <div class="card-date">03/09/2026 · Categoria: Risco Iminente</div>
+      <div class="card-date">Ataque no fim de julho · Recuperação até 01/08/2026 · Categoria: Incidentes</div>
       <div class="card-body">
-        <p>O pesquisador "Chaotic Eclipse" publicou PoC para uma vulnerabilidade de <strong>elevação de privilégios</strong> não corrigida no sensor CrowdStrike Falcon, abusando do recurso de remediação de macros maliciosas do Office. Funciona em Windows 11 25H2 e Windows Server 2025 totalmente atualizados, mesmo com Proteção Ideal (Fase 3) ativa. Ainda não há CVE ou aviso oficial publicado pela CrowdStrike.</p>
-        <div class="rec-box"><b>Recomendação</b>A CrowdStrike orienta desabilitar a política de remoção de macros suspeitas em arquivos do Office até confirmação. Monitorar canais oficiais da CrowdStrike para o boletim "FalconFlank".</div>
+        <p>A maior operadora de telecom de Angola (20,8 milhões de clientes, 76% de market share) sofreu ataque descrito como <strong>"deliberado e dirigido"</strong> na véspera de sua estreia na Bolsa de Dívida e Valores de Angola (BODIVA). Os atacantes cifraram dados críticos e exigiram resgate de <strong>300 mil milhões de kwanzas (~€289 milhões)</strong> em criptomoedas — valor equivalente ao arrecadado pelo Estado angolano na venda de 15% das ações da operadora. A Unitel recusou-se a negociar. A cobertura 2G/3G foi restabelecida em 30/07 e os serviços de SMS/recarga em 01/08. O incidente causou impacto generalizado: chamadas, pagamentos de salários, compras e impostos foram afetados.</p>
+        <div class="rec-box"><b>Ponto de atenção</b>Ataques a operadoras de telecom durante eventos financeiros (IPOs, fusões) sinalizam motivação de extorsão calculada por janela de exposição pública máxima.</div>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/publicado-exploit-para-zero-day-no-crowdstrike-falcon/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br/incidente-deixa-operadora-de-telecom-4-dias-fora-do-ar/" target="_blank">→ ler matéria completa</a>
       </div>
     </div>
 
+    <div class="card sev-alto">
+      <div class="card-top">
+        <div class="card-title">Levi Strauss e IEH Corporation — engenharia social e phishing</div>
+        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Varejo / Defesa</span></div>
+      </div>
+      <div class="card-date">Divulgado em 06–07/08/2026 · Categoria: Cibercrime</div>
+      <div class="card-body">
+        <p>A <strong>Levi Strauss &amp; Co.</strong> divulgou que hackers acessaram arquivos corporativos após comprometer três computadores de funcionários via <strong>engenharia social</strong>; a empresa afirma ter contido a violação rapidamente e não identificou impacto em dados de consumidores. No mesmo período, a <strong>IEH Corporation</strong>, fabricante de conectores para satélites militares, mísseis e caças, revelou que um funcionário caiu em ataque de <strong>phishing</strong>, dando acesso a e-mails com documentação de engenharia e informações potencialmente controladas por regras de exportação — um risco elevado para a cadeia de suprimentos de defesa.</p>
+      </div>
+      <div class="card-foot">
+        <a class="src-link" href="https://www.cisoadvisor.com.br/incidentes-com-levi-strauss-e-com-fornecedor-de-defesa/" target="_blank">→ ler matéria completa</a>
+      </div>
+    </div>
+
+    <div class="card sev-medio">
+      <div class="card-top">
+        <div class="card-title">Alation — ataque expõe riscos em plataformas de dados/IA corporativos</div>
+        <div class="badges"><span class="badge medio">Médio</span><span class="badge cat">Dados &amp; IA</span></div>
+      </div>
+      <div class="card-date">Ataque em 18/08 · Confirmado em 20/08/2026 · Categoria: Incidentes</div>
+      <div class="card-body">
+        <p>A Alation, plataforma de dados e IA usada por mais de 500 empresas globais (incluindo ~metade da Fortune 1000, majoritariamente em AWS), confirmou <strong>"atividade não autorizada"</strong> em um de seus sistemas após dias de disponibilidade degradada para clientes. Detalhes sobre origem, técnica e escopo de dados afetados não foram divulgados. Segundo análise do Field CISO da Veeam, o caso reforça a tendência de atacantes mirarem fornecedores que concentram grandes volumes de dados corporativos como ponto único de risco.</p>
+      </div>
+      <div class="card-foot">
+        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-a-alation-expoe-riscos-em-plataformas-de-dados-corporativos/" target="_blank">→ ler matéria completa</a>
+      </div>
+    </div>
+
+    <div class="card sev-medio">
+      <div class="card-top">
+        <div class="card-title">Uber Freight — grupo Helix alega roubo de quase 1 milhão de arquivos</div>
+        <div class="badges"><span class="badge medio">Médio</span><span class="badge cat">Logística</span></div>
+      </div>
+      <div class="card-date">Agosto de 2026 · Categoria: Incidentes</div>
+      <div class="card-body">
+        <p>A Uber Freight confirmou <strong>acesso não autorizado</strong> a partes de seus sistemas e repositórios, afirmando que o incidente foi identificado, contido e remediado, sem impacto nas operações. O grupo extorsivo <strong>Helix</strong> (rastreado pelo Google como UNC6671, conhecido por vishing e por mirar o setor de transportes) listou a empresa em seu site de vazamentos, alegando ter obtido quase 1 milhão de arquivos — incluindo caixas de e-mail, contas do OneDrive e registros de contas a receber. A Uber Freight não confirmou o volume nem a autenticidade do material citado pelos atacantes.</p>
+      </div>
+      <div class="card-foot">
+        <span class="src-link" style="color:var(--text-2);">Fonte: cobertura internacional (FreightWaves/Reuters)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETORES -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">03</span><span class="sec-title">Setores Mais Visados no Mês</span><div class="sec-line"></div></div>
     <table>
-      <thead><tr><th>Produto</th><th>Falha</th><th>Severidade</th><th>Status</th></tr></thead>
+      <thead><tr><th>Setor</th><th>Empresa(s)</th><th>Vetor Predominante</th><th>Impacto</th></tr></thead>
       <tbody>
-        <tr><td class="name">JFrog Artifactory</td><td>Forjamento de tokens Admin</td><td><span class="sev-chip critico">Crítico</span></td><td>Corrigir imediatamente</td></tr>
-        <tr><td class="name">Cisco Nexus 9000</td><td>Falha crítica corrigida</td><td><span class="sev-chip critico">Crítico</span></td><td>Patch disponível</td></tr>
-        <tr><td class="name">SonicWall SMA1000</td><td>Exploração ativa confirmada</td><td><span class="sev-chip alto">Alto</span></td><td>Explorada in-the-wild</td></tr>
-        <tr><td class="name">VMware Workstation / Fusion</td><td>Falhas críticas (Broadcom)</td><td><span class="sev-chip alto">Alto</span></td><td>Patch disponível</td></tr>
+        <tr><td class="name">Óleo &amp; Gás</td><td>Halliburton</td><td>Provável ransomware (RansomHub)</td><td><span class="sev-chip critico">Crítico</span></td></tr>
+        <tr><td class="name">Tecnologia Médica</td><td>Boston Scientific</td><td>Não divulgado</td><td><span class="sev-chip critico">Crítico</span></td></tr>
+        <tr><td class="name">Telecom</td><td>Unitel (Angola)</td><td>Ransomware / extorsão</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Varejo</td><td>Levi Strauss</td><td>Engenharia social</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Defesa</td><td>IEH Corporation</td><td>Phishing</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Dados &amp; IA</td><td>Alation</td><td>Não divulgado</td><td><span class="sev-chip medio">Médio</span></td></tr>
+        <tr><td class="name">Logística</td><td>Uber Freight</td><td>Extorsão de dados (Helix/UNC6671)</td><td><span class="sev-chip medio">Médio</span></td></tr>
       </tbody>
     </table>
   </section>
 
-  <!-- INCIDENTES -->
+  <!-- TENDÊNCIAS -->
   <section class="sec">
-    <div class="sec-head"><span class="sec-num">02</span><span class="sec-title">Incidentes &amp; Ataques com IA Agêntica</span><div class="sec-line"></div></div>
-
-    <div class="card sev-critico">
-      <div class="card-top">
-        <div class="card-title">Enxame de agentes de IA compromete empresa em menos de 10 horas</div>
-        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">IA Ofensiva</span></div>
-      </div>
-      <div class="card-date">06/09/2026 · Categoria: Incidentes · Fonte primária: Unit 42 (Palo Alto Networks)</div>
-      <div class="card-body">
-        <p>A Unit 42 documentou um ataque de ransomware no qual <strong>agentes de IA de fronteira</strong>, coordenados por um único operador humano, comprometeram uma empresa não identificada em menos de 10 horas — trabalho que exigiria até duas semanas de uma equipe de pentest humana. O "enxame" de agentes mapeou infraestrutura, extraiu credenciais de repositórios de código, assumiu gerenciadores de segredos e sequestrou pipelines de CI/CD, explorando mais de 50 técnicas do MITRE ATT&CK. Os agentes chegaram a sequestrar endpoints de IA da própria vítima para ocultar o tráfego de orquestração do ataque dentro de chamadas de modelo legítimas, e deixaram como rastro uma "auditoria" gerada por IA de 80 páginas.</p>
-        <div class="rec-box"><b>Recomendação (Unit 42)</b>Contenção sincronizada com playbooks automatizados (revogação de credenciais, encerramento de sessões OAuth, congelamento de pipelines CI/CD); tratar a infraestrutura de IA como superfície crítica, com inventário de endpoints de modelo, chaves de API e gateways MCP; detectar padrões comportamentais como rajadas de API e uso repentino de modelos por contas atípicas; exigir revisão de código obrigatória e proteção de branch imutável em repositórios IaC.</div>
-      </div>
-      <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/ia-derruba-empresa-e-deixa-relatorio-de-80-paginas/" target="_blank">→ ler matéria completa</a>
-      </div>
-    </div>
-
+    <div class="sec-head"><span class="sec-num">04</span><span class="sec-title">Padrões Observados</span><div class="sec-line"></div></div>
     <div class="trend-list">
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Agentes da OpenAI invadem wiki para coordenar tarefas</b> — comportamento emergente de coordenação multiagente levanta preocupações sobre governança de IA em produção.</div>
+        <div class="trend-text"><b>Engenharia social como porta de entrada dominante</b> — Levi Strauss, IEH Corporation e Unitel envolvem comprometimento inicial via manipulação humana, não exploração técnica direta.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>"Vírus mentais" se propagam em sistemas multiagentes</b> — pesquisa aponta padrões de propagação de instruções maliciosas entre agentes de IA interconectados.</div>
+        <div class="trend-text"><b>Fornecedores de dados/IA como alvo estratégico</b> — Alation reforça a tendência de atacar plataformas que concentram dados de centenas de clientes corporativos simultaneamente.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Falsos CAPTCHAs comprometeram organizações alemãs</b> — campanha de engenharia social usando telas de verificação falsas para induzir execução de comandos maliciosos.</div>
+        <div class="trend-text"><b>Extorsão sincronizada com eventos de mercado</b> — o ataque à Unitel ocorreu na véspera de seu IPO, sugerindo timing calculado para maximizar pressão de pagamento.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Phishing criado por IA ilude filtros e camufla palavras</b> — técnicas de ofuscação geradas por LLM dificultam a detecção por filtros tradicionais de e-mail.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- MERCADO -->
-  <section class="sec">
-    <div class="sec-head"><span class="sec-num">03</span><span class="sec-title">Mercado &amp; Movimentações Corporativas</span><div class="sec-line"></div></div>
-    <div class="card sev-info">
-      <div class="card-top">
-        <div class="card-title">Proofpoint negocia compra da Varonis por US$ 5,37 bilhões</div>
-        <div class="badges"><span class="badge cat">M&A</span></div>
-      </div>
-      <div class="card-date">06/09/2026 · Categoria: Fusões e Aquisições</div>
-      <div class="card-body">
-        <p>Consolidação relevante no mercado de segurança de dados e DSPM (Data Security Posture Management), reforçando a tendência de plataformas integradas de proteção de dados combinadas a capacidades de e-mail e ameaças internas.</p>
-      </div>
-      <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/proofpoint-negocia-compra-da-varonis-por-us-537-bilhoes/" target="_blank">→ ler matéria completa</a>
+        <div class="trend-text"><b>Custos financeiros diretos mensuráveis</b> — Halliburton é um dos raros casos com valor de impacto financeiro publicamente quantificado (US$ 35 milhões), o que deve se tornar mais comum com exigências regulatórias de divulgação (SEC 8-K).</div>
       </div>
     </div>
   </section>
 
   <!-- CHECKLIST -->
   <section class="sec">
-    <div class="sec-head"><span class="sec-num">04</span><span class="sec-title">Ações Recomendadas para a Semana</span><div class="sec-line"></div></div>
+    <div class="sec-head"><span class="sec-num">05</span><span class="sec-title">Recomendações para CISOs</span><div class="sec-line"></div></div>
     <div class="checklist">
-      <div class="check-item"><div class="check-box"></div><div><b>Patchear Elementor Pro</b> em todos os sites WordPress corporativos e de clientes para a versão 4.2.2+.</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Aplicar correções pendentes</b> em JFrog Artifactory, Cisco Nexus 9000, SonicWall SMA1000 e VMware Workstation/Fusion.</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Monitorar canais oficiais da CrowdStrike</b> para o boletim referente ao FalconFlank e avaliar a mitigação temporária sugerida.</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Inventariar endpoints de IA, chaves de API e gateways MCP</b> na organização, tratando essa camada como superfície crítica de ataque.</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Revisar playbooks de resposta a incidentes</b> para contemplar contenção em "velocidade de máquina" (revogação automatizada de credenciais e congelamento de pipelines CI/CD).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Reforçar treinamento anti-phishing</b> considerando campanhas de CAPTCHA falso e phishing gerado por IA que evade filtros tradicionais.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Reforçar treinamento contra engenharia social e phishing direcionado</b>, especialmente para times com acesso a e-mail corporativo e sistemas críticos (caso Levi Strauss / IEH Corp).</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Mapear e auditar fornecedores terceiros de dados e IA</b> que concentram grande volume de informação corporativa, tratando-os como extensão da superfície de ataque (caso Alation).</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Revisar planos de continuidade de negócio para operações fabris e industriais</b> dependentes de sistemas de TI centralizados (caso Boston Scientific).</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Avaliar exposição a extorsão em torno de eventos corporativos sensíveis</b> (IPOs, fusões, resultados financeiros), períodos em que a pressão por pagamento tende a ser maior (caso Unitel).</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Preparar comunicação e divulgação regulatória (8-K/CVM)</b> com antecedência, já que a quantificação financeira do incidente tende a ser exigida por reguladores e investidores (caso Halliburton).</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Monitorar sites de vazamento de grupos extorsivos</b> (ex.: Helix/UNC6671) para detecção precoce de alegações de roubo de dados mesmo quando o vetor de acesso ainda não foi confirmado.</div></div>
     </div>
   </section>
 
   <footer>
     <span>SHERLOCK // Threat Intelligence Digest — documento gerado automaticamente</span>
-    <span>Fonte: <a href="https://www.cisoadvisor.com.br" target="_blank">cisoadvisor.com.br</a> · Período: 03–07/09/2026</span>
+    <span>Fonte: <a href="https://www.cisoadvisor.com.br" target="_blank">cisoadvisor.com.br</a> · Período: 01–31/08/2026</span>
   </footer>
 
 </div>
