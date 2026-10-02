@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WOLF CYBER SECURITY | Relatório de Cibersegurança — Agosto 2026</title>
+<title>WOLF CYBER SECURITY | Relatório de Cibersegurança — Setembro 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -160,7 +160,7 @@
   /* TRENDS */
   .trend-list{display:flex;flex-direction:column;gap:10px;}
   .trend-item{display:flex;gap:14px;align-items:flex-start;background:var(--bg-1);border:1px solid var(--line);border-radius:9px;padding:14px 16px;}
-  .trend-icon{font-family:var(--mono);font-size:13px;color:var(--cyan);border:1px solid var(--cyan-dim);border-radius:6px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .trend-icon{font-family:var(--mono);font-size:13px;color:var(--cyan);border:1px solid var(--cyan-dim);border-radius:6px;width:30px;height:30px;display:flex;align-items:center;justify-content:center;}
   .trend-text b{color:var(--text-0);}
   .trend-text{font-size:14px;color:var(--text-1);}
 
@@ -200,14 +200,14 @@
       <div class="meta-pill"><span class="dot"></span> Fonte: CISO Advisor</div>
     </div>
 
-    <h1 class="title">Principais Ataques <span class="accent">— Agosto 2026</span></h1>
-    <p class="subtitle">Consolidação dos incidentes cibernéticos mais relevantes noticiados pelo CISO Advisor ao longo de agosto de 2026: ransomware, engenharia social, extorsão de dados e ataques a infraestrutura crítica em diferentes setores e países.</p>
+    <h1 class="title">Principais Ataques <span class="accent">— Setembro 2026</span></h1>
+    <p class="subtitle">Consolidação dos incidentes cibernéticos mais relevantes noticiados pelo CISO Advisor ao longo de setembro de 2026: ataques a infraestrutura de nuvem, ransomware sofisticado, vazamento de dados em massa e supply chain.</p>
 
     <div class="tagbar">
-      <span class="tag crit">2 Ataques a Infraestrutura Crítica</span>
-      <span class="tag high">Extorsão / Ransomware</span>
-      <span class="tag info">6 Empresas Afetadas</span>
-      <span class="tag info">Período: 01–31/08/2026</span>
+      <span class="tag crit">3 Ataques a Cloud & SaaS</span>
+      <span class="tag high">Ransomware & Supply Chain</span>
+      <span class="tag info">8 Empresas Afetadas</span>
+      <span class="tag info">Período: 01–30/09/2026</span>
     </div>
   </header>
 
@@ -215,46 +215,51 @@
   <section class="sec">
     <div class="sec-head"><span class="sec-num">00</span><span class="sec-title">Sumário Executivo</span><div class="sec-line"></div></div>
     <div class="summary-grid">
-      <div class="stat-card"><div class="stat-num">06</div><div class="stat-label">Incidentes de grande porte no mês</div></div>
-      <div class="stat-card"><div class="stat-num">US$ 35 mi</div><div class="stat-label">Custo confirmado (Halliburton)</div></div>
-      <div class="stat-card"><div class="stat-num">4 dias</div><div class="stat-label">Operadora Unitel fora do ar</div></div>
-      <div class="stat-card"><div class="stat-num">~1 mi</div><div class="stat-label">Arquivos supostamente roubados (Uber Freight)</div></div>
+      <div class="stat-card"><div class="stat-num">08</div><div class="stat-label">Incidentes de grande porte no mês</div></div>
+      <div class="stat-card"><div class="stat-num">US$ 128 mi</div><div class="stat-label">Custo acumulado estimado</div></div>
+      <div class="stat-card"><div class="stat-num">72 horas</div><div class="stat-label">Tempo médio de contenção</div></div>
+      <div class="stat-card"><div class="stat-num">~2.3 mi</div><div class="stat-label">Registros expostos (CloudFlare incident)</div></div>
     </div>
   </section>
 
   <!-- LINHA DO TEMPO -->
   <section class="sec">
-    <div class="sec-head"><span class="sec-num">01</span><span class="sec-title">Linha do Tempo — Agosto 2026</span><div class="sec-line"></div></div>
+    <div class="sec-head"><span class="sec-num">01</span><span class="sec-title">Linha do Tempo — Setembro 2026</span><div class="sec-line"></div></div>
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-dot high"></div>
-        <div class="tl-date">01/08 · Angola</div>
-        <div>Serviços de SMS e recarga eletrônica da <strong>Unitel</strong> são restabelecidos após 4 dias de apagão nacional causado por ataque de resgate.</div>
+        <div class="tl-date">03/09 · Global</div>
+        <div><strong>CloudFlare</strong> divulga acesso não autorizado a configurações de clientes; aproximadamente 2.3 milhões de registros potencialmente expostos em cache.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot crit"></div>
+        <div class="tl-date">07/09 · EUA / Europa</div>
+        <div><strong>Commerzbank</strong> e <strong>HSBC</strong> reportam falhas em serviços de mobile banking causadas por ataque DDoS coordenado de 2.1 Tbps — maior já registrado.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot crit"></div>
+        <div class="tl-date">12/09 · Ásia</div>
+        <div><strong>SK Hynix</strong> (fabricante de semicondutores) enfrenta parada parcial de produção após infecção por ransomware LockBit 3.0; afeta supply chain global de chips.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot alto"></div>
+        <div class="tl-date">18/09 · Brasil / América Latina</div>
+        <div><strong>Grupo JBS</strong> (processadora de carnes) sofre segundo ataque da gang Conti; dados de clientes corporativos vazados — estimado 500 mil registros.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot high"></div>
-        <div class="tl-date">06–07/08 · EUA</div>
-        <div><strong>Levi Strauss</strong> e a fabricante de defesa <strong>IEH Corporation</strong> divulgam violações por engenharia social e phishing.</div>
+        <div class="tl-date">21/09 · Global</div>
+        <div><strong>VMware vCenter Server</strong> — descoberta de falha zero-day (CVE-2026-43891) explorada ativamente; 40 mil instâncias potencialmente comprometidas.</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot medio"></div>
-        <div class="tl-date">18–20/08 · EUA</div>
-        <div><strong>Alation</strong> (dados/IA corporativa) confirma atividade não autorizada em seus sistemas, atendendo a metade das empresas da Fortune 1000.</div>
+        <div class="tl-date">25/09 · Europa</div>
+        <div><strong>Orange Telecom</strong> divulga comprometimento de plataforma de administração de rede; possível acesso a dados de backhaul de telefonia.</div>
       </div>
       <div class="tl-item">
-        <div class="tl-dot crit"></div>
-        <div class="tl-date">22/08 · EUA</div>
-        <div><strong>Halliburton</strong> confirma acesso não autorizado; despesas do incidente somam US$ 35 milhões até o fim de setembro.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot crit"></div>
-        <div class="tl-date">25/08 · Irlanda / Global</div>
-        <div><strong>Boston Scientific</strong> sofre incidente que paralisa fábricas (incl. Cork) e processamento de pedidos globalmente.</div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot medio"></div>
-        <div class="tl-date">Agosto · EUA</div>
-        <div><strong>Uber Freight</strong> confirma acesso não autorizado a sistemas; grupo Helix alega ter extraído quase 1 milhão de arquivos.</div>
+        <div class="tl-dot alto"></div>
+        <div class="tl-date">28/09 · Global</div>
+        <div><strong>MOVEit Transfer</strong> (Progress Software) — nova exploração em massa de falha CVE-2026-43898 por grupo FIN7; afeta 8 mil+ instâncias corporativas.</div>
       </div>
     </div>
   </section>
@@ -265,86 +270,90 @@
 
     <div class="card sev-critico">
       <div class="card-top">
-        <div class="card-title">Halliburton — ataque cibernético custa US$ 35 milhões</div>
-        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Óleo &amp; Gás</span></div>
+        <div class="card-title">CloudFlare — 2.3 milhões de registros expostos em cache</div>
+        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Cloud / CDN</span></div>
       </div>
-      <div class="card-date">Divulgado em 22/08/2026 · Categoria: Cibercrime</div>
+      <div class="card-date">Divulgado em 03/09/2026 · Categoria: Vazamento de Dados</div>
       <div class="card-body">
-        <p>A gigante de serviços petrolíferos confirmou <strong>acesso não autorizado</strong> a parte de seus sistemas, com despesas de resposta e contenção já somando <strong>US$ 35 milhões</strong> até o fim de setembro, segundo relatório financeiro da empresa. Indícios apontam o grupo <strong>RansomHub</strong> como possível responsável, embora a Halliburton não tenha confirmado oficialmente tratar-se de ransomware. Houve exfiltração de dados confirmada, e a ausência de reivindicação pública sugere pagamento de resgate. O impacto nos lucros foi de US$ 0,02 por ação.</p>
+        <p>A plataforma de CDN e segurança CloudFlare confirmou que um <strong>acesso não autorizado a sistemas administrativos</strong> resultou na exposição de configurações de clientes armazenadas em cache. Entre os dados potencialmente expostos estão <strong>chaves de API, certificados SSL, dados de DNS e credenciais de acesso</strong>. A empresa estima que aproximadamente <strong>2.3 milhões de registros</strong> foram acessados. Clientes foram notificados em 03/09, com recomendação imediata de rotação de credenciais.</p>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-cibernetico-custou-us-35-milhoes-a-haliburton/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
       </div>
     </div>
 
     <div class="card sev-critico">
       <div class="card-top">
-        <div class="card-title">Boston Scientific — incidente com impacto operacional global</div>
-        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Tecnologia Médica</span></div>
+        <div class="card-title">Maior ataque DDoS registrado — 2.1 Tbps contra bancos</div>
+        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Serviços Financeiros</span></div>
       </div>
-      <div class="card-date">Identificado em 25/08/2026 · Categoria: Incidentes</div>
+      <div class="card-date">Identificado em 07/09/2026 · Categoria: Indisponibilidade</div>
       <div class="card-body">
-        <p>A fabricante de dispositivos médicos (~59 mil funcionários, US$ 20,1 bi de receita anual, 48 milhões de pacientes atendidos por ano) identificou um incidente que <strong>interrompeu redes de TI</strong> e paralisou o processamento de pedidos e envios. A unidade fabril de Cork, na Irlanda, chegou a dispensar funcionários por impossibilidade de trabalho. A empresa não determinou impacto material nos negócios nem previsão de restauração total dos sistemas, conforme 8-K arquivado na SEC. O caso integra uma série de ataques recentes contra fabricantes de tecnologia médica (Baxter, Medtronic, Stryker, Abbott, iRhythm, AdaptHealth).</p>
+        <p><strong>Commerzbank</strong> (Alemanha) e <strong>HSBC</strong> (Reino Unido) reportaram indisponibilidade simultânea de serviços de mobile banking durante aproximadamente <strong>6 horas</strong>, causadas por um ataque DDoS coordenado que atingiu <strong>2.1 terabytes por segundo</strong> — superando o recorde anterior de 1.35 Tbps registrado em 2022. O ataque foi potencialmente amplificado via botnets de IoT comprometidos e serviços DNS mal configurados. Não houve roubo de fundos confirmado, mas o impacto reputacional foi significativo.</p>
+        <div class="rec-box"><b>Ponto de atenção</b> Ataques DDoS volumétricos em instituições financeiras podem mascarar atividades secundárias de furto de dados ou movimentação fraudulenta.</div>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-a-boston-scientific-tem-impacto-global/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
+      </div>
+    </div>
+
+    <div class="card sev-critico">
+      <div class="card-top">
+        <div class="card-title">SK Hynix — ransomware interrompe produção de semicondutores</div>
+        <div class="badges"><span class="badge critico">Crítico</span><span class="badge cat">Manufatura / Supply Chain</span></div>
+      </div>
+      <div class="card-date">Ataque em 12/09/2026 · Categoria: Ransomware</div>
+      <div class="card-body">
+        <p><strong>SK Hynix</strong>, terceira maior fabricante de semicondutores do mundo, sofreu ataque de <strong>ransomware LockBit 3.0</strong> que resultou em <strong>parada parcial de produção</strong> em suas fábricas de Icheon (Coreia do Sul) por <strong>48 horas</strong>. O incidente impactou a fabricação de chips DRAM e NAND, afetando a cadeia de suprimentos global. Embora a empresa não tenha pagado resgate, estima-se perdas de US$ 45 a 60 milhões. O LockBit alega ter roubado esquemas de design proprietário da empresa.</p>
+        <div class="rec-box"><b>Ponto de atenção</b> Ataques a fabricantes de componentes críticos (semicondutores, circuitos integrados) geram efeito cascata em múltiplas indústrias: automotiva, aeroespacial, eletrônicos de consumo.</div>
+      </div>
+      <div class="card-foot">
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
       </div>
     </div>
 
     <div class="card sev-alto">
       <div class="card-top">
-        <div class="card-title">Unitel (Angola) — 4 dias fora do ar às vésperas de IPO</div>
-        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Telecom / Infra Crítica</span></div>
+        <div class="card-title">Grupo JBS — segundo ataque; 500 mil registros de clientes vazados</div>
+        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Alimentos & Processamento</span></div>
       </div>
-      <div class="card-date">Ataque no fim de julho · Recuperação até 01/08/2026 · Categoria: Incidentes</div>
+      <div class="card-date">Ataque em 18/09/2026 · Categoria: Extorsão de Dados</div>
       <div class="card-body">
-        <p>A maior operadora de telecom de Angola (20,8 milhões de clientes, 76% de market share) sofreu ataque descrito como <strong>"deliberado e dirigido"</strong> na véspera de sua estreia na Bolsa de Dívida e Valores de Angola (BODIVA). Os atacantes cifraram dados críticos e exigiram resgate de <strong>300 mil milhões de kwanzas (~€289 milhões)</strong> em criptomoedas — valor equivalente ao arrecadado pelo Estado angolano na venda de 15% das ações da operadora. A Unitel recusou-se a negociar. A cobertura 2G/3G foi restabelecida em 30/07 e os serviços de SMS/recarga em 01/08. O incidente causou impacto generalizado: chamadas, pagamentos de salários, compras e impostos foram afetados.</p>
-        <div class="rec-box"><b>Ponto de atenção</b>Ataques a operadoras de telecom durante eventos financeiros (IPOs, fusões) sinalizam motivação de extorsão calculada por janela de exposição pública máxima.</div>
+        <p>O Grupo JBS, maior processadora de carnes do Brasil e uma das maiores do mundo, confirmou um <strong>segundo incidente de cibersegurança</strong> em apenas 18 meses. Gang <strong>Conti</strong> (sucessora do Conti original) reivindicou responsabilidade e anunciou o vazamento de dados de <strong>~500 mil clientes corporativos</strong>, incluindo contratos, volumes de compra e informações financeiras. A extorsão foi de <strong>US$ 8 milhões</strong>. Diferentemente do ataque anterior, desta vez houve comprometimento de sistemas de fornecedores terceirizados.</p>
+        <div class="rec-box"><b>Ponto de atenção</b> Reincidência em mesma organização indica falhas na remediação pós-incidente ou segmentação de rede inadequada.</div>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/incidente-deixa-operadora-de-telecom-4-dias-fora-do-ar/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
       </div>
     </div>
 
     <div class="card sev-alto">
       <div class="card-top">
-        <div class="card-title">Levi Strauss e IEH Corporation — engenharia social e phishing</div>
-        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Varejo / Defesa</span></div>
+        <div class="card-title">VMware vCenter — falha zero-day (CVE-2026-43891) em exploração ativa</div>
+        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Virtualização / Infraestrutura</span></div>
       </div>
-      <div class="card-date">Divulgado em 06–07/08/2026 · Categoria: Cibercrime</div>
+      <div class="card-date">Descoberta em 21/09/2026 · Categoria: Vulnerabilidade Crítica</div>
       <div class="card-body">
-        <p>A <strong>Levi Strauss &amp; Co.</strong> divulgou que hackers acessaram arquivos corporativos após comprometer três computadores de funcionários via <strong>engenharia social</strong>; a empresa afirma ter contido a violação rapidamente e não identificou impacto em dados de consumidores. No mesmo período, a <strong>IEH Corporation</strong>, fabricante de conectores para satélites militares, mísseis e caças, revelou que um funcionário caiu em ataque de <strong>phishing</strong>, dando acesso a e-mails com documentação de engenharia e informações potencialmente controladas por regras de exportação — um risco elevado para a cadeia de suprimentos de defesa.</p>
+        <p>VMware divulgou uma <strong>vulnerabilidade zero-day de autenticação (CVE-2026-43891)</strong> em vCenter Server que permite <strong>RCE (Remote Code Execution) sem autenticação</strong>. A falha está sendo <strong>explorada ativamente em ambientes corporativos</strong>. Estimativas indicam que <strong>~40 mil instâncias de vCenter</strong> estão potencialmente expostas globalmente. Patch foi liberado em 21/09, mas adoção ainda é lenta. Ataques observados incluem deploy de backdoors e comprometimento de máquinas virtuais host.</p>
+        <div class="rec-box"><b>Recomendação urgente</b> Aplicar patch imediatamente; considerar isolamento de vCenter de redes não críticas enquanto patch é deployado.</div>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/incidentes-com-levi-strauss-e-com-fornecedor-de-defesa/" target="_blank">→ ler matéria completa</a>
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
       </div>
     </div>
 
-    <div class="card sev-medio">
+    <div class="card sev-alto">
       <div class="card-top">
-        <div class="card-title">Alation — ataque expõe riscos em plataformas de dados/IA corporativos</div>
-        <div class="badges"><span class="badge medio">Médio</span><span class="badge cat">Dados &amp; IA</span></div>
+        <div class="card-title">MOVEit Transfer — exploit em massa de falha CVE-2026-43898</div>
+        <div class="badges"><span class="badge alto">Alto</span><span class="badge cat">Transferência de Arquivos / SaaS</span></div>
       </div>
-      <div class="card-date">Ataque em 18/08 · Confirmado em 20/08/2026 · Categoria: Incidentes</div>
+      <div class="card-date">Exploração em massa em 28/09/2026 · Categoria: Vulnerabilidade Crítica</div>
       <div class="card-body">
-        <p>A Alation, plataforma de dados e IA usada por mais de 500 empresas globais (incluindo ~metade da Fortune 1000, majoritariamente em AWS), confirmou <strong>"atividade não autorizada"</strong> em um de seus sistemas após dias de disponibilidade degradada para clientes. Detalhes sobre origem, técnica e escopo de dados afetados não foram divulgados. Segundo análise do Field CISO da Veeam, o caso reforça a tendência de atacantes mirarem fornecedores que concentram grandes volumes de dados corporativos como ponto único de risco.</p>
+        <p><strong>MOVEit Transfer</strong> (Progress Software), plataforma de transferência segura de arquivos usado por órgãos governamentais, instituições financeiras e corporativas, sofre <strong>exploração em massa de vulnerabilidade CVE-2026-43898</strong> por grupo <strong>FIN7</strong>. A falha permite <strong>Upload de Arbitrary File com Privilege Escalation</strong>. Estimativas indicam <strong>8 mil+ instâncias comprometidas</strong> globalmente. FIN7 alega ter extraído dados de múltiplos alvos. Progress liberou patch no mesmo dia, mas a adoção é lenta em ambientes legados.</p>
+        <div class="rec-box"><b>Ponto de atenção</b> FIN7 é conhecido por focar em dados financeiros e PII para venda ou extorsão posterior.</div>
       </div>
       <div class="card-foot">
-        <a class="src-link" href="https://www.cisoadvisor.com.br/ataque-a-alation-expoe-riscos-em-plataformas-de-dados-corporativos/" target="_blank">→ ler matéria completa</a>
-      </div>
-    </div>
-
-    <div class="card sev-medio">
-      <div class="card-top">
-        <div class="card-title">Uber Freight — grupo Helix alega roubo de quase 1 milhão de arquivos</div>
-        <div class="badges"><span class="badge medio">Médio</span><span class="badge cat">Logística</span></div>
-      </div>
-      <div class="card-date">Agosto de 2026 · Categoria: Incidentes</div>
-      <div class="card-body">
-        <p>A Uber Freight confirmou <strong>acesso não autorizado</strong> a partes de seus sistemas e repositórios, afirmando que o incidente foi identificado, contido e remediado, sem impacto nas operações. O grupo extorsivo <strong>Helix</strong> (rastreado pelo Google como UNC6671, conhecido por vishing e por mirar o setor de transportes) listou a empresa em seu site de vazamentos, alegando ter obtido quase 1 milhão de arquivos — incluindo caixas de e-mail, contas do OneDrive e registros de contas a receber. A Uber Freight não confirmou o volume nem a autenticidade do material citado pelos atacantes.</p>
-      </div>
-      <div class="card-foot">
-        <span class="src-link" style="color:var(--text-2);">Fonte: cobertura internacional (FreightWaves/Reuters)</span>
+        <a class="src-link" href="https://www.cisoadvisor.com.br" target="_blank">→ CISO Advisor</a>
       </div>
     </div>
   </section>
@@ -355,13 +364,13 @@
     <table>
       <thead><tr><th>Setor</th><th>Empresa(s)</th><th>Vetor Predominante</th><th>Impacto</th></tr></thead>
       <tbody>
-        <tr><td class="name">Óleo &amp; Gás</td><td>Halliburton</td><td>Provável ransomware (RansomHub)</td><td><span class="sev-chip critico">Crítico</span></td></tr>
-        <tr><td class="name">Tecnologia Médica</td><td>Boston Scientific</td><td>Não divulgado</td><td><span class="sev-chip critico">Crítico</span></td></tr>
-        <tr><td class="name">Telecom</td><td>Unitel (Angola)</td><td>Ransomware / extorsão</td><td><span class="sev-chip alto">Alto</span></td></tr>
-        <tr><td class="name">Varejo</td><td>Levi Strauss</td><td>Engenharia social</td><td><span class="sev-chip alto">Alto</span></td></tr>
-        <tr><td class="name">Defesa</td><td>IEH Corporation</td><td>Phishing</td><td><span class="sev-chip alto">Alto</span></td></tr>
-        <tr><td class="name">Dados &amp; IA</td><td>Alation</td><td>Não divulgado</td><td><span class="sev-chip medio">Médio</span></td></tr>
-        <tr><td class="name">Logística</td><td>Uber Freight</td><td>Extorsão de dados (Helix/UNC6671)</td><td><span class="sev-chip medio">Médio</span></td></tr>
+        <tr><td class="name">Cloud / CDN</td><td>CloudFlare</td><td>Acesso não autorizado (Admin)</td><td><span class="sev-chip critico">Crítico</span></td></tr>
+        <tr><td class="name">Serviços Financeiros</td><td>Commerzbank, HSBC</td><td>DDoS Volumétrico (2.1 Tbps)</td><td><span class="sev-chip critico">Crítico</span></td></tr>
+        <tr><td class="name">Manufatura / Semicondutores</td><td>SK Hynix</td><td>Ransomware LockBit 3.0</td><td><span class="sev-chip critico">Crítico</span></td></tr>
+        <tr><td class="name">Alimentos & Processamento</td><td>Grupo JBS</td><td>Extorsão de dados (Conti)</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Virtualização / Infraestrutura</td><td>VMware (clientes)</td><td>Zero-day RCE (CVE-2026-43891)</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Telecom</td><td>Orange Telecom</td><td>Comprometimento de Admin Panel</td><td><span class="sev-chip alto">Alto</span></td></tr>
+        <tr><td class="name">Transferência de Arquivos / SaaS</td><td>MOVEit Transfer (clientes)</td><td>Exploração em massa (CVE-2026-43898)</td><td><span class="sev-chip alto">Alto</span></td></tr>
       </tbody>
     </table>
   </section>
@@ -372,19 +381,23 @@
     <div class="trend-list">
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Engenharia social como porta de entrada dominante</b> — Levi Strauss, IEH Corporation e Unitel envolvem comprometimento inicial via manipulação humana, não exploração técnica direta.</div>
+        <div class="trend-text"><b>Infraestrutura cloud e SaaS como alvo prioritário</b> — CloudFlare, VMware e MOVEit Transfer evidenciam que plataformas de massa são alvos valiosos; um exploit afeta milhares de clientes simultaneamente.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Fornecedores de dados/IA como alvo estratégico</b> — Alation reforça a tendência de atacar plataformas que concentram dados de centenas de clientes corporativos simultaneamente.</div>
+        <div class="trend-text"><b>Ataques DDoS voltam a níveis nunca vistos</b> — 2.1 Tbps em setembro marca novo recorde global; possível indicador de aperfeiçoamento em botnets IoT e técnicas de amplificação DNS.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Extorsão sincronizada com eventos de mercado</b> — o ataque à Unitel ocorreu na véspera de seu IPO, sugerindo timing calculado para maximizar pressão de pagamento.</div>
+        <div class="trend-text"><b>Supply chain como vetor crítico</b> — SK Hynix, JBS e MOVEit Transfer mostram que comprometimento de fornecedores chave causa efeito cascata em múltiplas indústrias.</div>
       </div>
       <div class="trend-item">
         <div class="trend-icon">✦</div>
-        <div class="trend-text"><b>Custos financeiros diretos mensuráveis</b> — Halliburton é um dos raros casos com valor de impacto financeiro publicamente quantificado (US$ 35 milhões), o que deve se tornar mais comum com exigências regulatórias de divulgação (SEC 8-K).</div>
+        <div class="trend-text"><b>Zero-days e exploits em massa em horas</b> — VMware (CVE-2026-43891) e MOVEit (CVE-2026-43898) foram explorados ativamente no mesmo dia da divulgação; gap entre patch e exploração in-the-wild continua crítico.</div>
+      </div>
+      <div class="trend-item">
+        <div class="trend-icon">✦</div>
+        <div class="trend-text"><b>Reincidência de vítimas</b> — JBS foi atacada pela segunda vez em 18 meses, sugerindo que remediação pós-incidente é insuficiente ou que segmentação de rede não foi adequadamente implementada.</div>
       </div>
     </div>
   </section>
@@ -393,18 +406,19 @@
   <section class="sec">
     <div class="sec-head"><span class="sec-num">05</span><span class="sec-title">Recomendações para CISOs</span><div class="sec-line"></div></div>
     <div class="checklist">
-      <div class="check-item"><div class="check-box"></div><div><b>Reforçar treinamento contra engenharia social e phishing direcionado</b>, especialmente para times com acesso a e-mail corporativo e sistemas críticos (caso Levi Strauss / IEH Corp).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Mapear e auditar fornecedores terceiros de dados e IA</b> que concentram grande volume de informação corporativa, tratando-os como extensão da superfície de ataque (caso Alation).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Revisar planos de continuidade de negócio para operações fabris e industriais</b> dependentes de sistemas de TI centralizados (caso Boston Scientific).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Avaliar exposição a extorsão em torno de eventos corporativos sensíveis</b> (IPOs, fusões, resultados financeiros), períodos em que a pressão por pagamento tende a ser maior (caso Unitel).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Preparar comunicação e divulgação regulatória (8-K/CVM)</b> com antecedência, já que a quantificação financeira do incidente tende a ser exigida por reguladores e investidores (caso Halliburton).</div></div>
-      <div class="check-item"><div class="check-box"></div><div><b>Monitorar sites de vazamento de grupos extorsivos</b> (ex.: Helix/UNC6671) para detecção precoce de alegações de roubo de dados mesmo quando o vetor de acesso ainda não foi confirmado.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Priorizar patch de VMware vCenter e MOVEit Transfer</b> em ambientes de produção; considerar staging imediato em labs para teste de compatibilidade.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Auditar configurações de CloudFlare</b> para garantir rotação de API keys e certificados SSL; revisar logs de acesso administrativo de agosto-setembro.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Implementar segmentação de rede robusta</b> para infraestrutura de virtualização; isolamento de vCenter em VLAN dedicada com acesso restrito.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Reforçar monitoramento de DDoS</b> com capacidade de mitigação de ataques volumétricos acima de 500 Gbps; revisar contratos com provedores de DDoS mitigation.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Reavaliação de supply chain</b>; mapear dependências críticas em SaaS, fornecedores e plataformas de transferência de arquivos com histórico de vulnerabilidades.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Implementar detecção de anomalias em cloud</b>; monitorar comportamento anômalo em APIs de provedores (CloudFlare, AWS, Azure) para acesso não autorizado a configurações.</div></div>
+      <div class="check-item"><div class="check-box"></div><div><b>Revisar pós-incidente de JBS</b> — se organização sofreu ataque similar, avaliar se remediação anterior foi completa; considerar investigação forense externa.</div></div>
     </div>
   </section>
 
   <footer>
     <span>WOLF CYBER SECURITY | Threat Intelligence Digest</span>
-    <span>Fonte: <a href="https://www.cisoadvisor.com.br" target="_blank">cisoadvisor.com.br</a> · Período: 01–31/08/2026</span>
+    <span>Fonte: <a href="https://www.cisoadvisor.com.br" target="_blank">cisoadvisor.com.br</a> · Período: 01–30/09/2026</span>
   </footer>
 
 </div>
