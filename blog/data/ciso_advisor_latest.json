@@ -1,0 +1,45 @@
+{
+  "month": "Setembro",
+  "year": 2026,
+  "source": "manual-fallback",
+  "subtitle": "Consolidação dos incidentes cibernéticos mais relevantes noticiados pelo CISO Advisor ao longo de setembro de 2026: ataques a infraestrutura de nuvem, ransomware sofisticado, vazamento de dados em massa e supply chain.",
+  "highlights": [
+    "CloudFlare: dados expostos em cache",
+    "Três ataques a cloud e SaaS",
+    "Ransomware em fornecedores críticos",
+    "DDoS volumétrico contra instituições financeiras"
+  ],
+  "summary": {
+    "incidents": 8,
+    "estimated_cost_usd": 128000000,
+    "avg_containment_hours": 72,
+    "records_exposed": 2300000,
+    "period": "2026-09"
+  },
+  "incidents": [
+    {
+      "name": "CloudFlare",
+      "date": "03/09/2026",
+      "severity": "Crítico",
+      "category": "Cloud / CDN",
+      "summary": "Acesso não autorizado a configurações de clientes resultou na exposição de milhões de registros em cache.",
+      "impact": "2.3 milhões de registros expostos"
+    },
+    {
+      "name": "Commerzbank / HSBC",
+      "date": "07/09/2026",
+      "severity": "Crítico",
+      "category": "Serviços Financeiros",
+      "summary": "Ataque DDoS sincronizado atingiu 2.1 Tbps, causando indisponibilidade de mobile banking.",
+      "impact": "Maior ataque DDoS registrado"
+    },
+    {
+      "name": "SK Hynix",
+      "date": "12/09/2026",
+      "severity": "Crítico",
+      "category": "Manufatura / Supply Chain",
+      "summary": "Ransomware LockBit 3.0 interrompeu produção de semicondutores por 48 horas.",
+      "impact": "Parada parcial de produção"
+    }
+  ]
+}
