@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Alves | Cibersegurança, DevSecOps e automação</title>
+<meta name="description" content="Portfólio de Daniel Alves, analista de TI com foco em cibersegurança e DevSecOps. Ferramentas de auditoria, OSINT e automação em Python, Shell e PowerShell.">
+<meta name="theme-color" content="#0a1220">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Daniel Alves">
+<meta property="og:title" content="Daniel Alves | Cibersegurança, DevSecOps e automação">
+<meta property="og:description" content="Ferramentas de auditoria, OSINT e automação em Python, Shell e PowerShell.">
+<meta property="og:url" content="https://w3bscr4p3r.github.io/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://w3bscr4p3r.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a1220'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' text-anchor='middle' fill='%2322d3ee'%3Ew3%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a1220;
+  --bg-deep: #07101c;
+  --surface: #0e1a2d;
+  --surface-2: #132339;
+  --line: #243a5c;
+  --line-soft: #1a2c48;
+  --text: #d8e4f4;
+  --muted: #8ca3c0;
+  --cyan: #22d3ee;
+  --red: #f26b6b;
+  --amber: #f5b84a;
+  --steel: #7ea3d6;
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --wrap: 1120px;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-padding-top: 4.5rem; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+a { color: var(--cyan); text-underline-offset: 3px; }
+a:hover { color: #7be7f7; }
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 3px; }
+
+h1, h2, h3 { margin: 0; font-weight: 600; line-height: 1.12; letter-spacing: -0.02em; }
+p { margin: 0; }
+ul, dl, dd { margin: 0; padding: 0; }
+li { list-style: none; }
+
+.wrap { width: min(var(--wrap), calc(100% - 2.5rem)); margin-inline: auto; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+.skip {
+  position: absolute; left: 1rem; top: -4rem; z-index: 20;
+  background: var(--cyan); color: #04202a; padding: .6rem 1rem; border-radius: 6px;
+  font-weight: 500; text-decoration: none;
+}
+.skip:focus { top: 1rem; }
+
+/* ---------- Cabeçalho ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(10, 18, 32, .9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.site-header .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; min-height: 3.5rem;
+}
+.brand {
+  font-family: var(--font-mono); font-weight: 700; font-size: .95rem;
+  color: var(--text); text-decoration: none;
+}
+.brand:hover { color: var(--cyan); }
+.nav { display: flex; gap: 1.5rem; font-size: .95rem; }
+.nav a { color: var(--muted); text-decoration: none; }
+.nav a:hover { color: var(--text); }
+
+/* ---------- Seções ---------- */
+.section { padding-block: clamp(3.25rem, 8vw, 5.5rem); }
+.section-head { max-width: 40rem; margin-bottom: 2.25rem; }
+.section-head h2 { font-size: clamp(1.75rem, 3.6vw, 2.35rem); margin-bottom: .75rem; }
+.section-head p { color: var(--muted); }
+
+/* ---------- Hero ---------- */
+.hero { padding-block: clamp(3rem, 9vw, 6.5rem) clamp(2.5rem, 6vw, 4.5rem); }
+.hero .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+.hero h1 {
+  font-size: clamp(2.9rem, 7.4vw, 5.4rem);
+  line-height: .98;
+  letter-spacing: -0.035em;
+  margin-bottom: 1.5rem;
+}
+.hero .lead { max-width: 33rem; font-size: 1.2rem; color: var(--muted); margin-bottom: 2rem; }
+.hero .lead strong { color: var(--text); font-weight: 500; }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: .72rem 1.25rem; border-radius: 6px; font-weight: 500;
+  text-decoration: none; border: 1px solid transparent; font-size: 1rem;
+}
+.btn-primary { background: var(--cyan); color: #04202a; }
+.btn-primary:hover { background: #7be7f7; color: #04202a; }
+.btn-ghost { border-color: var(--line); color: var(--text); }
+.btn-ghost:hover { border-color: var(--cyan); color: var(--text); }
+
+/* Terminal */
+.terminal {
+  background: var(--bg-deep);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.terminal-bar {
+  padding: .6rem 1.1rem;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--surface);
+  font: 400 .78rem var(--font-mono);
+  color: var(--muted);
+}
+.terminal-body { padding: 1.15rem 1.25rem 1.3rem; font: 400 .88rem/1.8 var(--font-mono); }
+.ln { white-space: pre-wrap; overflow-wrap: anywhere; }
+.ln[hidden] { display: none; }
+.ln .ps { color: var(--cyan); margin-right: .6ch; }
+.ln.cmd { color: var(--text); margin-top: .55rem; }
+.ln.cmd:first-child { margin-top: 0; }
+.ln.out { color: var(--muted); }
+.ln.out a { color: var(--cyan); }
+.ln .k { color: var(--steel); }
+
+.cursor {
+  display: inline-block; width: .55em; height: 1.05em;
+  background: var(--cyan); vertical-align: text-bottom; margin-left: 2px;
+  animation: blink 1.1s steps(1) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+
+/* ---------- Sobre ---------- */
+.about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); }
+.about-text { display: grid; gap: 1.1rem; max-width: 34rem; }
+.facts { border-top: 1px solid var(--line); }
+.facts > div {
+  display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 1rem;
+  padding: .95rem 0; border-bottom: 1px solid var(--line-soft);
+}
+.facts dt { color: var(--muted); font-size: .95rem; }
+.facts dd { color: var(--text); }
+
+/* ---------- Projetos ---------- */
+.legend { display: flex; flex-wrap: wrap; gap: .6rem 1.75rem; margin-bottom: 2rem; font-size: .92rem; color: var(--muted); }
+.legend li { display: inline-flex; align-items: center; }
+
+.tag {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font: 500 .8rem var(--font-mono); white-space: nowrap;
+}
+.tag::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: currentColor; }
+.tag-cyan { color: var(--cyan); }
+.tag-amber { color: var(--amber); }
+.tag-red { color: var(--red); }
+.tag-steel { color: var(--steel); }
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.panel + .panel, .panel + .duo, .duo + .panel { margin-top: 1.5rem; }
+.panel-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: .75rem 1.5rem; padding: 1.5rem;
+  background: var(--surface-2); border-bottom: 1px solid var(--line);
+}
+.panel-head h3 { font-size: 1.6rem; }
+.panel-head h3 a { color: var(--text); text-decoration: none; }
+.panel-head h3 a:hover { color: var(--cyan); }
+.panel-head .repo-link { font-size: .95rem; }
+.panel-intro { padding: 1.25rem 1.5rem 0; color: var(--muted); max-width: 46rem; }
+.panel-note {
+  padding: 1.1rem 1.5rem 1.35rem; font-size: .9rem; color: var(--muted);
+  border-top: 1px solid var(--line-soft);
+}
+
+.tools { width: 100%; border-collapse: collapse; margin-top: 1.25rem; }
+.tools th {
+  text-align: left; font: 500 .78rem var(--font-mono); color: var(--muted);
+  padding: .7rem 1.5rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+}
+.tools td { padding: .95rem 1.5rem; vertical-align: top; border-top: 1px solid var(--line-soft); }
+.tools tbody tr:first-child td { border-top: 0; }
+.tools td:first-child { font: 500 .88rem/1.5 var(--font-mono); white-space: nowrap; }
+.tools td:nth-child(2) { color: var(--muted); max-width: 52ch; }
+
+.duo {
+  display: grid; gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+}
+.duo > .panel { margin-top: 0; }
+.duo .panel-head h3 { font-size: 1.35rem; }
+
+.items li { padding: 1rem 1.5rem; border-top: 1px solid var(--line-soft); }
+.items li:first-child { border-top: 0; }
+.items .name { display: block; font: 500 .88rem/1.5 var(--font-mono); margin-bottom: .2rem; overflow-wrap: anywhere; }
+.items .desc { display: block; color: var(--muted); font-size: .97rem; }
+.items-spaced { padding-top: .5rem; }
+
+.cells {
+  display: grid; gap: 1px; background: var(--line-soft);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  margin-top: 1.25rem; border-top: 1px solid var(--line-soft);
+}
+.cell { background: var(--surface); padding: 1.25rem 1.5rem 1.4rem; }
+.cell .name { font: 500 1rem var(--font-mono); margin-bottom: .45rem; display: block; }
+.cell .tag { margin-bottom: .65rem; }
+.cell p { color: var(--muted); font-size: .97rem; }
+
+/* ---------- Stack ---------- */
+.stack { border-top: 1px solid var(--line); }
+.stack > div {
+  display: grid; grid-template-columns: 12rem minmax(0, 1fr); gap: 1rem 1.5rem;
+  padding: 1.15rem 0; border-bottom: 1px solid var(--line-soft);
+}
+.stack dt { color: var(--muted); }
+.stack dd { display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip {
+  font: 400 .82rem var(--font-mono); padding: .28rem .65rem;
+  border: 1px solid var(--line); border-radius: 4px; color: var(--text);
+}
+
+/* ---------- Contato ---------- */
+.contact-list { border-top: 1px solid var(--line); max-width: 34rem; }
+.contact-list li {
+  display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1rem;
+  padding: 1rem 0; border-bottom: 1px solid var(--line-soft);
+}
+.contact-list span { color: var(--muted); }
+.contact-list a { overflow-wrap: anywhere; }
+
+.site-footer { border-top: 1px solid var(--line-soft); padding-block: 2rem 2.5rem; color: var(--muted); font-size: .9rem; }
+.site-footer p + p { margin-top: .4rem; }
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 900px) {
+  .hero .wrap { grid-template-columns: minmax(0, 1fr); }
+  .about { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 760px) {
+  .nav { gap: 1rem; font-size: .9rem; }
+  .panel-head { padding: 1.25rem; }
+  .panel-intro { padding: 1.1rem 1.25rem 0; }
+  .panel-note { padding: 1rem 1.25rem 1.25rem; }
+  .items li { padding: .9rem 1.25rem; }
+  .cell { padding: 1.1rem 1.25rem 1.25rem; }
+
+  .tools thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);
+  }
+  .tools, .tools tbody, .tools tr, .tools td { display: block; }
+  .tools tr { padding: 1rem 1.25rem; border-top: 1px solid var(--line-soft); }
+  .tools tr:first-child { border-top: 0; }
+  .tools td { padding: .15rem 0; border-top: 0; }
+  .tools td:first-child { white-space: normal; overflow-wrap: anywhere; }
+  .tools td:nth-child(3) { padding-top: .45rem; }
+
+  .facts > div { grid-template-columns: 1fr; gap: .15rem; }
+  .stack > div { grid-template-columns: 1fr; gap: .6rem; }
+  .contact-list li { grid-template-columns: 1fr; gap: .15rem; }
+}
+
+@media (max-width: 480px) {
+  .nav a:nth-child(3) { display: none; }
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#topo">w3bscr4p3r</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- Hero -->
+  <section class="hero" id="topo">
+    <div class="wrap">
+      <div>
+        <h1>Daniel Alves</h1>
+        <p class="lead">Analista de TI com foco em <strong>cibersegurança e DevSecOps</strong>. Escrevo ferramentas de auditoria, OSINT e automação em Python, Shell e PowerShell.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn btn-ghost" href="https://github.com/w3bscr4p3r" rel="noopener">Abrir GitHub</a>
+        </div>
+      </div>
+
+      <div class="terminal" role="group" aria-label="Resumo do perfil em formato de terminal">
+        <div class="terminal-bar">w3bscr4p3r@portfolio:~</div>
+        <div class="terminal-body" id="term">
+          <p class="ln cmd"><span class="ps">$</span><span class="txt">whoami</span></p>
+          <p class="ln out">daniel alves (w3bscr4p3r)</p>
+          <p class="ln cmd"><span class="ps">$</span><span class="txt">cat perfil.txt</span></p>
+          <p class="ln out"><span class="k">cargo:</span> analista de TI
+<span class="k">foco:</span> cibersegurança e DevSecOps
+<span class="k">formação:</span> MBA em Gestão de Cibersegurança</p>
+          <p class="ln cmd"><span class="ps">$</span><span class="txt">ls projetos/</span></p>
+          <p class="ln out"><a href="#devsecops">devsecops/</a>  <a href="#rpa">rpa/</a>  <a href="#shell-scripts">shell-scripts/</a>  <a href="#sherlock">sherlock-toolkit/</a></p>
+          <p class="ln cmd"><span class="ps">$</span><span class="txt"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Sobre</h2>
+      </div>
+      <div class="about">
+        <div class="about-text">
+          <p>Sou analista de TI e professor de Informática. Meu trabalho junta infraestrutura, desenvolvimento e segurança: scripts que verificam servidores, ferramentas que consultam fontes abertas e rotinas que tiram tarefas repetitivas do caminho.</p>
+          <p>Publico o que escrevo no GitHub, com instruções de instalação e uso, para que qualquer pessoa consiga rodar e adaptar.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Atuação</dt><dd>Analista de TI</dd></div>
+          <div><dt>Docência</dt><dd>Professor de Informática</dd></div>
+          <div><dt>Formação</dt><dd>MBA em Gestão de Cibersegurança e TADS, pela Estácio de Sá</dd></div>
+          <div><dt>Padrões e métodos</dt><dd>ISO 27001, Agile</dd></div>
+          <div><dt>Estudando</dt><dd>ESG, cibersegurança e inteligência artificial</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section class="section" id="projetos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Projetos</h2>
+        <p>Ferramentas para auditar sistemas, consultar fontes abertas e automatizar rotinas. A cor e o rótulo de cada item indicam o tipo de trabalho.</p>
+      </div>
+
+      <ul class="legend" aria-label="Legenda dos tipos">
+        <li><span class="tag tag-cyan">Auditoria</span></li>
+        <li><span class="tag tag-amber">OSINT</span></li>
+        <li><span class="tag tag-red">Teste de vulnerabilidade</span></li>
+        <li><span class="tag tag-steel">Automação</span></li>
+      </ul>
+
+      <!-- DevSecOps -->
+      <article class="panel" id="devsecops">
+        <div class="panel-head">
+          <h3><a href="https://github.com/w3bscr4p3r/DevSecOps" rel="noopener">DevSecOps</a></h3>
+          <a class="repo-link" href="https://github.com/w3bscr4p3r/DevSecOps" rel="noopener">Ver no GitHub</a>
+        </div>
+        <p class="panel-intro">Conjunto de ferramentas de auditoria de segurança, OSINT e análise de vulnerabilidades em Python, Bash e PowerShell. Licença GPL-3.0.</p>
+        <table class="tools">
+          <caption class="sr-only">Ferramentas do repositório DevSecOps</caption>
+          <thead>
+            <tr><th scope="col">Ferramenta</th><th scope="col">O que faz</th><th scope="col">Tipo</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ip_analyzer_v2.py</td>
+              <td>Consulta a reputação de IPs no AbuseIPDB e no Shodan, com interface gráfica em PySimpleGUI e histórico em SQLite.</td>
+              <td><span class="tag tag-amber">OSINT</span></td>
+            </tr>
+            <tr>
+              <td>malicious_ip_finder_v2.py</td>
+              <td>Detecta IPs maliciosos pela API do Shodan, direto no terminal.</td>
+              <td><span class="tag tag-amber">OSINT</span></td>
+            </tr>
+            <tr>
+              <td>smb_vuln_detect.py</td>
+              <td>Identifica a versão do SMB (v1, v2 ou v3) e verifica vulnerabilidades como o EternalBlue.</td>
+              <td><span class="tag tag-red">Teste de vulnerabilidade</span></td>
+            </tr>
+            <tr>
+              <td>check_vuln_linux.sh</td>
+              <td>Scanner para várias distribuições Linux: atualizações pendentes, CVEs via Trivy e itens de hardening. Saída em JSON.</td>
+              <td><span class="tag tag-cyan">Auditoria</span></td>
+            </tr>
+            <tr>
+              <td>check_vuln_win.ps1</td>
+              <td>Auditoria do Windows 10/11: patches, firewall, Windows Defender, UAC, RDP e políticas. Saída em CSV ou HTML.</td>
+              <td><span class="tag tag-cyan">Auditoria</span></td>
+            </tr>
+            <tr>
+              <td>iis-security-audit.ps1</td>
+              <td>Auditoria de servidores IIS: protocolos SSL/TLS, headers de segurança, autenticação e logging.</td>
+              <td><span class="tag tag-cyan">Auditoria</span></td>
+            </tr>
+            <tr>
+              <td>SAST-DAST/toolkit.py</td>
+              <td>Análise estática com Bandit, verificação de dependências com Safety e módulo DAST que testa SQL injection e headers.</td>
+              <td><span class="tag tag-cyan">Auditoria</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="panel-note">Para testes autorizados, auditoria de sistemas próprios e fins educacionais. O uso em sistemas de terceiros sem autorização é ilegal.</p>
+      </article>
+
+      <!-- RPA e Shell-Scripts -->
+      <div class="duo">
+        <article class="panel" id="rpa">
+          <div class="panel-head">
+            <h3><a href="https://github.com/w3bscr4p3r/RPA" rel="noopener">RPA</a></h3>
+            <a class="repo-link" href="https://github.com/w3bscr4p3r/RPA" rel="noopener">Ver no GitHub</a>
+          </div>
+          <p class="panel-intro">Scripts de automação e produtividade em Python.</p>
+          <ul class="items items-spaced">
+            <li>
+              <span class="name">organizador_de_arquivos.py</span>
+              <span class="desc">Separa os arquivos de uma pasta por extensão, em pastas por categoria.</span>
+              <span class="tag tag-steel" style="margin-top:.5rem">Automação</span>
+            </li>
+            <li>
+              <span class="name">youtube_downloader.py</span>
+              <span class="desc">Interface gráfica para baixar vídeos e playlists, com escolha de resolução e conversão para MP3.</span>
+              <span class="tag tag-steel" style="margin-top:.5rem">Automação</span>
+            </li>
+            <li>
+              <span class="name">web_scraping.py</span>
+              <span class="desc">Extrai parágrafos de artigos da Wikipédia em português, com limite configurável.</span>
+              <span class="tag tag-steel" style="margin-top:.5rem">Automação</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="panel" id="shell-scripts">
+          <div class="panel-head">
+            <h3><a href="https://github.com/w3bscr4p3r/Shell-Scripts" rel="noopener">Shell-Scripts</a></h3>
+            <a class="repo-link" href="https://github.com/w3bscr4p3r/Shell-Scripts" rel="noopener">Ver no GitHub</a>
+          </div>
+          <p class="panel-intro">Coleção de scripts em Shell. Os arquivos e as instruções de uso estão no repositório.</p>
+        </article>
+      </div>
+
+      <!-- Sherlock Toolkit -->
+      <article class="panel" id="sherlock">
+        <div class="panel-head">
+          <h3>Sherlock Toolkit</h3>
+        </div>
+        <p class="panel-intro">Ferramentas de segurança em um único arquivo HTML, sem dependências de execução e com a mesma identidade visual.</p>
+        <div class="cells">
+          <div class="cell">
+            <span class="name">Auditor Estático</span>
+            <span class="tag tag-cyan">Auditoria</span>
+            <p>Analisador estático de código JavaScript (SAST) que roda inteiro no navegador.</p>
+          </div>
+          <div class="cell">
+            <span class="name">DAST Lab</span>
+            <span class="tag tag-red">Teste de vulnerabilidade</span>
+            <p>Laboratório para praticar testes dinâmicos de segurança (DAST) em ambiente controlado.</p>
+          </div>
+          <div class="cell">
+            <span class="name">ReconShell</span>
+            <span class="tag tag-amber">OSINT</span>
+            <p>Agregador de OSINT em que o alvo é informado na hora, sem configuração prévia.</p>
+          </div>
+          <div class="cell">
+            <span class="name">SherlockRecon</span>
+            <span class="tag tag-amber">OSINT</span>
+            <p>Scanner interativo de domínios: DNS sobre HTTPS, Mozilla Observatory, crt.sh, Google Dorks e um módulo de análise com a API da Anthropic.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Stack</h2>
+        <p>O que uso no dia a dia, agrupado por finalidade.</p>
+      </div>
+      <dl class="stack">
+        <div>
+          <dt>Linguagens</dt>
+          <dd><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">Shell</span><span class="chip">PowerShell</span><span class="chip">HTML5</span><span class="chip">CSS</span></dd>
+        </div>
+        <div>
+          <dt>Dados</dt>
+          <dd><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">SQLite</span></dd>
+        </div>
+        <div>
+          <dt>Segurança</dt>
+          <dd><span class="chip">Shodan</span><span class="chip">AbuseIPDB</span><span class="chip">Trivy</span><span class="chip">Bandit</span><span class="chip">Safety</span><span class="chip">ISO 27001</span></dd>
+        </div>
+        <div>
+          <dt>Infraestrutura</dt>
+          <dd><span class="chip">Linux</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">GitHub</span></dd>
+        </div>
+        <div>
+          <dt>Ferramentas</dt>
+          <dd><span class="chip">VS Code</span><span class="chip">Postman</span><span class="chip">Insomnia</span><span class="chip">Trello</span></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section" id="contato">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Contato</h2>
+        <p>Para conversar sobre segurança, DevSecOps e automação, escolha o canal que preferir.</p>
+      </div>
+      <ul class="contact-list">
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/daniel-moura-alves" rel="noopener">linkedin.com/in/daniel-moura-alves</a></li>
+        <li><span>GitHub</span><a href="https://github.com/w3bscr4p3r" rel="noopener">github.com/w3bscr4p3r</a></li>
+        <li><span>E-mail</span><a id="mail" href="#contato">Ative o JavaScript para ver o e-mail</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="ano">2026</span> Daniel Alves.</p>
+    <p>As ferramentas de segurança são publicadas para uso autorizado e fins educacionais.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  // E-mail montado no navegador para não ficar exposto no HTML.
+  var mail = document.getElementById('mail');
+  if (mail) {
+    var addr = ['danielmoura.tech', 'gmail.com'].join('@');
+    mail.href = 'mailto:' + addr;
+    mail.textContent = addr;
+  }
+
+  var year = document.getElementById('ano');
+  if (year) year.textContent = new Date().getFullYear();
+
+  // Terminal: digita os comandos uma única vez ao carregar a página.
+  var term = document.getElementById('term');
+  if (!term) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  var lines = Array.prototype.slice.call(term.querySelectorAll('.ln'));
+  term.style.minHeight = term.offsetHeight + 'px';
+
+  lines.forEach(function (line) {
+    if (line.classList.contains('cmd')) {
+      var txt = line.querySelector('.txt');
+      txt.setAttribute('data-full', txt.textContent);
+      txt.textContent = '';
+    }
+    line.hidden = true;
+  });
+
+  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  var cursor = document.createElement('span');
+  cursor.className = 'cursor';
+  cursor.setAttribute('aria-hidden', 'true');
+
+  async function play() {
+    await sleep(350);
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i];
+      line.hidden = false;
+      if (line.classList.contains('cmd')) {
+        var txt = line.querySelector('.txt');
+        var full = txt.getAttribute('data-full');
+        txt.after(cursor);
+        for (var c = 1; c <= full.length; c++) {
+          txt.textContent = full.slice(0, c);
+          await sleep(42);
+        }
+        if (full.length) await sleep(280);
+      } else {
+        await sleep(140);
+      }
+    }
+  }
+
+  play();
+})();
+</script>
+</body>
+</html>
