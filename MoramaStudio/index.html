@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11110f" />
+
+  <title>MORAMA studio | ArchViz e Design Imobiliário</title>
+  <meta name="description" content="ArchViz, imagens 3D, Tour 360°, plantas humanizadas e design imobiliário para construtoras, incorporadoras, arquitetos e engenheiros." />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:title" content="MORAMA studio | Visualize. Encante. Venda." />
+  <meta property="og:description" content="Experiências visuais que transformam projetos em desejo, clareza e valor percebido." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --ink:#11110f;
+      --ink-2:#1b1b18;
+      --paper:#f3efe7;
+      --paper-2:#faf8f3;
+      --line:rgba(17,17,15,.12);
+      --muted:#6f6c65;
+      --accent:#b66f41;
+      --accent-2:#d49a70;
+      --white:#fff;
+      --shadow:0 24px 70px rgba(24,20,15,.12);
+      --radius:24px;
+      --container:min(1180px, calc(100% - 40px));
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:"DM Sans",system-ui,-apple-system,sans-serif;
+      color:var(--ink);
+      background:var(--paper-2);
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    button,input,textarea,select{font:inherit}
+    .container{width:var(--container);margin-inline:auto}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:10px;
+      font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+      color:var(--accent);
+    }
+    .eyebrow::before{content:"";width:30px;height:1px;background:currentColor}
+    h1,h2,h3{font-family:"Manrope",sans-serif;line-height:1.05;margin:0}
+    h2{font-size:clamp(2rem,4vw,4rem);letter-spacing:-.045em}
+    p{margin:0}
+    .muted{color:var(--muted)}
+
+    /* Header */
+    header{
+      position:fixed;inset:0 0 auto 0;z-index:50;
+      background:rgba(250,248,243,.83);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid transparent;
+      transition:.25s ease;
+    }
+    header.scrolled{border-color:var(--line)}
+    .nav{
+      width:var(--container);margin:auto;height:78px;
+      display:flex;align-items:center;justify-content:space-between;gap:24px;
+    }
+    .brand{display:flex;align-items:baseline;gap:7px}
+    .brand strong{font-family:"Manrope";font-size:1.25rem;letter-spacing:.14em}
+    .brand span{font-size:.75rem;letter-spacing:.18em;color:var(--muted)}
+    nav{display:flex;align-items:center;gap:28px;font-size:.92rem;font-weight:600}
+    nav a{position:relative}
+    nav a:not(.btn)::after{
+      content:"";position:absolute;left:0;bottom:-7px;width:0;height:1px;background:var(--ink);transition:.25s
+    }
+    nav a:hover::after{width:100%}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      border-radius:999px;padding:14px 20px;font-weight:700;border:1px solid var(--ink);
+      transition:.25s ease;cursor:pointer;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn-dark{background:var(--ink);color:#fff}
+    .btn-light{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.55)}
+    .btn-outline{background:transparent}
+    .menu-btn{display:none;border:0;background:none;padding:8px;cursor:pointer}
+    .menu-btn span{display:block;width:24px;height:2px;background:var(--ink);margin:5px 0}
+
+    /* Hero */
+    .hero{
+      padding:128px 0 54px;
+      background:
+        radial-gradient(circle at 10% 20%, rgba(182,111,65,.08), transparent 28%),
+        var(--paper-2);
+    }
+    .hero-grid{
+      display:grid;grid-template-columns:1.02fr .98fr;gap:54px;align-items:center;
+    }
+    .hero h1{
+      font-size:clamp(3rem,6.3vw,6.8rem);
+      letter-spacing:-.07em;
+      margin:20px 0 24px;
+    }
+    .hero h1 em{font-style:normal;color:var(--accent)}
+    .hero-copy>p{font-size:clamp(1.05rem,1.5vw,1.25rem);max-width:660px;color:#535049}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:32px 0 28px}
+    .proof{display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}
+    .stars{color:#b67a21;letter-spacing:.08em}
+    .hero-visual{position:relative}
+    .hero-image{
+      aspect-ratio:4/5;border-radius:34px;overflow:hidden;box-shadow:var(--shadow);background:#ddd;
+    }
+    .hero-image img{width:100%;height:100%;object-fit:cover}
+    .float-card{
+      position:absolute;left:-36px;bottom:34px;width:min(320px,78%);
+      padding:20px;background:rgba(17,17,15,.91);color:#fff;border-radius:22px;
+      backdrop-filter:blur(10px);box-shadow:0 18px 50px rgba(0,0,0,.22)
+    }
+    .float-card small{display:block;color:#c9c4bc;margin-bottom:7px}
+    .float-card strong{font-family:"Manrope";font-size:1.1rem}
+
+    /* Trust strip */
+    .trust{padding:20px 0 72px}
+    .trust-grid{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+      border:1px solid var(--line);border-radius:22px;overflow:hidden
+    }
+    .trust-item{background:var(--paper-2);padding:24px 22px}
+    .trust-item strong{display:block;font-family:"Manrope";font-size:1.15rem}
+    .trust-item span{font-size:.87rem;color:var(--muted)}
+
+    /* Shared section */
+    section{padding:96px 0}
+    .section-head{
+      display:flex;justify-content:space-between;gap:40px;align-items:flex-end;margin-bottom:42px
+    }
+    .section-head .text{max-width:700px}
+    .section-head p{max-width:520px;color:var(--muted)}
+    .section-head .eyebrow{margin-bottom:16px}
+
+    /* Portfolio */
+    .portfolio{background:var(--ink);color:#fff}
+    .portfolio .muted,.portfolio .section-head p{color:#bbb5ab}
+    .work-grid{
+      display:grid;grid-template-columns:1.3fr .7fr;grid-template-rows:360px 360px;gap:16px
+    }
+    .work{
+      position:relative;overflow:hidden;border-radius:var(--radius);background:#292925
+    }
+    .work:first-child{grid-row:1/3}
+    .work img{width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+    .work:hover img{transform:scale(1.035)}
+    .work-overlay{
+      position:absolute;inset:auto 0 0 0;padding:24px;
+      background:linear-gradient(transparent,rgba(0,0,0,.72));
+    }
+    .work-overlay span{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:#ddd}
+    .work-overlay h3{font-size:1.45rem;margin-top:4px}
+
+    /* Services */
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service-card{
+      padding:30px;border:1px solid var(--line);border-radius:var(--radius);
+      background:#fff;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;
+      transition:.28s ease
+    }
+    .service-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:transparent}
+    .service-num{font-family:"Manrope";font-size:.83rem;color:var(--accent);font-weight:800}
+    .service-card h3{font-size:1.45rem;margin:24px 0 12px}
+    .service-card p{color:var(--muted)}
+    .service-link{margin-top:24px;font-weight:700;display:inline-flex;gap:8px;align-items:center}
+
+    /* Positioning */
+    .strategy{padding-top:24px}
+    .strategy-wrap{
+      background:var(--paper);border-radius:34px;padding:clamp(32px,5vw,70px);
+      display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center
+    }
+    .strategy-copy h2{margin:16px 0 20px}
+    .benefits{display:grid;gap:16px;margin-top:28px}
+    .benefit{display:grid;grid-template-columns:42px 1fr;gap:14px;align-items:start}
+    .benefit b{
+      width:42px;height:42px;border-radius:50%;display:grid;place-items:center;
+      background:var(--ink);color:#fff;font-size:.8rem
+    }
+    .benefit strong{display:block;margin-bottom:4px}
+    .benefit p{color:var(--muted);font-size:.93rem}
+    .strategy-visual{
+      border-radius:28px;overflow:hidden;aspect-ratio:1/1.05;background:#ddd
+    }
+    .strategy-visual img{width:100%;height:100%;object-fit:cover}
+
+    /* Process */
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .step{padding-top:22px;border-top:1px solid var(--ink)}
+    .step span{font-size:.75rem;letter-spacing:.12em;color:var(--accent);font-weight:800}
+    .step h3{font-size:1.15rem;margin:12px 0 8px}
+    .step p{color:var(--muted);font-size:.92rem}
+
+    /* Testimonials */
+    .testimonials{background:#efe8dc}
+    .quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    blockquote{
+      margin:0;background:#fff;border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;gap:26px
+    }
+    blockquote p{font-size:1.02rem}
+    blockquote footer{margin-top:auto}
+    blockquote strong{display:block}
+    blockquote span{color:var(--muted);font-size:.86rem}
+
+    /* CTA */
+    .cta-shell{
+      background:var(--ink);color:#fff;border-radius:34px;padding:clamp(34px,6vw,78px);
+      display:grid;grid-template-columns:1fr .82fr;gap:54px;align-items:center
+    }
+    .cta-shell h2{margin:16px 0 18px}
+    .cta-shell p{color:#c4beb3;max-width:600px}
+    .lead-form{background:#fff;color:var(--ink);padding:24px;border-radius:24px}
+    .field{margin-bottom:12px}
+    .field label{display:block;font-size:.8rem;font-weight:700;margin:0 0 6px}
+    .field input,.field select,.field textarea{
+      width:100%;border:1px solid #ded9d0;border-radius:13px;padding:13px 14px;background:#fff;outline:none
+    }
+    .field textarea{min-height:92px;resize:vertical}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--accent)}
+    .lead-form .btn{width:100%;border:0}
+    .form-note{font-size:.76rem;color:var(--muted);margin-top:10px;text-align:center}
+
+    /* FAQ */
+    .faq{max-width:900px;margin:auto}
+    .faq-item{border-bottom:1px solid var(--line)}
+    .faq-q{
+      width:100%;display:flex;justify-content:space-between;gap:18px;align-items:center;
+      padding:22px 0;background:none;border:0;text-align:left;font-weight:700;cursor:pointer;color:var(--ink)
+    }
+    .faq-a{max-height:0;overflow:hidden;transition:max-height .32s ease;color:var(--muted)}
+    .faq-a p{padding:0 0 22px}
+    .faq-item.open .faq-a{max-height:220px}
+    .faq-item.open .faq-q .plus{transform:rotate(45deg)}
+    .plus{font-size:1.45rem;transition:.25s}
+
+    /* Footer */
+    footer.site-footer{background:#0c0c0b;color:#fff;padding:48px 0 26px}
+    .footer-grid{display:grid;grid-template-columns:1.3fr .8fr .8fr;gap:44px}
+    .footer-grid p,.footer-grid a{color:#aaa59d}
+    .footer-grid a:hover{color:#fff}
+    .footer-links{display:grid;gap:8px}
+    .footer-title{font-family:"Manrope";font-weight:700;margin-bottom:12px}
+    .footer-bottom{
+      border-top:1px solid rgba(255,255,255,.12);margin-top:38px;padding-top:20px;
+      display:flex;justify-content:space-between;gap:20px;color:#7f7b75;font-size:.82rem
+    }
+
+    /* WhatsApp */
+    .whatsapp{
+      position:fixed;right:20px;bottom:20px;z-index:40;
+      width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+      background:#1d8f55;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.22);
+      font-weight:900;font-size:1.05rem
+    }
+    .whatsapp::before{content:"WA"}
+
+    @media (max-width: 980px){
+      nav{display:none;position:absolute;top:78px;left:20px;right:20px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;flex-direction:column;align-items:stretch;box-shadow:var(--shadow)}
+      nav.open{display:flex}
+      .menu-btn{display:block}
+      .hero-grid,.strategy-wrap,.cta-shell{grid-template-columns:1fr}
+      .hero-visual{max-width:720px;margin:auto}
+      .float-card{left:18px}
+      .trust-grid{grid-template-columns:repeat(2,1fr)}
+      .services-grid{grid-template-columns:repeat(2,1fr)}
+      .process-grid{grid-template-columns:repeat(2,1fr)}
+      .quotes{grid-template-columns:1fr}
+      .footer-grid{grid-template-columns:1fr 1fr}
+    }
+
+    @media (max-width: 680px){
+      :root{--container:min(100% - 26px,1180px)}
+      .nav{height:70px}
+      .hero{padding-top:104px}
+      .hero-grid{gap:34px}
+      .hero h1{font-size:clamp(3rem,15vw,4.7rem)}
+      .hero-actions .btn{width:100%}
+      .trust{padding-bottom:50px}
+      .trust-grid{grid-template-columns:1fr}
+      section{padding:70px 0}
+      .section-head{align-items:flex-start;flex-direction:column}
+      .work-grid{grid-template-columns:1fr;grid-template-rows:360px 280px 280px}
+      .work:first-child{grid-row:auto}
+      .services-grid,.process-grid{grid-template-columns:1fr}
+      .strategy-wrap{gap:34px;padding:30px 22px}
+      .cta-shell{padding:30px 18px}
+      .footer-grid{grid-template-columns:1fr}
+      .footer-bottom{flex-direction:column}
+      .whatsapp{width:52px;height:52px}
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"MORAMA studio | Escritório de Archviz e Design",
+    "telephone":"+55 27 98191-9233",
+    "email":"moramastudio@gmail.com",
+    "areaServed":"Espírito Santo, Brasil",
+    "description":"Estúdio criativo especializado em ArchViz, visualização arquitetônica, design imobiliário e materiais visuais para o mercado imobiliário.",
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"11"},
+    "sameAs":["https://www.moramastudio.com/"]
+  }
+  </script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="nav">
+      <a class="brand" href="#inicio" aria-label="MORAMA studio">
+        <strong>MORAMA</strong><span>studio</span>
+      </a>
+
+      <nav id="nav">
+        <a href="#portfolio">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato" class="btn btn-dark">Solicitar proposta</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">ArchViz • Design Imobiliário</span>
+          <h1>Seu projeto <em>vende</em> antes de existir.</h1>
+          <p>
+            Criamos imagens, experiências 3D e materiais de apresentação que traduzem arquitetura
+            em desejo, clareza e valor percebido — para construtoras, incorporadoras, arquitetos e engenheiros.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-dark">Quero valorizar meu projeto →</a>
+            <a href="#portfolio" class="btn btn-outline">Ver trabalhos</a>
+          </div>
+
+          <div class="proof" aria-label="Prova social">
+            <span class="stars">★★★★★</span>
+            <strong>5,0 no Google</strong>
+            <span>11 avaliações</span>
+            <span>•</span>
+            <span>Atendimento personalizado</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image">
+            <img
+              src="https://static.wixstatic.com/media/b62361_d6977a7d214b45e385982304f8b30b30~mv2.jpg"
+              alt="Visualização arquitetônica produzida pelo MORAMA studio"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="float-card">
+            <small>Do conceito à apresentação</small>
+            <strong>ArchViz, Tour 360°, Design e materiais que ajudam o cliente a enxergar o valor.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div class="container trust-grid">
+        <div class="trust-item"><strong>Imagens 3D</strong><span>Apresentação com impacto visual</span></div>
+        <div class="trust-item"><strong>Tour 360°</strong><span>Experiência imersiva do projeto</span></div>
+        <div class="trust-item"><strong>Design imobiliário</strong><span>Catálogos, plantas e peças comerciais</span></div>
+        <div class="trust-item"><strong>Estratégia visual</strong><span>Comunicação alinhada à venda</span></div>
+      </div>
+    </div>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <div class="text">
+            <span class="eyebrow">Portfólio</span>
+            <h2>Projetos apresentados para serem lembrados.</h2>
+          </div>
+          <p>Uma amostra do repertório visual da MORAMA em arquitetura, apresentação imobiliária e comunicação.</p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work">
+            <img src="https://static.wixstatic.com/media/b62361_a121f9cce27a47428c253d176469be7c~mv2.png" alt="Mockup de outdoor imobiliário MORAMA" loading="lazy">
+            <div class="work-overlay"><span>Design imobiliário</span><h3>Campanhas que elevam a percepção do empreendimento</h3></div>
+          </article>
+
+          <article class="work">
+            <img src="https://static.wixstatic.com/media/b62361_6eb1eacf922d4bf68ab705d57a961c72~mv2.png" alt="Material gráfico imobiliário MORAMA" loading="lazy">
+            <div class="work-overlay"><span>Materiais de vendas</span><h3>Apresentação clara e comercial</h3></div>
+          </article>
+
+          <article class="work">
+            <img src="https://static.wixstatic.com/media/b62361_8a053b55d7ae41e689df9ee9459b9d97~mv2.png" alt="Mockup editorial MORAMA" loading="lazy">
+            <div class="work-overlay"><span>Brand experience</span><h3>Consistência visual em cada ponto de contato</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="container">
+        <div class="section-head">
+          <div class="text">
+            <span class="eyebrow">O que fazemos</span>
+            <h2>Visual, estratégia e arquitetura no mesmo fluxo.</h2>
+          </div>
+          <p>O foco não é apenas “ficar bonito”: é ajudar o público a compreender, desejar e confiar no projeto.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div>
+              <span class="service-num">01</span>
+              <h3>Visualização arquitetônica</h3>
+              <p>Imagens 3D, cenas internas e externas, passeios virtuais, fotomontagem e recursos para comunicar o projeto antes da execução.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <span class="service-num">02</span>
+              <h3>Tour Virtual 360°</h3>
+              <p>Experiências imersivas para apresentar ambientes, empreendimentos e conceitos com mais profundidade e envolvimento.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <span class="service-num">03</span>
+              <h3>Design imobiliário</h3>
+              <p>Plantas humanizadas, catálogos, panfletos, placas, outdoors e materiais de apoio para corretores e lançamentos.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <span class="service-num">04</span>
+              <h3>Conceito de ambientes</h3>
+              <p>Desenvolvimento visual de espaços comerciais, corporativos, áreas comuns de condomínios e loteamentos.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <span class="service-num">05</span>
+              <h3>Conteúdo para mídias</h3>
+              <p>Peças para Instagram e Facebook, calendários de conteúdo e suporte à comunicação digital de empreendimentos.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+
+          <article class="service-card">
+            <div>
+              <span class="service-num">06</span>
+              <h3>Copy e apresentação comercial</h3>
+              <p>Textos e narrativa visual para comunicar benefícios, diferenciais e valor de forma simples e persuasiva.</p>
+            </div>
+            <a class="service-link" href="#contato">Pedir proposta →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="strategy">
+      <div class="container strategy-wrap">
+        <div class="strategy-copy">
+          <span class="eyebrow">Por que MORAMA</span>
+          <h2>Não renderizamos apenas espaços. Traduzimos intenção.</h2>
+          <p class="muted">
+            A MORAMA combina linguagem de arquitetura, design e comunicação para criar uma apresentação
+            coerente com o conceito do projeto e com o objetivo comercial de cada cliente.
+          </p>
+
+          <div class="benefits">
+            <div class="benefit">
+              <b>01</b>
+              <div><strong>Criatividade estratégica</strong><p>Estética orientada ao posicionamento e ao público do empreendimento.</p></div>
+            </div>
+            <div class="benefit">
+              <b>02</b>
+              <div><strong>Precisão técnica</strong><p>Respeito ao projeto, às proporções e à linguagem arquitetônica.</p></div>
+            </div>
+            <div class="benefit">
+              <b>03</b>
+              <div><strong>Atendimento próximo</strong><p>Briefing, alinhamento e comunicação clara ao longo da entrega.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strategy-visual">
+          <img src="https://static.wixstatic.com/media/b62361_2759ce9f40754b748a9b1433f6077759~mv2.png" alt="Projeto visual do MORAMA studio" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="processo">
+      <div class="container">
+        <div class="section-head">
+          <div class="text">
+            <span class="eyebrow">Como funciona</span>
+            <h2>Um processo simples para um resultado sofisticado.</h2>
+          </div>
+          <p>Fluxo estruturado para reduzir retrabalho, alinhar expectativas e dar clareza desde o início.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="step"><span>ETAPA 01</span><h3>Briefing</h3><p>Objetivo, público, referências, escopo e materiais técnicos.</p></div>
+          <div class="step"><span>ETAPA 02</span><h3>Direção visual</h3><p>Definição de linguagem, atmosfera e estratégia de apresentação.</p></div>
+          <div class="step"><span>ETAPA 03</span><h3>Produção</h3><p>Modelagem, composição, design e desenvolvimento dos materiais.</p></div>
+          <div class="step"><span>ETAPA 04</span><h3>Entrega</h3><p>Refinamento final e arquivos preparados para o uso combinado.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="depoimentos">
+      <div class="container">
+        <div class="section-head">
+          <div class="text">
+            <span class="eyebrow">Prova social</span>
+            <h2>O que clientes e parceiros dizem.</h2>
+          </div>
+          <p>Relatos publicados nos canais atuais da MORAMA.</p>
+        </div>
+
+        <div class="quotes">
+          <blockquote>
+            <p>“Excelente trabalho, já fiz 3 projetos e estou muito satisfeito.”</p>
+            <footer><strong>Franciano Silva</strong><span>CEO • NavegMais</span></footer>
+          </blockquote>
+          <blockquote>
+            <p>“Profissional de 1° qualidade! Super atencioso e o projeto ficou lindo. Muito criativo e moderno.”</p>
+            <footer><strong>Hélio Pinheiro</strong><span>CEO • Comepi Engenharia</span></footer>
+          </blockquote>
+          <blockquote>
+            <p>“Cumpre os prazos, possui visão crítica e clara, bom gosto e qualidade na criação de imagens 3D.”</p>
+            <footer><strong>Paula Machado</strong><span>Arquiteta e Urbanista</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container cta-shell">
+        <div>
+          <span class="eyebrow">Vamos criar?</span>
+          <h2>Seu próximo projeto merece ser apresentado no mesmo nível em que foi pensado.</h2>
+          <p>
+            Conte brevemente o que você precisa. Ao enviar, abriremos uma conversa no WhatsApp da MORAMA
+            com as informações preenchidas.
+          </p>
+          <div style="margin-top:28px;color:#c4beb3">
+            <strong style="color:#fff">WhatsApp:</strong> +55 27 98191-9233<br>
+            <strong style="color:#fff">E-mail:</strong> moramastudio@gmail.com
+          </div>
+        </div>
+
+        <form class="lead-form" id="leadForm">
+          <div class="field">
+            <label for="name">Seu nome</label>
+            <input id="name" name="name" required autocomplete="name" placeholder="Como podemos te chamar?">
+          </div>
+          <div class="field">
+            <label for="company">Empresa / escritório</label>
+            <input id="company" name="company" autocomplete="organization" placeholder="Opcional">
+          </div>
+          <div class="field">
+            <label for="service">O que você precisa?</label>
+            <select id="service" name="service" required>
+              <option value="">Selecione</option>
+              <option>Imagens 3D / ArchViz</option>
+              <option>Tour Virtual 360°</option>
+              <option>Design imobiliário</option>
+              <option>Conceito de ambientes</option>
+              <option>Conteúdo / mídia social</option>
+              <option>Projeto completo / ainda não sei</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Fale sobre o projeto</label>
+            <textarea id="message" name="message" placeholder="Tipo de projeto, fase atual, prazo desejado..."></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit">Enviar pelo WhatsApp →</button>
+          <p class="form-note">Ao clicar, você será direcionado ao WhatsApp para concluir o contato.</p>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <div class="text">
+            <span class="eyebrow">Dúvidas frequentes</span>
+            <h2>Antes de começar.</h2>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="faq-item">
+            <button class="faq-q">Quais arquivos preciso enviar para começar?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Plantas, cortes, fachadas, referências e qualquer material técnico disponível ajudam no briefing. Caso o escopo ainda esteja em definição, a MORAMA pode orientar o que será necessário.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Vocês atendem construtoras e arquitetos?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Sim. O posicionamento da MORAMA é voltado a construtoras, incorporadoras, arquitetos, engenheiros e profissionais que precisam comunicar melhor seus projetos.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">É possível contratar apenas imagens 3D?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Sim. O escopo pode ser modular — desde imagens específicas até pacotes com Tour 360°, materiais de venda e design imobiliário.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Como recebo uma proposta?<span class="plus">+</span></button>
+            <div class="faq-a"><p>Envie uma breve descrição do projeto pelo formulário/WhatsApp. Com o escopo e os materiais iniciais, a equipe pode avaliar a necessidade e preparar uma proposta adequada.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="#inicio"><strong>MORAMA</strong><span>studio</span></a>
+          <p style="margin-top:16px;max-width:440px">Visualização arquitetônica e design imobiliário para transformar projeto em experiência, compreensão e valor.</p>
+        </div>
+
+        <div>
+          <div class="footer-title">Navegação</div>
+          <div class="footer-links">
+            <a href="#portfolio">Projetos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#processo">Processo</a>
+            <a href="#depoimentos">Depoimentos</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-title">Contato</div>
+          <div class="footer-links">
+            <a href="https://wa.me/5527981919233" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="mailto:moramastudio@gmail.com">moramastudio@gmail.com</a>
+            <!-- <a href="https://www.moramastudio.com/" target="_blank" rel="noopener">Site atual</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> MORAMA studio. Todos os direitos reservados.</span>
+        <span>ArchViz • Design • Comunicação Imobiliária</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/5527981919233?text=Ol%C3%A1%2C%20MORAMA!%20Quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener" aria-label="Falar com MORAMA no WhatsApp"></a>
+
+  <script>
+    const header = document.getElementById('header');
+    const nav = document.getElementById('nav');
+    const menuBtn = document.getElementById('menuBtn');
+
+    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 10));
+
+    menuBtn.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(open));
+    });
+
+    document.querySelectorAll('#nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => btn.parentElement.classList.toggle('open'));
+    });
+
+    document.getElementById('leadForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const service = document.getElementById('service').value;
+      const message = document.getElementById('message').value.trim();
+
+      const text = [
+        'Olá, MORAMA! Vim pelo site e gostaria de solicitar uma proposta.',
+        '',
+        `Nome: ${name}`,
+        company ? `Empresa/escritório: ${company}` : '',
+        `Serviço: ${service}`,
+        message ? `Projeto: ${message}` : ''
+      ].filter(Boolean).join('\n');
+
+      window.open(`https://wa.me/5527981919233?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
