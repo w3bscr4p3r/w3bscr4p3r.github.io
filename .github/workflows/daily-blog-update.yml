@@ -14,12 +14,21 @@ on:
       - '.github/scripts/generate_blog.py'
       - '.github/scripts/requirements-news.txt'
       - '.github/workflows/daily-blog-update.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/news_sources.json'
+      - '.github/scripts/fetch_news.py'
+      - '.github/scripts/generate_blog.py'
+      - '.github/scripts/requirements-news.txt'
+      - '.github/workflows/daily-blog-update.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-cyber-grc-ciso-blog
+  group: daily-cyber-grc-ciso-blog-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -66,6 +75,7 @@ jobs:
           test -s blog/feed.xml
 
       - name: Commit generated content
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
