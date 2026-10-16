@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T15:38:08.639638+00:00",
+  "generated_at": "2026-10-16T16:10:32.086540+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 24,
+  "new_count": 1,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 6
+      "items": 7
     },
     {
       "name": "Google News — GRC",
@@ -58,7 +58,7 @@
       "source": "Portal IPNews",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T13:58:42+00:00",
-      "collected_at": "2026-10-16T15:38:07.798608+00:00",
+      "collected_at": "2026-10-16T16:10:31.361097+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -67,7 +67,7 @@
         "ciber",
         "governanca"
       ],
-      "score": 50.36
+      "score": 50.15
     },
     {
       "id": "18b03b6a9be8db51cf1e9979",
@@ -76,7 +76,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T10:53:22+00:00",
-      "collected_at": "2026-10-16T15:38:07.197881+00:00",
+      "collected_at": "2026-10-16T16:10:30.694018+00:00",
       "categories": [
         "Cyber"
       ],
@@ -85,7 +85,7 @@
         "vulnerability",
         "zero-day"
       ],
-      "score": 49.65
+      "score": 49.44
     },
     {
       "id": "218f8c420fcd14c07cae2785",
@@ -94,7 +94,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T14:09:51+00:00",
-      "collected_at": "2026-10-16T15:38:07.196299+00:00",
+      "collected_at": "2026-10-16T16:10:30.692485+00:00",
       "categories": [
         "Cyber"
       ],
@@ -103,7 +103,7 @@
         "ics",
         "malware"
       ],
-      "score": 48.93
+      "score": 48.72
     },
     {
       "id": "ac3068584dac1871fc0cf9e1",
@@ -112,7 +112,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T06:18:08+00:00",
-      "collected_at": "2026-10-16T15:38:06.704205+00:00",
+      "collected_at": "2026-10-16T16:10:30.137602+00:00",
       "categories": [
         "Cyber"
       ],
@@ -120,7 +120,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 46.37
+      "score": 46.16
     },
     {
       "id": "47edc731d87879a104f86256",
@@ -129,14 +129,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T12:01:29+00:00",
-      "collected_at": "2026-10-16T15:38:06.702181+00:00",
+      "collected_at": "2026-10-16T16:10:30.135626+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.1
+      "score": 44.89
     },
     {
       "id": "7455c27136a88cfe45fdb21e",
@@ -145,12 +145,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T09:54:34+00:00",
-      "collected_at": "2026-10-16T15:38:07.199403+00:00",
+      "collected_at": "2026-10-16T16:10:30.695498+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.77
+      "score": 42.56
     },
     {
       "id": "cd97255a9643ad27a7b03126",
@@ -159,12 +159,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T13:50:59+00:00",
-      "collected_at": "2026-10-16T15:38:06.701440+00:00",
+      "collected_at": "2026-10-16T16:10:30.134956+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.31
+      "score": 42.1
     },
     {
       "id": "146b8fb6d46605e96c085863",
@@ -173,12 +173,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T11:46:40+00:00",
-      "collected_at": "2026-10-16T15:38:07.197106+00:00",
+      "collected_at": "2026-10-16T16:10:30.693267+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.5
+      "score": 41.29
     },
     {
       "id": "c9eead69184d91c38f78f026",
@@ -187,14 +187,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:36:40+00:00",
-      "collected_at": "2026-10-16T15:38:06.472813+00:00",
+      "collected_at": "2026-10-16T16:10:29.636762+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 41.49
+      "score": 41.28
     },
     {
       "id": "6b164b9497e9dad3cbf4382a",
@@ -203,14 +203,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T07:37:35+00:00",
-      "collected_at": "2026-10-16T15:38:06.703531+00:00",
+      "collected_at": "2026-10-16T16:10:30.136957+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 41.39
+      "score": 41.18
     },
     {
       "id": "13b137ee5750ab10c7dfb84c",
@@ -219,12 +219,26 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T10:32:11+00:00",
-      "collected_at": "2026-10-16T15:38:07.198658+00:00",
+      "collected_at": "2026-10-16T16:10:30.694774+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.02
+      "score": 40.81
+    },
+    {
+      "id": "4eabae90df2549c6437f46bf",
+      "title": "Custo de vazamento de dados bate recorde no Brasil e chega a R$ 7,4 milhões - Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXRZbE9jbWpFNWVGSkhPR2F3eXNxZ1Z4Ykcyb2wycVEwdTZYMkhCc2ZpQTVqLUNNa2dyTmVLNVpFdFNad0UybUVoR2NIbHpuMW9KVnNpXzVoVVpnc1ZFbVhkRldOclVOdUFHVnAxakFydFZfMmN1Vk1qb1I3WGU2UWpCTG1Xbkx4czJwZHE2VjA3WEJYWUtYTkNrY2xxM1VTUklaeC1pTnc2RHpUNEx4OHdKWTg4Szd4QWVOc0VOVFo4RUXSAcgBQVVfeXFMTnlmWGFMMXdjSlVlY2dYaWViNTUzT3VROWZKQkJYbFQza25xTkNUZGtuWWJQQjZjZWlGVnVqdVZaeDdKTHdDbzRIQnkyQWxaOHBWU1VOMmxWTUNMMFpFbmFpbm9MWHlLMHJkeUZxUmpXZU9YSk9YczlYQUxjQUpxZHVDN25vaXJ4aXh3MjZEMDNhMVV3V1RtWnFBdFpIaW8zTl96NnFjb09URFpNYnRLcHRpcFdtVEREMjJwMUxtMnhZaTAzTkFmd3Q?oc=5",
+      "source": "Estadão",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-16T15:25:15+00:00",
+      "collected_at": "2026-10-16T16:10:31.361835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.71
     },
     {
       "id": "3f6ac924efba01110cb4143e",
@@ -233,12 +247,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T08:44:22+00:00",
-      "collected_at": "2026-10-16T15:38:06.702874+00:00",
+      "collected_at": "2026-10-16T16:10:30.136301+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.32
+      "score": 40.11
     },
     {
       "id": "90d7e3c3584a0e86c4ab2fab",
@@ -247,12 +261,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T07:55:06+00:00",
-      "collected_at": "2026-10-16T15:38:07.200155+00:00",
+      "collected_at": "2026-10-16T16:10:30.696236+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.0
+      "score": 39.79
     },
     {
       "id": "9409f8b44cf432d0577953b8",
@@ -261,12 +275,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T07:12:51+00:00",
-      "collected_at": "2026-10-16T15:38:07.200913+00:00",
+      "collected_at": "2026-10-16T16:10:30.696985+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.73
+      "score": 39.52
     },
     {
       "id": "0e45ef798b51073b7d0c42b3",
@@ -275,14 +289,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:27:58+00:00",
-      "collected_at": "2026-10-16T15:38:06.473749+00:00",
+      "collected_at": "2026-10-16T16:10:29.637664+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ameaca"
       ],
-      "score": 39.43
+      "score": 39.22
     },
     {
       "id": "d82608398b987c3d78a42a50",
@@ -291,14 +305,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:00:43+00:00",
-      "collected_at": "2026-10-16T15:38:06.476419+00:00",
+      "collected_at": "2026-10-16T16:10:29.640217+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "risco"
       ],
-      "score": 39.26
+      "score": 39.05
     },
     {
       "id": "d31e0f580742af49c9f2bc05",
@@ -307,14 +321,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-15T20:25:04+00:00",
-      "collected_at": "2026-10-16T15:38:06.704872+00:00",
+      "collected_at": "2026-10-16T16:10:30.138265+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 39.03
+      "score": 38.82
     },
     {
       "id": "f20449e77498b78eead73f55",
@@ -323,14 +337,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T20:24:10+00:00",
-      "collected_at": "2026-10-16T15:38:06.477310+00:00",
+      "collected_at": "2026-10-16T16:10:29.641071+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ciber"
       ],
-      "score": 39.02
+      "score": 38.81
     },
     {
       "id": "184b6c9252403baaec8babe8",
@@ -339,12 +353,12 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:20:57+00:00",
-      "collected_at": "2026-10-16T15:38:06.474614+00:00",
+      "collected_at": "2026-10-16T16:10:29.638499+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 37.89
+      "score": 37.68
     },
     {
       "id": "b3709d7702576f3eaffd417e",
@@ -353,26 +367,12 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:04:25+00:00",
-      "collected_at": "2026-10-16T15:38:06.475528+00:00",
+      "collected_at": "2026-10-16T16:10:29.639339+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 37.78
-    },
-    {
-      "id": "4aff6cbd001f0f8cac5b2937",
-      "title": "Hackers sequestram D-Link e Ubiquiti para revender banda",
-      "url": "https://www.cisoadvisor.com.br/hackers-sequestram-d-link-e-ubiquiti-para-revender-banda/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T20:17:06+00:00",
-      "collected_at": "2026-10-16T15:38:06.478220+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 37.47
+      "score": 37.57
     },
     {
       "id": "304e2d5ffa897d29f8e13013",
@@ -381,14 +381,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-15T11:55:38+00:00",
-      "collected_at": "2026-10-16T15:38:06.709051+00:00",
+      "collected_at": "2026-10-16T16:10:30.142297+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 33.72
+      "score": 33.51
     },
     {
       "id": "b4d9beb7d197083098eed1d4",
@@ -397,14 +397,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-15T09:10:20+00:00",
-      "collected_at": "2026-10-16T15:38:06.709855+00:00",
+      "collected_at": "2026-10-16T16:10:30.143082+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 32.65
+      "score": 32.44
     },
     {
       "id": "36ee1af36d0e5efc474e4414",
@@ -413,14 +413,14 @@
       "source": "Estadão Blue Studio",
       "feed": "Google News — GRC",
       "published_at": "2026-10-13T16:20:53+00:00",
-      "collected_at": "2026-10-16T15:38:08.247049+00:00",
+      "collected_at": "2026-10-16T16:10:31.762857+00:00",
       "categories": [
         "CISO"
       ],
       "tags": [
         "chief information security officer"
       ],
-      "score": 14.78
+      "score": 14.57
     }
   ]
 }
