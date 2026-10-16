@@ -1,0 +1,58 @@
+{
+  "sources": [
+    {
+      "name": "CISO Advisor",
+      "url": "https://www.cisoadvisor.com.br/feed/",
+      "weight": 10,
+      "category_hint": ["Cyber", "GRC", "CISO"]
+    },
+    {
+      "name": "NIST Cybersecurity",
+      "url": "https://www.nist.gov/news-events/cybersecurity/rss.xml",
+      "weight": 10,
+      "category_hint": ["Cyber", "GRC"]
+    },
+    {
+      "name": "NIST Cybersecurity Insights",
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml",
+      "weight": 10,
+      "category_hint": ["Cyber", "GRC", "CISO"]
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "weight": 8,
+      "category_hint": ["Cyber"]
+    },
+    {
+      "name": "KrebsOnSecurity",
+      "url": "https://krebsonsecurity.com/feed/",
+      "weight": 8,
+      "category_hint": ["Cyber"]
+    },
+    {
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/feed/",
+      "weight": 8,
+      "category_hint": ["Cyber", "CISO"]
+    },
+    {
+      "name": "Google News — Cyber Brasil",
+      "url": "https://news.google.com/rss/search?q=(ciberseguran%C3%A7a%20OR%20cybersecurity%20OR%20ransomware%20OR%20%22zero-day%22)%20Brasil&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "weight": 6,
+      "category_hint": ["Cyber"]
+    },
+    {
+      "name": "Google News — GRC",
+      "url": "https://news.google.com/rss/search?q=(GRC%20OR%20governan%C3%A7a%20OR%20compliance%20OR%20%22gest%C3%A3o%20de%20riscos%22%20OR%20NIS2%20OR%20DORA%20OR%20%22ISO%2027001%22)%20cybersecurity&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "weight": 6,
+      "category_hint": ["GRC"]
+    },
+    {
+      "name": "Google News — CISO",
+      "url": "https://news.google.com/rss/search?q=(CISO%20OR%20%22Chief%20Information%20Security%20Officer%22%20OR%20%22lideran%C3%A7a%20de%20seguran%C3%A7a%22)%20cybersecurity&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+      "weight": 6,
+      "category_hint": ["CISO"]
+    }
+  ]
+}

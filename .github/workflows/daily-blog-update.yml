@@ -1,0 +1,88 @@
+name: Daily Cyber GRC CISO Blog
+
+on:
+  schedule:
+    - cron: '15 7 * * *'
+      timezone: 'America/Sao_Paulo'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/news_sources.json'
+      - '.github/scripts/fetch_news.py'
+      - '.github/scripts/generate_blog.py'
+      - '.github/scripts/requirements-news.txt'
+      - '.github/workflows/daily-blog-update.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/news_sources.json'
+      - '.github/scripts/fetch_news.py'
+      - '.github/scripts/generate_blog.py'
+      - '.github/scripts/requirements-news.txt'
+      - '.github/workflows/daily-blog-update.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-cyber-grc-ciso-blog-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: '.github/scripts/requirements-news.txt'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r .github/scripts/requirements-news.txt
+
+      - name: Validate Python
+        run: python -m compileall -q .github/scripts
+
+      - name: Collect Cyber, GRC and CISO news
+        env:
+          NEWS_LOOKBACK_HOURS: '72'
+          NEWS_MAX_ITEMS: '24'
+          NEWS_MAX_HISTORY: '600'
+        run: python .github/scripts/fetch_news.py
+
+      - name: Generate blog and RSS
+        run: python .github/scripts/generate_blog.py
+
+      - name: Validate generated files
+        run: |
+          python -m json.tool blog/data/news_latest.json >/dev/null
+          python -m json.tool blog/data/news_history.json >/dev/null
+          test -s blog/index.html
+          test -s blog/feed.xml
+
+      - name: Commit generated content
+        if: github.event_name != 'pull_request'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add blog/index.html blog/feed.xml blog/data/news_latest.json blog/data/news_history.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(blog): daily Cyber GRC CISO update"
+          git push
