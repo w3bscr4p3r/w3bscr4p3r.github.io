@@ -67,12 +67,21 @@ jobs:
       - name: Generate blog and RSS
         run: python .github/scripts/generate_blog.py
 
+      - name: Protect main homepage
+        run: |
+          if ! git diff --quiet -- index.html app.js; then
+            echo "::error::A automacao do blog tentou alterar arquivos da pagina principal."
+            git diff -- index.html app.js
+            exit 1
+          fi
+
       - name: Validate generated files
         run: |
           python -m json.tool blog/data/news_latest.json >/dev/null
           python -m json.tool blog/data/news_history.json >/dev/null
           test -s blog/index.html
           test -s blog/feed.xml
+          grep -q 'https://w3bscr4p3r.github.io/blog/' blog/feed.xml
 
       - name: Commit generated content
         if: github.event_name != 'pull_request'
