@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T16:10:32.086540+00:00",
+  "generated_at": "2026-10-17T13:44:24.215166+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 1,
+  "new_count": 10,
   "sources": [
     {
       "name": "CISO Advisor",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "name": "NIST Cybersecurity",
@@ -17,7 +17,7 @@
     {
       "name": "NIST Cybersecurity Insights",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "BleepingComputer",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "SecurityWeek",
@@ -37,12 +37,12 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "name": "Google News — GRC",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "Google News — CISO",
@@ -52,13 +52,60 @@
   ],
   "items": [
     {
+      "id": "b94b5161230001e899acacbb",
+      "title": "MovSec e Verta em parceria na gestão de risco de terceiros",
+      "url": "https://www.cisoadvisor.com.br/movsec-e-verta-em-parceria-na-gestao-de-risco-de-terceiros/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-17T10:55:58+00:00",
+      "collected_at": "2026-10-17T13:44:22.401680+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risco",
+        "risco de terceiros"
+      ],
+      "score": 46.91
+    },
+    {
+      "id": "1c25cb906a0f622cad110f28",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-17T11:00:00+00:00",
+      "collected_at": "2026-10-17T13:44:23.027080+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.93
+    },
+    {
+      "id": "39fa3fe72793b6c17e375264",
+      "title": "BeyondTrust corrige zero-day explorado desde agosto",
+      "url": "https://www.cisoadvisor.com.br/beyondtrust-corrige-zero-day-explorado-desde-agosto/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T20:50:28+00:00",
+      "collected_at": "2026-10-17T13:44:22.404434+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 41.93
+    },
+    {
       "id": "914f42699f2fe4a1c8841f72",
       "title": "Empresas investem abaixo da referência internacional em cibersegurança e pecam na governança de IA - Portal IPNews",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmVqcVNuRm1ZaVVGVnVLVVJwMlljQnpDbC11NkdLOWRvQmNiRkRleW83ak1fMkl6N1liMDRyQTVuaEh1cG8yak0tazF0Y1FfbmNHalBrZFJPVnpSSlVrbVlTaFNEMnNCMm1Ha1hJWjhWUzdtVmJnRklHYVpRdmxpbERRVElKUElhUFRGTEZKZ0Q3RnQyd3dCelpiNGhWOGVsS1BfMWQ5cmtBVnNHdjRHNzNrNzllUmlYTmMzWWJB0gG-AUFVX3lxTE9mZWpxU25GbVlpVUZWdUtVUnAyWWNCekNsLXU2R0s5ZG9CY2JGRGV5bzdqTV8ySXo3WWIwNHJBNW5oSHVwbzJqTS1rMXRjUV9uY0dqUGtkUk9WelJKVWttWVNoU0Qyc0IybUdrWElaOFZTN21WYmdGSUdhWlF2bGlsRFFUSUpQSWFQVEZMRkpnRDdGdDJ3d0J6WmI0aFY4ZWxLUF8xZDlya0FWc0d2NEc3M2s3OWVSaVhOYzNZYkE?oc=5",
       "source": "Portal IPNews",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T13:58:42+00:00",
-      "collected_at": "2026-10-16T16:10:31.361097+00:00",
+      "collected_at": "2026-10-17T13:44:23.570578+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -67,7 +114,7 @@
         "ciber",
         "governanca"
       ],
-      "score": 50.15
+      "score": 41.76
     },
     {
       "id": "18b03b6a9be8db51cf1e9979",
@@ -76,7 +123,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T10:53:22+00:00",
-      "collected_at": "2026-10-16T16:10:30.694018+00:00",
+      "collected_at": "2026-10-17T13:44:23.029439+00:00",
       "categories": [
         "Cyber"
       ],
@@ -85,7 +132,7 @@
         "vulnerability",
         "zero-day"
       ],
-      "score": 49.44
+      "score": 41.06
     },
     {
       "id": "218f8c420fcd14c07cae2785",
@@ -94,7 +141,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T14:09:51+00:00",
-      "collected_at": "2026-10-16T16:10:30.692485+00:00",
+      "collected_at": "2026-10-17T13:44:23.027891+00:00",
       "categories": [
         "Cyber"
       ],
@@ -103,7 +150,51 @@
         "ics",
         "malware"
       ],
-      "score": 48.72
+      "score": 40.33
+    },
+    {
+      "id": "b0a1614d9a602de494c5df46",
+      "title": "MITRE ATT&CK v20 adiciona nove técnicas de ataque",
+      "url": "https://www.cisoadvisor.com.br/mitre-attck-v20-adiciona-nove-tecnicas-de-ataque/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T21:04:23+00:00",
+      "collected_at": "2026-10-17T13:44:22.402627+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque"
+      ],
+      "score": 40.02
+    },
+    {
+      "id": "a80230fd1c7a48c4c9d5544e",
+      "title": "Falha crítica no BlockStrap permite RCE no Magento",
+      "url": "https://www.cisoadvisor.com.br/falha-critica-no-blockstrap-permite-rce-no-magento/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T20:58:44+00:00",
+      "collected_at": "2026-10-17T13:44:22.403531+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.48
+    },
+    {
+      "id": "c30c4ca35f309b8e0cba539d",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-16T20:00:59+00:00",
+      "collected_at": "2026-10-17T13:44:22.660290+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.11
     },
     {
       "id": "ac3068584dac1871fc0cf9e1",
@@ -112,7 +203,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T06:18:08+00:00",
-      "collected_at": "2026-10-16T16:10:30.137602+00:00",
+      "collected_at": "2026-10-17T13:44:22.664368+00:00",
       "categories": [
         "Cyber"
       ],
@@ -120,7 +211,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 46.16
+      "score": 37.77
     },
     {
       "id": "47edc731d87879a104f86256",
@@ -129,14 +220,44 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T12:01:29+00:00",
-      "collected_at": "2026-10-16T16:10:30.135626+00:00",
+      "collected_at": "2026-10-17T13:44:22.662359+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 44.89
+      "score": 36.5
+    },
+    {
+      "id": "43b19a62f67513f57dd04583",
+      "title": "Mercado brasileiro de cibersegurança deve movimentar R$ 127 bi até 2029, aponta estudo da Brasscom - TI INSIDE Online",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSnotN0pyWEdSMVM0Q19xVEFjeHVNd2xQemxhOU9mY2FXcHQ0bGlZUU45dDNoRnVoMzNBMXJGc3NuVmFaRGRicEJIQ1R6UTBSUFdqWkZBSThHbjd3elRQNVEwZnFYSG1wUGRNU3FfblhzUDE4eVhEOGJkYWpYT3BxWFh6eVBYM20xS00za2FrN2hDY1hteXo5RWRxanRYVmhnTExuS0FwUW5RcTVxSENJcG13NVl6Qm9obTc0aGpfZHJIYnJpNV9jbTFQdkY?oc=5",
+      "source": "TI INSIDE Online",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-16T21:51:15+00:00",
+      "collected_at": "2026-10-17T13:44:23.568804+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 36.32
+    },
+    {
+      "id": "1541654c2b0ec640e3ff6de4",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-16T17:20:03+00:00",
+      "collected_at": "2026-10-17T13:44:22.661001+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.06
     },
     {
       "id": "7455c27136a88cfe45fdb21e",
@@ -145,12 +266,26 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T09:54:34+00:00",
-      "collected_at": "2026-10-16T16:10:30.695498+00:00",
+      "collected_at": "2026-10-17T13:44:23.030978+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.56
+      "score": 34.18
+    },
+    {
+      "id": "38d5dd0d8f865f7c0c4d55a8",
+      "title": "Flávio pagou R$ 600 mil a empresa que vende nos EUA sistema de IA para manipular eleições - Intercept Brasil",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGtVN2l4a1lJM2pTQ1RESWFid1hJaEtzbFRtUmEyVXhrdHllM2Y4d01PMnlRVERyaHM5dW1wWFh5SHB4a3pJV1l6endQbzZvZm9heks1X2ljTGhkTWhoNkp6MUZDRndsM2xFSmFKbWRMMEFpZjdWcE5mU0JxOWdrSXBkNHFhSklvcEhNZ2RCUVV3Ml90Mlhz?oc=5",
+      "source": "Intercept Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-16T19:37:51+00:00",
+      "collected_at": "2026-10-17T13:44:23.567262+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 33.96
     },
     {
       "id": "cd97255a9643ad27a7b03126",
@@ -159,12 +294,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T13:50:59+00:00",
-      "collected_at": "2026-10-16T16:10:30.134956+00:00",
+      "collected_at": "2026-10-17T13:44:22.661694+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.1
+      "score": 33.71
     },
     {
       "id": "146b8fb6d46605e96c085863",
@@ -173,12 +308,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T11:46:40+00:00",
-      "collected_at": "2026-10-16T16:10:30.693267+00:00",
+      "collected_at": "2026-10-17T13:44:23.028676+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.29
+      "score": 32.9
     },
     {
       "id": "c9eead69184d91c38f78f026",
@@ -187,14 +322,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:36:40+00:00",
-      "collected_at": "2026-10-16T16:10:29.636762+00:00",
+      "collected_at": "2026-10-17T13:44:22.405338+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 41.28
+      "score": 32.89
     },
     {
       "id": "6b164b9497e9dad3cbf4382a",
@@ -203,14 +338,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T07:37:35+00:00",
-      "collected_at": "2026-10-16T16:10:30.136957+00:00",
+      "collected_at": "2026-10-17T13:44:22.663719+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 41.18
+      "score": 32.79
     },
     {
       "id": "13b137ee5750ab10c7dfb84c",
@@ -219,12 +354,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T10:32:11+00:00",
-      "collected_at": "2026-10-16T16:10:30.694774+00:00",
+      "collected_at": "2026-10-17T13:44:23.030220+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.81
+      "score": 32.42
     },
     {
       "id": "4eabae90df2549c6437f46bf",
@@ -233,12 +368,12 @@
       "source": "Estadão",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T15:25:15+00:00",
-      "collected_at": "2026-10-16T16:10:31.361835+00:00",
+      "collected_at": "2026-10-17T13:44:23.571306+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.71
+      "score": 32.32
     },
     {
       "id": "3f6ac924efba01110cb4143e",
@@ -247,56 +382,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T08:44:22+00:00",
-      "collected_at": "2026-10-16T16:10:30.136301+00:00",
+      "collected_at": "2026-10-17T13:44:22.663043+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.11
-    },
-    {
-      "id": "90d7e3c3584a0e86c4ab2fab",
-      "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
-      "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-16T07:55:06+00:00",
-      "collected_at": "2026-10-16T16:10:30.696236+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.79
-    },
-    {
-      "id": "9409f8b44cf432d0577953b8",
-      "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
-      "url": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-16T07:12:51+00:00",
-      "collected_at": "2026-10-16T16:10:30.696985+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.52
-    },
-    {
-      "id": "0e45ef798b51073b7d0c42b3",
-      "title": "Falhas no Citrix XenServer ameaçam sistemas host",
-      "url": "https://www.cisoadvisor.com.br/falhas-no-citrix-xenserver-ameacam-sistemas-host/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:27:58+00:00",
-      "collected_at": "2026-10-16T16:10:29.637664+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ameaca"
-      ],
-      "score": 39.22
+      "score": 31.72
     },
     {
       "id": "d82608398b987c3d78a42a50",
@@ -305,122 +396,32 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:00:43+00:00",
-      "collected_at": "2026-10-16T16:10:29.640217+00:00",
+      "collected_at": "2026-10-17T13:44:22.408863+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "risco"
       ],
-      "score": 39.05
+      "score": 30.66
     },
     {
-      "id": "d31e0f580742af49c9f2bc05",
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-15T20:25:04+00:00",
-      "collected_at": "2026-10-16T16:10:30.138265+00:00",
+      "id": "65ca527baa176c8b5bb957cd",
+      "title": "Agronegócio e cibersegurança mostram como o risco mudou no Brasil - Lockton",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1o4bVNoS003SkN0MEk0dy0wanNoTHdoVWRrVXdHd3lyVjJfb3ZCbHBuOF9KdGw0TVo0R1ZIbjloV0FBSHg1R09fTzFaY2lObzBBTUlmdW1BQy1NaFNibWZRdWRrZXB5NERXSHNnek9XaG9wcHBYSWdma01WV3VFWWRJSmVpM2FRNEFMOWZDZmtlMU9nM0xRTGtxSEtiS0pWbXhET3p6dXpNZw?oc=5",
+      "source": "Lockton",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-15T07:00:00+00:00",
+      "collected_at": "2026-10-17T13:44:23.569501+00:00",
       "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 38.82
-    },
-    {
-      "id": "f20449e77498b78eead73f55",
-      "title": "Segurança cibernética depende de humanos bem preparados",
-      "url": "https://www.cisoadvisor.com.br/seguranca-cibernetica-depende-de-humanos-bem-preparados/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T20:24:10+00:00",
-      "collected_at": "2026-10-16T16:10:29.641071+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 38.81
-    },
-    {
-      "id": "184b6c9252403baaec8babe8",
-      "title": "Proofpoint adquire Varonis por US$ 6,3 bilhões",
-      "url": "https://www.cisoadvisor.com.br/proofpoint-adquire-varonis-por-us-63-bilhoes/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:20:57+00:00",
-      "collected_at": "2026-10-16T16:10:29.638499+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 37.68
-    },
-    {
-      "id": "b3709d7702576f3eaffd417e",
-      "title": "Curl corrige falha de RCE encontrada pela Anthropic",
-      "url": "https://www.cisoadvisor.com.br/curl-corrige-falha-de-rce-encontrada-pela-anthropic/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:04:25+00:00",
-      "collected_at": "2026-10-16T16:10:29.639339+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 37.57
-    },
-    {
-      "id": "304e2d5ffa897d29f8e13013",
-      "title": "Police arrests 95 suspects in international CSAM crackdown action",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-15T11:55:38+00:00",
-      "collected_at": "2026-10-16T16:10:30.142297+00:00",
-      "categories": [
+        "Cyber",
         "GRC"
       ],
       "tags": [
-        "cra"
+        "ciber",
+        "risco"
       ],
-      "score": 33.51
-    },
-    {
-      "id": "b4d9beb7d197083098eed1d4",
-      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-15T09:10:20+00:00",
-      "collected_at": "2026-10-16T16:10:30.143082+00:00",
-      "categories": [
-        "GRC"
-      ],
-      "tags": [
-        "cra"
-      ],
-      "score": 32.44
-    },
-    {
-      "id": "36ee1af36d0e5efc474e4414",
-      "title": "Agência de Comunicação - Acronis Appoints Gerald Caron as Chief Information Security Officer - Estadão Blue Studio",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVm43all5Z0pQeUpDYmI0TUVUZVY3Z0k0RjduR2FZMDhBaGtGRGgwUkUxel9RYXN0NlA0eXhydU93aExCNjFXQ2lCOUN2REJJekJyQmdkcmZYZ3l3Q0UtdTZjdTY4bEZXSUtoX21tOWFWZlJRMHI5eE5paDIzMUg0QWZacWNuWC0zMFF5bXhkcmJzV2xlT09pUG9fUS14NHNUeGk4ekpUQWMxS0NQYVhlSEFpV1JQU1U3RnY3TXE0bUdrTDBkVUFrMmQ3V0xjaXBwM3Z4UnJFMFF3VzZ1dXVTRGJXRQ?oc=5",
-      "source": "Estadão Blue Studio",
-      "feed": "Google News — GRC",
-      "published_at": "2026-10-13T16:20:53+00:00",
-      "collected_at": "2026-10-16T16:10:31.762857+00:00",
-      "categories": [
-        "CISO"
-      ],
-      "tags": [
-        "chief information security officer"
-      ],
-      "score": 14.57
+      "score": 29.71
     }
   ]
 }

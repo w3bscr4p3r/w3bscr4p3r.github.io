@@ -1,6 +1,141 @@
 {
-  "updated_at": "2026-10-16T16:10:32.086540+00:00",
+  "updated_at": "2026-10-17T13:44:24.215166+00:00",
   "items": [
+    {
+      "id": "1c25cb906a0f622cad110f28",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-17T11:00:00+00:00",
+      "collected_at": "2026-10-17T13:44:23.027080+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.93
+    },
+    {
+      "id": "b94b5161230001e899acacbb",
+      "title": "MovSec e Verta em parceria na gestão de risco de terceiros",
+      "url": "https://www.cisoadvisor.com.br/movsec-e-verta-em-parceria-na-gestao-de-risco-de-terceiros/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-17T10:55:58+00:00",
+      "collected_at": "2026-10-17T13:44:22.401680+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risco",
+        "risco de terceiros"
+      ],
+      "score": 46.91
+    },
+    {
+      "id": "43b19a62f67513f57dd04583",
+      "title": "Mercado brasileiro de cibersegurança deve movimentar R$ 127 bi até 2029, aponta estudo da Brasscom - TI INSIDE Online",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSnotN0pyWEdSMVM0Q19xVEFjeHVNd2xQemxhOU9mY2FXcHQ0bGlZUU45dDNoRnVoMzNBMXJGc3NuVmFaRGRicEJIQ1R6UTBSUFdqWkZBSThHbjd3elRQNVEwZnFYSG1wUGRNU3FfblhzUDE4eVhEOGJkYWpYT3BxWFh6eVBYM20xS00za2FrN2hDY1hteXo5RWRxanRYVmhnTExuS0FwUW5RcTVxSENJcG13NVl6Qm9obTc0aGpfZHJIYnJpNV9jbTFQdkY?oc=5",
+      "source": "TI INSIDE Online",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-16T21:51:15+00:00",
+      "collected_at": "2026-10-17T13:44:23.568804+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 36.32
+    },
+    {
+      "id": "b0a1614d9a602de494c5df46",
+      "title": "MITRE ATT&CK v20 adiciona nove técnicas de ataque",
+      "url": "https://www.cisoadvisor.com.br/mitre-attck-v20-adiciona-nove-tecnicas-de-ataque/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T21:04:23+00:00",
+      "collected_at": "2026-10-17T13:44:22.402627+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque"
+      ],
+      "score": 40.02
+    },
+    {
+      "id": "a80230fd1c7a48c4c9d5544e",
+      "title": "Falha crítica no BlockStrap permite RCE no Magento",
+      "url": "https://www.cisoadvisor.com.br/falha-critica-no-blockstrap-permite-rce-no-magento/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T20:58:44+00:00",
+      "collected_at": "2026-10-17T13:44:22.403531+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.48
+    },
+    {
+      "id": "39fa3fe72793b6c17e375264",
+      "title": "BeyondTrust corrige zero-day explorado desde agosto",
+      "url": "https://www.cisoadvisor.com.br/beyondtrust-corrige-zero-day-explorado-desde-agosto/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-16T20:50:28+00:00",
+      "collected_at": "2026-10-17T13:44:22.404434+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 41.93
+    },
+    {
+      "id": "c30c4ca35f309b8e0cba539d",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-16T20:00:59+00:00",
+      "collected_at": "2026-10-17T13:44:22.660290+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.11
+    },
+    {
+      "id": "38d5dd0d8f865f7c0c4d55a8",
+      "title": "Flávio pagou R$ 600 mil a empresa que vende nos EUA sistema de IA para manipular eleições - Intercept Brasil",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGtVN2l4a1lJM2pTQ1RESWFid1hJaEtzbFRtUmEyVXhrdHllM2Y4d01PMnlRVERyaHM5dW1wWFh5SHB4a3pJV1l6endQbzZvZm9heks1X2ljTGhkTWhoNkp6MUZDRndsM2xFSmFKbWRMMEFpZjdWcE5mU0JxOWdrSXBkNHFhSklvcEhNZ2RCUVV3Ml90Mlhz?oc=5",
+      "source": "Intercept Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-16T19:37:51+00:00",
+      "collected_at": "2026-10-17T13:44:23.567262+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 33.96
+    },
+    {
+      "id": "1541654c2b0ec640e3ff6de4",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-16T17:20:03+00:00",
+      "collected_at": "2026-10-17T13:44:22.661001+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.06
+    },
     {
       "id": "4eabae90df2549c6437f46bf",
       "title": "Custo de vazamento de dados bate recorde no Brasil e chega a R$ 7,4 milhões - Estadão",
@@ -369,6 +504,24 @@
         "cra"
       ],
       "score": 32.65
+    },
+    {
+      "id": "65ca527baa176c8b5bb957cd",
+      "title": "Agronegócio e cibersegurança mostram como o risco mudou no Brasil - Lockton",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1o4bVNoS003SkN0MEk0dy0wanNoTHdoVWRrVXdHd3lyVjJfb3ZCbHBuOF9KdGw0TVo0R1ZIbjloV0FBSHg1R09fTzFaY2lObzBBTUlmdW1BQy1NaFNibWZRdWRrZXB5NERXSHNnek9XaG9wcHBYSWdma01WV3VFWWRJSmVpM2FRNEFMOWZDZmtlMU9nM0xRTGtxSEtiS0pWbXhET3p6dXpNZw?oc=5",
+      "source": "Lockton",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-15T07:00:00+00:00",
+      "collected_at": "2026-10-17T13:44:23.569501+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "risco"
+      ],
+      "score": 29.71
     },
     {
       "id": "36ee1af36d0e5efc474e4414",
