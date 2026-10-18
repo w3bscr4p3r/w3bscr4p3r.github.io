@@ -4,8 +4,44 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Sat, 17 Oct 2026 13:44:24 +0000</lastBuildDate>
+<lastBuildDate>Sun, 18 Oct 2026 14:01:57 +0000</lastBuildDate>
 <item>
+<title>US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars</title>
+<link>https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/</link>
+<guid isPermaLink="false">e43f2952de1baf613c8c8903</guid>
+<pubDate>Sun, 18 Oct 2026 11:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Pequenas empresas: na mira e menos protegidas</title>
+<link>https://www.cisoadvisor.com.br/pequenas-empresas-na-mira-e-menos-protegidas/</link>
+<guid isPermaLink="false">89fcc29bc9566dbe8b1cac31</guid>
+<pubDate>Sun, 18 Oct 2026 00:21:03 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>IA amplia riscos internos e expõe lacunas de visibilidade</title>
+<link>https://www.cisoadvisor.com.br/ia-amplia-riscos-internos-e-expoe-lacunas-de-visibilidade/</link>
+<guid isPermaLink="false">4fcf5dbf3ef7dd1956e41956</guid>
+<pubDate>Sun, 18 Oct 2026 00:07:07 +0000</pubDate>
+<description>Categorias: GRC. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Brasil: campanha de Flávio Bolsonaro acusada de manipulação digital - RFI</title>
+<link>https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0g4c0ZlcGRDcFdHR2s1bVhCTjYtbGlMUC1MZG4yUzBtdERpNmE3U1ZYdlFxMm5mWFZ6Z25TSnJrWVFucmlRN2IxdFloekstUnpma2hya0VXR3ZGbnNzRFpqUDJqbFcxT09xOE1NNjcxX3VUeWRKVXkwYkM0c2k1M19sRzJIa2FqX2hzSHNwd254bUQ0RjJxRkhTV01YMDFqUW1sYk9nd3pNcGFFSDJDM2ZOWDNfVUF2QjFrRlFxRUdGS2I5ZWxXOTNlV1lveHJ4SXVjaEtRZFBSbHc?oc=5</link>
+<guid isPermaLink="false">76bd38d25d687065b538b62d</guid>
+<pubDate>Sat, 17 Oct 2026 15:49:57 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: RFI.</description>
+</item><item>
+<title>Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/</link>
+<guid isPermaLink="false">d2eedd70e3a1424dbe4aa215</guid>
+<pubDate>Sat, 17 Oct 2026 15:18:51 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Drupal patches critical RCE flaws, warns exploits may emerge soon</title>
+<link>https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/</link>
+<guid isPermaLink="false">e27c70635c3e2bb80445083e</guid>
+<pubDate>Sat, 17 Oct 2026 14:32:48 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel</title>
 <link>https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/</link>
 <guid isPermaLink="false">1c25cb906a0f622cad110f28</guid>
@@ -209,11 +245,5 @@
 <guid isPermaLink="false">65ca527baa176c8b5bb957cd</guid>
 <pubDate>Thu, 15 Oct 2026 07:00:00 +0000</pubDate>
 <description>Categorias: Cyber, GRC. Fonte: Lockton.</description>
-</item><item>
-<title>Agência de Comunicação - Acronis Appoints Gerald Caron as Chief Information Security Officer - Estadão Blue Studio</title>
-<link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVm43all5Z0pQeUpDYmI0TUVUZVY3Z0k0RjduR2FZMDhBaGtGRGgwUkUxel9RYXN0NlA0eXhydU93aExCNjFXQ2lCOUN2REJJekJyQmdkcmZYZ3l3Q0UtdTZjdTY4bEZXSUtoX21tOWFWZlJRMHI5eE5paDIzMUg0QWZacWNuWC0zMFF5bXhkcmJzV2xlT09pUG9fUS14NHNUeGk4ekpUQWMxS0NQYVhlSEFpV1JQU1U3RnY3TXE0bUdrTDBkVUFrMmQ3V0xjaXBwM3Z4UnJFMFF3VzZ1dXVTRGJXRQ?oc=5</link>
-<guid isPermaLink="false">36ee1af36d0e5efc474e4414</guid>
-<pubDate>Tue, 13 Oct 2026 16:20:53 +0000</pubDate>
-<description>Categorias: CISO. Fonte: Estadão Blue Studio.</description>
 </item>
 </channel></rss>

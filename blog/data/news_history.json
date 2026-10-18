@@ -1,6 +1,99 @@
 {
-  "updated_at": "2026-10-17T13:44:24.215166+00:00",
+  "updated_at": "2026-10-18T14:01:57.430153+00:00",
   "items": [
+    {
+      "id": "e43f2952de1baf613c8c8903",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-18T11:00:00+00:00",
+      "collected_at": "2026-10-18T14:01:56.007615+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber",
+        "soar"
+      ],
+      "score": 44.82
+    },
+    {
+      "id": "89fcc29bc9566dbe8b1cac31",
+      "title": "Pequenas empresas: na mira e menos protegidas",
+      "url": "https://www.cisoadvisor.com.br/pequenas-empresas-na-mira-e-menos-protegidas/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-18T00:21:03+00:00",
+      "collected_at": "2026-10-18T14:01:55.051903+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.68
+    },
+    {
+      "id": "4fcf5dbf3ef7dd1956e41956",
+      "title": "IA amplia riscos internos e expõe lacunas de visibilidade",
+      "url": "https://www.cisoadvisor.com.br/ia-amplia-riscos-internos-e-expoe-lacunas-de-visibilidade/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-18T00:07:07+00:00",
+      "collected_at": "2026-10-18T14:01:55.052858+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risco"
+      ],
+      "score": 41.09
+    },
+    {
+      "id": "76bd38d25d687065b538b62d",
+      "title": "Brasil: campanha de Flávio Bolsonaro acusada de manipulação digital - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0g4c0ZlcGRDcFdHR2s1bVhCTjYtbGlMUC1MZG4yUzBtdERpNmE3U1ZYdlFxMm5mWFZ6Z25TSnJrWVFucmlRN2IxdFloekstUnpma2hya0VXR3ZGbnNzRFpqUDJqbFcxT09xOE1NNjcxX3VUeWRKVXkwYkM0c2k1M19sRzJIa2FqX2hzSHNwd254bUQ0RjJxRkhTV01YMDFqUW1sYk9nd3pNcGFFSDJDM2ZOWDNfVUF2QjFrRlFxRUdGS2I5ZWxXOTNlV1lveHJ4SXVjaEtRZFBSbHc?oc=5",
+      "source": "RFI",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-17T15:49:57+00:00",
+      "collected_at": "2026-10-18T14:01:56.703249+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 32.37
+    },
+    {
+      "id": "d2eedd70e3a1424dbe4aa215",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-17T15:18:51+00:00",
+      "collected_at": "2026-10-18T14:01:55.438129+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.67
+    },
+    {
+      "id": "e27c70635c3e2bb80445083e",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-17T14:32:48+00:00",
+      "collected_at": "2026-10-18T14:01:55.438862+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 39.37
+    },
     {
       "id": "1c25cb906a0f622cad110f28",
       "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",

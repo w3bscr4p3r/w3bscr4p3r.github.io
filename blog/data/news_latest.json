@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T13:44:24.215166+00:00",
+  "generated_at": "2026-10-18T14:01:57.430153+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 10,
+  "new_count": 6,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -22,12 +22,12 @@
     {
       "name": "BleepingComputer",
       "status": "ok",
-      "items": 15
+      "items": 13
     },
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,92 @@
   ],
   "items": [
     {
+      "id": "e43f2952de1baf613c8c8903",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-18T11:00:00+00:00",
+      "collected_at": "2026-10-18T14:01:56.007615+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber",
+        "soar"
+      ],
+      "score": 44.82
+    },
+    {
+      "id": "4fcf5dbf3ef7dd1956e41956",
+      "title": "IA amplia riscos internos e expõe lacunas de visibilidade",
+      "url": "https://www.cisoadvisor.com.br/ia-amplia-riscos-internos-e-expoe-lacunas-de-visibilidade/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-18T00:07:07+00:00",
+      "collected_at": "2026-10-18T14:01:55.052858+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risco"
+      ],
+      "score": 41.09
+    },
+    {
+      "id": "89fcc29bc9566dbe8b1cac31",
+      "title": "Pequenas empresas: na mira e menos protegidas",
+      "url": "https://www.cisoadvisor.com.br/pequenas-empresas-na-mira-e-menos-protegidas/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-18T00:21:03+00:00",
+      "collected_at": "2026-10-18T14:01:55.051903+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.68
+    },
+    {
+      "id": "e27c70635c3e2bb80445083e",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-17T14:32:48+00:00",
+      "collected_at": "2026-10-18T14:01:55.438862+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 39.37
+    },
+    {
+      "id": "d2eedd70e3a1424dbe4aa215",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-17T15:18:51+00:00",
+      "collected_at": "2026-10-18T14:01:55.438129+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.67
+    },
+    {
       "id": "b94b5161230001e899acacbb",
       "title": "MovSec e Verta em parceria na gestão de risco de terceiros",
       "url": "https://www.cisoadvisor.com.br/movsec-e-verta-em-parceria-na-gestao-de-risco-de-terceiros/",
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-17T10:55:58+00:00",
-      "collected_at": "2026-10-17T13:44:22.401680+00:00",
+      "collected_at": "2026-10-18T14:01:55.053753+00:00",
       "categories": [
         "GRC"
       ],
@@ -66,7 +145,7 @@
         "risco",
         "risco de terceiros"
       ],
-      "score": 46.91
+      "score": 37.46
     },
     {
       "id": "1c25cb906a0f622cad110f28",
@@ -75,12 +154,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-17T11:00:00+00:00",
-      "collected_at": "2026-10-17T13:44:23.027080+00:00",
+      "collected_at": "2026-10-18T14:01:56.008762+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.93
+      "score": 32.49
     },
     {
       "id": "39fa3fe72793b6c17e375264",
@@ -89,14 +168,28 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-16T20:50:28+00:00",
-      "collected_at": "2026-10-17T13:44:22.404434+00:00",
+      "collected_at": "2026-10-18T14:01:55.056373+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 41.93
+      "score": 32.48
+    },
+    {
+      "id": "76bd38d25d687065b538b62d",
+      "title": "Brasil: campanha de Flávio Bolsonaro acusada de manipulação digital - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0g4c0ZlcGRDcFdHR2s1bVhCTjYtbGlMUC1MZG4yUzBtdERpNmE3U1ZYdlFxMm5mWFZ6Z25TSnJrWVFucmlRN2IxdFloekstUnpma2hya0VXR3ZGbnNzRFpqUDJqbFcxT09xOE1NNjcxX3VUeWRKVXkwYkM0c2k1M19sRzJIa2FqX2hzSHNwd254bUQ0RjJxRkhTV01YMDFqUW1sYk9nd3pNcGFFSDJDM2ZOWDNfVUF2QjFrRlFxRUdGS2I5ZWxXOTNlV1lveHJ4SXVjaEtRZFBSbHc?oc=5",
+      "source": "RFI",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-17T15:49:57+00:00",
+      "collected_at": "2026-10-18T14:01:56.703249+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 32.37
     },
     {
       "id": "914f42699f2fe4a1c8841f72",
@@ -105,7 +198,7 @@
       "source": "Portal IPNews",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T13:58:42+00:00",
-      "collected_at": "2026-10-17T13:44:23.570578+00:00",
+      "collected_at": "2026-10-18T14:01:56.704683+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -114,7 +207,7 @@
         "ciber",
         "governanca"
       ],
-      "score": 41.76
+      "score": 32.31
     },
     {
       "id": "18b03b6a9be8db51cf1e9979",
@@ -123,7 +216,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T10:53:22+00:00",
-      "collected_at": "2026-10-17T13:44:23.029439+00:00",
+      "collected_at": "2026-10-18T14:01:56.012140+00:00",
       "categories": [
         "Cyber"
       ],
@@ -132,7 +225,7 @@
         "vulnerability",
         "zero-day"
       ],
-      "score": 41.06
+      "score": 31.61
     },
     {
       "id": "218f8c420fcd14c07cae2785",
@@ -141,7 +234,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T14:09:51+00:00",
-      "collected_at": "2026-10-17T13:44:23.027891+00:00",
+      "collected_at": "2026-10-18T14:01:56.009776+00:00",
       "categories": [
         "Cyber"
       ],
@@ -150,7 +243,7 @@
         "ics",
         "malware"
       ],
-      "score": 40.33
+      "score": 30.88
     },
     {
       "id": "b0a1614d9a602de494c5df46",
@@ -159,14 +252,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-16T21:04:23+00:00",
-      "collected_at": "2026-10-17T13:44:22.402627+00:00",
+      "collected_at": "2026-10-18T14:01:55.054635+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ataque"
       ],
-      "score": 40.02
+      "score": 30.57
     },
     {
       "id": "a80230fd1c7a48c4c9d5544e",
@@ -175,12 +268,12 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-16T20:58:44+00:00",
-      "collected_at": "2026-10-17T13:44:22.403531+00:00",
+      "collected_at": "2026-10-18T14:01:55.055509+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 38.48
+      "score": 29.03
     },
     {
       "id": "c30c4ca35f309b8e0cba539d",
@@ -189,12 +282,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T20:00:59+00:00",
-      "collected_at": "2026-10-17T13:44:22.660290+00:00",
+      "collected_at": "2026-10-18T14:01:55.439566+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 38.11
+      "score": 28.66
     },
     {
       "id": "ac3068584dac1871fc0cf9e1",
@@ -203,7 +296,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T06:18:08+00:00",
-      "collected_at": "2026-10-17T13:44:22.664368+00:00",
+      "collected_at": "2026-10-18T14:01:55.443621+00:00",
       "categories": [
         "Cyber"
       ],
@@ -211,7 +304,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 37.77
+      "score": 28.33
     },
     {
       "id": "47edc731d87879a104f86256",
@@ -220,14 +313,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T12:01:29+00:00",
-      "collected_at": "2026-10-17T13:44:22.662359+00:00",
+      "collected_at": "2026-10-18T14:01:55.441609+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.5
+      "score": 27.05
     },
     {
       "id": "43b19a62f67513f57dd04583",
@@ -236,14 +329,14 @@
       "source": "TI INSIDE Online",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T21:51:15+00:00",
-      "collected_at": "2026-10-17T13:44:23.568804+00:00",
+      "collected_at": "2026-10-18T14:01:56.703956+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ciber"
       ],
-      "score": 36.32
+      "score": 26.88
     },
     {
       "id": "1541654c2b0ec640e3ff6de4",
@@ -252,12 +345,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T17:20:03+00:00",
-      "collected_at": "2026-10-17T13:44:22.661001+00:00",
+      "collected_at": "2026-10-18T14:01:55.440255+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 35.06
+      "score": 25.62
     },
     {
       "id": "7455c27136a88cfe45fdb21e",
@@ -266,12 +359,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T09:54:34+00:00",
-      "collected_at": "2026-10-17T13:44:23.030978+00:00",
+      "collected_at": "2026-10-18T14:01:56.014566+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 34.18
+      "score": 24.73
     },
     {
       "id": "38d5dd0d8f865f7c0c4d55a8",
@@ -280,12 +373,12 @@
       "source": "Intercept Brasil",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-16T19:37:51+00:00",
-      "collected_at": "2026-10-17T13:44:23.567262+00:00",
+      "collected_at": "2026-10-18T14:01:56.701257+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.96
+      "score": 24.51
     },
     {
       "id": "cd97255a9643ad27a7b03126",
@@ -294,12 +387,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-16T13:50:59+00:00",
-      "collected_at": "2026-10-17T13:44:22.661694+00:00",
+      "collected_at": "2026-10-18T14:01:55.440925+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.71
+      "score": 24.26
     },
     {
       "id": "146b8fb6d46605e96c085863",
@@ -308,12 +401,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-16T11:46:40+00:00",
-      "collected_at": "2026-10-17T13:44:23.028676+00:00",
+      "collected_at": "2026-10-18T14:01:56.010969+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.9
+      "score": 23.46
     },
     {
       "id": "c9eead69184d91c38f78f026",
@@ -322,106 +415,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-15T21:36:40+00:00",
-      "collected_at": "2026-10-17T13:44:22.405338+00:00",
+      "collected_at": "2026-10-18T14:01:55.057200+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 32.89
-    },
-    {
-      "id": "6b164b9497e9dad3cbf4382a",
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-16T07:37:35+00:00",
-      "collected_at": "2026-10-17T13:44:22.663719+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 32.79
-    },
-    {
-      "id": "13b137ee5750ab10c7dfb84c",
-      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
-      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-16T10:32:11+00:00",
-      "collected_at": "2026-10-17T13:44:23.030220+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.42
-    },
-    {
-      "id": "4eabae90df2549c6437f46bf",
-      "title": "Custo de vazamento de dados bate recorde no Brasil e chega a R$ 7,4 milhões - Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXRZbE9jbWpFNWVGSkhPR2F3eXNxZ1Z4Ykcyb2wycVEwdTZYMkhCc2ZpQTVqLUNNa2dyTmVLNVpFdFNad0UybUVoR2NIbHpuMW9KVnNpXzVoVVpnc1ZFbVhkRldOclVOdUFHVnAxakFydFZfMmN1Vk1qb1I3WGU2UWpCTG1Xbkx4czJwZHE2VjA3WEJYWUtYTkNrY2xxM1VTUklaeC1pTnc2RHpUNEx4OHdKWTg4Szd4QWVOc0VOVFo4RUXSAcgBQVVfeXFMTnlmWGFMMXdjSlVlY2dYaWViNTUzT3VROWZKQkJYbFQza25xTkNUZGtuWWJQQjZjZWlGVnVqdVZaeDdKTHdDbzRIQnkyQWxaOHBWU1VOMmxWTUNMMFpFbmFpbm9MWHlLMHJkeUZxUmpXZU9YSk9YczlYQUxjQUpxZHVDN25vaXJ4aXh3MjZEMDNhMVV3V1RtWnFBdFpIaW8zTl96NnFjb09URFpNYnRLcHRpcFdtVEREMjJwMUxtMnhZaTAzTkFmd3Q?oc=5",
-      "source": "Estadão",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-16T15:25:15+00:00",
-      "collected_at": "2026-10-17T13:44:23.571306+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.32
-    },
-    {
-      "id": "3f6ac924efba01110cb4143e",
-      "title": "Microsoft: October Windows update may break Smart App Control",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-16T08:44:22+00:00",
-      "collected_at": "2026-10-17T13:44:22.663043+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.72
-    },
-    {
-      "id": "d82608398b987c3d78a42a50",
-      "title": "Agentes de IA ampliam riscos no setor bancário",
-      "url": "https://www.cisoadvisor.com.br/agentes-de-ia-ampliam-riscos-no-setor-bancario/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:00:43+00:00",
-      "collected_at": "2026-10-17T13:44:22.408863+00:00",
-      "categories": [
-        "GRC"
-      ],
-      "tags": [
-        "risco"
-      ],
-      "score": 30.66
-    },
-    {
-      "id": "65ca527baa176c8b5bb957cd",
-      "title": "Agronegócio e cibersegurança mostram como o risco mudou no Brasil - Lockton",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1o4bVNoS003SkN0MEk0dy0wanNoTHdoVWRrVXdHd3lyVjJfb3ZCbHBuOF9KdGw0TVo0R1ZIbjloV0FBSHg1R09fTzFaY2lObzBBTUlmdW1BQy1NaFNibWZRdWRrZXB5NERXSHNnek9XaG9wcHBYSWdma01WV3VFWWRJSmVpM2FRNEFMOWZDZmtlMU9nM0xRTGtxSEtiS0pWbXhET3p6dXpNZw?oc=5",
-      "source": "Lockton",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-15T07:00:00+00:00",
-      "collected_at": "2026-10-17T13:44:23.569501+00:00",
-      "categories": [
-        "Cyber",
-        "GRC"
-      ],
-      "tags": [
-        "ciber",
-        "risco"
-      ],
-      "score": 29.71
+      "score": 23.45
     }
   ]
 }
