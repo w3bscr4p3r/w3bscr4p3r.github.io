@@ -4,8 +4,128 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Sun, 18 Oct 2026 14:01:57 +0000</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 16:59:19 +0000</lastBuildDate>
 <item>
+<title>Competência mais valorizada por gestores de TI: cyber</title>
+<link>https://www.cisoadvisor.com.br/competencia-mais-valorizada-por-gestores-de-ti-cyber/</link>
+<guid isPermaLink="false">2c57c203284e235ef117ffa7</guid>
+<pubDate>Mon, 19 Oct 2026 16:48:54 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw</title>
+<link>https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/</link>
+<guid isPermaLink="false">ed0460a681b1097de6bfeded</guid>
+<pubDate>Mon, 19 Oct 2026 15:47:50 +0000</pubDate>
+<description>Categorias: Cyber, GRC. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack</title>
+<link>https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/</link>
+<guid isPermaLink="false">8bbaaabc5426d4dcb3779a53</guid>
+<pubDate>Mon, 19 Oct 2026 15:20:53 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Microsoft fixes game, app crashes caused by recent Windows update</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/</link>
+<guid isPermaLink="false">360a1a5a67b788f3ba59316e</guid>
+<pubDate>Mon, 19 Oct 2026 14:55:23 +0000</pubDate>
+<description>Categorias: GRC. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Cadeia de fornecedores é desafio de resiliência</title>
+<link>https://www.cisoadvisor.com.br/cadeia-de-fornecedores-e-desafio-de-resiliencia/</link>
+<guid isPermaLink="false">76cc60c034fe820a54e0f5d7</guid>
+<pubDate>Mon, 19 Oct 2026 14:40:20 +0000</pubDate>
+<description>Categorias: GRC. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Inside the Underground Market for Know Your Client Services</title>
+<link>https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/</link>
+<guid isPermaLink="false">79eaf976d259a8264ddefe6d</guid>
+<pubDate>Mon, 19 Oct 2026 14:00:10 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>F5 releases out-of-band patches for critical NGINX vulnerabilities</title>
+<link>https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/</link>
+<guid isPermaLink="false">a47a3bfdc4e181e691488503</guid>
+<pubDate>Mon, 19 Oct 2026 13:49:24 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site</title>
+<link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
+<guid isPermaLink="false">c1b56d8409818a2c74ca2c89</guid>
+<pubDate>Mon, 19 Oct 2026 13:48:56 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: KrebsOnSecurity.</description>
+</item><item>
+<title>ConnectWise Suspends Cloud Services in Response to Cyberattack</title>
+<link>https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/</link>
+<guid isPermaLink="false">5aef0475397285fe1d03a0ab</guid>
+<pubDate>Mon, 19 Oct 2026 13:16:20 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Microsoft fixes classic Outlook bug that hid Copilot buttons</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/</link>
+<guid isPermaLink="false">aa3c588aa82941401f10659a</guid>
+<pubDate>Mon, 19 Oct 2026 12:44:44 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure</title>
+<link>https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/</link>
+<guid isPermaLink="false">b4cae3a9d5f84726c4ddb0a5</guid>
+<pubDate>Mon, 19 Oct 2026 12:44:39 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>One Compromised Login Exposed Millions of California Students’ Records</title>
+<link>https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/</link>
+<guid isPermaLink="false">11fc2199906b04a422940bbc</guid>
+<pubDate>Mon, 19 Oct 2026 11:55:50 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack</title>
+<link>https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/</link>
+<guid isPermaLink="false">db98149f1cbd2917ceea77d2</guid>
+<pubDate>Mon, 19 Oct 2026 11:13:23 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>MITRE ATT&amp;CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks</title>
+<link>https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/</link>
+<guid isPermaLink="false">4ba31d84f940c42aa3fb229d</guid>
+<pubDate>Mon, 19 Oct 2026 09:37:04 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Microsoft: October Windows Server updates break Exchange sign-in, mail flow</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/</link>
+<guid isPermaLink="false">564cb82efc66ecdb8b3117e0</guid>
+<pubDate>Mon, 19 Oct 2026 08:58:41 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Anthropic Acquires Confidential AI Startup Opaque Systems</title>
+<link>https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/</link>
+<guid isPermaLink="false">cfcd66ac2275b33a025beff2</guid>
+<pubDate>Mon, 19 Oct 2026 07:45:25 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Modelo de IA da OpenAI invadiu site governamental</title>
+<link>https://www.cisoadvisor.com.br/modelo-de-ia-da-openai-invadiu-site-governamental/</link>
+<guid isPermaLink="false">cc2d229847414b7bc20ea1a7</guid>
+<pubDate>Mon, 19 Oct 2026 02:03:08 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Vazamento expõe 119,4 milhões de registros de viajantes</title>
+<link>https://www.cisoadvisor.com.br/vazamento-expoe-1194-milhoes-de-registros-de-viajantes/</link>
+<guid isPermaLink="false">082f0dc9fee32918c89e1548</guid>
+<pubDate>Mon, 19 Oct 2026 01:58:02 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Dados de instituição financeira em anúncio na dark web</title>
+<link>https://www.cisoadvisor.com.br/dados-de-instituicao-financeira-anunciados-na-dark-web/</link>
+<guid isPermaLink="false">3125fa2a76ce93898627bde5</guid>
+<pubDate>Mon, 19 Oct 2026 00:28:08 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Hackers exploit SiteGuard WAF flaw to run commands as admins</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/</link>
+<guid isPermaLink="false">bcf4b6ba0fdb3423874ab362</guid>
+<pubDate>Sun, 18 Oct 2026 14:23:16 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars</title>
 <link>https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/</link>
 <guid isPermaLink="false">e43f2952de1baf613c8c8903</guid>
@@ -125,125 +245,5 @@
 <guid isPermaLink="false">47edc731d87879a104f86256</guid>
 <pubDate>Fri, 16 Oct 2026 12:01:29 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts</title>
-<link>https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/</link>
-<guid isPermaLink="false">146b8fb6d46605e96c085863</guid>
-<pubDate>Fri, 16 Oct 2026 11:46:40 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day</title>
-<link>https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/</link>
-<guid isPermaLink="false">18b03b6a9be8db51cf1e9979</guid>
-<pubDate>Fri, 16 Oct 2026 10:53:22 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks</title>
-<link>https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/</link>
-<guid isPermaLink="false">13b137ee5750ab10c7dfb84c</guid>
-<pubDate>Fri, 16 Oct 2026 10:32:11 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>F5, Juniper Networks Patch Critical Vulnerabilities</title>
-<link>https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/</link>
-<guid isPermaLink="false">7455c27136a88cfe45fdb21e</guid>
-<pubDate>Fri, 16 Oct 2026 09:54:34 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Microsoft: October Windows update may break Smart App Control</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/</link>
-<guid isPermaLink="false">3f6ac924efba01110cb4143e</guid>
-<pubDate>Fri, 16 Oct 2026 08:44:22 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Microsoft Patches Two Dozen RCE Flaws in Office</title>
-<link>https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/</link>
-<guid isPermaLink="false">90d7e3c3584a0e86c4ab2fab</guid>
-<pubDate>Fri, 16 Oct 2026 07:55:06 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>BAE Systems cyberattack disrupts US federal court operations</title>
-<link>https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/</link>
-<guid isPermaLink="false">6b164b9497e9dad3cbf4382a</guid>
-<pubDate>Fri, 16 Oct 2026 07:37:35 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis</title>
-<link>https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/</link>
-<guid isPermaLink="false">9409f8b44cf432d0577953b8</guid>
-<pubDate>Fri, 16 Oct 2026 07:12:51 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>BeyondTrust patches zero-day exploited in attacks since August</title>
-<link>https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/</link>
-<guid isPermaLink="false">ac3068584dac1871fc0cf9e1</guid>
-<pubDate>Fri, 16 Oct 2026 06:18:08 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>CISA alerta para exploração de zero-day no Ivanti</title>
-<link>https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-de-zero-day-no-ivanti/</link>
-<guid isPermaLink="false">c9eead69184d91c38f78f026</guid>
-<pubDate>Thu, 15 Oct 2026 21:36:40 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Falhas no Citrix XenServer ameaçam sistemas host</title>
-<link>https://www.cisoadvisor.com.br/falhas-no-citrix-xenserver-ameacam-sistemas-host/</link>
-<guid isPermaLink="false">0e45ef798b51073b7d0c42b3</guid>
-<pubDate>Thu, 15 Oct 2026 21:27:58 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Proofpoint adquire Varonis por US$ 6,3 bilhões</title>
-<link>https://www.cisoadvisor.com.br/proofpoint-adquire-varonis-por-us-63-bilhoes/</link>
-<guid isPermaLink="false">184b6c9252403baaec8babe8</guid>
-<pubDate>Thu, 15 Oct 2026 21:20:57 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Curl corrige falha de RCE encontrada pela Anthropic</title>
-<link>https://www.cisoadvisor.com.br/curl-corrige-falha-de-rce-encontrada-pela-anthropic/</link>
-<guid isPermaLink="false">b3709d7702576f3eaffd417e</guid>
-<pubDate>Thu, 15 Oct 2026 21:04:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Agentes de IA ampliam riscos no setor bancário</title>
-<link>https://www.cisoadvisor.com.br/agentes-de-ia-ampliam-riscos-no-setor-bancario/</link>
-<guid isPermaLink="false">d82608398b987c3d78a42a50</guid>
-<pubDate>Thu, 15 Oct 2026 21:00:43 +0000</pubDate>
-<description>Categorias: GRC. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/</link>
-<guid isPermaLink="false">d31e0f580742af49c9f2bc05</guid>
-<pubDate>Thu, 15 Oct 2026 20:25:04 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Segurança cibernética depende de humanos bem preparados</title>
-<link>https://www.cisoadvisor.com.br/seguranca-cibernetica-depende-de-humanos-bem-preparados/</link>
-<guid isPermaLink="false">f20449e77498b78eead73f55</guid>
-<pubDate>Thu, 15 Oct 2026 20:24:10 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Hackers sequestram D-Link e Ubiquiti para revender banda</title>
-<link>https://www.cisoadvisor.com.br/hackers-sequestram-d-link-e-ubiquiti-para-revender-banda/</link>
-<guid isPermaLink="false">4aff6cbd001f0f8cac5b2937</guid>
-<pubDate>Thu, 15 Oct 2026 20:17:06 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Police arrests 95 suspects in international CSAM crackdown action</title>
-<link>https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/</link>
-<guid isPermaLink="false">304e2d5ffa897d29f8e13013</guid>
-<pubDate>Thu, 15 Oct 2026 11:55:38 +0000</pubDate>
-<description>Categorias: GRC. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Microsoft fixes bug causing Windows black screens, Explorer crashes</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/</link>
-<guid isPermaLink="false">b4d9beb7d197083098eed1d4</guid>
-<pubDate>Thu, 15 Oct 2026 09:10:20 +0000</pubDate>
-<description>Categorias: GRC. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Agronegócio e cibersegurança mostram como o risco mudou no Brasil - Lockton</title>
-<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1o4bVNoS003SkN0MEk0dy0wanNoTHdoVWRrVXdHd3lyVjJfb3ZCbHBuOF9KdGw0TVo0R1ZIbjloV0FBSHg1R09fTzFaY2lObzBBTUlmdW1BQy1NaFNibWZRdWRrZXB5NERXSHNnek9XaG9wcHBYSWdma01WV3VFWWRJSmVpM2FRNEFMOWZDZmtlMU9nM0xRTGtxSEtiS0pWbXhET3p6dXpNZw?oc=5</link>
-<guid isPermaLink="false">65ca527baa176c8b5bb957cd</guid>
-<pubDate>Thu, 15 Oct 2026 07:00:00 +0000</pubDate>
-<description>Categorias: Cyber, GRC. Fonte: Lockton.</description>
 </item>
 </channel></rss>
