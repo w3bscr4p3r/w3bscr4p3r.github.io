@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:07:09.058268+00:00",
+  "generated_at": "2026-10-21T15:16:07.183464+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
   "new_count": 22,
@@ -47,59 +47,329 @@
     {
       "name": "Google News — CISO",
       "status": "ok",
-      "items": 0
+      "items": 1
     }
   ],
   "items": [
     {
-      "id": "ed0460a681b1097de6bfeded",
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+      "id": "c0c3d9a830539422b0db7fdd",
+      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-19T15:47:50+00:00",
-      "collected_at": "2026-10-20T15:07:07.653566+00:00",
+      "published_at": "2026-10-21T14:45:00+00:00",
+      "collected_at": "2026-10-21T15:16:05.649159+00:00",
       "categories": [
-        "Cyber",
-        "GRC"
+        "Cyber"
       ],
       "tags": [
         "exploit",
-        "risk"
+        "ransomware"
       ],
-      "score": 47.93
+      "score": 49.8
     },
     {
-      "id": "65665c3b375cd5613e27aa49",
-      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T13:51:01+00:00",
-      "collected_at": "2026-10-20T15:07:07.650108+00:00",
+      "id": "b459aaf7fdea74ded818b98f",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T08:36:24+00:00",
+      "collected_at": "2026-10-21T15:16:05.159011+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "supply chain"
+        "ransomware"
       ],
-      "score": 46.01
+      "score": 45.91
     },
     {
-      "id": "3ca023bb22a48133dbf914d9",
-      "title": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
-      "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+      "id": "760262eb9ab19da18447e8b6",
+      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-20T09:33:49+00:00",
-      "collected_at": "2026-10-20T15:07:07.652832+00:00",
+      "published_at": "2026-10-21T07:02:06+00:00",
+      "collected_at": "2026-10-21T15:16:05.651898+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "breach"
+        "exploit"
       ],
-      "score": 44.34
+      "score": 45.3
+    },
+    {
+      "id": "70674fd1ebea9878cee453e6",
+      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T14:07:05+00:00",
+      "collected_at": "2026-10-21T15:16:05.157596+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 44.55
+    },
+    {
+      "id": "ada370d6bd0eebac2f747637",
+      "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
+      "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T15:00:00+00:00",
+      "collected_at": "2026-10-21T15:16:05.648752+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.9
+    },
+    {
+      "id": "582610b5131d1e470dbe6be7",
+      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+      "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T14:00:10+00:00",
+      "collected_at": "2026-10-21T15:16:05.157972+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.51
+    },
+    {
+      "id": "1d106c0aeca8dba527b31f82",
+      "title": "ConnectWise segue com nuvem parada após invasão na cadeia de suprimentos",
+      "url": "https://www.cisoadvisor.com.br/connectwise-segue-com-nuvem-parada-apos-invasao-na-cadeia-de-suprimentos/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T04:31:56+00:00",
+      "collected_at": "2026-10-21T15:16:04.823954+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cadeia de suprimentos"
+      ],
+      "score": 42.32
+    },
+    {
+      "id": "8ee393a7688e889c069437e3",
+      "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+      "url": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T13:17:35+00:00",
+      "collected_at": "2026-10-21T15:16:05.649551+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.23
+    },
+    {
+      "id": "1d5458ffe923c23fc56d813c",
+      "title": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
+      "url": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T12:57:47+00:00",
+      "collected_at": "2026-10-21T15:16:05.649940+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.1
+    },
+    {
+      "id": "a92825d3e0f6f829f96030f0",
+      "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
+      "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T12:34:22+00:00",
+      "collected_at": "2026-10-21T15:16:05.650341+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "ea38b7bd93aa1f9a70799031",
+      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T12:20:34+00:00",
+      "collected_at": "2026-10-21T15:16:05.158327+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.86
+    },
+    {
+      "id": "afcd0e30ac76a9096fedb333",
+      "title": "Falha no Siemens Software Center é usada em ataques ClickFix",
+      "url": "https://www.cisoadvisor.com.br/falha-no-siemens-software-center-e-usada-em-ataques-clickfix/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-20T22:57:15+00:00",
+      "collected_at": "2026-10-21T15:16:04.826520+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "siem"
+      ],
+      "score": 41.66
+    },
+    {
+      "id": "6a872704b2357e03658993b7",
+      "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
+      "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T11:22:05+00:00",
+      "collected_at": "2026-10-21T15:16:05.650725+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.48
+    },
+    {
+      "id": "b3c964d8daf58233f7a78eed",
+      "title": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
+      "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T10:54:49+00:00",
+      "collected_at": "2026-10-21T15:16:05.651131+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.31
+    },
+    {
+      "id": "f4047155345bd6b910cd4aee",
+      "title": "Microsoft says October updates didn’t actually fix VPN issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T10:14:53+00:00",
+      "collected_at": "2026-10-21T15:16:05.158674+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.05
+    },
+    {
+      "id": "76b6d6954ac4e556c84577a4",
+      "title": "Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor",
+      "url": "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T10:03:24+00:00",
+      "collected_at": "2026-10-21T15:16:05.651523+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.97
+    },
+    {
+      "id": "04f9e6b41523b019d8fc637a",
+      "title": "Plugin Rank Math PRO é distribuído com backdoor",
+      "url": "https://www.cisoadvisor.com.br/plugin-rank-math-pro-e-distribuido-com-backdoor/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T04:35:25+00:00",
+      "collected_at": "2026-10-21T15:16:04.823119+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.85
+    },
+    {
+      "id": "7355487fbd077dc91f9b9544",
+      "title": "Centenas de nós Tor comprometidos interceptaram SSH e e-mails",
+      "url": "https://www.cisoadvisor.com.br/centenas-de-nos-tor-comprometidos-interceptaram-ssh-e-e-mails/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T04:27:11+00:00",
+      "collected_at": "2026-10-21T15:16:04.824634+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.79
+    },
+    {
+      "id": "f206d5d0af228eb3b2fd43bc",
+      "title": "OVHcloud alerta para versões infectadas de software CLI",
+      "url": "https://www.cisoadvisor.com.br/ovhcloud-alerta-para-versoes-infectadas-de-software-cli/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T04:22:07+00:00",
+      "collected_at": "2026-10-21T15:16:04.825122+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.76
+    },
+    {
+      "id": "9fefa4158a4c4dd4068f5208",
+      "title": "Dados de 248 milhões de brasileiros anunciados para venda e exposição de 58 mil câmeras do Smart Sampa acendem alerta sobre segurança digital - Portal Lago Sul",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaFE4aEdRQXN4MUxfTlNPeFhRTWZ3WUdDMGFzR2JzR2VKckZob0hHQkJMdHF1dGNiRG42eXZYb3dpMklJdmRHclNMVkszRzV4RGlNS1RiUzZvN2RzYWJKYkdYZm9fN3VkVUtUWFFCMjdfb2NFZ2VVY2JEdTMyNTdsWHBPd0U0cG1LbTJhazNRcndyaGcwVk03Q1dUZzJ6bnYzMjdZSjBZbWxhcEFsQ1BHTUJPWVZfa3hUWW1IZ3B2aVo3VXNscl9WOHFNWm54dDZiWi1xS0dpdVAtcWRPZ0gyb3NOWVh5VHBSZ0ZhTThLT04xMElfMGpsRw?oc=5",
+      "source": "Portal Lago Sul",
+      "feed": "Google News — GRC",
+      "published_at": "2026-10-21T14:12:58+00:00",
+      "collected_at": "2026-10-21T15:16:06.744870+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [],
+      "score": 40.59
+    },
+    {
+      "id": "8e957c9aeea0228e4fa0b96a",
+      "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
+      "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-21T06:02:27+00:00",
+      "collected_at": "2026-10-21T15:16:05.652268+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.41
+    },
+    {
+      "id": "997ad9351d41203a9b7d16ed",
+      "title": "Falha do Google Cloud afeta bancos no Reino Unido",
+      "url": "https://www.cisoadvisor.com.br/falha-do-google-cloud-afeta-bancos-no-reino-unido/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T00:28:04+00:00",
+      "collected_at": "2026-10-21T15:16:04.825592+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.24
     },
     {
       "id": "1e07e9b22407cb399bc5159a",
@@ -108,39 +378,23 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-20T13:51:00+00:00",
-      "collected_at": "2026-10-20T15:07:06.999634+00:00",
+      "collected_at": "2026-10-21T15:16:05.161456+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "compliance"
       ],
-      "score": 44.01
-    },
-    {
-      "id": "c4bcf8eb9da24e2ac1dd5e00",
-      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
-      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T13:02:18+00:00",
-      "collected_at": "2026-10-20T15:07:07.650899+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 43.69
+      "score": 34.62
     },
     {
       "id": "90fa4b0b4dcb93cc7bc4ca35",
       "title": "Cadeia de fornecedores é desafio de resiliência - CISO Advisor",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGdTcjl1bU1pVnkwNUtPSlI4WlhyQk9DVkRmMnU5Q3N0M21lLTdLWHFnc01RT0NEcTFUblRCNXA4OTFtaVZhOWVtd2FaTlh6QXU4QmRwczQyM1BydVFIZ2hRNHNCRlZrTUhwUFA5Y3A5cHdwb2preVBnbTBYbXNFR3BUR015dw?oc=5",
       "source": "CISO Advisor",
-      "feed": "Google News — GRC",
+      "feed": "Google News — CISO",
       "published_at": "2026-10-19T14:40:20+00:00",
-      "collected_at": "2026-10-20T15:07:08.748193+00:00",
+      "collected_at": "2026-10-21T15:16:07.181495+00:00",
       "categories": [
         "CISO",
         "GRC"
@@ -149,276 +403,7 @@
         "ciso",
         "resiliencia"
       ],
-      "score": 43.49
-    },
-    {
-      "id": "e79b45a847c399d915c51eff",
-      "title": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
-      "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T11:30:18+00:00",
-      "collected_at": "2026-10-20T15:07:07.652096+00:00",
-      "categories": [
-        "GRC"
-      ],
-      "tags": [
-        "risk"
-      ],
-      "score": 43.09
-    },
-    {
-      "id": "a45ade418911007b8549b114",
-      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T11:18:35+00:00",
-      "collected_at": "2026-10-20T15:07:07.000923+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 43.02
-    },
-    {
-      "id": "ecfab2efec74a9778ad86fe0",
-      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
-      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-19T18:15:39+00:00",
-      "collected_at": "2026-10-20T15:07:07.653200+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "malware",
-        "siem",
-        "vulnerability"
-      ],
-      "score": 42.89
-    },
-    {
-      "id": "12dc49cca79a4e2138eaa0a7",
-      "title": "DHS bans DeepSeek products across US federal civilian agencies",
-      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T14:19:05+00:00",
-      "collected_at": "2026-10-20T15:07:06.999215+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.69
-    },
-    {
-      "id": "0ae2c7c3ad1967ccbc0bfb8a",
-      "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
-      "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T13:34:23+00:00",
-      "collected_at": "2026-10-20T15:07:07.650515+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.4
-    },
-    {
-      "id": "619cf86fbe1d30163b885981",
-      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T13:18:36+00:00",
-      "collected_at": "2026-10-20T15:07:06.999967+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.3
-    },
-    {
-      "id": "33fe89b56d4aaf010de7fe6c",
-      "title": "CIGRE-Brasil Reúne Setor Elétrico Para Discutir Cibersegurança Em Infraestruturas Críticas - Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekV6eGhGTTRnTnVyYmNoMWo4d3VINkgyd3EyQkRwVmNXOFVDakR1RkZaOU0zbmJoTFk4YlN5Yjg2emV5dFNvVkVuZkJ5MmZjSWtJM1pVdUR3d1MtYlc1TEMxeFhLOXprd3RfZk5iemF3M1RERllBeGh5OW5mcEU2VW9tREtqZHNjVEJETERoQkQwZGVhTTJxUTFJdjNmSlF1cWpIWnQ1cF81NU5VLURDUw?oc=5",
-      "source": "Cenário Energia",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-20T14:32:38+00:00",
-      "collected_at": "2026-10-20T15:07:08.289789+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 42.28
-    },
-    {
-      "id": "500d3e2cc2bb52f1809ff97d",
-      "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
-      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T12:47:22+00:00",
-      "collected_at": "2026-10-20T15:07:07.651267+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.09
-    },
-    {
-      "id": "75d9a61c3cac7f4d4d971542",
-      "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
-      "url": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T12:33:12+00:00",
-      "collected_at": "2026-10-20T15:07:07.651647+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.0
-    },
-    {
-      "id": "434b4717461a46d39a9611fd",
-      "title": "Windows Server 2025 gets support for quick machine recovery",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T12:16:32+00:00",
-      "collected_at": "2026-10-20T15:07:07.000285+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.89
-    },
-    {
-      "id": "ccee3055c5180f9718b9b891",
-      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T11:31:22+00:00",
-      "collected_at": "2026-10-20T15:07:07.000602+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.6
-    },
-    {
-      "id": "a00483d61bc985771955257e",
-      "title": "Hackers Steal 1.8 Million Records From Nikkei",
-      "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-20T10:35:18+00:00",
-      "collected_at": "2026-10-20T15:07:07.652459+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.24
-    },
-    {
-      "id": "816eb2139de2f2265517d8f3",
-      "title": "Revolut outage disrupts online banking operations worldwide",
-      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-20T09:46:44+00:00",
-      "collected_at": "2026-10-20T15:07:07.001235+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.92
-    },
-    {
-      "id": "31e920deddab0f8b60fad660",
-      "title": "Drupal corrige falhas críticas de RCE e alerta para exploits",
-      "url": "https://www.cisoadvisor.com.br/drupal-corrige-falhas-criticas-de-rce-e-alerta-para-exploits/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-19T18:57:33+00:00",
-      "collected_at": "2026-10-20T15:07:06.539225+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 40.66
-    },
-    {
-      "id": "f37887f8a06d7c803ca9b090",
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-19T21:49:48+00:00",
-      "collected_at": "2026-10-20T15:07:07.001550+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 39.78
-    },
-    {
-      "id": "684ed12d1970d532889feeec",
-      "title": "Sicredi confirma: fornecedor expôs dados da cooperativa",
-      "url": "https://www.cisoadvisor.com.br/sicredi-confirma-fornecedor-expos-dados-da-cooperativa/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-19T21:41:29+00:00",
-      "collected_at": "2026-10-20T15:07:06.538737+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 38.22
-    },
-    {
-      "id": "2c57c203284e235ef117ffa7",
-      "title": "Competência mais valorizada por gestores de TI: cyber",
-      "url": "https://www.cisoadvisor.com.br/competencia-mais-valorizada-por-gestores-de-ti-cyber/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-19T16:48:54+00:00",
-      "collected_at": "2026-10-20T15:07:06.540539+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 37.83
-    },
-    {
-      "id": "43d20fbde4fd90fff68da8c7",
-      "title": "F5 corrige falhas críticas no NGINX com patches emergenciais",
-      "url": "https://www.cisoadvisor.com.br/f5-corrige-falhas-criticas-no-nginx-com-patches-emergenciais/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-19T18:46:59+00:00",
-      "collected_at": "2026-10-20T15:07:06.539674+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 37.09
+      "score": 34.1
     }
   ]
 }
