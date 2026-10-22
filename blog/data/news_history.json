@@ -1,6 +1,353 @@
 {
-  "updated_at": "2026-10-21T15:16:07.183464+00:00",
+  "updated_at": "2026-10-22T15:18:32.274793+00:00",
   "items": [
+    {
+      "id": "d6ff2a37e642602f0d31b8bb",
+      "title": "Lumu anuncia nova integração com SIEM CrowdStrike",
+      "url": "https://www.cisoadvisor.com.br/lumu-anuncia-nova-integracao-com-siem-crowdstrike/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-22T14:52:23+00:00",
+      "collected_at": "2026-10-22T15:18:30.584699+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "siem"
+      ],
+      "score": 46.33
+    },
+    {
+      "id": "b8dae92ba7a09e1216b22f8d",
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T14:31:34+00:00",
+      "collected_at": "2026-10-22T15:18:31.112681+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.7
+    },
+    {
+      "id": "3f59b477b031b2aa833ef584",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-22T14:02:12+00:00",
+      "collected_at": "2026-10-22T15:18:30.787685+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.51
+    },
+    {
+      "id": "bd539c36355ce39d07cab2dd",
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-22T13:09:12+00:00",
+      "collected_at": "2026-10-22T15:18:30.788372+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.66
+    },
+    {
+      "id": "2fd2e13002551cc6e3735e2f",
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "collected_at": "2026-10-22T15:18:31.113428+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.6
+    },
+    {
+      "id": "c7353ac6c471d2094c13f6ee",
+      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T12:34:31+00:00",
+      "collected_at": "2026-10-22T15:18:31.114156+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 43.44
+    },
+    {
+      "id": "1130cca8108c9a362727b7e3",
+      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T12:20:23+00:00",
+      "collected_at": "2026-10-22T15:18:31.114871+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.85
+    },
+    {
+      "id": "8e5b2135ce353b2f1eedfc36",
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-22T11:41:48+00:00",
+      "collected_at": "2026-10-22T15:18:30.789028+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 43.1
+    },
+    {
+      "id": "c6eb4d4132eb8a3205913087",
+      "title": "Leia o relatório que revelou as falhas críticas do PHP",
+      "url": "https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-22T11:09:19+00:00",
+      "collected_at": "2026-10-22T15:18:30.585598+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.38
+    },
+    {
+      "id": "693e8772c539e67c92f8946d",
+      "title": "Splunk, SolarWinds Release Fresh Security Updates",
+      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T10:45:24+00:00",
+      "collected_at": "2026-10-22T15:18:31.115606+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.23
+    },
+    {
+      "id": "1a673804d6da1a2660531d8e",
+      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T10:05:21+00:00",
+      "collected_at": "2026-10-22T15:18:31.116332+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.97
+    },
+    {
+      "id": "5ae1f648c27c2125c5a02003",
+      "title": "Cidade CSC 2026 debate GovTechs, burocracia, cibersegurança e gêmeos digitais novo template - Portal Radar",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1hZbjk1dks2dGpUQ2txT0V4Q040bjdPY1BLZU1nUlB0MENKVEtKUXlYVTBzcjVMXzNpcXNaOUdoTHY1d01GNUVnVFJRZ3U2d2oxbG9FUnRkeVF3dVhsNXlfSllZRjdtMkQtSXE5OXVaVVFWUHpsZ3p0Slh3NktELS0xWTBaTUtxbmpnTVFQNVlsdW5naVBmaVREQWktcktpQlpfczZR?oc=5",
+      "source": "Portal Radar",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-22T10:03:38+00:00",
+      "collected_at": "2026-10-22T15:18:31.601589+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "cra"
+      ],
+      "score": 48.96
+    },
+    {
+      "id": "0aa39e51e1743e518a3a251d",
+      "title": "PHP2Shell Exploitation Started Days Before Patches",
+      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T09:48:58+00:00",
+      "collected_at": "2026-10-22T15:18:31.117028+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 44.36
+    },
+    {
+      "id": "f5ad1840997bd01a3317cc33",
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-22T08:27:11+00:00",
+      "collected_at": "2026-10-22T15:18:30.789680+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 41.83
+    },
+    {
+      "id": "6d2a81a253e5bdac84748e41",
+      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T07:38:14+00:00",
+      "collected_at": "2026-10-22T15:18:31.117746+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.02
+    },
+    {
+      "id": "6bced965c92749fa7487d145",
+      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
+      "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-22T07:26:54+00:00",
+      "collected_at": "2026-10-22T15:18:31.118483+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.94
+    },
+    {
+      "id": "7fb3e5b9a9357059b3fc4503",
+      "title": "MS acusa grupo chinês de ataque à ConnectWise",
+      "url": "https://www.cisoadvisor.com.br/ms-acusa-grupo-chines-de-ataque-a-connectwise/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-22T00:50:20+00:00",
+      "collected_at": "2026-10-22T15:18:30.586467+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque"
+      ],
+      "score": 40.87
+    },
+    {
+      "id": "c8311b61f41d3a1ca3fc3d68",
+      "title": "Node.js corrige falhas graves em TLS, DNS e Brotli",
+      "url": "https://www.cisoadvisor.com.br/node-js-corrige-falhas-graves-em-tls-dns-e-brotli/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T21:06:28+00:00",
+      "collected_at": "2026-10-22T15:18:30.587307+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.92
+    },
+    {
+      "id": "3128b29235ee8c8cc030d040",
+      "title": "LiteLLM é comprometido com infostealer e RAT no PyPI",
+      "url": "https://www.cisoadvisor.com.br/litellm-e-comprometido-com-infostealer-e-rat-no-pypi/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T21:02:21+00:00",
+      "collected_at": "2026-10-22T15:18:30.588165+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.9
+    },
+    {
+      "id": "a5a1ba4c650be5a7db629931",
+      "title": "SafePay atinge 600 organizações de infraestrutura crítica",
+      "url": "https://www.cisoadvisor.com.br/safepay-atinge-600-organizacoes-de-infraestrutura-critica/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T20:57:21+00:00",
+      "collected_at": "2026-10-22T15:18:30.588997+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.86
+    },
+    {
+      "id": "a08f6aed5bc1828cd50aafea",
+      "title": "CISA alerta para exploração ativa de falhas no Plex Media Server",
+      "url": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-de-falhas-no-plex-media-server/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T20:20:19+00:00",
+      "collected_at": "2026-10-22T15:18:30.589842+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.62
+    },
+    {
+      "id": "6205be4077068d016270c62b",
+      "title": "Akamai descobre ataque a supply chain",
+      "url": "https://www.cisoadvisor.com.br/akamai-descobre-ataque-a-supply-chain/",
+      "source": "CISO Advisor",
+      "feed": "CISO Advisor",
+      "published_at": "2026-10-21T20:11:16+00:00",
+      "collected_at": "2026-10-22T15:18:30.590676+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "supply chain"
+      ],
+      "score": 42.56
+    },
+    {
+      "id": "f7f9a6bf160cf9625118a924",
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-21T18:34:42+00:00",
+      "collected_at": "2026-10-22T15:18:30.792251+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 38.44
+    },
     {
       "id": "ada370d6bd0eebac2f747637",
       "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",

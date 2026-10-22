@@ -4,8 +4,146 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Wed, 21 Oct 2026 15:16:07 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 15:18:32 +0000</lastBuildDate>
 <item>
+<title>Lumu anuncia nova integração com SIEM CrowdStrike</title>
+<link>https://www.cisoadvisor.com.br/lumu-anuncia-nova-integracao-com-siem-crowdstrike/</link>
+<guid isPermaLink="false">d6ff2a37e642602f0d31b8bb</guid>
+<pubDate>Thu, 22 Oct 2026 14:52:23 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Hacker Conversations: Corey Thuen and the Evil Bit</title>
+<link>https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/</link>
+<guid isPermaLink="false">b8dae92ba7a09e1216b22f8d</guid>
+<pubDate>Thu, 22 Oct 2026 14:31:34 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Machine speed attacks require machine speed detection and response</title>
+<link>https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/</link>
+<guid isPermaLink="false">3f59b477b031b2aa833ef584</guid>
+<pubDate>Thu, 22 Oct 2026 14:02:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Amazon says PHP2Shell exploitation began 4 days before patches</title>
+<link>https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</link>
+<guid isPermaLink="false">bd539c36355ce39d07cab2dd</guid>
+<pubDate>Thu, 22 Oct 2026 13:09:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform</title>
+<link>https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/</link>
+<guid isPermaLink="false">2fd2e13002551cc6e3735e2f</guid>
+<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Signal Vulnerability Lets Malicious Callers Block Hang-Ups</title>
+<link>https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/</link>
+<guid isPermaLink="false">c7353ac6c471d2094c13f6ee</guid>
+<pubDate>Thu, 22 Oct 2026 12:34:31 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Tech and Security Companies Respond to PHP2Shell Vulnerabilities</title>
+<link>https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/</link>
+<guid isPermaLink="false">1130cca8108c9a362727b7e3</guid>
+<pubDate>Thu, 22 Oct 2026 12:20:23 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>GitLab warns of new max severity code execution vulnerability</title>
+<link>https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/</link>
+<guid isPermaLink="false">8e5b2135ce353b2f1eedfc36</guid>
+<pubDate>Thu, 22 Oct 2026 11:41:48 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Leia o relatório que revelou as falhas críticas do PHP</title>
+<link>https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/</link>
+<guid isPermaLink="false">c6eb4d4132eb8a3205913087</guid>
+<pubDate>Thu, 22 Oct 2026 11:09:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Splunk, SolarWinds Release Fresh Security Updates</title>
+<link>https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/</link>
+<guid isPermaLink="false">693e8772c539e67c92f8946d</guid>
+<pubDate>Thu, 22 Oct 2026 10:45:24 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Cisco Patches 34 Vulnerabilities Across Multiple Products</title>
+<link>https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/</link>
+<guid isPermaLink="false">1a673804d6da1a2660531d8e</guid>
+<pubDate>Thu, 22 Oct 2026 10:05:21 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Cidade CSC 2026 debate GovTechs, burocracia, cibersegurança e gêmeos digitais novo template - Portal Radar</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1hZbjk1dks2dGpUQ2txT0V4Q040bjdPY1BLZU1nUlB0MENKVEtKUXlYVTBzcjVMXzNpcXNaOUdoTHY1d01GNUVnVFJRZ3U2d2oxbG9FUnRkeVF3dVhsNXlfSllZRjdtMkQtSXE5OXVaVVFWUHpsZ3p0Slh3NktELS0xWTBaTUtxbmpnTVFQNVlsdW5naVBmaVREQWktcktpQlpfczZR?oc=5</link>
+<guid isPermaLink="false">5ae1f648c27c2125c5a02003</guid>
+<pubDate>Thu, 22 Oct 2026 10:03:38 +0000</pubDate>
+<description>Categorias: Cyber, GRC. Fonte: Portal Radar.</description>
+</item><item>
+<title>PHP2Shell Exploitation Started Days Before Patches</title>
+<link>https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/</link>
+<guid isPermaLink="false">0aa39e51e1743e518a3a251d</guid>
+<pubDate>Thu, 22 Oct 2026 09:48:58 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Authorities disrupt nearly 11,000 cybercrime networks in Africa</title>
+<link>https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/</link>
+<guid isPermaLink="false">f5ad1840997bd01a3317cc33</guid>
+<pubDate>Thu, 22 Oct 2026 08:27:11 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU</title>
+<link>https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/</link>
+<guid isPermaLink="false">6d2a81a253e5bdac84748e41</guid>
+<pubDate>Thu, 22 Oct 2026 07:38:14 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook</title>
+<link>https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/</link>
+<guid isPermaLink="false">6bced965c92749fa7487d145</guid>
+<pubDate>Thu, 22 Oct 2026 07:26:54 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>MS acusa grupo chinês de ataque à ConnectWise</title>
+<link>https://www.cisoadvisor.com.br/ms-acusa-grupo-chines-de-ataque-a-connectwise/</link>
+<guid isPermaLink="false">7fb3e5b9a9357059b3fc4503</guid>
+<pubDate>Thu, 22 Oct 2026 00:50:20 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Node.js corrige falhas graves em TLS, DNS e Brotli</title>
+<link>https://www.cisoadvisor.com.br/node-js-corrige-falhas-graves-em-tls-dns-e-brotli/</link>
+<guid isPermaLink="false">c8311b61f41d3a1ca3fc3d68</guid>
+<pubDate>Wed, 21 Oct 2026 21:06:28 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>LiteLLM é comprometido com infostealer e RAT no PyPI</title>
+<link>https://www.cisoadvisor.com.br/litellm-e-comprometido-com-infostealer-e-rat-no-pypi/</link>
+<guid isPermaLink="false">3128b29235ee8c8cc030d040</guid>
+<pubDate>Wed, 21 Oct 2026 21:02:21 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>SafePay atinge 600 organizações de infraestrutura crítica</title>
+<link>https://www.cisoadvisor.com.br/safepay-atinge-600-organizacoes-de-infraestrutura-critica/</link>
+<guid isPermaLink="false">a5a1ba4c650be5a7db629931</guid>
+<pubDate>Wed, 21 Oct 2026 20:57:21 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>CISA alerta para exploração ativa de falhas no Plex Media Server</title>
+<link>https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-ativa-de-falhas-no-plex-media-server/</link>
+<guid isPermaLink="false">a08f6aed5bc1828cd50aafea</guid>
+<pubDate>Wed, 21 Oct 2026 20:20:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>Akamai descobre ataque a supply chain</title>
+<link>https://www.cisoadvisor.com.br/akamai-descobre-ataque-a-supply-chain/</link>
+<guid isPermaLink="false">6205be4077068d016270c62b</guid>
+<pubDate>Wed, 21 Oct 2026 20:11:16 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
+</item><item>
+<title>CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers</title>
+<link>https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/</link>
+<guid isPermaLink="false">f7f9a6bf160cf9625118a924</guid>
+<pubDate>Wed, 21 Oct 2026 18:34:42 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets</title>
 <link>https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/</link>
 <guid isPermaLink="false">ada370d6bd0eebac2f747637</guid>
@@ -106,144 +244,6 @@
 <link>https://www.cisoadvisor.com.br/plugin-rank-math-pro-e-distribuido-com-backdoor/</link>
 <guid isPermaLink="false">04f9e6b41523b019d8fc637a</guid>
 <pubDate>Wed, 21 Oct 2026 04:35:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>ConnectWise segue com nuvem parada após invasão na cadeia de suprimentos</title>
-<link>https://www.cisoadvisor.com.br/connectwise-segue-com-nuvem-parada-apos-invasao-na-cadeia-de-suprimentos/</link>
-<guid isPermaLink="false">1d106c0aeca8dba527b31f82</guid>
-<pubDate>Wed, 21 Oct 2026 04:31:56 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Centenas de nós Tor comprometidos interceptaram SSH e e-mails</title>
-<link>https://www.cisoadvisor.com.br/centenas-de-nos-tor-comprometidos-interceptaram-ssh-e-e-mails/</link>
-<guid isPermaLink="false">7355487fbd077dc91f9b9544</guid>
-<pubDate>Wed, 21 Oct 2026 04:27:11 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>OVHcloud alerta para versões infectadas de software CLI</title>
-<link>https://www.cisoadvisor.com.br/ovhcloud-alerta-para-versoes-infectadas-de-software-cli/</link>
-<guid isPermaLink="false">f206d5d0af228eb3b2fd43bc</guid>
-<pubDate>Wed, 21 Oct 2026 04:22:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Falha do Google Cloud afeta bancos no Reino Unido</title>
-<link>https://www.cisoadvisor.com.br/falha-do-google-cloud-afeta-bancos-no-reino-unido/</link>
-<guid isPermaLink="false">997ad9351d41203a9b7d16ed</guid>
-<pubDate>Wed, 21 Oct 2026 00:28:04 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Falha no Siemens Software Center é usada em ataques ClickFix</title>
-<link>https://www.cisoadvisor.com.br/falha-no-siemens-software-center-e-usada-em-ataques-clickfix/</link>
-<guid isPermaLink="false">afcd0e30ac76a9096fedb333</guid>
-<pubDate>Tue, 20 Oct 2026 22:57:15 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>CIGRE-Brasil Reúne Setor Elétrico Para Discutir Cibersegurança Em Infraestruturas Críticas - Cenário Energia</title>
-<link>https://news.google.com/rss/articles/CBMisAFBVV95cUxOekV6eGhGTTRnTnVyYmNoMWo4d3VINkgyd3EyQkRwVmNXOFVDakR1RkZaOU0zbmJoTFk4YlN5Yjg2emV5dFNvVkVuZkJ5MmZjSWtJM1pVdUR3d1MtYlc1TEMxeFhLOXprd3RfZk5iemF3M1RERllBeGh5OW5mcEU2VW9tREtqZHNjVEJETERoQkQwZGVhTTJxUTFJdjNmSlF1cWpIWnQ1cF81NU5VLURDUw?oc=5</link>
-<guid isPermaLink="false">33fe89b56d4aaf010de7fe6c</guid>
-<pubDate>Tue, 20 Oct 2026 14:32:38 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Cenário Energia.</description>
-</item><item>
-<title>DHS bans DeepSeek products across US federal civilian agencies</title>
-<link>https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/</link>
-<guid isPermaLink="false">12dc49cca79a4e2138eaa0a7</guid>
-<pubDate>Tue, 20 Oct 2026 14:19:05 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign</title>
-<link>https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/</link>
-<guid isPermaLink="false">65665c3b375cd5613e27aa49</guid>
-<pubDate>Tue, 20 Oct 2026 13:51:01 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>CJIS v6.1 Compliance: 5 Practical Priorities for Agencies</title>
-<link>https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/</link>
-<guid isPermaLink="false">1e07e9b22407cb399bc5159a</guid>
-<pubDate>Tue, 20 Oct 2026 13:51:00 +0000</pubDate>
-<description>Categorias: GRC. Fonte: BleepingComputer.</description>
-</item><item>
-<title>The Key to AI Software Security Isn’t Speed, It’s Maturity</title>
-<link>https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/</link>
-<guid isPermaLink="false">0ae2c7c3ad1967ccbc0bfb8a</guid>
-<pubDate>Tue, 20 Oct 2026 13:34:23 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Hacker gets 8 years for stealing $3.3 million from taxpayers</title>
-<link>https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/</link>
-<guid isPermaLink="false">619cf86fbe1d30163b885981</guid>
-<pubDate>Tue, 20 Oct 2026 13:18:36 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Ahold Delhaize Restoring Services Disrupted by Cyberattack</title>
-<link>https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/</link>
-<guid isPermaLink="false">c4bcf8eb9da24e2ac1dd5e00</guid>
-<pubDate>Tue, 20 Oct 2026 13:02:18 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>AI Platform Cairn Abused to Hack Over 100 Organizations</title>
-<link>https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/</link>
-<guid isPermaLink="false">500d3e2cc2bb52f1809ff97d</guid>
-<pubDate>Tue, 20 Oct 2026 12:47:22 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say</title>
-<link>https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/</link>
-<guid isPermaLink="false">75d9a61c3cac7f4d4d971542</guid>
-<pubDate>Tue, 20 Oct 2026 12:33:12 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Windows Server 2025 gets support for quick machine recovery</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/</link>
-<guid isPermaLink="false">434b4717461a46d39a9611fd</guid>
-<pubDate>Tue, 20 Oct 2026 12:16:32 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>OVHcloud CLI releases backdoored on GitHub to steal developer secrets</title>
-<link>https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/</link>
-<guid isPermaLink="false">ccee3055c5180f9718b9b891</guid>
-<pubDate>Tue, 20 Oct 2026 11:31:22 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring</title>
-<link>https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/</link>
-<guid isPermaLink="false">e79b45a847c399d915c51eff</guid>
-<pubDate>Tue, 20 Oct 2026 11:30:18 +0000</pubDate>
-<description>Categorias: GRC. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Ahold Delhaize: Cyberattack affects services across US and Europe</title>
-<link>https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/</link>
-<guid isPermaLink="false">a45ade418911007b8549b114</guid>
-<pubDate>Tue, 20 Oct 2026 11:18:35 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Hackers Steal 1.8 Million Records From Nikkei</title>
-<link>https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/</link>
-<guid isPermaLink="false">a00483d61bc985771955257e</guid>
-<pubDate>Tue, 20 Oct 2026 10:35:18 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Revolut outage disrupts online banking operations worldwide</title>
-<link>https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/</link>
-<guid isPermaLink="false">816eb2139de2f2265517d8f3</guid>
-<pubDate>Tue, 20 Oct 2026 09:46:44 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach</title>
-<link>https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/</link>
-<guid isPermaLink="false">3ca023bb22a48133dbf914d9</guid>
-<pubDate>Tue, 20 Oct 2026 09:33:49 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Nikkei discloses third data breach in a month, 1.8M records exposed</title>
-<link>https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/</link>
-<guid isPermaLink="false">f37887f8a06d7c803ca9b090</guid>
-<pubDate>Mon, 19 Oct 2026 21:49:48 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Sicredi confirma: fornecedor expôs dados da cooperativa</title>
-<link>https://www.cisoadvisor.com.br/sicredi-confirma-fornecedor-expos-dados-da-cooperativa/</link>
-<guid isPermaLink="false">684ed12d1970d532889feeec</guid>
-<pubDate>Mon, 19 Oct 2026 21:41:29 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: CISO Advisor.</description>
 </item>
 </channel></rss>
