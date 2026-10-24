@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-23T15:05:16.780071+00:00",
+  "updated_at": "2026-10-24T14:01:34.151236+00:00",
   "items": [
+    {
+      "id": "1691c359593189a26c8b84a2",
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T20:55:05+00:00",
+      "collected_at": "2026-10-24T14:01:32.349252+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 36.35
+    },
+    {
+      "id": "6f7d02b6c50c8413259b99a2",
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T18:54:41+00:00",
+      "collected_at": "2026-10-24T14:01:32.349943+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "phishing"
+      ],
+      "score": 37.07
+    },
+    {
+      "id": "7dc145b9a292b92b1509c415",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T17:05:07+00:00",
+      "collected_at": "2026-10-24T14:01:32.350599+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.86
+    },
+    {
+      "id": "2845f218a3e4542871a61c65",
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T16:40:07+00:00",
+      "collected_at": "2026-10-24T14:01:32.351261+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "ics"
+      ],
+      "score": 39.69
+    },
+    {
+      "id": "74308e7985cf499fdb13ef66",
+      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T15:38:05+00:00",
+      "collected_at": "2026-10-24T14:01:32.351924+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 35.79
+    },
     {
       "id": "f7f2051f011e3cdbcee325a8",
       "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",

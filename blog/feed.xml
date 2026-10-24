@@ -4,8 +4,38 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Fri, 23 Oct 2026 15:05:16 +0000</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 14:01:34 +0000</lastBuildDate>
 <item>
+<title>Abandoned Popcorn Time app exposed millions of devices to RCE attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/</link>
+<guid isPermaLink="false">1691c359593189a26c8b84a2</guid>
+<pubDate>Fri, 23 Oct 2026 20:55:05 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Microsoft Teams to get AI-powered, context-aware phishing detection</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/</link>
+<guid isPermaLink="false">6f7d02b6c50c8413259b99a2</guid>
+<pubDate>Fri, 23 Oct 2026 18:54:41 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Microsoft: Windows Server 2016 reaches end of support in January</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/</link>
+<guid isPermaLink="false">7dc145b9a292b92b1509c415</guid>
+<pubDate>Fri, 23 Oct 2026 17:05:07 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Quest Diagnostics confirms data breach exposed patient records</title>
+<link>https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/</link>
+<guid isPermaLink="false">2845f218a3e4542871a61c65</guid>
+<pubDate>Fri, 23 Oct 2026 16:40:07 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>PHP shares mitigation for new RCE vulnerability with no patch</title>
+<link>https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/</link>
+<guid isPermaLink="false">74308e7985cf499fdb13ef66</guid>
+<pubDate>Fri, 23 Oct 2026 15:38:05 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware</title>
 <link>https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/</link>
 <guid isPermaLink="false">f7f2051f011e3cdbcee325a8</guid>
@@ -215,35 +245,5 @@
 <guid isPermaLink="false">6d2a81a253e5bdac84748e41</guid>
 <pubDate>Thu, 22 Oct 2026 07:38:14 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook</title>
-<link>https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/</link>
-<guid isPermaLink="false">6bced965c92749fa7487d145</guid>
-<pubDate>Thu, 22 Oct 2026 07:26:54 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>MS acusa grupo chinês de ataque à ConnectWise</title>
-<link>https://www.cisoadvisor.com.br/ms-acusa-grupo-chines-de-ataque-a-connectwise/</link>
-<guid isPermaLink="false">7fb3e5b9a9357059b3fc4503</guid>
-<pubDate>Thu, 22 Oct 2026 00:50:20 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Node.js corrige falhas graves em TLS, DNS e Brotli</title>
-<link>https://www.cisoadvisor.com.br/node-js-corrige-falhas-graves-em-tls-dns-e-brotli/</link>
-<guid isPermaLink="false">c8311b61f41d3a1ca3fc3d68</guid>
-<pubDate>Wed, 21 Oct 2026 21:06:28 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>LiteLLM é comprometido com infostealer e RAT no PyPI</title>
-<link>https://www.cisoadvisor.com.br/litellm-e-comprometido-com-infostealer-e-rat-no-pypi/</link>
-<guid isPermaLink="false">3128b29235ee8c8cc030d040</guid>
-<pubDate>Wed, 21 Oct 2026 21:02:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>SafePay atinge 600 organizações de infraestrutura crítica</title>
-<link>https://www.cisoadvisor.com.br/safepay-atinge-600-organizacoes-de-infraestrutura-critica/</link>
-<guid isPermaLink="false">a5a1ba4c650be5a7db629931</guid>
-<pubDate>Wed, 21 Oct 2026 20:57:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
 </item>
 </channel></rss>

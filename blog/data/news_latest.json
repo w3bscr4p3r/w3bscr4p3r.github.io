@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T15:05:16.780071+00:00",
+  "generated_at": "2026-10-24T14:01:34.151236+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 20,
+  "new_count": 5,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,30 @@
   ],
   "items": [
     {
+      "id": "2845f218a3e4542871a61c65",
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T16:40:07+00:00",
+      "collected_at": "2026-10-24T14:01:32.351261+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "ics"
+      ],
+      "score": 39.69
+    },
+    {
       "id": "90b670c46b0a2fba448d56bf",
       "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
       "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T09:58:34+00:00",
-      "collected_at": "2026-10-23T15:05:15.281064+00:00",
+      "collected_at": "2026-10-24T14:01:32.812450+00:00",
       "categories": [
         "Cyber"
       ],
@@ -66,7 +83,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 48.01
+      "score": 39.09
     },
     {
       "id": "8d7eb41f68f0e1856b0e9faf",
@@ -75,7 +92,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T12:45:52+00:00",
-      "collected_at": "2026-10-23T15:05:15.280015+00:00",
+      "collected_at": "2026-10-24T14:01:32.810929+00:00",
       "categories": [
         "Cyber"
       ],
@@ -83,7 +100,7 @@
         "botnet",
         "exploit"
       ],
-      "score": 47.1
+      "score": 38.18
     },
     {
       "id": "f7f2051f011e3cdbcee325a8",
@@ -92,14 +109,30 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T14:23:37+00:00",
-      "collected_at": "2026-10-23T15:05:15.279434+00:00",
+      "collected_at": "2026-10-24T14:01:32.810125+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ransomware"
       ],
-      "score": 46.23
+      "score": 37.31
+    },
+    {
+      "id": "6f7d02b6c50c8413259b99a2",
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T18:54:41+00:00",
+      "collected_at": "2026-10-24T14:01:32.349943+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "phishing"
+      ],
+      "score": 37.07
     },
     {
       "id": "0dc4f0e0709e5469cbed3857",
@@ -108,7 +141,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T08:25:06+00:00",
-      "collected_at": "2026-10-23T15:05:15.282088+00:00",
+      "collected_at": "2026-10-24T14:01:32.813950+00:00",
       "categories": [
         "Cyber"
       ],
@@ -116,7 +149,37 @@
         "breach",
         "ics"
       ],
-      "score": 45.41
+      "score": 36.49
+    },
+    {
+      "id": "1691c359593189a26c8b84a2",
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T20:55:05+00:00",
+      "collected_at": "2026-10-24T14:01:32.349252+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 36.35
+    },
+    {
+      "id": "74308e7985cf499fdb13ef66",
+      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T15:38:05+00:00",
+      "collected_at": "2026-10-24T14:01:32.351924+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 35.79
     },
     {
       "id": "a69b7945a504898db8ddc3f1",
@@ -125,14 +188,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T08:34:14+00:00",
-      "collected_at": "2026-10-23T15:05:15.281560+00:00",
+      "collected_at": "2026-10-24T14:01:32.813193+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 43.97
+      "score": 35.05
     },
     {
       "id": "ca172490c227233471582ec9",
@@ -141,14 +204,28 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T08:10:46+00:00",
-      "collected_at": "2026-10-23T15:05:15.282597+00:00",
+      "collected_at": "2026-10-24T14:01:32.814670+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "supply chain"
       ],
-      "score": 43.81
+      "score": 34.89
+    },
+    {
+      "id": "7dc145b9a292b92b1509c415",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-23T17:05:07+00:00",
+      "collected_at": "2026-10-24T14:01:32.350599+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.86
     },
     {
       "id": "1484100c13e82f1aa2ef7b6a",
@@ -157,12 +234,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-23T14:00:10+00:00",
-      "collected_at": "2026-10-23T15:05:14.897918+00:00",
+      "collected_at": "2026-10-24T14:01:32.352562+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.58
+      "score": 33.66
     },
     {
       "id": "55028cb0c3da85eccf0d0b3d",
@@ -171,7 +248,7 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-22T19:26:33+00:00",
-      "collected_at": "2026-10-23T15:05:14.665603+00:00",
+      "collected_at": "2026-10-24T14:01:32.148079+00:00",
       "categories": [
         "Cyber"
       ],
@@ -179,7 +256,7 @@
         "ataque",
         "zero-day"
       ],
-      "score": 42.36
+      "score": 33.44
     },
     {
       "id": "b88cbb52731d2765d8fb23e6",
@@ -188,12 +265,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-23T12:48:00+00:00",
-      "collected_at": "2026-10-23T15:05:14.898399+00:00",
+      "collected_at": "2026-10-24T14:01:32.353218+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.11
+      "score": 33.19
     },
     {
       "id": "9a9dc05268ade84990f6034b",
@@ -202,14 +279,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-23T02:57:05+00:00",
-      "collected_at": "2026-10-23T15:05:14.664323+00:00",
+      "collected_at": "2026-10-24T14:01:32.146272+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "vulnerabilidade"
       ],
-      "score": 41.78
+      "score": 32.86
     },
     {
       "id": "dc59d00b5aac80aec2ce131f",
@@ -218,7 +295,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-22T17:18:22+00:00",
-      "collected_at": "2026-10-23T15:05:14.900228+00:00",
+      "collected_at": "2026-10-24T14:01:32.355791+00:00",
       "categories": [
         "Cyber"
       ],
@@ -226,7 +303,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 41.53
+      "score": 32.61
     },
     {
       "id": "a404aa115d6b9fffb32c389a",
@@ -235,12 +312,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T10:31:16+00:00",
-      "collected_at": "2026-10-23T15:05:15.280540+00:00",
+      "collected_at": "2026-10-24T14:01:32.811678+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.22
+      "score": 32.3
     },
     {
       "id": "ba88c5c3baf5840a8e8548b5",
@@ -249,12 +326,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T07:54:47+00:00",
-      "collected_at": "2026-10-23T15:05:15.283111+00:00",
+      "collected_at": "2026-10-24T14:01:32.815413+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.21
+      "score": 31.29
     },
     {
       "id": "5dc5fdf9c129367b6eb012ef",
@@ -263,12 +340,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-23T06:39:29+00:00",
-      "collected_at": "2026-10-23T15:05:15.283629+00:00",
+      "collected_at": "2026-10-24T14:01:32.816183+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.72
+      "score": 30.8
     },
     {
       "id": "8a864fbed871cefb096f0e74",
@@ -277,14 +354,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-22T21:25:31+00:00",
-      "collected_at": "2026-10-23T15:05:14.898869+00:00",
+      "collected_at": "2026-10-24T14:01:32.353853+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 39.63
+      "score": 30.71
     },
     {
       "id": "fbb84542572210b36eaa0192",
@@ -293,14 +370,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-22T20:22:45+00:00",
-      "collected_at": "2026-10-23T15:05:14.899317+00:00",
+      "collected_at": "2026-10-24T14:01:32.354500+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 39.22
+      "score": 30.3
     },
     {
       "id": "245cb5945c710ed934cd74cb",
@@ -309,14 +386,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-22T20:21:27+00:00",
-      "collected_at": "2026-10-23T15:05:14.664992+00:00",
+      "collected_at": "2026-10-24T14:01:32.147195+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "vulnerabilidade"
       ],
-      "score": 39.22
+      "score": 30.3
     },
     {
       "id": "11245a01a876615b4a1e3034",
@@ -325,92 +402,14 @@
       "source": "CISO Advisor",
       "feed": "CISO Advisor",
       "published_at": "2026-10-22T19:23:21+00:00",
-      "collected_at": "2026-10-23T15:05:14.666223+00:00",
+      "collected_at": "2026-10-24T14:01:32.148957+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "malware"
       ],
-      "score": 38.84
-    },
-    {
-      "id": "d6ff2a37e642602f0d31b8bb",
-      "title": "Lumu anuncia nova integração com SIEM CrowdStrike",
-      "url": "https://www.cisoadvisor.com.br/lumu-anuncia-nova-integracao-com-siem-crowdstrike/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-22T14:52:23+00:00",
-      "collected_at": "2026-10-23T15:05:14.666829+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "siem"
-      ],
-      "score": 37.08
-    },
-    {
-      "id": "64880ccb5874d598e7d7430d",
-      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T19:12:51+00:00",
-      "collected_at": "2026-10-23T15:05:14.899778+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 36.77
-    },
-    {
-      "id": "bd539c36355ce39d07cab2dd",
-      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T13:09:12+00:00",
-      "collected_at": "2026-10-23T15:05:14.901566+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 36.41
-    },
-    {
-      "id": "844f64dcb8a9d12535f703cd",
-      "title": "Falha global de cibersegurança do PHP tira sistemas do governo brasileiro e de cortes de Justiça do ar - O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPS2kyVmZTcm9OX0V4NkNuSFZialFQZE9VOE9yX3JweTNQajlRMmRndTFSYWhzajdDWDgwS3hvUHZ5dGVkOE5fME9aeHd5TkRDcTFES2NEdUhxa1RNQ01OWk56UWlRRGNVUVRPLUZjaXJVcWlBRGFYdExtUWRMMFFvR2t4VFhDbHNmY1NVMkdTN3Q2c21GZWV5ZHlOWWNyMXhhbmRkTEVpa1E2QTV4SWUtVXRaeHdSejctRnhJYmhrYjNkZTFfbG91MjZjZ2ROb3pjT1BsRXYta09MVE0wZ2ZMWGc0LXdiN0dzMjZjTVpfUlBIWFhTWGk5MVJaZzRmRFlFVnfSAZACQVVfeXFMUDhJU1hYMjhFZ25RMWQtM1QyaHdPUUxZejM1ZUJGbEd3bXJFZTdsSmVRRlp1LUVSZU1yNEZsTXkyQ1lQZmtUNFpfVFlvQWlYcld4N0dnUGp6UGJjYkg5ODhoc0ZmWWFkd3pmbEh6LTRJQlFuSDg3RDhwQ0hhWEp0Y1dJZHJyUVBvcTYzY05SYXBQTDVkVzM5aWtTekMwRHhIRTFkQzl0X19CNktpSHRzZjVjeFVkVmRrNFR6djNjeVFCdE01OWxZdklubldNMUY2NHpicTVEY2x6ZjRZdVRLN2dPbS1yOWo1THNNaWRoaHBFT0Rnd3o5Zk1lT3RERTZfYk1vV2cyUzJhQnc0Y1BFRzI?oc=5",
-      "source": "O GLOBO",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-22T18:00:37+00:00",
-      "collected_at": "2026-10-23T15:05:16.030109+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 34.3
-    },
-    {
-      "id": "c6eb4d4132eb8a3205913087",
-      "title": "Leia o relatório que revelou as falhas críticas do PHP",
-      "url": "https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-22T11:09:19+00:00",
-      "collected_at": "2026-10-23T15:05:14.667422+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 34.14
+      "score": 29.92
     },
     {
       "id": "9fefa4158a4c4dd4068f5208",
@@ -419,12 +418,12 @@
       "source": "Portal Lago Sul",
       "feed": "Google News — GRC",
       "published_at": "2026-10-21T14:12:58+00:00",
-      "collected_at": "2026-10-23T15:05:16.425602+00:00",
+      "collected_at": "2026-10-24T14:01:33.801813+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [],
-      "score": 21.99
+      "score": 13.07
     }
   ]
 }
