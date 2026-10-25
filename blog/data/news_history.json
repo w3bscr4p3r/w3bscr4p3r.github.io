@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-10-24T14:01:34.151236+00:00",
+  "updated_at": "2026-10-25T14:23:31.320729+00:00",
   "items": [
+    {
+      "id": "d5e946093886a4f19f5cfe05",
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-25T11:00:00+00:00",
+      "collected_at": "2026-10-25T14:23:30.160956+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.68
+    },
+    {
+      "id": "ff47167cdd727760255eaf67",
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-24T14:17:32+00:00",
+      "collected_at": "2026-10-25T14:23:29.716538+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 37.13
+    },
     {
       "id": "1691c359593189a26c8b84a2",
       "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",

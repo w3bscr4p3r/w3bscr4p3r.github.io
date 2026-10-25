@@ -4,8 +4,20 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Sat, 24 Oct 2026 14:01:34 +0000</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 14:23:31 +0000</lastBuildDate>
 <item>
+<title>Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</title>
+<link>https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/</link>
+<guid isPermaLink="false">d5e946093886a4f19f5cfe05</guid>
+<pubDate>Sun, 25 Oct 2026 11:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot</title>
+<link>https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/</link>
+<guid isPermaLink="false">ff47167cdd727760255eaf67</guid>
+<pubDate>Sat, 24 Oct 2026 14:17:32 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Abandoned Popcorn Time app exposed millions of devices to RCE attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/</link>
 <guid isPermaLink="false">1691c359593189a26c8b84a2</guid>
@@ -232,18 +244,6 @@
 <link>https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/</link>
 <guid isPermaLink="false">0aa39e51e1743e518a3a251d</guid>
 <pubDate>Thu, 22 Oct 2026 09:48:58 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Authorities disrupt nearly 11,000 cybercrime networks in Africa</title>
-<link>https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/</link>
-<guid isPermaLink="false">f5ad1840997bd01a3317cc33</guid>
-<pubDate>Thu, 22 Oct 2026 08:27:11 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU</title>
-<link>https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/</link>
-<guid isPermaLink="false">6d2a81a253e5bdac84748e41</guid>
-<pubDate>Thu, 22 Oct 2026 07:38:14 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
 </item>
 </channel></rss>
