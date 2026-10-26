@@ -4,8 +4,98 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Sun, 25 Oct 2026 14:23:31 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 16:48:04 +0000</lastBuildDate>
 <item>
+<title>Critical &#x27;HTTP2Shell&#x27; Brotli vulnerability triggers emergency patches</title>
+<link>https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/</link>
+<guid isPermaLink="false">5827051eb2427e07cc0e5860</guid>
+<pubDate>Mon, 26 Oct 2026 16:27:57 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Microsoft releases emergency .NET patches for critical Brotli flaw</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/</link>
+<guid isPermaLink="false">1760968658b2c4f842d13c62</guid>
+<pubDate>Mon, 26 Oct 2026 15:38:24 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Industrial Vendors Check Products for PHP2Shell Vulnerabilities</title>
+<link>https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/</link>
+<guid isPermaLink="false">d4aa16be41cad237dff5f940</guid>
+<pubDate>Mon, 26 Oct 2026 14:52:14 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Genesys Hack Exposes Customer Data From Internal Systems</title>
+<link>https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/</link>
+<guid isPermaLink="false">566dc48a74e825c8978fe624</guid>
+<pubDate>Mon, 26 Oct 2026 14:40:48 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Stolen AI Reasoning Could Help China Build Cheaper Rivals</title>
+<link>https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/</link>
+<guid isPermaLink="false">34547dbde035b6adccf792a5</guid>
+<pubDate>Mon, 26 Oct 2026 14:30:09 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>When an AI Agent Is the Incident, the Identity Record Is the Evidence</title>
+<link>https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/</link>
+<guid isPermaLink="false">ba2904e4c74c2429f90fd3f4</guid>
+<pubDate>Mon, 26 Oct 2026 14:00:10 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Chinese man extradited for role in $36 million cryptocurrency scam</title>
+<link>https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/</link>
+<guid isPermaLink="false">6c191b2e0544e436d8aaa8b7</guid>
+<pubDate>Mon, 26 Oct 2026 13:56:44 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>PHP2Shell Exploitation Moves From Probes to Working Shells</title>
+<link>https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/</link>
+<guid isPermaLink="false">ed7810d01731272d789ff806</guid>
+<pubDate>Mon, 26 Oct 2026 13:30:10 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>953 Online Stores Infected in Long-Lasting Malware Campaign</title>
+<link>https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/</link>
+<guid isPermaLink="false">bd9c9eab5608c7b8003cdd9f</guid>
+<pubDate>Mon, 26 Oct 2026 12:46:44 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts</title>
+<link>https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/</link>
+<guid isPermaLink="false">a8df9e462cbecb4359470cad</guid>
+<pubDate>Mon, 26 Oct 2026 11:47:52 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Kali Linux 2026.3 released with 6 new tools, desktop updates</title>
+<link>https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/</link>
+<guid isPermaLink="false">cbda2471397f7f992f2a9071</guid>
+<pubDate>Mon, 26 Oct 2026 10:26:52 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages</title>
+<link>https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/</link>
+<guid isPermaLink="false">82a5e493622e1ac41a3c6e9f</guid>
+<pubDate>Mon, 26 Oct 2026 10:21:57 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>PHP2Shell security flaws now sucessfully exploited in the wild</title>
+<link>https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/</link>
+<guid isPermaLink="false">30cb237a06a3a7a007ffcc11</guid>
+<pubDate>Mon, 26 Oct 2026 09:19:57 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Mythos 5 Ignored Real-World Harm in July Attack</title>
+<link>https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/</link>
+<guid isPermaLink="false">f8dfadef8c273a71ac00c170</guid>
+<pubDate>Mon, 26 Oct 2026 09:10:03 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>AI coding agents hijacked using AGENTS.md file in Downloads folder</title>
+<link>https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/</link>
+<guid isPermaLink="false">9e69ae6da7ff27c1ebe6601a</guid>
+<pubDate>Sun, 25 Oct 2026 15:49:38 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</title>
 <link>https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/</link>
 <guid isPermaLink="false">d5e946093886a4f19f5cfe05</guid>
@@ -155,95 +245,5 @@
 <guid isPermaLink="false">64880ccb5874d598e7d7430d</guid>
 <pubDate>Thu, 22 Oct 2026 19:12:51 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Falha global de cibersegurança do PHP tira sistemas do governo brasileiro e de cortes de Justiça do ar - O GLOBO</title>
-<link>https://news.google.com/rss/articles/CBMiggJBVV95cUxPS2kyVmZTcm9OX0V4NkNuSFZialFQZE9VOE9yX3JweTNQajlRMmRndTFSYWhzajdDWDgwS3hvUHZ5dGVkOE5fME9aeHd5TkRDcTFES2NEdUhxa1RNQ01OWk56UWlRRGNVUVRPLUZjaXJVcWlBRGFYdExtUWRMMFFvR2t4VFhDbHNmY1NVMkdTN3Q2c21GZWV5ZHlOWWNyMXhhbmRkTEVpa1E2QTV4SWUtVXRaeHdSejctRnhJYmhrYjNkZTFfbG91MjZjZ2ROb3pjT1BsRXYta09MVE0wZ2ZMWGc0LXdiN0dzMjZjTVpfUlBIWFhTWGk5MVJaZzRmRFlFVnfSAZACQVVfeXFMUDhJU1hYMjhFZ25RMWQtM1QyaHdPUUxZejM1ZUJGbEd3bXJFZTdsSmVRRlp1LUVSZU1yNEZsTXkyQ1lQZmtUNFpfVFlvQWlYcld4N0dnUGp6UGJjYkg5ODhoc0ZmWWFkd3pmbEh6LTRJQlFuSDg3RDhwQ0hhWEp0Y1dJZHJyUVBvcTYzY05SYXBQTDVkVzM5aWtTekMwRHhIRTFkQzl0X19CNktpSHRzZjVjeFVkVmRrNFR6djNjeVFCdE01OWxZdklubldNMUY2NHpicTVEY2x6ZjRZdVRLN2dPbS1yOWo1THNNaWRoaHBFT0Rnd3o5Zk1lT3RERTZfYk1vV2cyUzJhQnc0Y1BFRzI?oc=5</link>
-<guid isPermaLink="false">844f64dcb8a9d12535f703cd</guid>
-<pubDate>Thu, 22 Oct 2026 18:00:37 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: O GLOBO.</description>
-</item><item>
-<title>Arista patches new VeloCloud Orchestrator zero-day exploited in attacks</title>
-<link>https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
-<guid isPermaLink="false">dc59d00b5aac80aec2ce131f</guid>
-<pubDate>Thu, 22 Oct 2026 17:18:22 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Lumu anuncia nova integração com SIEM CrowdStrike</title>
-<link>https://www.cisoadvisor.com.br/lumu-anuncia-nova-integracao-com-siem-crowdstrike/</link>
-<guid isPermaLink="false">d6ff2a37e642602f0d31b8bb</guid>
-<pubDate>Thu, 22 Oct 2026 14:52:23 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Hacker Conversations: Corey Thuen and the Evil Bit</title>
-<link>https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/</link>
-<guid isPermaLink="false">b8dae92ba7a09e1216b22f8d</guid>
-<pubDate>Thu, 22 Oct 2026 14:31:34 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Machine speed attacks require machine speed detection and response</title>
-<link>https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/</link>
-<guid isPermaLink="false">3f59b477b031b2aa833ef584</guid>
-<pubDate>Thu, 22 Oct 2026 14:02:12 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Amazon says PHP2Shell exploitation began 4 days before patches</title>
-<link>https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</link>
-<guid isPermaLink="false">bd539c36355ce39d07cab2dd</guid>
-<pubDate>Thu, 22 Oct 2026 13:09:12 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform</title>
-<link>https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/</link>
-<guid isPermaLink="false">2fd2e13002551cc6e3735e2f</guid>
-<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Signal Vulnerability Lets Malicious Callers Block Hang-Ups</title>
-<link>https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/</link>
-<guid isPermaLink="false">c7353ac6c471d2094c13f6ee</guid>
-<pubDate>Thu, 22 Oct 2026 12:34:31 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Tech and Security Companies Respond to PHP2Shell Vulnerabilities</title>
-<link>https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/</link>
-<guid isPermaLink="false">1130cca8108c9a362727b7e3</guid>
-<pubDate>Thu, 22 Oct 2026 12:20:23 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>GitLab warns of new max severity code execution vulnerability</title>
-<link>https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/</link>
-<guid isPermaLink="false">8e5b2135ce353b2f1eedfc36</guid>
-<pubDate>Thu, 22 Oct 2026 11:41:48 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Leia o relatório que revelou as falhas críticas do PHP</title>
-<link>https://www.cisoadvisor.com.br/leia-o-relatorio-que-revelou-as-falhas-criticas-do-php/</link>
-<guid isPermaLink="false">c6eb4d4132eb8a3205913087</guid>
-<pubDate>Thu, 22 Oct 2026 11:09:19 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Splunk, SolarWinds Release Fresh Security Updates</title>
-<link>https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/</link>
-<guid isPermaLink="false">693e8772c539e67c92f8946d</guid>
-<pubDate>Thu, 22 Oct 2026 10:45:24 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Cisco Patches 34 Vulnerabilities Across Multiple Products</title>
-<link>https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/</link>
-<guid isPermaLink="false">1a673804d6da1a2660531d8e</guid>
-<pubDate>Thu, 22 Oct 2026 10:05:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Cidade CSC 2026 debate GovTechs, burocracia, cibersegurança e gêmeos digitais novo template - Portal Radar</title>
-<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1hZbjk1dks2dGpUQ2txT0V4Q040bjdPY1BLZU1nUlB0MENKVEtKUXlYVTBzcjVMXzNpcXNaOUdoTHY1d01GNUVnVFJRZ3U2d2oxbG9FUnRkeVF3dVhsNXlfSllZRjdtMkQtSXE5OXVaVVFWUHpsZ3p0Slh3NktELS0xWTBaTUtxbmpnTVFQNVlsdW5naVBmaVREQWktcktpQlpfczZR?oc=5</link>
-<guid isPermaLink="false">5ae1f648c27c2125c5a02003</guid>
-<pubDate>Thu, 22 Oct 2026 10:03:38 +0000</pubDate>
-<description>Categorias: Cyber, GRC. Fonte: Portal Radar.</description>
-</item><item>
-<title>PHP2Shell Exploitation Started Days Before Patches</title>
-<link>https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/</link>
-<guid isPermaLink="false">0aa39e51e1743e518a3a251d</guid>
-<pubDate>Thu, 22 Oct 2026 09:48:58 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
 </item>
 </channel></rss>

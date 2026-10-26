@@ -1,6 +1,226 @@
 {
-  "updated_at": "2026-10-25T14:23:31.320729+00:00",
+  "updated_at": "2026-10-26T16:48:04.394027+00:00",
   "items": [
+    {
+      "id": "5827051eb2427e07cc0e5860",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T16:27:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.209387+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 46.37
+    },
+    {
+      "id": "1760968658b2c4f842d13c62",
+      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T15:38:24+00:00",
+      "collected_at": "2026-10-26T16:48:02.210009+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 44.55
+    },
+    {
+      "id": "d4aa16be41cad237dff5f940",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:52:14+00:00",
+      "collected_at": "2026-10-26T16:48:02.661545+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.25
+    },
+    {
+      "id": "566dc48a74e825c8978fe624",
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:40:48+00:00",
+      "collected_at": "2026-10-26T16:48:02.662258+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.18
+    },
+    {
+      "id": "34547dbde035b6adccf792a5",
+      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:30:09+00:00",
+      "collected_at": "2026-10-26T16:48:02.662967+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.11
+    },
+    {
+      "id": "ba2904e4c74c2429f90fd3f4",
+      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T14:00:10+00:00",
+      "collected_at": "2026-10-26T16:48:02.210628+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "identity"
+      ],
+      "score": 43.41
+    },
+    {
+      "id": "6c191b2e0544e436d8aaa8b7",
+      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T13:56:44+00:00",
+      "collected_at": "2026-10-26T16:48:02.211211+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.89
+    },
+    {
+      "id": "ed7810d01731272d789ff806",
+      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T13:30:10+00:00",
+      "collected_at": "2026-10-26T16:48:02.663658+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.22
+    },
+    {
+      "id": "bd9c9eab5608c7b8003cdd9f",
+      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T12:46:44+00:00",
+      "collected_at": "2026-10-26T16:48:02.664343+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 42.94
+    },
+    {
+      "id": "a8df9e462cbecb4359470cad",
+      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+      "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T11:47:52+00:00",
+      "collected_at": "2026-10-26T16:48:02.665052+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.05
+    },
+    {
+      "id": "cbda2471397f7f992f2a9071",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T10:26:52+00:00",
+      "collected_at": "2026-10-26T16:48:02.211795+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.53
+    },
+    {
+      "id": "82a5e493622e1ac41a3c6e9f",
+      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T10:21:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.665772+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.5
+    },
+    {
+      "id": "30cb237a06a3a7a007ffcc11",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T09:19:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.212382+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.6
+    },
+    {
+      "id": "f8dfadef8c273a71ac00c170",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T09:10:03+00:00",
+      "collected_at": "2026-10-26T16:48:02.666465+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.03
+    },
+    {
+      "id": "9e69ae6da7ff27c1ebe6601a",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-25T15:49:38+00:00",
+      "collected_at": "2026-10-26T16:48:02.212947+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 33.29
+    },
     {
       "id": "d5e946093886a4f19f5cfe05",
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",

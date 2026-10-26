@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T14:23:31.320729+00:00",
+  "generated_at": "2026-10-26T16:48:04.394027+00:00",
   "lookback_hours": 72,
-  "selected_count": 24,
-  "new_count": 2,
+  "selected_count": 20,
+  "new_count": 15,
   "sources": [
     {
       "name": "CISO Advisor",
       "status": "ok",
-      "items": 5
+      "items": 0
     },
     {
       "name": "NIST Cybersecurity",
@@ -22,7 +22,7 @@
     {
       "name": "BleepingComputer",
       "status": "ok",
-      "items": 13
+      "items": 11
     },
     {
       "name": "KrebsOnSecurity",
@@ -32,12 +32,12 @@
     {
       "name": "SecurityWeek",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "Google News — GRC",
@@ -52,18 +52,238 @@
   ],
   "items": [
     {
+      "id": "5827051eb2427e07cc0e5860",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T16:27:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.209387+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 46.37
+    },
+    {
+      "id": "ed7810d01731272d789ff806",
+      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T13:30:10+00:00",
+      "collected_at": "2026-10-26T16:48:02.663658+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.22
+    },
+    {
+      "id": "1760968658b2c4f842d13c62",
+      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T15:38:24+00:00",
+      "collected_at": "2026-10-26T16:48:02.210009+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 44.55
+    },
+    {
+      "id": "30cb237a06a3a7a007ffcc11",
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T09:19:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.212382+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.6
+    },
+    {
+      "id": "ba2904e4c74c2429f90fd3f4",
+      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T14:00:10+00:00",
+      "collected_at": "2026-10-26T16:48:02.210628+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "identity"
+      ],
+      "score": 43.41
+    },
+    {
+      "id": "bd9c9eab5608c7b8003cdd9f",
+      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T12:46:44+00:00",
+      "collected_at": "2026-10-26T16:48:02.664343+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 42.94
+    },
+    {
+      "id": "d4aa16be41cad237dff5f940",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:52:14+00:00",
+      "collected_at": "2026-10-26T16:48:02.661545+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.25
+    },
+    {
+      "id": "566dc48a74e825c8978fe624",
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:40:48+00:00",
+      "collected_at": "2026-10-26T16:48:02.662258+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.18
+    },
+    {
+      "id": "34547dbde035b6adccf792a5",
+      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T14:30:09+00:00",
+      "collected_at": "2026-10-26T16:48:02.662967+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.11
+    },
+    {
+      "id": "6c191b2e0544e436d8aaa8b7",
+      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T13:56:44+00:00",
+      "collected_at": "2026-10-26T16:48:02.211211+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.89
+    },
+    {
+      "id": "a8df9e462cbecb4359470cad",
+      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+      "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T11:47:52+00:00",
+      "collected_at": "2026-10-26T16:48:02.665052+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.05
+    },
+    {
+      "id": "cbda2471397f7f992f2a9071",
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T10:26:52+00:00",
+      "collected_at": "2026-10-26T16:48:02.211795+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.53
+    },
+    {
+      "id": "82a5e493622e1ac41a3c6e9f",
+      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T10:21:57+00:00",
+      "collected_at": "2026-10-26T16:48:02.665772+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.5
+    },
+    {
+      "id": "f8dfadef8c273a71ac00c170",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-26T09:10:03+00:00",
+      "collected_at": "2026-10-26T16:48:02.666465+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.03
+    },
+    {
+      "id": "9e69ae6da7ff27c1ebe6601a",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-25T15:49:38+00:00",
+      "collected_at": "2026-10-26T16:48:02.212947+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 33.29
+    },
+    {
       "id": "d5e946093886a4f19f5cfe05",
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
       "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-25T11:00:00+00:00",
-      "collected_at": "2026-10-25T14:23:30.160956+00:00",
+      "collected_at": "2026-10-26T16:48:02.667141+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.68
+      "score": 31.41
     },
     {
       "id": "ff47167cdd727760255eaf67",
@@ -72,81 +292,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-24T14:17:32+00:00",
-      "collected_at": "2026-10-25T14:23:29.716538+00:00",
+      "collected_at": "2026-10-26T16:48:02.213530+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 37.13
-    },
-    {
-      "id": "2845f218a3e4542871a61c65",
-      "title": "Quest Diagnostics confirms data breach exposed patient records",
-      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T16:40:07+00:00",
-      "collected_at": "2026-10-25T14:23:29.718014+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "ics"
-      ],
-      "score": 30.22
-    },
-    {
-      "id": "90b670c46b0a2fba448d56bf",
-      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T09:58:34+00:00",
-      "collected_at": "2026-10-25T14:23:30.162671+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 29.62
-    },
-    {
-      "id": "8d7eb41f68f0e1856b0e9faf",
-      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-      "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T12:45:52+00:00",
-      "collected_at": "2026-10-25T14:23:30.161849+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "botnet",
-        "exploit"
-      ],
-      "score": 28.7
-    },
-    {
-      "id": "f7f2051f011e3cdbcee325a8",
-      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T14:23:37+00:00",
-      "collected_at": "2026-10-25T14:23:30.161423+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 27.83
+      "score": 26.86
     },
     {
       "id": "6f7d02b6c50c8413259b99a2",
@@ -155,31 +308,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-23T18:54:41+00:00",
-      "collected_at": "2026-10-25T14:23:29.717301+00:00",
+      "collected_at": "2026-10-26T16:48:02.214677+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "phishing"
       ],
-      "score": 27.59
-    },
-    {
-      "id": "0dc4f0e0709e5469cbed3857",
-      "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
-      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T08:25:06+00:00",
-      "collected_at": "2026-10-25T14:23:30.163504+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "ics"
-      ],
-      "score": 27.01
+      "score": 17.32
     },
     {
       "id": "1691c359593189a26c8b84a2",
@@ -188,60 +324,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-23T20:55:05+00:00",
-      "collected_at": "2026-10-25T14:23:29.716934+00:00",
+      "collected_at": "2026-10-26T16:48:02.214095+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 26.87
-    },
-    {
-      "id": "74308e7985cf499fdb13ef66",
-      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T15:38:05+00:00",
-      "collected_at": "2026-10-25T14:23:29.718370+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerability"
-      ],
-      "score": 26.32
-    },
-    {
-      "id": "a69b7945a504898db8ddc3f1",
-      "title": "11 Million Impacted by Capcom Data Breach",
-      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T08:34:14+00:00",
-      "collected_at": "2026-10-25T14:23:30.163073+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 25.57
-    },
-    {
-      "id": "ca172490c227233471582ec9",
-      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-      "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T08:10:46+00:00",
-      "collected_at": "2026-10-25T14:23:30.163904+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "supply chain"
-      ],
-      "score": 25.42
+      "score": 16.6
     },
     {
       "id": "7dc145b9a292b92b1509c415",
@@ -250,180 +338,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-23T17:05:07+00:00",
-      "collected_at": "2026-10-25T14:23:29.717654+00:00",
+      "collected_at": "2026-10-26T16:48:02.215241+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 25.38
-    },
-    {
-      "id": "1484100c13e82f1aa2ef7b6a",
-      "title": "You gave your AI agent access, but who is giving it orders?",
-      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T14:00:10+00:00",
-      "collected_at": "2026-10-25T14:23:29.718717+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 24.18
-    },
-    {
-      "id": "55028cb0c3da85eccf0d0b3d",
-      "title": "Arista corrige zero-day no VeloCloud explorado em ataques",
-      "url": "https://www.cisoadvisor.com.br/arista-corrige-zero-day-no-velocloud-explorado-em-ataques/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-22T19:26:33+00:00",
-      "collected_at": "2026-10-25T14:23:29.370160+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "zero-day"
-      ],
-      "score": 23.96
-    },
-    {
-      "id": "b88cbb52731d2765d8fb23e6",
-      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T12:48:00+00:00",
-      "collected_at": "2026-10-25T14:23:29.719069+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.71
-    },
-    {
-      "id": "9a9dc05268ade84990f6034b",
-      "title": "Oracle corrige mais de 1.209 vulnerabilidades em outubro",
-      "url": "https://www.cisoadvisor.com.br/oracle-corrige-mais-de-1-209-vulnerabilidades-em-outubro/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-23T02:57:05+00:00",
-      "collected_at": "2026-10-25T14:23:29.369127+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerabilidade"
-      ],
-      "score": 23.38
-    },
-    {
-      "id": "dc59d00b5aac80aec2ce131f",
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T17:18:22+00:00",
-      "collected_at": "2026-10-25T14:23:29.720459+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 23.13
-    },
-    {
-      "id": "a404aa115d6b9fffb32c389a",
-      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-      "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T10:31:16+00:00",
-      "collected_at": "2026-10-25T14:23:30.162265+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 22.83
-    },
-    {
-      "id": "ba88c5c3baf5840a8e8548b5",
-      "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-      "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T07:54:47+00:00",
-      "collected_at": "2026-10-25T14:23:30.164317+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 21.81
-    },
-    {
-      "id": "5dc5fdf9c129367b6eb012ef",
-      "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
-      "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-23T06:39:29+00:00",
-      "collected_at": "2026-10-25T14:23:30.164731+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 21.33
-    },
-    {
-      "id": "8a864fbed871cefb096f0e74",
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T21:25:31+00:00",
-      "collected_at": "2026-10-25T14:23:29.719423+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 21.24
-    },
-    {
-      "id": "fbb84542572210b36eaa0192",
-      "title": "Capcom confirms data breach affecting 11.7 million accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T20:22:45+00:00",
-      "collected_at": "2026-10-25T14:23:29.719765+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 20.83
-    },
-    {
-      "id": "245cb5945c710ed934cd74cb",
-      "title": "Cisco corrige 34 vulnerabilidades em vários produtos",
-      "url": "https://www.cisoadvisor.com.br/cisco-corrige-34-vulnerabilidades-em-varios-produtos/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-22T20:21:27+00:00",
-      "collected_at": "2026-10-25T14:23:29.369664+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerabilidade"
-      ],
-      "score": 20.82
+      "score": 15.11
     }
   ]
 }
