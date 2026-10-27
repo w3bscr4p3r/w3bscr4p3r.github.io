@@ -4,8 +4,128 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Mon, 26 Oct 2026 16:48:04 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 15:53:42 +0000</lastBuildDate>
 <item>
+<title>Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws</title>
+<link>https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/</link>
+<guid isPermaLink="false">d2e75d3729499e4c9658e9d8</guid>
+<pubDate>Tue, 27 Oct 2026 15:26:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Tailscale warns of SSH flaws allowing root privilege escalation</title>
+<link>https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/</link>
+<guid isPermaLink="false">70ba3ce348971e3362d98b1a</guid>
+<pubDate>Tue, 27 Oct 2026 14:09:46 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest</title>
+<link>https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/</link>
+<guid isPermaLink="false">04c1428e267f58a812060e28</guid>
+<pubDate>Tue, 27 Oct 2026 14:01:11 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk</title>
+<link>https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/</link>
+<guid isPermaLink="false">7c3feab248975d525c35b9c5</guid>
+<pubDate>Tue, 27 Oct 2026 13:30:28 +0000</pubDate>
+<description>Categorias: GRC. Fonte: SecurityWeek.</description>
+</item><item>
+<title>HPE Patches Dozens of Critical Flaws in Networking Products</title>
+<link>https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/</link>
+<guid isPermaLink="false">ed924135f6e2d06b6b27030e</guid>
+<pubDate>Tue, 27 Oct 2026 13:13:58 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Unexplained DreamHost Incident Prompts Email, FTP Password Resets</title>
+<link>https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/</link>
+<guid isPermaLink="false">db23fa2558434d7f2542e047</guid>
+<pubDate>Tue, 27 Oct 2026 12:02:06 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Design Tenets for Agent Identity Management Systems</title>
+<link>https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems</link>
+<guid isPermaLink="false">43ed4e54a867cad3250f08da</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: NIST Cybersecurity Insights.</description>
+</item><item>
+<title>iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18</title>
+<link>https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/</link>
+<guid isPermaLink="false">ddc0a516a31ed6c0065bacfd</guid>
+<pubDate>Tue, 27 Oct 2026 11:49:57 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI</title>
+<link>https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/</link>
+<guid isPermaLink="false">813e09d2b6456194c6a02c9d</guid>
+<pubDate>Tue, 27 Oct 2026 10:44:20 +0000</pubDate>
+<description>Categorias: GRC. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Apple backports CoreGraphics zero-day patches to older iPhones</title>
+<link>https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/</link>
+<guid isPermaLink="false">d08fb069fec5eef3b1eb7eba</guid>
+<pubDate>Tue, 27 Oct 2026 10:36:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>This is Fine: What NetScaler Zero-Days Tell Us About the New Normal</title>
+<link>https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/</link>
+<guid isPermaLink="false">b1c6997d0211ff83ccd621bc</guid>
+<pubDate>Tue, 27 Oct 2026 10:02:24 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover</title>
+<link>https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/</link>
+<guid isPermaLink="false">c91d3f89a27d4e6471094d0f</guid>
+<pubDate>Tue, 27 Oct 2026 09:44:50 +0000</pubDate>
+<description>Categorias: GRC. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Energy giant ENGIE discloses data breach affecting customers</title>
+<link>https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/</link>
+<guid isPermaLink="false">c6856c48795522d33d88c839</guid>
+<pubDate>Tue, 27 Oct 2026 09:25:50 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>CISA confirms PHP2Shell vulnerabilities now exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/</link>
+<guid isPermaLink="false">c36850b2ae9bb5e02c1eab20</guid>
+<pubDate>Tue, 27 Oct 2026 08:20:54 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems</title>
+<link>https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/</link>
+<guid isPermaLink="false">b006f69cf310f27625606c41</guid>
+<pubDate>Tue, 27 Oct 2026 07:14:27 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics</title>
+<link>https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/</link>
+<guid isPermaLink="false">744f2ab6fb24267f9c97903f</guid>
+<pubDate>Tue, 27 Oct 2026 01:30:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>University of Copenhagen data breach exposes data of 525,000 people</title>
+<link>https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/</link>
+<guid isPermaLink="false">4abc87e876a939f03088e601</guid>
+<pubDate>Mon, 26 Oct 2026 22:20:36 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Former pentester used ARTEX AI to steal 8.2 million data records</title>
+<link>https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/</link>
+<guid isPermaLink="false">0dde6e96ac0bda07621584bd</guid>
+<pubDate>Mon, 26 Oct 2026 21:08:28 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing</title>
+<link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/</link>
+<guid isPermaLink="false">0ba2ebb3eb73866141df5986</guid>
+<pubDate>Mon, 26 Oct 2026 20:46:49 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>DreamHost forces password resets in ongoing &quot;incident&quot;</title>
+<link>https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/</link>
+<guid isPermaLink="false">6c160404bc44c7bc5b8e2f4a</guid>
+<pubDate>Mon, 26 Oct 2026 19:26:20 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Critical &#x27;HTTP2Shell&#x27; Brotli vulnerability triggers emergency patches</title>
 <link>https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/</link>
 <guid isPermaLink="false">5827051eb2427e07cc0e5860</guid>
@@ -124,126 +244,6 @@
 <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/</link>
 <guid isPermaLink="false">7dc145b9a292b92b1509c415</guid>
 <pubDate>Fri, 23 Oct 2026 17:05:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Quest Diagnostics confirms data breach exposed patient records</title>
-<link>https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/</link>
-<guid isPermaLink="false">2845f218a3e4542871a61c65</guid>
-<pubDate>Fri, 23 Oct 2026 16:40:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>PHP shares mitigation for new RCE vulnerability with no patch</title>
-<link>https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/</link>
-<guid isPermaLink="false">74308e7985cf499fdb13ef66</guid>
-<pubDate>Fri, 23 Oct 2026 15:38:05 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware</title>
-<link>https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/</link>
-<guid isPermaLink="false">f7f2051f011e3cdbcee325a8</guid>
-<pubDate>Fri, 23 Oct 2026 14:23:37 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>You gave your AI agent access, but who is giving it orders?</title>
-<link>https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/</link>
-<guid isPermaLink="false">1484100c13e82f1aa2ef7b6a</guid>
-<pubDate>Fri, 23 Oct 2026 14:00:10 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>HPE patches eight max severity RCE and auth bypass AOS flaws</title>
-<link>https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/</link>
-<guid isPermaLink="false">b88cbb52731d2765d8fb23e6</guid>
-<pubDate>Fri, 23 Oct 2026 12:48:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge</title>
-<link>https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/</link>
-<guid isPermaLink="false">8d7eb41f68f0e1856b0e9faf</guid>
-<pubDate>Fri, 23 Oct 2026 12:45:52 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>China APT Uses AI Pentest Tool Artex in ConnectWise Attacks</title>
-<link>https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/</link>
-<guid isPermaLink="false">a404aa115d6b9fffb32c389a</guid>
-<pubDate>Fri, 23 Oct 2026 10:31:16 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Attackers Exploit Third Arista VCO Zero-Day in Four Months</title>
-<link>https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/</link>
-<guid isPermaLink="false">90b670c46b0a2fba448d56bf</guid>
-<pubDate>Fri, 23 Oct 2026 09:58:34 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>11 Million Impacted by Capcom Data Breach</title>
-<link>https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/</link>
-<guid isPermaLink="false">a69b7945a504898db8ddc3f1</guid>
-<pubDate>Fri, 23 Oct 2026 08:34:14 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’</title>
-<link>https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/</link>
-<guid isPermaLink="false">0dc4f0e0709e5469cbed3857</guid>
-<pubDate>Fri, 23 Oct 2026 08:25:06 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>LiteLLM Compromised in Fresh Supply Chain Attack</title>
-<link>https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/</link>
-<guid isPermaLink="false">ca172490c227233471582ec9</guid>
-<pubDate>Fri, 23 Oct 2026 08:10:46 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Atlassian Patches 75 Flaws in Data Center and Server Products</title>
-<link>https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/</link>
-<guid isPermaLink="false">ba88c5c3baf5840a8e8548b5</guid>
-<pubDate>Fri, 23 Oct 2026 07:54:47 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Iran’s Prince of Persia APT Hosts C&amp;C in US for First Time Since 2016</title>
-<link>https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/</link>
-<guid isPermaLink="false">5dc5fdf9c129367b6eb012ef</guid>
-<pubDate>Fri, 23 Oct 2026 06:39:29 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Oracle corrige mais de 1.209 vulnerabilidades em outubro</title>
-<link>https://www.cisoadvisor.com.br/oracle-corrige-mais-de-1-209-vulnerabilidades-em-outubro/</link>
-<guid isPermaLink="false">9a9dc05268ade84990f6034b</guid>
-<pubDate>Fri, 23 Oct 2026 02:57:05 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Railway warns devs to rotate secrets after potential breach</title>
-<link>https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/</link>
-<guid isPermaLink="false">8a864fbed871cefb096f0e74</guid>
-<pubDate>Thu, 22 Oct 2026 21:25:31 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Capcom confirms data breach affecting 11.7 million accounts</title>
-<link>https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/</link>
-<guid isPermaLink="false">fbb84542572210b36eaa0192</guid>
-<pubDate>Thu, 22 Oct 2026 20:22:45 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Cisco corrige 34 vulnerabilidades em vários produtos</title>
-<link>https://www.cisoadvisor.com.br/cisco-corrige-34-vulnerabilidades-em-varios-produtos/</link>
-<guid isPermaLink="false">245cb5945c710ed934cd74cb</guid>
-<pubDate>Thu, 22 Oct 2026 20:21:27 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Arista corrige zero-day no VeloCloud explorado em ataques</title>
-<link>https://www.cisoadvisor.com.br/arista-corrige-zero-day-no-velocloud-explorado-em-ataques/</link>
-<guid isPermaLink="false">55028cb0c3da85eccf0d0b3d</guid>
-<pubDate>Thu, 22 Oct 2026 19:26:33 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>Pipeline do LiteLLM é invadido para distribuir malware</title>
-<link>https://www.cisoadvisor.com.br/pipeline-do-litellm-e-invadido-para-distribuir-malware/</link>
-<guid isPermaLink="false">11245a01a876615b4a1e3034</guid>
-<pubDate>Thu, 22 Oct 2026 19:23:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: CISO Advisor.</description>
-</item><item>
-<title>LiteLLM release pipeline hacked to distribute info-stealer malware</title>
-<link>https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/</link>
-<guid isPermaLink="false">64880ccb5874d598e7d7430d</guid>
-<pubDate>Thu, 22 Oct 2026 19:12:51 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
 </item>
 </channel></rss>

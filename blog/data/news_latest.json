@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T16:48:04.394027+00:00",
+  "generated_at": "2026-10-27T15:53:42.584711+00:00",
   "lookback_hours": 72,
-  "selected_count": 20,
-  "new_count": 15,
+  "selected_count": 24,
+  "new_count": 20,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -17,12 +17,12 @@
     {
       "name": "NIST Cybersecurity Insights",
       "status": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "BleepingComputer",
       "status": "ok",
-      "items": 11
+      "items": 15
     },
     {
       "name": "KrebsOnSecurity",
@@ -32,12 +32,12 @@
     {
       "name": "SecurityWeek",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "Google News — GRC",
@@ -52,36 +52,314 @@
   ],
   "items": [
     {
-      "id": "5827051eb2427e07cc0e5860",
-      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "id": "d08fb069fec5eef3b1eb7eba",
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
-      "published_at": "2026-10-26T16:27:57+00:00",
-      "collected_at": "2026-10-26T16:48:02.209387+00:00",
+      "published_at": "2026-10-27T10:36:12+00:00",
+      "collected_at": "2026-10-27T15:53:40.903008+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "vulnerability"
+        "ics",
+        "zero-day"
       ],
-      "score": 46.37
+      "score": 45.94
     },
     {
-      "id": "ed7810d01731272d789ff806",
-      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
-      "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "id": "43ed4e54a867cad3250f08da",
+      "title": "Design Tenets for Agent Identity Management Systems",
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems",
+      "source": "NIST Cybersecurity Insights",
+      "feed": "NIST Cybersecurity Insights",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "collected_at": "2026-10-27T15:53:40.705180+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "identity"
+      ],
+      "score": 44.99
+    },
+    {
+      "id": "ddc0a516a31ed6c0065bacfd",
+      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+      "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-26T13:30:10+00:00",
-      "collected_at": "2026-10-26T16:48:02.663658+00:00",
+      "published_at": "2026-10-27T11:49:57+00:00",
+      "collected_at": "2026-10-27T15:53:41.281550+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 45.22
+      "score": 44.92
+    },
+    {
+      "id": "b1c6997d0211ff83ccd621bc",
+      "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+      "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T10:02:24+00:00",
+      "collected_at": "2026-10-27T15:53:41.282737+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 44.22
+    },
+    {
+      "id": "c6856c48795522d33d88c839",
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T09:25:50+00:00",
+      "collected_at": "2026-10-27T15:53:40.903459+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.99
+    },
+    {
+      "id": "ed924135f6e2d06b6b27030e",
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T13:13:58+00:00",
+      "collected_at": "2026-10-27T15:53:41.280483+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.96
+    },
+    {
+      "id": "04c1428e267f58a812060e28",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T14:01:11+00:00",
+      "collected_at": "2026-10-27T15:53:40.902532+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "threat"
+      ],
+      "score": 43.77
+    },
+    {
+      "id": "7c3feab248975d525c35b9c5",
+      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+      "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T13:30:28+00:00",
+      "collected_at": "2026-10-27T15:53:41.279949+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 43.57
+    },
+    {
+      "id": "c36850b2ae9bb5e02c1eab20",
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T08:20:54+00:00",
+      "collected_at": "2026-10-27T15:53:40.903916+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.57
+    },
+    {
+      "id": "d2e75d3729499e4c9658e9d8",
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T15:26:12+00:00",
+      "collected_at": "2026-10-27T15:53:41.279270+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.82
+    },
+    {
+      "id": "813e09d2b6456194c6a02c9d",
+      "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+      "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T10:44:20+00:00",
+      "collected_at": "2026-10-27T15:53:41.282191+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.49
+    },
+    {
+      "id": "70ba3ce348971e3362d98b1a",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T14:09:46+00:00",
+      "collected_at": "2026-10-27T15:53:40.902037+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.33
+    },
+    {
+      "id": "c91d3f89a27d4e6471094d0f",
+      "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+      "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T09:44:50+00:00",
+      "collected_at": "2026-10-27T15:53:41.283357+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.11
+    },
+    {
+      "id": "db23fa2558434d7f2542e047",
+      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T12:02:06+00:00",
+      "collected_at": "2026-10-27T15:53:41.281025+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.5
+    },
+    {
+      "id": "b006f69cf310f27625606c41",
+      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+      "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T07:14:27+00:00",
+      "collected_at": "2026-10-27T15:53:41.283888+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 41.13
+    },
+    {
+      "id": "744f2ab6fb24267f9c97903f",
+      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T01:30:00+00:00",
+      "collected_at": "2026-10-27T15:53:41.284419+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber",
+        "ics"
+      ],
+      "score": 40.4
+    },
+    {
+      "id": "4abc87e876a939f03088e601",
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T22:20:36+00:00",
+      "collected_at": "2026-10-27T15:53:40.904365+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 39.67
+    },
+    {
+      "id": "5827051eb2427e07cc0e5860",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T16:27:57+00:00",
+      "collected_at": "2026-10-27T15:53:40.906173+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 37.39
+    },
+    {
+      "id": "0dde6e96ac0bda07621584bd",
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T21:08:28+00:00",
+      "collected_at": "2026-10-27T15:53:40.904822+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.71
+    },
+    {
+      "id": "0ba2ebb3eb73866141df5986",
+      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T20:46:49+00:00",
+      "collected_at": "2026-10-27T15:53:40.905275+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.57
     },
     {
       "id": "1760968658b2c4f842d13c62",
@@ -90,12 +368,26 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-26T15:38:24+00:00",
-      "collected_at": "2026-10-26T16:48:02.210009+00:00",
+      "collected_at": "2026-10-27T15:53:40.906609+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 44.55
+      "score": 35.57
+    },
+    {
+      "id": "6c160404bc44c7bc5b8e2f4a",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T19:26:20+00:00",
+      "collected_at": "2026-10-27T15:53:40.905729+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.04
     },
     {
       "id": "30cb237a06a3a7a007ffcc11",
@@ -104,14 +396,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-26T09:19:57+00:00",
-      "collected_at": "2026-10-26T16:48:02.212382+00:00",
+      "collected_at": "2026-10-27T15:53:40.908396+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 43.6
+      "score": 34.61
     },
     {
       "id": "ba2904e4c74c2429f90fd3f4",
@@ -120,230 +412,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-26T14:00:10+00:00",
-      "collected_at": "2026-10-26T16:48:02.210628+00:00",
+      "collected_at": "2026-10-27T15:53:40.907073+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "identity"
       ],
-      "score": 43.41
-    },
-    {
-      "id": "bd9c9eab5608c7b8003cdd9f",
-      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
-      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T12:46:44+00:00",
-      "collected_at": "2026-10-26T16:48:02.664343+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 42.94
-    },
-    {
-      "id": "d4aa16be41cad237dff5f940",
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T14:52:14+00:00",
-      "collected_at": "2026-10-26T16:48:02.661545+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.25
-    },
-    {
-      "id": "566dc48a74e825c8978fe624",
-      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T14:40:48+00:00",
-      "collected_at": "2026-10-26T16:48:02.662258+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.18
-    },
-    {
-      "id": "34547dbde035b6adccf792a5",
-      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T14:30:09+00:00",
-      "collected_at": "2026-10-26T16:48:02.662967+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.11
-    },
-    {
-      "id": "6c191b2e0544e436d8aaa8b7",
-      "title": "Chinese man extradited for role in $36 million cryptocurrency scam",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-26T13:56:44+00:00",
-      "collected_at": "2026-10-26T16:48:02.211211+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.89
-    },
-    {
-      "id": "a8df9e462cbecb4359470cad",
-      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-      "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T11:47:52+00:00",
-      "collected_at": "2026-10-26T16:48:02.665052+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.05
-    },
-    {
-      "id": "cbda2471397f7f992f2a9071",
-      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-26T10:26:52+00:00",
-      "collected_at": "2026-10-26T16:48:02.211795+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.53
-    },
-    {
-      "id": "82a5e493622e1ac41a3c6e9f",
-      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T10:21:57+00:00",
-      "collected_at": "2026-10-26T16:48:02.665772+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.5
-    },
-    {
-      "id": "f8dfadef8c273a71ac00c170",
-      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
-      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-26T09:10:03+00:00",
-      "collected_at": "2026-10-26T16:48:02.666465+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.03
-    },
-    {
-      "id": "9e69ae6da7ff27c1ebe6601a",
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-25T15:49:38+00:00",
-      "collected_at": "2026-10-26T16:48:02.212947+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 33.29
-    },
-    {
-      "id": "d5e946093886a4f19f5cfe05",
-      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
-      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-25T11:00:00+00:00",
-      "collected_at": "2026-10-26T16:48:02.667141+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.41
-    },
-    {
-      "id": "ff47167cdd727760255eaf67",
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-24T14:17:32+00:00",
-      "collected_at": "2026-10-26T16:48:02.213530+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 26.86
-    },
-    {
-      "id": "6f7d02b6c50c8413259b99a2",
-      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T18:54:41+00:00",
-      "collected_at": "2026-10-26T16:48:02.214677+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "phishing"
-      ],
-      "score": 17.32
-    },
-    {
-      "id": "1691c359593189a26c8b84a2",
-      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T20:55:05+00:00",
-      "collected_at": "2026-10-26T16:48:02.214095+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 16.6
-    },
-    {
-      "id": "7dc145b9a292b92b1509c415",
-      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-23T17:05:07+00:00",
-      "collected_at": "2026-10-26T16:48:02.215241+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 15.11
+      "score": 34.43
     }
   ]
 }

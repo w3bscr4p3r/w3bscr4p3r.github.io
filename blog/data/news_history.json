@@ -1,6 +1,314 @@
 {
-  "updated_at": "2026-10-26T16:48:04.394027+00:00",
+  "updated_at": "2026-10-27T15:53:42.584711+00:00",
   "items": [
+    {
+      "id": "d2e75d3729499e4c9658e9d8",
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T15:26:12+00:00",
+      "collected_at": "2026-10-27T15:53:41.279270+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.82
+    },
+    {
+      "id": "70ba3ce348971e3362d98b1a",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T14:09:46+00:00",
+      "collected_at": "2026-10-27T15:53:40.902037+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.33
+    },
+    {
+      "id": "04c1428e267f58a812060e28",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T14:01:11+00:00",
+      "collected_at": "2026-10-27T15:53:40.902532+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "threat"
+      ],
+      "score": 43.77
+    },
+    {
+      "id": "7c3feab248975d525c35b9c5",
+      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+      "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T13:30:28+00:00",
+      "collected_at": "2026-10-27T15:53:41.279949+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 43.57
+    },
+    {
+      "id": "ed924135f6e2d06b6b27030e",
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T13:13:58+00:00",
+      "collected_at": "2026-10-27T15:53:41.280483+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.96
+    },
+    {
+      "id": "db23fa2558434d7f2542e047",
+      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T12:02:06+00:00",
+      "collected_at": "2026-10-27T15:53:41.281025+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.5
+    },
+    {
+      "id": "43ed4e54a867cad3250f08da",
+      "title": "Design Tenets for Agent Identity Management Systems",
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems",
+      "source": "NIST Cybersecurity Insights",
+      "feed": "NIST Cybersecurity Insights",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "collected_at": "2026-10-27T15:53:40.705180+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "identity"
+      ],
+      "score": 44.99
+    },
+    {
+      "id": "ddc0a516a31ed6c0065bacfd",
+      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+      "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T11:49:57+00:00",
+      "collected_at": "2026-10-27T15:53:41.281550+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 44.92
+    },
+    {
+      "id": "813e09d2b6456194c6a02c9d",
+      "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+      "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T10:44:20+00:00",
+      "collected_at": "2026-10-27T15:53:41.282191+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.49
+    },
+    {
+      "id": "d08fb069fec5eef3b1eb7eba",
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T10:36:12+00:00",
+      "collected_at": "2026-10-27T15:53:40.903008+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ics",
+        "zero-day"
+      ],
+      "score": 45.94
+    },
+    {
+      "id": "b1c6997d0211ff83ccd621bc",
+      "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+      "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T10:02:24+00:00",
+      "collected_at": "2026-10-27T15:53:41.282737+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 44.22
+    },
+    {
+      "id": "c91d3f89a27d4e6471094d0f",
+      "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+      "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T09:44:50+00:00",
+      "collected_at": "2026-10-27T15:53:41.283357+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.11
+    },
+    {
+      "id": "c6856c48795522d33d88c839",
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T09:25:50+00:00",
+      "collected_at": "2026-10-27T15:53:40.903459+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.99
+    },
+    {
+      "id": "c36850b2ae9bb5e02c1eab20",
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T08:20:54+00:00",
+      "collected_at": "2026-10-27T15:53:40.903916+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.57
+    },
+    {
+      "id": "b006f69cf310f27625606c41",
+      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+      "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T07:14:27+00:00",
+      "collected_at": "2026-10-27T15:53:41.283888+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 41.13
+    },
+    {
+      "id": "744f2ab6fb24267f9c97903f",
+      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-27T01:30:00+00:00",
+      "collected_at": "2026-10-27T15:53:41.284419+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber",
+        "ics"
+      ],
+      "score": 40.4
+    },
+    {
+      "id": "4abc87e876a939f03088e601",
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T22:20:36+00:00",
+      "collected_at": "2026-10-27T15:53:40.904365+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 39.67
+    },
+    {
+      "id": "0dde6e96ac0bda07621584bd",
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T21:08:28+00:00",
+      "collected_at": "2026-10-27T15:53:40.904822+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.71
+    },
+    {
+      "id": "0ba2ebb3eb73866141df5986",
+      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T20:46:49+00:00",
+      "collected_at": "2026-10-27T15:53:40.905275+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.57
+    },
+    {
+      "id": "6c160404bc44c7bc5b8e2f4a",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-26T19:26:20+00:00",
+      "collected_at": "2026-10-27T15:53:40.905729+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.04
+    },
     {
       "id": "5827051eb2427e07cc0e5860",
       "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
