@@ -1,6 +1,378 @@
 {
-  "updated_at": "2026-10-27T15:53:42.584711+00:00",
+  "updated_at": "2026-10-28T16:38:43.462677+00:00",
   "items": [
+    {
+      "id": "82f86f87d696acb8c5f997da",
+      "title": "Brasil deve investir R$ 127 bi em cibersegurança até 2029 - TELETIME News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DTnBPNnBEN3pLUHl2U2hxa3JMWnFKX0NyX1E1N2xReXlEalZXYU95bXk5SEczVXZDdnlEZEJ5VWthdmFjekJTREFaRjc2b2U3UHVraV9vOGQ3ektmVjRNZkNoZzVmNmdpTmFZbWxCTHdiaE55dHh3Skc4bUFBdw?oc=5",
+      "source": "TELETIME News",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-28T16:23:46+00:00",
+      "collected_at": "2026-10-28T16:38:42.760497+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 42.4
+    },
+    {
+      "id": "fade4896e083dcb7d6c6ba7b",
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "collected_at": "2026-10-28T16:38:41.782710+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 46.25
+    },
+    {
+      "id": "fa9ccd1ba8bb968e64bfffab",
+      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T15:05:06+00:00",
+      "collected_at": "2026-10-28T16:38:42.179573+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 45.89
+    },
+    {
+      "id": "3cd9e9ff52aa41fa8f662658",
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T14:48:32+00:00",
+      "collected_at": "2026-10-28T16:38:41.783369+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.29
+    },
+    {
+      "id": "53d189c0586b3deef3af08ef",
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "collected_at": "2026-10-28T16:38:41.784037+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 47.47
+    },
+    {
+      "id": "e40d2be0d0349b3ac9a67872",
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T13:56:50+00:00",
+      "collected_at": "2026-10-28T16:38:42.180322+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "c101ce41e6767eacdf16b5c8",
+      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T13:50:59+00:00",
+      "collected_at": "2026-10-28T16:38:41.784693+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.91
+    },
+    {
+      "id": "22ebcdf2f0e08e3762b36f62",
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T13:39:35+00:00",
+      "collected_at": "2026-10-28T16:38:42.181035+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.84
+    },
+    {
+      "id": "477a94acb93f7bffa25fa9af",
+      "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+      "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T13:10:34+00:00",
+      "collected_at": "2026-10-28T16:38:42.181763+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.65
+    },
+    {
+      "id": "7384c9a638e7f8585d9e5106",
+      "title": "Empresa brasileira vai participar de competição de cibersegurança organizada pelo Exército do Equador - VEJA",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOVJtTUlQQmxuQVhXNU9tRUFmMVotbUFDZEV1Mno5cmhBc2tKRDQ4MnpZa0REbGFXanRLT3UxY3VBXzRzdER4cEV0U1F2Ti1kM2QzSmYxbml0dklHTFRBTUoyV1R1eGpMdDBkU0pDWnA0NDlsYmQ0NExZX2Fid2JpLWRyX1FlLWFLdGJLR2tSMlpCSnVhR0RqQ1RVOHc2cnlJSGI1Rnl0bUlxUGt4TkdJa29raGxkbE1MZmdqMFZoUlZVTXNiTWhrZWtSenVCenpm?oc=5",
+      "source": "VEJA",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-28T12:30:44+00:00",
+      "collected_at": "2026-10-28T16:38:42.761205+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.89
+    },
+    {
+      "id": "0361f3e448c4ee60fe7dfeab",
+      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T12:19:57+00:00",
+      "collected_at": "2026-10-28T16:38:41.785310+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.32
+    },
+    {
+      "id": "4ec06df9966613a96dd66c66",
+      "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+      "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T12:00:59+00:00",
+      "collected_at": "2026-10-28T16:38:42.182457+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 44.7
+    },
+    {
+      "id": "9bfe23ac6d59524fcf319ec1",
+      "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+      "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T10:48:00+00:00",
+      "collected_at": "2026-10-28T16:38:42.183177+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ics"
+      ],
+      "score": 42.23
+    },
+    {
+      "id": "4f1a514d67e52e36f91a5750",
+      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T10:46:23+00:00",
+      "collected_at": "2026-10-28T16:38:41.785947+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 46.22
+    },
+    {
+      "id": "1ae19a85e855799cbe72f677",
+      "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
+      "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T10:30:00+00:00",
+      "collected_at": "2026-10-28T16:38:42.183892+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.61
+    },
+    {
+      "id": "15b1831ca855175e5c4411e8",
+      "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
+      "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T09:48:24+00:00",
+      "collected_at": "2026-10-28T16:38:42.184589+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.34
+    },
+    {
+      "id": "2a31a627e0e69442f894d55d",
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T09:43:15+00:00",
+      "collected_at": "2026-10-28T16:38:41.786570+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 43.81
+    },
+    {
+      "id": "b5311ac2dec2c4738a60082a",
+      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T09:14:23+00:00",
+      "collected_at": "2026-10-28T16:38:42.185385+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 41.62
+    },
+    {
+      "id": "9a2058b7879ce48e61bd447d",
+      "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+      "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-28T08:37:24+00:00",
+      "collected_at": "2026-10-28T16:38:42.186123+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.38
+    },
+    {
+      "id": "002034383704dde4fa985bcf",
+      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T23:35:51+00:00",
+      "collected_at": "2026-10-28T16:38:41.787217+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware",
+        "threat"
+      ],
+      "score": 41.37
+    },
+    {
+      "id": "71e3f5ec9189acd9a4f1119c",
+      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T22:07:34+00:00",
+      "collected_at": "2026-10-28T16:38:41.788500+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 39.3
+    },
+    {
+      "id": "31b6c7acb506893504f0a0bb",
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T20:57:25+00:00",
+      "collected_at": "2026-10-28T16:38:41.789147+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ics"
+      ],
+      "score": 36.84
+    },
+    {
+      "id": "ce7aec241f51901e654e2415",
+      "title": "Cybersecurity Industrial: por que a conexão de fábricas aumentou o risco de ataques - Portal ERP",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYV9GbGJpSTdNb0VIbWl6eEZWM2daSHltak9lZE80TEVlZFJSU3MyUldXVjZybjZHbEVTbUdZNEdTY1pQUC1nVmdRVmFuOThON1V0Y2ZGUXFPVVhBUlo0N2QwSVhoUmtGelhubFB4RmtRWFJWTGVXclViNUdwM3dZNzNfOElGVmxjVlVQTGcxQWZWY2NSSTVTZGlGLTVnREJMbTdMOXBxZ1BHNjR5SGVES2NwTkh6dw?oc=5",
+      "source": "Portal ERP",
+      "feed": "Google News — GRC",
+      "published_at": "2026-10-27T19:44:11+00:00",
+      "collected_at": "2026-10-28T16:38:43.141771+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ataque",
+        "cyber",
+        "risco"
+      ],
+      "score": 43.87
+    },
+    {
+      "id": "444bba41ce01f66248aa47e7",
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-27T16:15:39+00:00",
+      "collected_at": "2026-10-28T16:38:41.790396+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.02
+    },
     {
       "id": "d2e75d3729499e4c9658e9d8",
       "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
