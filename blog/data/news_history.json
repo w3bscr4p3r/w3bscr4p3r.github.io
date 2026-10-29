@@ -1,6 +1,336 @@
 {
-  "updated_at": "2026-10-28T16:38:43.462677+00:00",
+  "updated_at": "2026-10-29T16:56:41.169415+00:00",
   "items": [
+    {
+      "id": "1626e32b16e19fc0bb88ba05",
+      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T16:30:00+00:00",
+      "collected_at": "2026-10-29T16:56:39.798746+00:00",
+      "categories": [
+        "CISO",
+        "GRC"
+      ],
+      "tags": [
+        "risk",
+        "security leader"
+      ],
+      "score": 52.83
+    },
+    {
+      "id": "938d79490d7fddb323a31697",
+      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T16:10:31+00:00",
+      "collected_at": "2026-10-29T16:56:39.417243+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.7
+    },
+    {
+      "id": "92d66f0762612b8adb25d7b4",
+      "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
+      "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T15:01:00+00:00",
+      "collected_at": "2026-10-29T16:56:39.799515+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.75
+    },
+    {
+      "id": "5791b715923439561533c799",
+      "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
+      "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T15:00:00+00:00",
+      "collected_at": "2026-10-29T16:56:39.800277+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "risk",
+        "threat"
+      ],
+      "score": 52.24
+    },
+    {
+      "id": "b84f6d4f8de584571549f05a",
+      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T14:35:40+00:00",
+      "collected_at": "2026-10-29T16:56:39.418656+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.09
+    },
+    {
+      "id": "aabbb2b958a312da95020a68",
+      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T14:18:03+00:00",
+      "collected_at": "2026-10-29T16:56:39.801029+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.97
+    },
+    {
+      "id": "999abec6a93d89dca21cb8aa",
+      "title": "Rockwell Automation amplia ferramentas de cybersecurity para fabricantes de máquinas - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2tobDhNV1lkZ1VGM1ljYjRyNkhLdFFlRkp1Z0RyVTVMdTg5dHpTOWZIR21POTc1UEMyUmlPNjVuLWkxRXI0a1B3WTlrWm5tQUQ0ZF95aW9yRnF3aVBvbW1RRlNja1V4VWxfcXhjWDJKdjNvdlpLS1d3OGpoRWlINWt3YmhkWktMOUVWMVhqNTVpMml4OE5DVXRpcFNRdWFHcUNKR1NrY3djRnV5eUhIekRsSUI1aGlpeDRicXJMNEFadkFpUC1iclBRSEFaU1pnd1M4YjNRbw?oc=5",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "feed": "Google News — GRC",
+      "published_at": "2026-10-29T14:09:00+00:00",
+      "collected_at": "2026-10-29T16:56:40.891679+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 41.41
+    },
+    {
+      "id": "721f180de38cbe2edd4d7866",
+      "title": "3 Ways AI Agents Already Operate in Your Browser",
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T14:00:10+00:00",
+      "collected_at": "2026-10-29T16:56:39.419951+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.86
+    },
+    {
+      "id": "b967d82b2c5e1d40a8c11cc7",
+      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T13:59:48+00:00",
+      "collected_at": "2026-10-29T16:56:39.421262+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.85
+    },
+    {
+      "id": "316f58e8411c0cf6974d5077",
+      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T13:42:52+00:00",
+      "collected_at": "2026-10-29T16:56:39.801771+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.74
+    },
+    {
+      "id": "a40590e6575b0f033ecc4050",
+      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T13:26:49+00:00",
+      "collected_at": "2026-10-29T16:56:39.802509+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.64
+    },
+    {
+      "id": "f2abb56564393624e5a0bd01",
+      "title": "Brasil destina apenas 6,4% do orçamento de TI à cibersegurança - SINDPD",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJS0R3WTV3YXRlOHVSVk1xcmFlaFBGUy1Iak9ZYzdZQ3FNbmRuQ2NoNXFoNXlmbnFVeWloYjNaR0JrMVFkMDh2QWI2SDFjZG40Q0hHaEZReTJnaHZUVXpMUnBOZWtjQnczQjVaRQ?oc=5",
+      "source": "SINDPD",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-29T13:10:45+00:00",
+      "collected_at": "2026-10-29T16:56:40.444937+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "ciber",
+        "orcamento"
+      ],
+      "score": 49.54
+    },
+    {
+      "id": "16910995afa76eae9d4e11c1",
+      "title": "Over 41,000 DHS Employee Records Leaked Online",
+      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T12:54:14+00:00",
+      "collected_at": "2026-10-29T16:56:39.803258+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.43
+    },
+    {
+      "id": "e5d199b54000c0ea1f56a53c",
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T12:00:07+00:00",
+      "collected_at": "2026-10-29T16:56:39.422542+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.08
+    },
+    {
+      "id": "b0a8c06b798f6cf46ac1bc9f",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T11:10:13+00:00",
+      "collected_at": "2026-10-29T16:56:39.423603+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "cra",
+        "exploit",
+        "zero-day"
+      ],
+      "score": 55.75
+    },
+    {
+      "id": "a64b23d916a278ece7f56d49",
+      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
+      "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T11:00:00+00:00",
+      "collected_at": "2026-10-29T16:56:39.804021+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.69
+    },
+    {
+      "id": "a48efb0495803767a33c91b6",
+      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T10:29:25+00:00",
+      "collected_at": "2026-10-29T16:56:39.804806+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 47.49
+    },
+    {
+      "id": "1cabfaa995f1bc640167c540",
+      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-29T09:47:10+00:00",
+      "collected_at": "2026-10-29T16:56:39.805550+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 47.22
+    },
+    {
+      "id": "622a85e99919765056551d91",
+      "title": "Cibersegurança preemptiva impulsionada por inteligência artificial redefine proteção corporativa contra ameaças digitais - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOc2V3bThrSFZnN3d2Mnc1ZDE4VUhCRnAzV0FlaER1Q05pM1pWMm1fbzdyX212dnZhcXFSbHBWMXg0ZHppdW16czNNZDZFejc1UHpXbW5oYmk2V1Z4REJMUGUtTVg1MkNLNlN6dkU5aHQtaDhTdWZVQm1vVHdoTXdwT3h4eVFULUs2WEwxaE9OaktjNzhyOW5nazNIZWdIc0E4VFZTNDQ1RkxtWUh2bzRwOTJnU2E1VFRqZTZzMkdXRzhMRXJiTnpMT1o3aGpWOWlPUGxJZEVsX0xkOUtUZ1ZqaDVjWGhLQQ?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-29T01:00:13+00:00",
+      "collected_at": "2026-10-29T16:56:40.446380+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ameaca",
+        "ciber"
+      ],
+      "score": 37.8
+    },
+    {
+      "id": "762df6dd46804710228c448a",
+      "title": "Brasil investe apenas 6,4% do orçamento de TI em cibersegurança - ConvergenciaDigital",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0pvbnNVeGxLVnlYWXNwV1J1VHhobENyV19JN3EyLS1HMGRKaDJZcWM1bEJDNVg3ZlR4RHFmLTc2T1FLZkR5T29ONnM1eXpLRmZHT1hNSTVUV0dMZE1Fb2dYVjRkWlpMcWQ1blgycVJpT0ppVWxTdDdkZkx5MTR4cUFmSzNCS1RNQ3JJYTRCeFRkZ2ctdDNtb0hVcW02eVFMZF92NHdKb0w?oc=5",
+      "source": "ConvergenciaDigital",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-28T17:55:48+00:00",
+      "collected_at": "2026-10-29T16:56:40.444175+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "ciber",
+        "orcamento"
+      ],
+      "score": 42.05
+    },
+    {
+      "id": "97448f4a665b1f2c561845bd",
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-28T16:45:47+00:00",
+      "collected_at": "2026-10-29T16:56:39.425821+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.1
+    },
     {
       "id": "82f86f87d696acb8c5f997da",
       "title": "Brasil deve investir R$ 127 bi em cibersegurança até 2029 - TELETIME News",
