@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T16:56:41.169415+00:00",
+  "generated_at": "2026-10-30T16:42:36.501217+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 21,
+  "new_count": 22,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -17,7 +17,7 @@
     {
       "name": "NIST Cybersecurity Insights",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "BleepingComputer",
@@ -37,12 +37,12 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "name": "Google News — GRC",
       "status": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "Google News — CISO",
@@ -52,59 +52,248 @@
   ],
   "items": [
     {
-      "id": "b0a8c06b798f6cf46ac1bc9f",
-      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "id": "4d956244a17b7e8a18c09478",
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
-      "published_at": "2026-10-29T11:10:13+00:00",
-      "collected_at": "2026-10-29T16:56:39.423603+00:00",
+      "published_at": "2026-10-30T10:16:07+00:00",
+      "collected_at": "2026-10-30T16:42:35.122797+00:00",
       "categories": [
-        "Cyber",
-        "GRC"
+        "Cyber"
       ],
       "tags": [
-        "cra",
+        "exploit"
+      ],
+      "score": 46.0
+    },
+    {
+      "id": "ec2f31355bc00b56507a33ad",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T11:07:11+00:00",
+      "collected_at": "2026-10-30T16:42:35.355456+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
         "exploit",
-        "zero-day"
+        "vulnerability"
       ],
-      "score": 55.75
+      "score": 45.83
     },
     {
-      "id": "1626e32b16e19fc0bb88ba05",
-      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+      "id": "45ccf46b59ccb972f9c6eedf",
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-29T16:30:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.798746+00:00",
+      "published_at": "2026-10-30T14:41:35+00:00",
+      "collected_at": "2026-10-30T16:42:35.352474+00:00",
       "categories": [
-        "CISO",
-        "GRC"
+        "Cyber"
       ],
       "tags": [
-        "risk",
-        "security leader"
+        "breach"
       ],
-      "score": 52.83
+      "score": 45.72
     },
     {
-      "id": "5791b715923439561533c799",
-      "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-      "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+      "id": "cf3ca1af955ac6480b0653f2",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-29T15:00:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.800277+00:00",
+      "published_at": "2026-10-30T09:32:27+00:00",
+      "collected_at": "2026-10-30T16:42:35.356920+00:00",
       "categories": [
-        "Cyber",
-        "GRC"
+        "Cyber"
       ],
       "tags": [
-        "risk",
-        "threat"
+        "exploit",
+        "vulnerability"
       ],
-      "score": 52.24
+      "score": 45.21
+    },
+    {
+      "id": "d7fe235c82c59b15fbac2373",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T13:00:32+00:00",
+      "collected_at": "2026-10-30T16:42:35.121498+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.06
+    },
+    {
+      "id": "d08f00a767900ed4470d6d2a",
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T09:41:36+00:00",
+      "collected_at": "2026-10-30T16:42:35.356187+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "supply chain"
+      ],
+      "score": 43.77
+    },
+    {
+      "id": "209532f07678c78bebf91472",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T15:58:20+00:00",
+      "collected_at": "2026-10-30T16:42:35.119477+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.71
+    },
+    {
+      "id": "2a23bc3a01571f0863e3c0a6",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T12:04:13+00:00",
+      "collected_at": "2026-10-30T16:42:35.354712+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 42.7
+    },
+    {
+      "id": "7fe02f6a190524469e1d6242",
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T15:09:25+00:00",
+      "collected_at": "2026-10-30T16:42:35.351690+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.4
+    },
+    {
+      "id": "b4bc5dc6de4afe4a45db3b01",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T14:36:54+00:00",
+      "collected_at": "2026-10-30T16:42:35.120154+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.19
+    },
+    {
+      "id": "ec24064851a90298cbde32a7",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T14:00:10+00:00",
+      "collected_at": "2026-10-30T16:42:35.120828+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "9d99276df3d3ffb6b668e048",
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-30T16:42:35.353215+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "faa35826c3b0c88d9a4ecd68",
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T13:36:12+00:00",
+      "collected_at": "2026-10-30T16:42:35.353962+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.79
+    },
+    {
+      "id": "94edd5dfe169f07cc5e29378",
+      "title": "Pesquisa em cibersegurança ganha força no Brasil, mas conexão com empresas ainda é desafio - Portal IPNews",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmgtQ3NWc2NmMGU3WUM2dV9FZm1tZDFrWE9oX29vWWNmakRvSHhjbWJXZE5nV3I1S2FNeHBmUEdxR2EweHBrQlJNZWo1UXlZY0I2ZjRYaExKR1B4Tm5hVlgtREN4bVVEODItekhyOFZuVVFpbEJnVmNYelpWOGF0UGVSTmUwc3JDbW1US19IWFBHYWlRVS13SmNtZmt3TVpDWEk3Y3RZSHI1ZElZNGF2VW9n0gGyAUFVX3lxTFBCaC1Dc1ZzY2YwZTdZQzZ1X0VmbW1kMWtYT2hfb29ZY2ZqRG9IeGNtYldkTmdXcjVLYU14cGZQR3FHYTB4cGtCUk1lajVReVljQjZmNFhoTEpHUHhObmFWWC1EQ3htVUQ4Mi16SHI4Vm5VUWlsQmdWY1h6WlY4YXRQZVJOZTBzckNtbVRLX0hYUEdhaVFVLXdKY21ma3dNWkNYSTdjdFlIcjVkSVk0YXZVb2c?oc=5",
+      "source": "Portal IPNews",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T14:01:52+00:00",
+      "collected_at": "2026-10-30T16:42:35.949084+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 41.46
+    },
+    {
+      "id": "fc9e7dbf8e0cd340779dd4f7",
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T22:08:04+00:00",
+      "collected_at": "2026-10-30T16:42:35.126050+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 41.28
+    },
+    {
+      "id": "b49a4a05e5df203f5f903316",
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T11:20:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.122138+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.91
     },
     {
       "id": "f2abb56564393624e5a0bd01",
@@ -112,8 +301,8 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJS0R3WTV3YXRlOHVSVk1xcmFlaFBGUy1Iak9ZYzdZQ3FNbmRuQ2NoNXFoNXlmbnFVeWloYjNaR0JrMVFkMDh2QWI2SDFjZG40Q0hHaEZReTJnaHZUVXpMUnBOZWtjQnczQjVaRQ?oc=5",
       "source": "SINDPD",
       "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-29T13:10:45+00:00",
-      "collected_at": "2026-10-29T16:56:40.444937+00:00",
+      "published_at": "2026-10-29T14:31:15+00:00",
+      "collected_at": "2026-10-30T16:42:35.952588+00:00",
       "categories": [
         "CISO",
         "Cyber"
@@ -122,99 +311,98 @@
         "ciber",
         "orcamento"
       ],
-      "score": 49.54
+      "score": 40.82
     },
     {
-      "id": "a48efb0495803767a33c91b6",
-      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "id": "552ae7422add837485889d2e",
+      "title": "Soberania digital depende de formação e desenvolvimento de tecnologias de cibersegurança no Brasil - Portal IPNews",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHFXT3JhR0xPRS12RjZiWWllbGxGY0lHOXVzaVB2MzBNcHc0WEtjaDUyUm5zQzN1cE9Bd1dpcF85aHM1Z0UyM2lsOEszXzVtQTg3STNoYWw0eW1Vc09yYzlUZE9EQWtyWXJUVkxIVlpSay1qc2FwSlc1OVR6WmlVVGlfMUJhc0MwM0tkYTU0U28tQXhNc0JaNzJTQ3NFcXk3X2dmdkpIdkQtYmpfSXZ2NGFkRzctN0s0SzYxVW1B0gG-AUFVX3lxTE9IcVdPcmFHTE9FLXZGNmJZaWVsbEZjSUc5dXNpUHYzME1wdzRYS2NoNTJSbnNDM3VwT0F3V2lwXzloczVnRTIzaWw4SzNfNW1BODdJM2hhbDR5bVVzT3JjOVRkT0RBa3JZclRWTEhWWlJrLWpzYXBKVzU5VHpaaVVUaV8xQmFzQzAzS2RhNTRTby1BeE1zQlo3MlNDc0VxeTdfZ2Z2Skh2RC1ial9JdnY0YWRHNy03SzRLNjFVbUE?oc=5",
+      "source": "Portal IPNews",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T12:11:14+00:00",
+      "collected_at": "2026-10-30T16:42:35.954986+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.74
+    },
+    {
+      "id": "c76a8ed9dd44d340b88a1840",
+      "title": "ZF TraXon 2 com cibersegurança estreia no Brasil com dois fabricantes de caminhões - AutoData Editora",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUkRYR0t5dzVvUGJ1dG1jUW43ejR0RW1PYWswSkRqZ0g3WVFqNVVfT1Y2d2VrVGg0UUVFWjZBOFFxYUNrdUtMRFIzS0xmcnN5Um9FaVd6N0VMOUhCZEZjRlF5NFV5SHU2RlV0c1pyNTFSMWJPejREMmdNdC0xd1JOaWY2bEhiM01ndXJQc192aGNoaXFXcEVHd1FtcWE0N2IwSDFVYU14aXRVS3BuSTkwLXoyemdONXYtMEd3SmQ1TGtrWFZjeC1lVFRQcXBfRGUxYWhwMQ?oc=5",
+      "source": "AutoData Editora",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-30T16:42:35.948336+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.28
+    },
+    {
+      "id": "46ce78da99ca5661b8225538",
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T09:18:13+00:00",
+      "collected_at": "2026-10-30T16:42:35.123447+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.12
+    },
+    {
+      "id": "58d5452f0e2f0d1e83fe6160",
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-10-29T10:29:25+00:00",
-      "collected_at": "2026-10-29T16:56:39.804806+00:00",
+      "published_at": "2026-10-30T08:44:49+00:00",
+      "collected_at": "2026-10-30T16:42:35.357677+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.9
+    },
+    {
+      "id": "829d4a2975caa8828808164c",
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T08:16:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.358435+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.72
+    },
+    {
+      "id": "77aa26050a8b3319525d4b6b",
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T18:38:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.128022+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit",
-        "zero-day"
+        "malware"
       ],
-      "score": 47.49
-    },
-    {
-      "id": "1cabfaa995f1bc640167c540",
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T09:47:10+00:00",
-      "collected_at": "2026-10-29T16:56:39.805550+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 47.22
-    },
-    {
-      "id": "92d66f0762612b8adb25d7b4",
-      "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-      "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T15:01:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.799515+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 43.75
-    },
-    {
-      "id": "316f58e8411c0cf6974d5077",
-      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T13:42:52+00:00",
-      "collected_at": "2026-10-29T16:56:39.801771+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 43.74
-    },
-    {
-      "id": "938d79490d7fddb323a31697",
-      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T16:10:31+00:00",
-      "collected_at": "2026-10-29T16:56:39.417243+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.7
-    },
-    {
-      "id": "b84f6d4f8de584571549f05a",
-      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T14:35:40+00:00",
-      "collected_at": "2026-10-29T16:56:39.418656+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.09
+      "score": 39.42
     },
     {
       "id": "762df6dd46804710228c448a",
@@ -223,7 +411,7 @@
       "source": "ConvergenciaDigital",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-28T17:55:48+00:00",
-      "collected_at": "2026-10-29T16:56:40.444175+00:00",
+      "collected_at": "2026-10-30T16:42:35.950503+00:00",
       "categories": [
         "CISO",
         "Cyber"
@@ -232,205 +420,7 @@
         "ciber",
         "orcamento"
       ],
-      "score": 42.05
-    },
-    {
-      "id": "aabbb2b958a312da95020a68",
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T14:18:03+00:00",
-      "collected_at": "2026-10-29T16:56:39.801029+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.97
-    },
-    {
-      "id": "721f180de38cbe2edd4d7866",
-      "title": "3 Ways AI Agents Already Operate in Your Browser",
-      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T14:00:10+00:00",
-      "collected_at": "2026-10-29T16:56:39.419951+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.86
-    },
-    {
-      "id": "b967d82b2c5e1d40a8c11cc7",
-      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T13:59:48+00:00",
-      "collected_at": "2026-10-29T16:56:39.421262+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.85
-    },
-    {
-      "id": "a40590e6575b0f033ecc4050",
-      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
-      "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T13:26:49+00:00",
-      "collected_at": "2026-10-29T16:56:39.802509+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.64
-    },
-    {
-      "id": "16910995afa76eae9d4e11c1",
-      "title": "Over 41,000 DHS Employee Records Leaked Online",
-      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T12:54:14+00:00",
-      "collected_at": "2026-10-29T16:56:39.803258+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.43
-    },
-    {
-      "id": "999abec6a93d89dca21cb8aa",
-      "title": "Rockwell Automation amplia ferramentas de cybersecurity para fabricantes de máquinas - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2tobDhNV1lkZ1VGM1ljYjRyNkhLdFFlRkp1Z0RyVTVMdTg5dHpTOWZIR21POTc1UEMyUmlPNjVuLWkxRXI0a1B3WTlrWm5tQUQ0ZF95aW9yRnF3aVBvbW1RRlNja1V4VWxfcXhjWDJKdjNvdlpLS1d3OGpoRWlINWt3YmhkWktMOUVWMVhqNTVpMml4OE5DVXRpcFNRdWFHcUNKR1NrY3djRnV5eUhIekRsSUI1aGlpeDRicXJMNEFadkFpUC1iclBRSEFaU1pnd1M4YjNRbw?oc=5",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "feed": "Google News — GRC",
-      "published_at": "2026-10-29T14:09:00+00:00",
-      "collected_at": "2026-10-29T16:56:40.891679+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 41.41
-    },
-    {
-      "id": "e5d199b54000c0ea1f56a53c",
-      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T12:00:07+00:00",
-      "collected_at": "2026-10-29T16:56:39.422542+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.08
-    },
-    {
-      "id": "a64b23d916a278ece7f56d49",
-      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-      "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-29T11:00:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.804021+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.69
-    },
-    {
-      "id": "53d189c0586b3deef3af08ef",
-      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-28T14:00:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.427778+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 38.02
-    },
-    {
-      "id": "622a85e99919765056551d91",
-      "title": "Cibersegurança preemptiva impulsionada por inteligência artificial redefine proteção corporativa contra ameaças digitais - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOc2V3bThrSFZnN3d2Mnc1ZDE4VUhCRnAzV0FlaER1Q05pM1pWMm1fbzdyX212dnZhcXFSbHBWMXg0ZHppdW16czNNZDZFejc1UHpXbW5oYmk2V1Z4REJMUGUtTVg1MkNLNlN6dkU5aHQtaDhTdWZVQm1vVHdoTXdwT3h4eVFULUs2WEwxaE9OaktjNzhyOW5nazNIZWdIc0E4VFZTNDQ1RkxtWUh2bzRwOTJnU2E1VFRqZTZzMkdXRzhMRXJiTnpMT1o3aGpWOWlPUGxJZEVsX0xkOUtUZ1ZqaDVjWGhLQQ?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-29T01:00:13+00:00",
-      "collected_at": "2026-10-29T16:56:40.446380+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ameaca",
-        "ciber"
-      ],
-      "score": 37.8
-    },
-    {
-      "id": "97448f4a665b1f2c561845bd",
-      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-28T16:45:47+00:00",
-      "collected_at": "2026-10-29T16:56:39.425821+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 37.1
-    },
-    {
-      "id": "fade4896e083dcb7d6c6ba7b",
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-28T16:00:00+00:00",
-      "collected_at": "2026-10-29T16:56:39.426446+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 36.8
-    },
-    {
-      "id": "ce7aec241f51901e654e2415",
-      "title": "Cybersecurity Industrial: por que a conexão de fábricas aumentou o risco de ataques - Portal ERP",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYV9GbGJpSTdNb0VIbWl6eEZWM2daSHltak9lZE80TEVlZFJSU3MyUldXVjZybjZHbEVTbUdZNEdTY1pQUC1nVmdRVmFuOThON1V0Y2ZGUXFPVVhBUlo0N2QwSVhoUmtGelhubFB4RmtRWFJWTGVXclViNUdwM3dZNzNfOElGVmxjVlVQTGcxQWZWY2NSSTVTZGlGLTVnREJMbTdMOXBxZ1BHNjR5SGVES2NwTkh6dw?oc=5",
-      "source": "Portal ERP",
-      "feed": "Google News — GRC",
-      "published_at": "2026-10-27T19:44:11+00:00",
-      "collected_at": "2026-10-29T16:56:40.895721+00:00",
-      "categories": [
-        "Cyber",
-        "GRC"
-      ],
-      "tags": [
-        "ataque",
-        "cyber",
-        "risco"
-      ],
-      "score": 34.42
+      "score": 32.81
     }
   ]
 }

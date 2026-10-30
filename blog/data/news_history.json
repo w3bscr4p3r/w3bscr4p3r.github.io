@@ -1,6 +1,341 @@
 {
-  "updated_at": "2026-10-29T16:56:41.169415+00:00",
+  "updated_at": "2026-10-30T16:42:36.501217+00:00",
   "items": [
+    {
+      "id": "209532f07678c78bebf91472",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T15:58:20+00:00",
+      "collected_at": "2026-10-30T16:42:35.119477+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.71
+    },
+    {
+      "id": "7fe02f6a190524469e1d6242",
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T15:09:25+00:00",
+      "collected_at": "2026-10-30T16:42:35.351690+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.4
+    },
+    {
+      "id": "45ccf46b59ccb972f9c6eedf",
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T14:41:35+00:00",
+      "collected_at": "2026-10-30T16:42:35.352474+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.72
+    },
+    {
+      "id": "b4bc5dc6de4afe4a45db3b01",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T14:36:54+00:00",
+      "collected_at": "2026-10-30T16:42:35.120154+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.19
+    },
+    {
+      "id": "94edd5dfe169f07cc5e29378",
+      "title": "Pesquisa em cibersegurança ganha força no Brasil, mas conexão com empresas ainda é desafio - Portal IPNews",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmgtQ3NWc2NmMGU3WUM2dV9FZm1tZDFrWE9oX29vWWNmakRvSHhjbWJXZE5nV3I1S2FNeHBmUEdxR2EweHBrQlJNZWo1UXlZY0I2ZjRYaExKR1B4Tm5hVlgtREN4bVVEODItekhyOFZuVVFpbEJnVmNYelpWOGF0UGVSTmUwc3JDbW1US19IWFBHYWlRVS13SmNtZmt3TVpDWEk3Y3RZSHI1ZElZNGF2VW9n0gGyAUFVX3lxTFBCaC1Dc1ZzY2YwZTdZQzZ1X0VmbW1kMWtYT2hfb29ZY2ZqRG9IeGNtYldkTmdXcjVLYU14cGZQR3FHYTB4cGtCUk1lajVReVljQjZmNFhoTEpHUHhObmFWWC1EQ3htVUQ4Mi16SHI4Vm5VUWlsQmdWY1h6WlY4YXRQZVJOZTBzckNtbVRLX0hYUEdhaVFVLXdKY21ma3dNWkNYSTdjdFlIcjVkSVk0YXZVb2c?oc=5",
+      "source": "Portal IPNews",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T14:01:52+00:00",
+      "collected_at": "2026-10-30T16:42:35.949084+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 41.46
+    },
+    {
+      "id": "ec24064851a90298cbde32a7",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T14:00:10+00:00",
+      "collected_at": "2026-10-30T16:42:35.120828+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "9d99276df3d3ffb6b668e048",
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-30T16:42:35.353215+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "faa35826c3b0c88d9a4ecd68",
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T13:36:12+00:00",
+      "collected_at": "2026-10-30T16:42:35.353962+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.79
+    },
+    {
+      "id": "d7fe235c82c59b15fbac2373",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T13:00:32+00:00",
+      "collected_at": "2026-10-30T16:42:35.121498+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.06
+    },
+    {
+      "id": "552ae7422add837485889d2e",
+      "title": "Soberania digital depende de formação e desenvolvimento de tecnologias de cibersegurança no Brasil - Portal IPNews",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHFXT3JhR0xPRS12RjZiWWllbGxGY0lHOXVzaVB2MzBNcHc0WEtjaDUyUm5zQzN1cE9Bd1dpcF85aHM1Z0UyM2lsOEszXzVtQTg3STNoYWw0eW1Vc09yYzlUZE9EQWtyWXJUVkxIVlpSay1qc2FwSlc1OVR6WmlVVGlfMUJhc0MwM0tkYTU0U28tQXhNc0JaNzJTQ3NFcXk3X2dmdkpIdkQtYmpfSXZ2NGFkRzctN0s0SzYxVW1B0gG-AUFVX3lxTE9IcVdPcmFHTE9FLXZGNmJZaWVsbEZjSUc5dXNpUHYzME1wdzRYS2NoNTJSbnNDM3VwT0F3V2lwXzloczVnRTIzaWw4SzNfNW1BODdJM2hhbDR5bVVzT3JjOVRkT0RBa3JZclRWTEhWWlJrLWpzYXBKVzU5VHpaaVVUaV8xQmFzQzAzS2RhNTRTby1BeE1zQlo3MlNDc0VxeTdfZ2Z2Skh2RC1ial9JdnY0YWRHNy03SzRLNjFVbUE?oc=5",
+      "source": "Portal IPNews",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T12:11:14+00:00",
+      "collected_at": "2026-10-30T16:42:35.954986+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.74
+    },
+    {
+      "id": "2a23bc3a01571f0863e3c0a6",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T12:04:13+00:00",
+      "collected_at": "2026-10-30T16:42:35.354712+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 42.7
+    },
+    {
+      "id": "b49a4a05e5df203f5f903316",
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T11:20:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.122138+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.91
+    },
+    {
+      "id": "ec2f31355bc00b56507a33ad",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T11:07:11+00:00",
+      "collected_at": "2026-10-30T16:42:35.355456+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "vulnerability"
+      ],
+      "score": 45.83
+    },
+    {
+      "id": "c76a8ed9dd44d340b88a1840",
+      "title": "ZF TraXon 2 com cibersegurança estreia no Brasil com dois fabricantes de caminhões - AutoData Editora",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUkRYR0t5dzVvUGJ1dG1jUW43ejR0RW1PYWswSkRqZ0g3WVFqNVVfT1Y2d2VrVGg0UUVFWjZBOFFxYUNrdUtMRFIzS0xmcnN5Um9FaVd6N0VMOUhCZEZjRlF5NFV5SHU2RlV0c1pyNTFSMWJPejREMmdNdC0xd1JOaWY2bEhiM01ndXJQc192aGNoaXFXcEVHd1FtcWE0N2IwSDFVYU14aXRVS3BuSTkwLXoyemdONXYtMEd3SmQ1TGtrWFZjeC1lVFRQcXBfRGUxYWhwMQ?oc=5",
+      "source": "AutoData Editora",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-30T16:42:35.948336+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.28
+    },
+    {
+      "id": "4d956244a17b7e8a18c09478",
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T10:16:07+00:00",
+      "collected_at": "2026-10-30T16:42:35.122797+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 46.0
+    },
+    {
+      "id": "d08f00a767900ed4470d6d2a",
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T09:41:36+00:00",
+      "collected_at": "2026-10-30T16:42:35.356187+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "supply chain"
+      ],
+      "score": 43.77
+    },
+    {
+      "id": "cf3ca1af955ac6480b0653f2",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T09:32:27+00:00",
+      "collected_at": "2026-10-30T16:42:35.356920+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "vulnerability"
+      ],
+      "score": 45.21
+    },
+    {
+      "id": "46ce78da99ca5661b8225538",
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T09:18:13+00:00",
+      "collected_at": "2026-10-30T16:42:35.123447+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.12
+    },
+    {
+      "id": "58d5452f0e2f0d1e83fe6160",
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T08:44:49+00:00",
+      "collected_at": "2026-10-30T16:42:35.357677+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.9
+    },
+    {
+      "id": "829d4a2975caa8828808164c",
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-30T08:16:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.358435+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.72
+    },
+    {
+      "id": "fc9e7dbf8e0cd340779dd4f7",
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T22:08:04+00:00",
+      "collected_at": "2026-10-30T16:42:35.126050+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 41.28
+    },
+    {
+      "id": "77aa26050a8b3319525d4b6b",
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-29T18:38:26+00:00",
+      "collected_at": "2026-10-30T16:42:35.128022+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "malware"
+      ],
+      "score": 39.42
+    },
     {
       "id": "1626e32b16e19fc0bb88ba05",
       "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
