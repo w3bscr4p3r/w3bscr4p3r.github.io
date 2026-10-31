@@ -1,6 +1,132 @@
 {
-  "updated_at": "2026-10-30T16:42:36.501217+00:00",
+  "updated_at": "2026-10-31T15:44:39.365705+00:00",
   "items": [
+    {
+      "id": "b1c396a7daf33eefb4ae72c9",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T15:35:11+00:00",
+      "collected_at": "2026-10-31T15:44:37.889311+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "cra",
+        "exploit"
+      ],
+      "score": 54.94
+    },
+    {
+      "id": "19fa6a46667ff3b7971fb8e6",
+      "title": "Reddit to lock content behind logins to fight scrapers",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T14:05:15+00:00",
+      "collected_at": "2026-10-31T15:44:37.889834+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "cra"
+      ],
+      "score": 43.86
+    },
+    {
+      "id": "32be25f3a919607a366659cb",
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T13:10:19+00:00",
+      "collected_at": "2026-10-31T15:44:37.890232+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.5
+    },
+    {
+      "id": "4fca03f9de70f0e51809b33e",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T12:50:09+00:00",
+      "collected_at": "2026-10-31T15:44:37.890618+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.37
+    },
+    {
+      "id": "31a5fefb2917e380d87ba6e7",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-31T11:00:00+00:00",
+      "collected_at": "2026-10-31T15:44:38.214627+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.16
+    },
+    {
+      "id": "79adf2499bccddf3ccde7ae9",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T21:09:46+00:00",
+      "collected_at": "2026-10-31T15:44:37.890995+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.77
+    },
+    {
+      "id": "b79e0fad6748a746bf4fdc7e",
+      "title": "Brasil destina só 6,4% do orçamento de TI à segurança digital - Portal Contabeis",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVFNNm1kcEFObUowTFVtQzhfeUdpMDJwTXdkS3BsMU1yNGpiRTFYS0RXWGNaZW1UU3RZc21lVHFSenJ5UGsxZUx0YnFiMXJqSmNRaDZ0RnBwM1htUFFEeEo1by1TbzlHX3U3d2trQUI2Vk1vRWRLSG01RkplMkZCTjUzenJxakJ0UjRpcnhuQWpxcmVzY0FWMW1FcVJyVDk2M29SQkJoZlk?oc=5",
+      "source": "Portal Contabeis",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T19:00:01+00:00",
+      "collected_at": "2026-10-31T15:44:38.819177+00:00",
+      "categories": [
+        "CISO"
+      ],
+      "tags": [
+        "orcamento"
+      ],
+      "score": 34.43
+    },
+    {
+      "id": "f0be4eab29e170d2b0c27151",
+      "title": "Brasil | Anatel propõe criar superintendência de infraestrutura crítica e cibersegurança - DPL News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbC1iMW9SOXFMMHJOdTdoaHl5NEdZTGdWMVBXb3k1LWlFeWtqNjQ3VzNhTHhzYm9ZaU14NEEwWld3bXlWeUstVE1KY1ViNFluWEtETmI0OUUzUzJmOEw1MnhiYWVSc0JlV2YxSnZmQkVXUllCY1pKQlFqZUNIQXMtNnlhOW40LS1fczQwNThITUR6aDFVUThXQWs5Sjkxd21QZ1NNZ3YxcFBlNjQ?oc=5",
+      "source": "DPL News",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T17:46:54+00:00",
+      "collected_at": "2026-10-31T15:44:38.820899+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 33.96
+    },
     {
       "id": "209532f07678c78bebf91472",
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",

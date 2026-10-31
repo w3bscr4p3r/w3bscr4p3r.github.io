@@ -4,8 +4,56 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Fri, 30 Oct 2026 16:42:36 +0000</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 15:44:39 +0000</lastBuildDate>
 <item>
+<title>New Android SMS of Death exploit can remotely crash unpatched phones</title>
+<link>https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/</link>
+<guid isPermaLink="false">b1c396a7daf33eefb4ae72c9</guid>
+<pubDate>Sat, 31 Oct 2026 15:35:11 +0000</pubDate>
+<description>Categorias: Cyber, GRC. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Reddit to lock content behind logins to fight scrapers</title>
+<link>https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/</link>
+<guid isPermaLink="false">19fa6a46667ff3b7971fb8e6</guid>
+<pubDate>Sat, 31 Oct 2026 14:05:15 +0000</pubDate>
+<description>Categorias: GRC. Fonte: BleepingComputer.</description>
+</item><item>
+<title>From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.</title>
+<link>https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/</link>
+<guid isPermaLink="false">32be25f3a919607a366659cb</guid>
+<pubDate>Sat, 31 Oct 2026 13:10:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Chainalysis discloses data breach from &quot;offensive agentic techniques&quot;</title>
+<link>https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/</link>
+<guid isPermaLink="false">4fca03f9de70f0e51809b33e</guid>
+<pubDate>Sat, 31 Oct 2026 12:50:09 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Syrian Hacker Gets Prison Time in US After Over a Decade on the Run</title>
+<link>https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/</link>
+<guid isPermaLink="false">31a5fefb2917e380d87ba6e7</guid>
+<pubDate>Sat, 31 Oct 2026 11:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Critical Linux kernel flaw allows remote root attacks on MPTCP servers</title>
+<link>https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/</link>
+<guid isPermaLink="false">79adf2499bccddf3ccde7ae9</guid>
+<pubDate>Fri, 30 Oct 2026 21:09:46 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Brasil destina só 6,4% do orçamento de TI à segurança digital - Portal Contabeis</title>
+<link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVFNNm1kcEFObUowTFVtQzhfeUdpMDJwTXdkS3BsMU1yNGpiRTFYS0RXWGNaZW1UU3RZc21lVHFSenJ5UGsxZUx0YnFiMXJqSmNRaDZ0RnBwM1htUFFEeEo1by1TbzlHX3U3d2trQUI2Vk1vRWRLSG01RkplMkZCTjUzenJxakJ0UjRpcnhuQWpxcmVzY0FWMW1FcVJyVDk2M29SQkJoZlk?oc=5</link>
+<guid isPermaLink="false">b79e0fad6748a746bf4fdc7e</guid>
+<pubDate>Fri, 30 Oct 2026 19:00:01 +0000</pubDate>
+<description>Categorias: CISO. Fonte: Portal Contabeis.</description>
+</item><item>
+<title>Brasil | Anatel propõe criar superintendência de infraestrutura crítica e cibersegurança - DPL News</title>
+<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbC1iMW9SOXFMMHJOdTdoaHl5NEdZTGdWMVBXb3k1LWlFeWtqNjQ3VzNhTHhzYm9ZaU14NEEwWld3bXlWeUstVE1KY1ViNFluWEtETmI0OUUzUzJmOEw1MnhiYWVSc0JlV2YxSnZmQkVXUllCY1pKQlFqZUNIQXMtNnlhOW40LS1fczQwNThITUR6aDFVUThXQWs5Sjkxd21QZ1NNZ3YxcFBlNjQ?oc=5</link>
+<guid isPermaLink="false">f0be4eab29e170d2b0c27151</guid>
+<pubDate>Fri, 30 Oct 2026 17:46:54 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: DPL News.</description>
+</item><item>
 <title>Trezor warns of suspected crypto-theft implant in hardware wallet</title>
 <link>https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/</link>
 <guid isPermaLink="false">209532f07678c78bebf91472</guid>
@@ -196,54 +244,6 @@
 <link>https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/</link>
 <guid isPermaLink="false">316f58e8411c0cf6974d5077</guid>
 <pubDate>Thu, 29 Oct 2026 13:42:52 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts</title>
-<link>https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/</link>
-<guid isPermaLink="false">a40590e6575b0f033ecc4050</guid>
-<pubDate>Thu, 29 Oct 2026 13:26:49 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Brasil destina apenas 6,4% do orçamento de TI à cibersegurança - SINDPD</title>
-<link>https://news.google.com/rss/articles/CBMibEFVX3lxTFBJS0R3WTV3YXRlOHVSVk1xcmFlaFBGUy1Iak9ZYzdZQ3FNbmRuQ2NoNXFoNXlmbnFVeWloYjNaR0JrMVFkMDh2QWI2SDFjZG40Q0hHaEZReTJnaHZUVXpMUnBOZWtjQnczQjVaRQ?oc=5</link>
-<guid isPermaLink="false">f2abb56564393624e5a0bd01</guid>
-<pubDate>Thu, 29 Oct 2026 13:10:45 +0000</pubDate>
-<description>Categorias: CISO, Cyber. Fonte: SINDPD.</description>
-</item><item>
-<title>Over 41,000 DHS Employee Records Leaked Online</title>
-<link>https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/</link>
-<guid isPermaLink="false">16910995afa76eae9d4e11c1</guid>
-<pubDate>Thu, 29 Oct 2026 12:54:14 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Windows 11 KB5127936 update released with 41 changes and fixes</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/</link>
-<guid isPermaLink="false">e5d199b54000c0ea1f56a53c</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>New Cisco firewall zero-day exploited to crash SSL VPN devices</title>
-<link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/</link>
-<guid isPermaLink="false">b0a8c06b798f6cf46ac1bc9f</guid>
-<pubDate>Thu, 29 Oct 2026 11:10:13 +0000</pubDate>
-<description>Categorias: Cyber, GRC. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net</title>
-<link>https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/</link>
-<guid isPermaLink="false">a64b23d916a278ece7f56d49</guid>
-<pubDate>Thu, 29 Oct 2026 11:00:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network</title>
-<link>https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/</link>
-<guid isPermaLink="false">a48efb0495803767a33c91b6</guid>
-<pubDate>Thu, 29 Oct 2026 10:29:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</title>
-<link>https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/</link>
-<guid isPermaLink="false">1cabfaa995f1bc640167c540</guid>
-<pubDate>Thu, 29 Oct 2026 09:47:10 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
 </item>
 </channel></rss>

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T16:42:36.501217+00:00",
+  "generated_at": "2026-10-31T15:44:39.365705+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 22,
+  "new_count": 8,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -42,7 +42,7 @@
     {
       "name": "Google News — GRC",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "Google News — CISO",
@@ -52,20 +52,114 @@
   ],
   "items": [
     {
+      "id": "b1c396a7daf33eefb4ae72c9",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T15:35:11+00:00",
+      "collected_at": "2026-10-31T15:44:37.889311+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "cra",
+        "exploit"
+      ],
+      "score": 54.94
+    },
+    {
+      "id": "4fca03f9de70f0e51809b33e",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T12:50:09+00:00",
+      "collected_at": "2026-10-31T15:44:37.890618+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.37
+    },
+    {
+      "id": "19fa6a46667ff3b7971fb8e6",
+      "title": "Reddit to lock content behind logins to fight scrapers",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T14:05:15+00:00",
+      "collected_at": "2026-10-31T15:44:37.889834+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "cra"
+      ],
+      "score": 43.86
+    },
+    {
+      "id": "32be25f3a919607a366659cb",
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T13:10:19+00:00",
+      "collected_at": "2026-10-31T15:44:37.890232+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.5
+    },
+    {
+      "id": "31a5fefb2917e380d87ba6e7",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-10-31T11:00:00+00:00",
+      "collected_at": "2026-10-31T15:44:38.214627+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.16
+    },
+    {
+      "id": "79adf2499bccddf3ccde7ae9",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-30T21:09:46+00:00",
+      "collected_at": "2026-10-31T15:44:37.890995+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.77
+    },
+    {
       "id": "4d956244a17b7e8a18c09478",
       "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T10:16:07+00:00",
-      "collected_at": "2026-10-30T16:42:35.122797+00:00",
+      "collected_at": "2026-10-31T15:44:37.893278+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 46.0
+      "score": 37.04
     },
     {
       "id": "ec2f31355bc00b56507a33ad",
@@ -74,7 +168,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T11:07:11+00:00",
-      "collected_at": "2026-10-30T16:42:35.355456+00:00",
+      "collected_at": "2026-10-31T15:44:38.217333+00:00",
       "categories": [
         "Cyber"
       ],
@@ -82,7 +176,7 @@
         "exploit",
         "vulnerability"
       ],
-      "score": 45.83
+      "score": 36.87
     },
     {
       "id": "45ccf46b59ccb972f9c6eedf",
@@ -91,14 +185,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T14:41:35+00:00",
-      "collected_at": "2026-10-30T16:42:35.352474+00:00",
+      "collected_at": "2026-10-31T15:44:38.215566+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.72
+      "score": 36.76
     },
     {
       "id": "cf3ca1af955ac6480b0653f2",
@@ -107,7 +201,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T09:32:27+00:00",
-      "collected_at": "2026-10-30T16:42:35.356920+00:00",
+      "collected_at": "2026-10-31T15:44:38.218210+00:00",
       "categories": [
         "Cyber"
       ],
@@ -115,7 +209,7 @@
         "exploit",
         "vulnerability"
       ],
-      "score": 45.21
+      "score": 36.25
     },
     {
       "id": "d7fe235c82c59b15fbac2373",
@@ -124,14 +218,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T13:00:32+00:00",
-      "collected_at": "2026-10-30T16:42:35.121498+00:00",
+      "collected_at": "2026-10-31T15:44:37.892525+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 45.06
+      "score": 36.1
     },
     {
       "id": "d08f00a767900ed4470d6d2a",
@@ -140,14 +234,46 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T09:41:36+00:00",
-      "collected_at": "2026-10-30T16:42:35.356187+00:00",
+      "collected_at": "2026-10-31T15:44:38.217776+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "supply chain"
       ],
-      "score": 43.77
+      "score": 34.81
+    },
+    {
+      "id": "b79e0fad6748a746bf4fdc7e",
+      "title": "Brasil destina só 6,4% do orçamento de TI à segurança digital - Portal Contabeis",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVFNNm1kcEFObUowTFVtQzhfeUdpMDJwTXdkS3BsMU1yNGpiRTFYS0RXWGNaZW1UU3RZc21lVHFSenJ5UGsxZUx0YnFiMXJqSmNRaDZ0RnBwM1htUFFEeEo1by1TbzlHX3U3d2trQUI2Vk1vRWRLSG01RkplMkZCTjUzenJxakJ0UjRpcnhuQWpxcmVzY0FWMW1FcVJyVDk2M29SQkJoZlk?oc=5",
+      "source": "Portal Contabeis",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T19:00:01+00:00",
+      "collected_at": "2026-10-31T15:44:38.819177+00:00",
+      "categories": [
+        "CISO"
+      ],
+      "tags": [
+        "orcamento"
+      ],
+      "score": 34.43
+    },
+    {
+      "id": "f0be4eab29e170d2b0c27151",
+      "title": "Brasil | Anatel propõe criar superintendência de infraestrutura crítica e cibersegurança - DPL News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbC1iMW9SOXFMMHJOdTdoaHl5NEdZTGdWMVBXb3k1LWlFeWtqNjQ3VzNhTHhzYm9ZaU14NEEwWld3bXlWeUstVE1KY1ViNFluWEtETmI0OUUzUzJmOEw1MnhiYWVSc0JlV2YxSnZmQkVXUllCY1pKQlFqZUNIQXMtNnlhOW40LS1fczQwNThITUR6aDFVUThXQWs5Sjkxd21QZ1NNZ3YxcFBlNjQ?oc=5",
+      "source": "DPL News",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T17:46:54+00:00",
+      "collected_at": "2026-10-31T15:44:38.820899+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 33.96
     },
     {
       "id": "209532f07678c78bebf91472",
@@ -156,12 +282,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T15:58:20+00:00",
-      "collected_at": "2026-10-30T16:42:35.119477+00:00",
+      "collected_at": "2026-10-31T15:44:37.891371+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.71
+      "score": 33.76
     },
     {
       "id": "2a23bc3a01571f0863e3c0a6",
@@ -170,14 +296,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T12:04:13+00:00",
-      "collected_at": "2026-10-30T16:42:35.354712+00:00",
+      "collected_at": "2026-10-31T15:44:38.216900+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "vulnerability"
       ],
-      "score": 42.7
+      "score": 33.74
     },
     {
       "id": "7fe02f6a190524469e1d6242",
@@ -186,12 +312,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T15:09:25+00:00",
-      "collected_at": "2026-10-30T16:42:35.351690+00:00",
+      "collected_at": "2026-10-31T15:44:38.215099+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.4
+      "score": 33.44
     },
     {
       "id": "b4bc5dc6de4afe4a45db3b01",
@@ -200,12 +326,28 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T14:36:54+00:00",
-      "collected_at": "2026-10-30T16:42:35.120154+00:00",
+      "collected_at": "2026-10-31T15:44:37.891750+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.19
+      "score": 33.23
+    },
+    {
+      "id": "94edd5dfe169f07cc5e29378",
+      "title": "Pesquisa em cibersegurança ganha força no Brasil, mas conexão com empresas ainda é desafio - Portal IPNews",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmgtQ3NWc2NmMGU3WUM2dV9FZm1tZDFrWE9oX29vWWNmakRvSHhjbWJXZE5nV3I1S2FNeHBmUEdxR2EweHBrQlJNZWo1UXlZY0I2ZjRYaExKR1B4Tm5hVlgtREN4bVVEODItekhyOFZuVVFpbEJnVmNYelpWOGF0UGVSTmUwc3JDbW1US19IWFBHYWlRVS13SmNtZmt3TVpDWEk3Y3RZSHI1ZElZNGF2VW9n0gGyAUFVX3lxTFBCaC1Dc1ZzY2YwZTdZQzZ1X0VmbW1kMWtYT2hfb29ZY2ZqRG9IeGNtYldkTmdXcjVLYU14cGZQR3FHYTB4cGtCUk1lajVReVljQjZmNFhoTEpHUHhObmFWWC1EQ3htVUQ4Mi16SHI4Vm5VUWlsQmdWY1h6WlY4YXRQZVJOZTBzckNtbVRLX0hYUEdhaVFVLXdKY21ma3dNWkNYSTdjdFlIcjVkSVk0YXZVb2c?oc=5",
+      "source": "Portal IPNews",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-10-30T15:34:14+00:00",
+      "collected_at": "2026-10-31T15:44:38.821326+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 33.1
     },
     {
       "id": "ec24064851a90298cbde32a7",
@@ -214,12 +356,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T14:00:10+00:00",
-      "collected_at": "2026-10-30T16:42:35.120828+00:00",
+      "collected_at": "2026-10-31T15:44:37.892130+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.95
+      "score": 32.99
     },
     {
       "id": "9d99276df3d3ffb6b668e048",
@@ -228,12 +370,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T14:00:00+00:00",
-      "collected_at": "2026-10-30T16:42:35.353215+00:00",
+      "collected_at": "2026-10-31T15:44:38.216016+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.95
+      "score": 32.99
     },
     {
       "id": "faa35826c3b0c88d9a4ecd68",
@@ -242,58 +384,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T13:36:12+00:00",
-      "collected_at": "2026-10-30T16:42:35.353962+00:00",
+      "collected_at": "2026-10-31T15:44:38.216450+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.79
-    },
-    {
-      "id": "94edd5dfe169f07cc5e29378",
-      "title": "Pesquisa em cibersegurança ganha força no Brasil, mas conexão com empresas ainda é desafio - Portal IPNews",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmgtQ3NWc2NmMGU3WUM2dV9FZm1tZDFrWE9oX29vWWNmakRvSHhjbWJXZE5nV3I1S2FNeHBmUEdxR2EweHBrQlJNZWo1UXlZY0I2ZjRYaExKR1B4Tm5hVlgtREN4bVVEODItekhyOFZuVVFpbEJnVmNYelpWOGF0UGVSTmUwc3JDbW1US19IWFBHYWlRVS13SmNtZmt3TVpDWEk3Y3RZSHI1ZElZNGF2VW9n0gGyAUFVX3lxTFBCaC1Dc1ZzY2YwZTdZQzZ1X0VmbW1kMWtYT2hfb29ZY2ZqRG9IeGNtYldkTmdXcjVLYU14cGZQR3FHYTB4cGtCUk1lajVReVljQjZmNFhoTEpHUHhObmFWWC1EQ3htVUQ4Mi16SHI4Vm5VUWlsQmdWY1h6WlY4YXRQZVJOZTBzckNtbVRLX0hYUEdhaVFVLXdKY21ma3dNWkNYSTdjdFlIcjVkSVk0YXZVb2c?oc=5",
-      "source": "Portal IPNews",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T14:01:52+00:00",
-      "collected_at": "2026-10-30T16:42:35.949084+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.46
-    },
-    {
-      "id": "fc9e7dbf8e0cd340779dd4f7",
-      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T22:08:04+00:00",
-      "collected_at": "2026-10-30T16:42:35.126050+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 41.28
-    },
-    {
-      "id": "b49a4a05e5df203f5f903316",
-      "title": "Microsoft finally fixes VPN issues caused by September updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T11:20:26+00:00",
-      "collected_at": "2026-10-30T16:42:35.122138+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.91
+      "score": 32.83
     },
     {
       "id": "f2abb56564393624e5a0bd01",
@@ -302,7 +398,7 @@
       "source": "SINDPD",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-29T14:31:15+00:00",
-      "collected_at": "2026-10-30T16:42:35.952588+00:00",
+      "collected_at": "2026-10-31T15:44:38.821739+00:00",
       "categories": [
         "CISO",
         "Cyber"
@@ -311,98 +407,7 @@
         "ciber",
         "orcamento"
       ],
-      "score": 40.82
-    },
-    {
-      "id": "552ae7422add837485889d2e",
-      "title": "Soberania digital depende de formação e desenvolvimento de tecnologias de cibersegurança no Brasil - Portal IPNews",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHFXT3JhR0xPRS12RjZiWWllbGxGY0lHOXVzaVB2MzBNcHc0WEtjaDUyUm5zQzN1cE9Bd1dpcF85aHM1Z0UyM2lsOEszXzVtQTg3STNoYWw0eW1Vc09yYzlUZE9EQWtyWXJUVkxIVlpSay1qc2FwSlc1OVR6WmlVVGlfMUJhc0MwM0tkYTU0U28tQXhNc0JaNzJTQ3NFcXk3X2dmdkpIdkQtYmpfSXZ2NGFkRzctN0s0SzYxVW1B0gG-AUFVX3lxTE9IcVdPcmFHTE9FLXZGNmJZaWVsbEZjSUc5dXNpUHYzME1wdzRYS2NoNTJSbnNDM3VwT0F3V2lwXzloczVnRTIzaWw4SzNfNW1BODdJM2hhbDR5bVVzT3JjOVRkT0RBa3JZclRWTEhWWlJrLWpzYXBKVzU5VHpaaVVUaV8xQmFzQzAzS2RhNTRTby1BeE1zQlo3MlNDc0VxeTdfZ2Z2Skh2RC1ial9JdnY0YWRHNy03SzRLNjFVbUE?oc=5",
-      "source": "Portal IPNews",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T12:11:14+00:00",
-      "collected_at": "2026-10-30T16:42:35.954986+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 40.74
-    },
-    {
-      "id": "c76a8ed9dd44d340b88a1840",
-      "title": "ZF TraXon 2 com cibersegurança estreia no Brasil com dois fabricantes de caminhões - AutoData Editora",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUkRYR0t5dzVvUGJ1dG1jUW43ejR0RW1PYWswSkRqZ0g3WVFqNVVfT1Y2d2VrVGg0UUVFWjZBOFFxYUNrdUtMRFIzS0xmcnN5Um9FaVd6N0VMOUhCZEZjRlF5NFV5SHU2RlV0c1pyNTFSMWJPejREMmdNdC0xd1JOaWY2bEhiM01ndXJQc192aGNoaXFXcEVHd1FtcWE0N2IwSDFVYU14aXRVS3BuSTkwLXoyemdONXYtMEd3SmQ1TGtrWFZjeC1lVFRQcXBfRGUxYWhwMQ?oc=5",
-      "source": "AutoData Editora",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T11:00:00+00:00",
-      "collected_at": "2026-10-30T16:42:35.948336+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 40.28
-    },
-    {
-      "id": "46ce78da99ca5661b8225538",
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T09:18:13+00:00",
-      "collected_at": "2026-10-30T16:42:35.123447+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.12
-    },
-    {
-      "id": "58d5452f0e2f0d1e83fe6160",
-      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T08:44:49+00:00",
-      "collected_at": "2026-10-30T16:42:35.357677+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.9
-    },
-    {
-      "id": "829d4a2975caa8828808164c",
-      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T08:16:26+00:00",
-      "collected_at": "2026-10-30T16:42:35.358435+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.72
-    },
-    {
-      "id": "77aa26050a8b3319525d4b6b",
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-29T18:38:26+00:00",
-      "collected_at": "2026-10-30T16:42:35.128022+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "malware"
-      ],
-      "score": 39.42
+      "score": 31.86
     },
     {
       "id": "762df6dd46804710228c448a",
@@ -411,7 +416,7 @@
       "source": "ConvergenciaDigital",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-28T17:55:48+00:00",
-      "collected_at": "2026-10-30T16:42:35.950503+00:00",
+      "collected_at": "2026-10-31T15:44:38.819653+00:00",
       "categories": [
         "CISO",
         "Cyber"
@@ -420,7 +425,7 @@
         "ciber",
         "orcamento"
       ],
-      "score": 32.81
+      "score": 23.85
     }
   ]
 }
