@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T15:44:39.365705+00:00",
+  "generated_at": "2026-11-01T16:48:58.205999+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 8,
+  "new_count": 4,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 10
+      "items": 5
     },
     {
       "name": "Google News — GRC",
@@ -58,7 +58,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T15:35:11+00:00",
-      "collected_at": "2026-10-31T15:44:37.889311+00:00",
+      "collected_at": "2026-11-01T16:48:56.595392+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -67,7 +67,67 @@
         "cra",
         "exploit"
       ],
-      "score": 54.94
+      "score": 45.19
+    },
+    {
+      "id": "ddee4786cfeb4261d10e1c40",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-01T15:11:21+00:00",
+      "collected_at": "2026-11-01T16:48:56.593070+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.37
+    },
+    {
+      "id": "7a3b9ec975265185eba14e89",
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-01T11:15:00+00:00",
+      "collected_at": "2026-11-01T16:48:56.970219+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.34
+    },
+    {
+      "id": "a8e8af4a6e43fb626fda75fa",
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-01T13:53:11+00:00",
+      "collected_at": "2026-11-01T16:48:56.593835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.86
+    },
+    {
+      "id": "05adadf4195d044167707cf0",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T18:01:12+00:00",
+      "collected_at": "2026-11-01T16:48:56.594604+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.63
     },
     {
       "id": "4fca03f9de70f0e51809b33e",
@@ -76,14 +136,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T12:50:09+00:00",
-      "collected_at": "2026-10-31T15:44:37.890618+00:00",
+      "collected_at": "2026-11-01T16:48:56.597977+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.37
+      "score": 35.62
     },
     {
       "id": "19fa6a46667ff3b7971fb8e6",
@@ -92,14 +152,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T14:05:15+00:00",
-      "collected_at": "2026-10-31T15:44:37.889834+00:00",
+      "collected_at": "2026-11-01T16:48:56.596569+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 43.86
+      "score": 34.11
     },
     {
       "id": "32be25f3a919607a366659cb",
@@ -108,14 +168,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T13:10:19+00:00",
-      "collected_at": "2026-10-31T15:44:37.890232+00:00",
+      "collected_at": "2026-11-01T16:48:56.597281+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 43.5
+      "score": 33.75
     },
     {
       "id": "31a5fefb2917e380d87ba6e7",
@@ -124,12 +184,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-31T11:00:00+00:00",
-      "collected_at": "2026-10-31T15:44:38.214627+00:00",
+      "collected_at": "2026-11-01T16:48:56.971048+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.16
+      "score": 31.4
     },
     {
       "id": "79adf2499bccddf3ccde7ae9",
@@ -138,12 +198,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T21:09:46+00:00",
-      "collected_at": "2026-10-31T15:44:37.890995+00:00",
+      "collected_at": "2026-11-01T16:48:56.598695+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 37.77
+      "score": 28.02
     },
     {
       "id": "4d956244a17b7e8a18c09478",
@@ -152,14 +212,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T10:16:07+00:00",
-      "collected_at": "2026-10-31T15:44:37.893278+00:00",
+      "collected_at": "2026-11-01T16:48:56.602818+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 37.04
+      "score": 27.29
     },
     {
       "id": "ec2f31355bc00b56507a33ad",
@@ -168,7 +228,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T11:07:11+00:00",
-      "collected_at": "2026-10-31T15:44:38.217333+00:00",
+      "collected_at": "2026-11-01T16:48:56.975857+00:00",
       "categories": [
         "Cyber"
       ],
@@ -176,7 +236,7 @@
         "exploit",
         "vulnerability"
       ],
-      "score": 36.87
+      "score": 27.12
     },
     {
       "id": "45ccf46b59ccb972f9c6eedf",
@@ -185,14 +245,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T14:41:35+00:00",
-      "collected_at": "2026-10-31T15:44:38.215566+00:00",
+      "collected_at": "2026-11-01T16:48:56.972682+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.76
+      "score": 27.01
     },
     {
       "id": "cf3ca1af955ac6480b0653f2",
@@ -201,7 +261,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T09:32:27+00:00",
-      "collected_at": "2026-10-31T15:44:38.218210+00:00",
+      "collected_at": "2026-11-01T16:48:56.977408+00:00",
       "categories": [
         "Cyber"
       ],
@@ -209,7 +269,7 @@
         "exploit",
         "vulnerability"
       ],
-      "score": 36.25
+      "score": 26.5
     },
     {
       "id": "d7fe235c82c59b15fbac2373",
@@ -218,14 +278,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T13:00:32+00:00",
-      "collected_at": "2026-10-31T15:44:37.892525+00:00",
+      "collected_at": "2026-11-01T16:48:56.601415+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 36.1
+      "score": 26.35
     },
     {
       "id": "d08f00a767900ed4470d6d2a",
@@ -234,14 +294,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T09:41:36+00:00",
-      "collected_at": "2026-10-31T15:44:38.217776+00:00",
+      "collected_at": "2026-11-01T16:48:56.976650+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "supply chain"
       ],
-      "score": 34.81
+      "score": 25.06
     },
     {
       "id": "b79e0fad6748a746bf4fdc7e",
@@ -250,14 +310,14 @@
       "source": "Portal Contabeis",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-30T19:00:01+00:00",
-      "collected_at": "2026-10-31T15:44:38.819177+00:00",
+      "collected_at": "2026-11-01T16:48:57.566095+00:00",
       "categories": [
         "CISO"
       ],
       "tags": [
         "orcamento"
       ],
-      "score": 34.43
+      "score": 24.68
     },
     {
       "id": "f0be4eab29e170d2b0c27151",
@@ -266,14 +326,14 @@
       "source": "DPL News",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-30T17:46:54+00:00",
-      "collected_at": "2026-10-31T15:44:38.820899+00:00",
+      "collected_at": "2026-11-01T16:48:57.567898+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ciber"
       ],
-      "score": 33.96
+      "score": 24.21
     },
     {
       "id": "209532f07678c78bebf91472",
@@ -282,12 +342,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T15:58:20+00:00",
-      "collected_at": "2026-10-31T15:44:37.891371+00:00",
+      "collected_at": "2026-11-01T16:48:56.599352+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.76
+      "score": 24.01
     },
     {
       "id": "2a23bc3a01571f0863e3c0a6",
@@ -296,14 +356,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T12:04:13+00:00",
-      "collected_at": "2026-10-31T15:44:38.216900+00:00",
+      "collected_at": "2026-11-01T16:48:56.975051+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "vulnerability"
       ],
-      "score": 33.74
+      "score": 23.99
     },
     {
       "id": "7fe02f6a190524469e1d6242",
@@ -312,12 +372,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-10-30T15:09:25+00:00",
-      "collected_at": "2026-10-31T15:44:38.215099+00:00",
+      "collected_at": "2026-11-01T16:48:56.971829+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.44
+      "score": 23.69
     },
     {
       "id": "b4bc5dc6de4afe4a45db3b01",
@@ -326,12 +386,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T14:36:54+00:00",
-      "collected_at": "2026-10-31T15:44:37.891750+00:00",
+      "collected_at": "2026-11-01T16:48:56.600043+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.23
+      "score": 23.48
     },
     {
       "id": "94edd5dfe169f07cc5e29378",
@@ -340,14 +400,14 @@
       "source": "Portal IPNews",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-10-30T15:34:14+00:00",
-      "collected_at": "2026-10-31T15:44:38.821326+00:00",
+      "collected_at": "2026-11-01T16:48:57.566833+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ciber"
       ],
-      "score": 33.1
+      "score": 23.35
     },
     {
       "id": "ec24064851a90298cbde32a7",
@@ -356,76 +416,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-30T14:00:10+00:00",
-      "collected_at": "2026-10-31T15:44:37.892130+00:00",
+      "collected_at": "2026-11-01T16:48:56.600760+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.99
-    },
-    {
-      "id": "9d99276df3d3ffb6b668e048",
-      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T14:00:00+00:00",
-      "collected_at": "2026-10-31T15:44:38.216016+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.99
-    },
-    {
-      "id": "faa35826c3b0c88d9a4ecd68",
-      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T13:36:12+00:00",
-      "collected_at": "2026-10-31T15:44:38.216450+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.83
-    },
-    {
-      "id": "f2abb56564393624e5a0bd01",
-      "title": "Brasil destina apenas 6,4% do orçamento de TI à cibersegurança - SINDPD",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJS0R3WTV3YXRlOHVSVk1xcmFlaFBGUy1Iak9ZYzdZQ3FNbmRuQ2NoNXFoNXlmbnFVeWloYjNaR0JrMVFkMDh2QWI2SDFjZG40Q0hHaEZReTJnaHZUVXpMUnBOZWtjQnczQjVaRQ?oc=5",
-      "source": "SINDPD",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-29T14:31:15+00:00",
-      "collected_at": "2026-10-31T15:44:38.821739+00:00",
-      "categories": [
-        "CISO",
-        "Cyber"
-      ],
-      "tags": [
-        "ciber",
-        "orcamento"
-      ],
-      "score": 31.86
-    },
-    {
-      "id": "762df6dd46804710228c448a",
-      "title": "Brasil investe apenas 6,4% do orçamento de TI em cibersegurança - ConvergenciaDigital",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0pvbnNVeGxLVnlYWXNwV1J1VHhobENyV19JN3EyLS1HMGRKaDJZcWM1bEJDNVg3ZlR4RHFmLTc2T1FLZkR5T29ONnM1eXpLRmZHT1hNSTVUV0dMZE1Fb2dYVjRkWlpMcWQ1blgycVJpT0ppVWxTdDdkZkx5MTR4cUFmSzNCS1RNQ3JJYTRCeFRkZ2ctdDNtb0hVcW02eVFMZF92NHdKb0w?oc=5",
-      "source": "ConvergenciaDigital",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-28T17:55:48+00:00",
-      "collected_at": "2026-10-31T15:44:38.819653+00:00",
-      "categories": [
-        "CISO",
-        "Cyber"
-      ],
-      "tags": [
-        "ciber",
-        "orcamento"
-      ],
-      "score": 23.85
+      "score": 23.24
     }
   ]
 }

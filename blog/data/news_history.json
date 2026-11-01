@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-10-31T15:44:39.365705+00:00",
+  "updated_at": "2026-11-01T16:48:58.205999+00:00",
   "items": [
+    {
+      "id": "ddee4786cfeb4261d10e1c40",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-01T15:11:21+00:00",
+      "collected_at": "2026-11-01T16:48:56.593070+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.37
+    },
+    {
+      "id": "a8e8af4a6e43fb626fda75fa",
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-01T13:53:11+00:00",
+      "collected_at": "2026-11-01T16:48:56.593835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.86
+    },
+    {
+      "id": "7a3b9ec975265185eba14e89",
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-01T11:15:00+00:00",
+      "collected_at": "2026-11-01T16:48:56.970219+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.34
+    },
+    {
+      "id": "05adadf4195d044167707cf0",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-10-31T18:01:12+00:00",
+      "collected_at": "2026-11-01T16:48:56.594604+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.63
+    },
     {
       "id": "b1c396a7daf33eefb4ae72c9",
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
