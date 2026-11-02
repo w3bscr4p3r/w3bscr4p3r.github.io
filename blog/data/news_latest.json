@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T16:48:58.205999+00:00",
+  "generated_at": "2026-11-02T20:22:36.520113+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 4,
+  "new_count": 19,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 5
+      "items": 1
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,288 @@
   ],
   "items": [
     {
+      "id": "7a5664b6cd87b78bfb979461",
+      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T18:16:34+00:00",
+      "collected_at": "2026-11-02T20:22:35.028921+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "botnet",
+        "malware"
+      ],
+      "score": 45.18
+    },
+    {
+      "id": "e13982aaefc040800526fc23",
+      "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+      "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T07:57:49+00:00",
+      "collected_at": "2026-11-02T20:22:35.378949+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 45.17
+    },
+    {
+      "id": "3d8b663847da4161325f118b",
+      "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+      "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T10:27:49+00:00",
+      "collected_at": "2026-11-02T20:22:35.376665+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "cyber"
+      ],
+      "score": 44.14
+    },
+    {
+      "id": "040859624e61dd84db5ec1ef",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T19:00:45+00:00",
+      "collected_at": "2026-11-02T20:22:35.028175+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.97
+    },
+    {
+      "id": "e1def2216847dfd7f015b22f",
+      "title": "Revolve Data Breach Impacts at Least 180,000 People",
+      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T13:35:21+00:00",
+      "collected_at": "2026-11-02T20:22:35.374359+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.86
+    },
+    {
+      "id": "74ff5c9bfcdc356568107aec",
+      "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T11:29:39+00:00",
+      "collected_at": "2026-11-02T20:22:35.375883+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "supply chain"
+      ],
+      "score": 43.05
+    },
+    {
+      "id": "ce00502ed0c10de6f4cb48aa",
+      "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+      "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T11:28:42+00:00",
+      "collected_at": "2026-11-02T20:22:35.032910+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 43.04
+    },
+    {
+      "id": "831d180bce1d280ad9c45418",
+      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T15:01:11+00:00",
+      "collected_at": "2026-11-02T20:22:35.372663+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.42
+    },
+    {
+      "id": "bf4dd9bd5df4c76b519f72bb",
+      "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+      "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T14:44:18+00:00",
+      "collected_at": "2026-11-02T20:22:35.373603+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "risk"
+      ],
+      "score": 42.31
+    },
+    {
+      "id": "549cf697e4234d3168493c6f",
+      "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T09:33:26+00:00",
+      "collected_at": "2026-11-02T20:22:35.033561+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 42.29
+    },
+    {
+      "id": "8380d048d09eee2ea9540587",
+      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T15:03:07+00:00",
+      "collected_at": "2026-11-02T20:22:35.029627+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.93
+    },
+    {
+      "id": "a0c2d105951efde9e450868f",
+      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+      "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T15:01:11+00:00",
+      "collected_at": "2026-11-02T20:22:35.030286+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.92
+    },
+    {
+      "id": "2e68aae647bd1b384d6f5808",
+      "title": "Hackers disrupt refrigeration systems at European supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T14:28:39+00:00",
+      "collected_at": "2026-11-02T20:22:35.030950+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.71
+    },
+    {
+      "id": "afb125fb5d0b08ee1f85141f",
+      "title": "Microsoft fixes Smart App Control broken by October Windows update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T13:57:29+00:00",
+      "collected_at": "2026-11-02T20:22:35.031612+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.5
+    },
+    {
+      "id": "ab07e6d16c581eb42abb2686",
+      "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
+      "url": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T13:25:11+00:00",
+      "collected_at": "2026-11-02T20:22:35.375123+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.29
+    },
+    {
+      "id": "9441b1f0b4312b4ae0f54deb",
+      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T12:47:00+00:00",
+      "collected_at": "2026-11-02T20:22:35.032249+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.05
+    },
+    {
+      "id": "88b830c6c9cdd485af4c3e81",
+      "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+      "url": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T09:33:15+00:00",
+      "collected_at": "2026-11-02T20:22:35.377434+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.79
+    },
+    {
+      "id": "c94dd63b20112b4e2fe10d8e",
+      "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
+      "url": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-02T08:40:36+00:00",
+      "collected_at": "2026-11-02T20:22:35.378187+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.45
+    },
+    {
       "id": "b1c396a7daf33eefb4ae72c9",
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T15:35:11+00:00",
-      "collected_at": "2026-11-01T16:48:56.595392+00:00",
+      "collected_at": "2026-11-02T20:22:35.036923+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -67,7 +342,21 @@
         "cra",
         "exploit"
       ],
-      "score": 45.19
+      "score": 34.47
+    },
+    {
+      "id": "615beb1c5e23870cf079ee3a",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-01T19:57:53+00:00",
+      "collected_at": "2026-11-02T20:22:35.034190+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 33.51
     },
     {
       "id": "ddee4786cfeb4261d10e1c40",
@@ -76,12 +365,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-01T15:11:21+00:00",
-      "collected_at": "2026-11-01T16:48:56.593070+00:00",
+      "collected_at": "2026-11-02T20:22:35.034831+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.37
+      "score": 31.65
     },
     {
       "id": "7a3b9ec975265185eba14e89",
@@ -90,14 +379,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-01T11:15:00+00:00",
-      "collected_at": "2026-11-01T16:48:56.970219+00:00",
+      "collected_at": "2026-11-02T20:22:35.379833+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "risk"
       ],
-      "score": 42.34
+      "score": 31.62
     },
     {
       "id": "a8e8af4a6e43fb626fda75fa",
@@ -106,44 +395,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-01T13:53:11+00:00",
-      "collected_at": "2026-11-01T16:48:56.593835+00:00",
+      "collected_at": "2026-11-02T20:22:35.035506+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.86
-    },
-    {
-      "id": "05adadf4195d044167707cf0",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-31T18:01:12+00:00",
-      "collected_at": "2026-11-01T16:48:56.594604+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 37.63
-    },
-    {
-      "id": "4fca03f9de70f0e51809b33e",
-      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-31T12:50:09+00:00",
-      "collected_at": "2026-11-01T16:48:56.597977+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 35.62
+      "score": 31.14
     },
     {
       "id": "19fa6a46667ff3b7971fb8e6",
@@ -152,276 +409,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-10-31T14:05:15+00:00",
-      "collected_at": "2026-11-01T16:48:56.596569+00:00",
+      "collected_at": "2026-11-02T20:22:35.037747+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 34.11
-    },
-    {
-      "id": "32be25f3a919607a366659cb",
-      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-31T13:10:19+00:00",
-      "collected_at": "2026-11-01T16:48:56.597281+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 33.75
-    },
-    {
-      "id": "31a5fefb2917e380d87ba6e7",
-      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
-      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-31T11:00:00+00:00",
-      "collected_at": "2026-11-01T16:48:56.971048+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.4
-    },
-    {
-      "id": "79adf2499bccddf3ccde7ae9",
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T21:09:46+00:00",
-      "collected_at": "2026-11-01T16:48:56.598695+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 28.02
-    },
-    {
-      "id": "4d956244a17b7e8a18c09478",
-      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T10:16:07+00:00",
-      "collected_at": "2026-11-01T16:48:56.602818+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 27.29
-    },
-    {
-      "id": "ec2f31355bc00b56507a33ad",
-      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T11:07:11+00:00",
-      "collected_at": "2026-11-01T16:48:56.975857+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "vulnerability"
-      ],
-      "score": 27.12
-    },
-    {
-      "id": "45ccf46b59ccb972f9c6eedf",
-      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T14:41:35+00:00",
-      "collected_at": "2026-11-01T16:48:56.972682+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 27.01
-    },
-    {
-      "id": "cf3ca1af955ac6480b0653f2",
-      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T09:32:27+00:00",
-      "collected_at": "2026-11-01T16:48:56.977408+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "vulnerability"
-      ],
-      "score": 26.5
-    },
-    {
-      "id": "d7fe235c82c59b15fbac2373",
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T13:00:32+00:00",
-      "collected_at": "2026-11-01T16:48:56.601415+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 26.35
-    },
-    {
-      "id": "d08f00a767900ed4470d6d2a",
-      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T09:41:36+00:00",
-      "collected_at": "2026-11-01T16:48:56.976650+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "supply chain"
-      ],
-      "score": 25.06
-    },
-    {
-      "id": "b79e0fad6748a746bf4fdc7e",
-      "title": "Brasil destina só 6,4% do orçamento de TI à segurança digital - Portal Contabeis",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVFNNm1kcEFObUowTFVtQzhfeUdpMDJwTXdkS3BsMU1yNGpiRTFYS0RXWGNaZW1UU3RZc21lVHFSenJ5UGsxZUx0YnFiMXJqSmNRaDZ0RnBwM1htUFFEeEo1by1TbzlHX3U3d2trQUI2Vk1vRWRLSG01RkplMkZCTjUzenJxakJ0UjRpcnhuQWpxcmVzY0FWMW1FcVJyVDk2M29SQkJoZlk?oc=5",
-      "source": "Portal Contabeis",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T19:00:01+00:00",
-      "collected_at": "2026-11-01T16:48:57.566095+00:00",
-      "categories": [
-        "CISO"
-      ],
-      "tags": [
-        "orcamento"
-      ],
-      "score": 24.68
-    },
-    {
-      "id": "f0be4eab29e170d2b0c27151",
-      "title": "Brasil | Anatel propõe criar superintendência de infraestrutura crítica e cibersegurança - DPL News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbC1iMW9SOXFMMHJOdTdoaHl5NEdZTGdWMVBXb3k1LWlFeWtqNjQ3VzNhTHhzYm9ZaU14NEEwWld3bXlWeUstVE1KY1ViNFluWEtETmI0OUUzUzJmOEw1MnhiYWVSc0JlV2YxSnZmQkVXUllCY1pKQlFqZUNIQXMtNnlhOW40LS1fczQwNThITUR6aDFVUThXQWs5Sjkxd21QZ1NNZ3YxcFBlNjQ?oc=5",
-      "source": "DPL News",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T17:46:54+00:00",
-      "collected_at": "2026-11-01T16:48:57.567898+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 24.21
-    },
-    {
-      "id": "209532f07678c78bebf91472",
-      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T15:58:20+00:00",
-      "collected_at": "2026-11-01T16:48:56.599352+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 24.01
-    },
-    {
-      "id": "2a23bc3a01571f0863e3c0a6",
-      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T12:04:13+00:00",
-      "collected_at": "2026-11-01T16:48:56.975051+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerability"
-      ],
-      "score": 23.99
-    },
-    {
-      "id": "7fe02f6a190524469e1d6242",
-      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
-      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-30T15:09:25+00:00",
-      "collected_at": "2026-11-01T16:48:56.971829+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.69
-    },
-    {
-      "id": "b4bc5dc6de4afe4a45db3b01",
-      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T14:36:54+00:00",
-      "collected_at": "2026-11-01T16:48:56.600043+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.48
-    },
-    {
-      "id": "94edd5dfe169f07cc5e29378",
-      "title": "Pesquisa em cibersegurança ganha força no Brasil, mas conexão com empresas ainda é desafio - Portal IPNews",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQmgtQ3NWc2NmMGU3WUM2dV9FZm1tZDFrWE9oX29vWWNmakRvSHhjbWJXZE5nV3I1S2FNeHBmUEdxR2EweHBrQlJNZWo1UXlZY0I2ZjRYaExKR1B4Tm5hVlgtREN4bVVEODItekhyOFZuVVFpbEJnVmNYelpWOGF0UGVSTmUwc3JDbW1US19IWFBHYWlRVS13SmNtZmt3TVpDWEk3Y3RZSHI1ZElZNGF2VW9n0gGyAUFVX3lxTFBCaC1Dc1ZzY2YwZTdZQzZ1X0VmbW1kMWtYT2hfb29ZY2ZqRG9IeGNtYldkTmdXcjVLYU14cGZQR3FHYTB4cGtCUk1lajVReVljQjZmNFhoTEpHUHhObmFWWC1EQ3htVUQ4Mi16SHI4Vm5VUWlsQmdWY1h6WlY4YXRQZVJOZTBzckNtbVRLX0hYUEdhaVFVLXdKY21ma3dNWkNYSTdjdFlIcjVkSVk0YXZVb2c?oc=5",
-      "source": "Portal IPNews",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-10-30T15:34:14+00:00",
-      "collected_at": "2026-11-01T16:48:57.566833+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 23.35
-    },
-    {
-      "id": "ec24064851a90298cbde32a7",
-      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-30T14:00:10+00:00",
-      "collected_at": "2026-11-01T16:48:56.600760+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.24
+      "score": 23.39
     }
   ]
 }
