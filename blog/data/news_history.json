@@ -1,6 +1,250 @@
 {
-  "updated_at": "2026-11-02T20:22:36.520113+00:00",
+  "updated_at": "2026-11-03T17:51:29.993972+00:00",
   "items": [
+    {
+      "id": "690e8ec0b5185be52714da90",
+      "title": "Barracuda warns of critical flaws allowing root access to devices",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T15:06:16+00:00",
+      "collected_at": "2026-11-03T17:51:28.314864+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.93
+    },
+    {
+      "id": "1cf31027b804f3b7a0bb978d",
+      "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+      "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T15:00:10+00:00",
+      "collected_at": "2026-11-03T17:51:28.315546+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "soc"
+      ],
+      "score": 43.39
+    },
+    {
+      "id": "3dc16b14eabe212864ee5d73",
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T14:32:38+00:00",
+      "collected_at": "2026-11-03T17:51:28.779135+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.21
+    },
+    {
+      "id": "7a40967153c35a558d5941ab",
+      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T14:12:44+00:00",
+      "collected_at": "2026-11-03T17:51:28.779982+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.58
+    },
+    {
+      "id": "116e571775e9318cc440fa48",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T14:00:00+00:00",
+      "collected_at": "2026-11-03T17:51:28.316229+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 45.0
+    },
+    {
+      "id": "71e7b761b7c1159d69087c35",
+      "title": "Police seizes over 100 servers in investment scam crackdown",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T13:33:49+00:00",
+      "collected_at": "2026-11-03T17:51:28.317017+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "cra"
+      ],
+      "score": 42.83
+    },
+    {
+      "id": "3fdab89e82c85d7bcb6c7036",
+      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+      "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T12:21:49+00:00",
+      "collected_at": "2026-11-03T17:51:28.780789+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.86
+    },
+    {
+      "id": "5bcc7161c9894680dd0121ce",
+      "title": "Critical Node-RED Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T12:10:19+00:00",
+      "collected_at": "2026-11-03T17:51:28.781523+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 46.29
+    },
+    {
+      "id": "744632de37ba9a1dd3bdefb5",
+      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+      "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T12:05:52+00:00",
+      "collected_at": "2026-11-03T17:51:28.317673+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.76
+    },
+    {
+      "id": "dbeafc8bd6b1208d16ed52ff",
+      "title": "Harvard University data breach exposed info of 851,000 accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-03T10:53:25+00:00",
+      "collected_at": "2026-11-03T17:51:28.318316+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.79
+    },
+    {
+      "id": "ac9dabb71d96bfea39730596",
+      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T09:49:12+00:00",
+      "collected_at": "2026-11-03T17:51:28.782309+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.37
+    },
+    {
+      "id": "acbdebead69b3a63699ce7ea",
+      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T09:22:09+00:00",
+      "collected_at": "2026-11-03T17:51:28.783060+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "botnet"
+      ],
+      "score": 41.2
+    },
+    {
+      "id": "d9b78c4328a36957936c8eec",
+      "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+      "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T08:49:03+00:00",
+      "collected_at": "2026-11-03T17:51:28.783824+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 40.98
+    },
+    {
+      "id": "b407f4693a5cc55af0845a0f",
+      "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+      "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-03T07:43:24+00:00",
+      "collected_at": "2026-11-03T17:51:28.784563+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.06
+    },
+    {
+      "id": "b57b66d8369af9a03ec147d1",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "KrebsOnSecurity",
+      "feed": "KrebsOnSecurity",
+      "published_at": "2026-11-03T02:24:31+00:00",
+      "collected_at": "2026-11-03T17:51:28.540969+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "botnet"
+      ],
+      "score": 38.49
+    },
+    {
+      "id": "7d9da3a689228771c643e06f",
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-02T21:40:14+00:00",
+      "collected_at": "2026-11-03T17:51:28.318969+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.15
+    },
     {
       "id": "040859624e61dd84db5ec1ef",
       "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
