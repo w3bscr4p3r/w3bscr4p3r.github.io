@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T17:59:24.306656+00:00",
+  "generated_at": "2026-11-05T18:02:30.682608+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 22,
+  "new_count": 19,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "Google News — GRC",
@@ -52,20 +52,295 @@
   ],
   "items": [
     {
-      "id": "066444097a434bdccbbbb304",
-      "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
-      "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+      "id": "7f6005e91f8b5524a21a7c00",
+      "title": "DigiCert data breach exposes customer information, identity documents",
+      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T16:12:46+00:00",
+      "collected_at": "2026-11-05T18:02:29.293617+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "identity"
+      ],
+      "score": 47.29
+    },
+    {
+      "id": "054a465763841340d09cf36c",
+      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-04T12:43:20+00:00",
-      "collected_at": "2026-11-04T17:59:23.320802+00:00",
+      "published_at": "2026-11-05T10:56:41+00:00",
+      "collected_at": "2026-11-05T18:02:29.756359+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 47.24
+    },
+    {
+      "id": "b5d8e63aad365a4351f11d5c",
+      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+      "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T11:00:00+00:00",
+      "collected_at": "2026-11-05T18:02:29.755966+00:00",
+      "categories": [
+        "CISO"
+      ],
+      "tags": [
+        "ciso"
+      ],
+      "score": 43.76
+    },
+    {
+      "id": "9eb8611b20f8fa2d2e01b2ea",
+      "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
+      "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T10:37:13+00:00",
+      "collected_at": "2026-11-05T18:02:29.756749+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.61
+    },
+    {
+      "id": "95445730a4ca9e69bbfff310",
+      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+      "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T10:02:00+00:00",
+      "collected_at": "2026-11-05T18:02:29.757147+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.39
+    },
+    {
+      "id": "56e960e2299668f6548c862e",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T15:00:10+00:00",
+      "collected_at": "2026-11-05T18:02:29.293962+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "identity"
+      ],
+      "score": 43.32
+    },
+    {
+      "id": "8753f883659d9c18f45cefcc",
+      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T17:45:29+00:00",
+      "collected_at": "2026-11-05T18:02:29.292883+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.89
+    },
+    {
+      "id": "2fd1ecfcbfcf1effc334f1b9",
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T17:32:37+00:00",
+      "collected_at": "2026-11-05T18:02:29.753912+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.81
+    },
+    {
+      "id": "2baf73d5ea34fd80ffc0c7f2",
+      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+      "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T13:22:12+00:00",
+      "collected_at": "2026-11-05T18:02:29.754344+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "phishing"
+      ],
+      "score": 42.68
+    },
+    {
+      "id": "529110dbc39e05cb6cee3165",
+      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T12:58:32+00:00",
+      "collected_at": "2026-11-05T18:02:29.754749+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.53
+    },
+    {
+      "id": "6ebc8e883d7e4874be2f6fe8",
+      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T16:24:26+00:00",
+      "collected_at": "2026-11-05T18:02:29.293265+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.36
+    },
+    {
+      "id": "6c5d9dd0fdfc97b05b614e05",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-04T20:58:19+00:00",
+      "collected_at": "2026-11-05T18:02:29.294977+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 41.81
+    },
+    {
+      "id": "418930def4e64ff78cf171ff",
+      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T12:33:49+00:00",
+      "collected_at": "2026-11-05T18:02:29.755153+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.87
+    },
+    {
+      "id": "5488231376bf8a73146ec3d8",
+      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+      "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-05T11:15:00+00:00",
+      "collected_at": "2026-11-05T18:02:29.755537+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.36
+    },
+    {
+      "id": "5de081883ed329d9dc96ec69",
+      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T09:18:29+00:00",
+      "collected_at": "2026-11-05T18:02:29.294296+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.6
+    },
+    {
+      "id": "dc00a344c35deb0e7fb017e7",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "source": "KrebsOnSecurity",
+      "feed": "KrebsOnSecurity",
+      "published_at": "2026-11-05T04:36:17+00:00",
+      "collected_at": "2026-11-05T18:02:29.462166+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.77
+    },
+    {
+      "id": "71900d0f53041518e10b2fd0",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-04T19:05:19+00:00",
+      "collected_at": "2026-11-05T18:02:29.295311+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 44.45
+      "score": 37.57
+    },
+    {
+      "id": "857ba3cefba35116306fc82f",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-04T18:02:56+00:00",
+      "collected_at": "2026-11-05T18:02:29.295649+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 35.17
+    },
+    {
+      "id": "24ece37bc72c8386331f3066",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-04T21:31:18+00:00",
+      "collected_at": "2026-11-05T18:02:29.294635+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.02
     },
     {
       "id": "7de4e34130043b5b5be8e485",
@@ -74,14 +349,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-04T12:11:05+00:00",
-      "collected_at": "2026-11-04T17:59:22.993065+00:00",
+      "collected_at": "2026-11-05T18:02:29.297665+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 44.24
+      "score": 34.89
     },
     {
       "id": "997ce6c7bd316d17c1747b60",
@@ -90,30 +365,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-04T16:58:46+00:00",
-      "collected_at": "2026-11-04T17:59:22.991237+00:00",
+      "collected_at": "2026-11-05T18:02:29.295993+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "malware"
       ],
-      "score": 44.11
-    },
-    {
-      "id": "6a7761f30b0360b7203591f5",
-      "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-      "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T10:54:48+00:00",
-      "collected_at": "2026-11-04T17:59:23.321601+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "supply chain"
-      ],
-      "score": 43.75
+      "score": 34.75
     },
     {
       "id": "806f18fdeb591859c2117100",
@@ -122,30 +381,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-04T15:00:10+00:00",
-      "collected_at": "2026-11-04T17:59:22.992005+00:00",
+      "collected_at": "2026-11-05T18:02:29.296656+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "phishing"
       ],
-      "score": 43.34
-    },
-    {
-      "id": "0efcf5180de7edc44a63ef92",
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-04T09:39:54+00:00",
-      "collected_at": "2026-11-04T17:59:22.993416+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 43.26
+      "score": 33.98
     },
     {
       "id": "ee423a6342c2b6ba659ca06e",
@@ -154,14 +397,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-04T14:34:44+00:00",
-      "collected_at": "2026-11-04T17:59:23.319575+00:00",
+      "collected_at": "2026-11-05T18:02:29.757602+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "governance"
       ],
-      "score": 43.17
+      "score": 33.82
     },
     {
       "id": "2b9e9d323d2a882b2f78be93",
@@ -170,248 +413,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-04T16:00:18+00:00",
-      "collected_at": "2026-11-04T17:59:22.991631+00:00",
+      "collected_at": "2026-11-05T18:02:29.296328+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.23
-    },
-    {
-      "id": "61c5da087ef8de1400f8e0d3",
-      "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
-      "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T10:38:46+00:00",
-      "collected_at": "2026-11-04T17:59:23.322004+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.14
-    },
-    {
-      "id": "b57c24bb3ffba611fe399ab8",
-      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-04T14:42:25+00:00",
-      "collected_at": "2026-11-04T17:59:22.992360+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.72
-    },
-    {
-      "id": "d8bd8465f76294211ce590ed",
-      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T14:24:54+00:00",
-      "collected_at": "2026-11-04T17:59:23.320005+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.61
-    },
-    {
-      "id": "cf2ca7747767a75c28a7f78c",
-      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
-      "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T14:09:20+00:00",
-      "collected_at": "2026-11-04T17:59:23.320405+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.51
-    },
-    {
-      "id": "6accad52d4d51d63b82ea13a",
-      "title": "Brasil e Espanha reúnem Forças Armadas e indústria em Salvador, e Huge Networks leva cibersegurança ao encontro - Estadão Blue Studio",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbnpzN2Y0d2RZN1Fwc3g1WVVteG9KSVZXUE8zTERfUk5hSWg5bkc4aWp4bTZUNW1kcmtnaGNrUzhzTm10WEJkUGpNdGppWHVsLTZuXzUwWTNYTFpWMjR0Q1B3UVdmRlA3YXFqWnJoVmJQUnU1UUZUb1JCcjdRWVRtX0JQQmRwT3BIU2NEd1BQWTBMVGE3Qm40SkZMOGEwYnZGQWhsTl9RclNOX3FsQTNfWEdXZDBBNGJJZTNBYkM5MHFUSUszNnFYZEF4Qlg0M0s3UnQwV2JDUm9TZ05Hb2wyM1oyaWZaV2d1emlOb0ozMk5lOUZPOEYzSDc4ckRVTFF1NEY5Ukp6VHVNems?oc=5",
-      "source": "Estadão Blue Studio",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-04T14:36:09+00:00",
-      "collected_at": "2026-11-04T17:59:23.742271+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.18
-    },
-    {
-      "id": "20e8c69610c38921482b2f41",
-      "title": "US charges two Canadians accused of hacking US universities",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-04T13:13:20+00:00",
-      "collected_at": "2026-11-04T17:59:22.992707+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.15
-    },
-    {
-      "id": "30117d274f864832ac961d68",
-      "title": "Huge Networks leva cibersegurança a encontro de cooperação militar-industrial entre Brasil e Espanha - Estado de Minas",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaGxsYWRCcWw4SlNNRG1aNjhNVDNQNXV4cjltcnIwTjFObjlCNENlTXZEb25oVTNDT2thLWViTklud0ZyYm9faXc3QWY1RG8td0QxczI2WWltYmxWVE5lN211RGdlcEdyOGJqUC1oRER6ZkdyelVWVXJBemZVTkwyZUwzQnV5M3FIR2tJeGx1QndkdEpmQ01CNXBCamNqNWRWVzlIX3NfUUNSaXBNM0htVFVrN1VWZjlJelBMYjFGWWtSQTQ2TVFYdTZxYkxBRjlFTmx5ZU02dnFKNUZuQUNjVGpqSmlucHdsbG96LU4xQkR5R1AzaVI2M9IB_gFBVV95cUxObkJEamxsRTd4VTFGNE41bnNqcEtqWXRtYVAyVFFfT1loSXZXWlBQMnlTVHQ1amR6TXJ4TmNwa0NFSkJsb0pCa2laUUlXS3FkNlQ5TThBa0w2bkphdElXUjhaYk00bXJFWEhodkg0N09aTm5YSXp6UlE4RGxGTG9BNUloNjk5d3RoT210SGhtdzV5dEdKeFBkdG1ScFlxRnQ4ZWRha05VaFVTZWJXVnlXTTRabGI3LTVJcXdHcWhEYjBjUjhsV0RGajVZZHFPaGlDR2NuOWdnWWNUdmE5bUpPdXAzeFEyZHMwOU5Uck9KNEwxdUQ3R2RBUEY0aDhndw?oc=5",
-      "source": "Estado de Minas",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-04T14:09:00+00:00",
-      "collected_at": "2026-11-04T17:59:23.743087+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.01
-    },
-    {
-      "id": "b9700b8827b7fd3f2c72ef27",
-      "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
-      "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T12:27:58+00:00",
-      "collected_at": "2026-11-04T17:59:23.321205+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.85
-    },
-    {
-      "id": "4a3b4d70a601928b89aa5dc7",
-      "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-      "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T10:36:32+00:00",
-      "collected_at": "2026-11-04T17:59:23.322407+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.13
-    },
-    {
-      "id": "83318ef3dba732b7f633362d",
-      "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-      "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T09:23:22+00:00",
-      "collected_at": "2026-11-04T17:59:23.322812+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.66
-    },
-    {
-      "id": "71fbf91414a35a477a6d4d83",
-      "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
-      "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-04T08:27:05+00:00",
-      "collected_at": "2026-11-04T17:59:23.323221+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.29
-    },
-    {
-      "id": "706165a2c97ede312033fe3b",
-      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-03T21:28:44+00:00",
-      "collected_at": "2026-11-04T17:59:22.994113+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 38.52
-    },
-    {
-      "id": "116e571775e9318cc440fa48",
-      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-03T14:00:00+00:00",
-      "collected_at": "2026-11-04T17:59:22.995858+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 35.62
-    },
-    {
-      "id": "a1379c4245cfb6872765268a",
-      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-03T22:18:50+00:00",
-      "collected_at": "2026-11-04T17:59:22.993761+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 35.35
-    },
-    {
-      "id": "4935dac6794854b348e9737e",
-      "title": "Documentário de cibersegurança Midnight in the War Room chega ao Brasil - Computer Weekly",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZFg4QktIR3JxNElPLUc5aW93YW1ZaFJWZXJ2eHFsYVpYYkl1YW1ubHd1bHZYdmQ1SmFIc19SQ295X1g5el9Oampvdnl2NkR2Mm5qcFVpaVc5cVF4blN6RUtJNmJQRUJyeUxzZ09VY1NzQ1Q5bXFlR2lSbjNkWVlkMjRsOWRST2hUSVB4ZlBFY1VsdVBaSEFXT2pldVpxWFlIX2UtdXdQMjFsWjRFVDh6NmU1Q1JHblpaaHI3bHNNVzBLUQ?oc=5",
-      "source": "Computer Weekly",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-03T22:55:15+00:00",
-      "collected_at": "2026-11-04T17:59:23.742685+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 35.08
-    },
-    {
-      "id": "71e7b761b7c1159d69087c35",
-      "title": "Police seizes over 100 servers in investment scam crackdown",
-      "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-03T13:33:49+00:00",
-      "collected_at": "2026-11-04T17:59:22.996275+00:00",
-      "categories": [
-        "GRC"
-      ],
-      "tags": [
-        "cra"
-      ],
-      "score": 33.45
+      "score": 32.87
     }
   ]
 }

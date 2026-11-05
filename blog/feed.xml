@@ -4,8 +4,122 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Wed, 04 Nov 2026 17:59:24 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 18:02:30 +0000</lastBuildDate>
 <item>
+<title>OpenSSH flaw lets attackers log into password-disabled Linux accounts</title>
+<link>https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/</link>
+<guid isPermaLink="false">8753f883659d9c18f45cefcc</guid>
+<pubDate>Thu, 05 Nov 2026 17:45:29 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research</title>
+<link>https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/</link>
+<guid isPermaLink="false">2fd1ecfcbfcf1effc334f1b9</guid>
+<pubDate>Thu, 05 Nov 2026 17:32:37 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Hackers backdoor Linux servers using trojanized CWP web server</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</link>
+<guid isPermaLink="false">6ebc8e883d7e4874be2f6fe8</guid>
+<pubDate>Thu, 05 Nov 2026 16:24:26 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>DigiCert data breach exposes customer information, identity documents</title>
+<link>https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/</link>
+<guid isPermaLink="false">7f6005e91f8b5524a21a7c00</guid>
+<pubDate>Thu, 05 Nov 2026 16:12:46 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Closing the Identity Gap at the Service Desk</title>
+<link>https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/</link>
+<guid isPermaLink="false">56e960e2299668f6548c862e</guid>
+<pubDate>Thu, 05 Nov 2026 15:00:10 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns</title>
+<link>https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/</link>
+<guid isPermaLink="false">2baf73d5ea34fd80ffc0c7f2</guid>
+<pubDate>Thu, 05 Nov 2026 13:22:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised</title>
+<link>https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/</link>
+<guid isPermaLink="false">529110dbc39e05cb6cee3165</guid>
+<pubDate>Thu, 05 Nov 2026 12:58:32 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</title>
+<link>https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/</link>
+<guid isPermaLink="false">418930def4e64ff78cf171ff</guid>
+<pubDate>Thu, 05 Nov 2026 12:33:49 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>The Agent Smith Dilemma: Governing Agentic Identities</title>
+<link>https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/</link>
+<guid isPermaLink="false">5488231376bf8a73146ec3d8</guid>
+<pubDate>Thu, 05 Nov 2026 11:15:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality</title>
+<link>https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/</link>
+<guid isPermaLink="false">b5d8e63aad365a4351f11d5c</guid>
+<pubDate>Thu, 05 Nov 2026 11:00:00 +0000</pubDate>
+<description>Categorias: CISO. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</title>
+<link>https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/</link>
+<guid isPermaLink="false">054a465763841340d09cf36c</guid>
+<pubDate>Thu, 05 Nov 2026 10:56:41 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes</title>
+<link>https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/</link>
+<guid isPermaLink="false">9eb8611b20f8fa2d2e01b2ea</guid>
+<pubDate>Thu, 05 Nov 2026 10:37:13 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks</title>
+<link>https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/</link>
+<guid isPermaLink="false">95445730a4ca9e69bbfff310</guid>
+<pubDate>Thu, 05 Nov 2026 10:02:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>GhostMap Android flaw lets malicious app trigger persistent boot loop</title>
+<link>https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/</link>
+<guid isPermaLink="false">5de081883ed329d9dc96ec69</guid>
+<pubDate>Thu, 05 Nov 2026 09:18:29 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Want to Rent an Internet Address at the White House?</title>
+<link>https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/</link>
+<guid isPermaLink="false">dc00a344c35deb0e7fb017e7</guid>
+<pubDate>Thu, 05 Nov 2026 04:36:17 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: KrebsOnSecurity.</description>
+</item><item>
+<title>Vercel rolls out new protection against stolen session cookie attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/</link>
+<guid isPermaLink="false">24ece37bc72c8386331f3066</guid>
+<pubDate>Wed, 04 Nov 2026 21:31:18 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Zyxel fixes zero-day exploited to hack nearly 1,000 network switches</title>
+<link>https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/</link>
+<guid isPermaLink="false">6c5d9dd0fdfc97b05b614e05</guid>
+<pubDate>Wed, 04 Nov 2026 20:58:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>DreamHost confirms data breach exposed FTP logins and webmail sessions</title>
+<link>https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/</link>
+<guid isPermaLink="false">71900d0f53041518e10b2fd0</guid>
+<pubDate>Wed, 04 Nov 2026 19:05:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Cyberattack disrupts blood storage refrigeration systems in France</title>
+<link>https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/</link>
+<guid isPermaLink="false">857ba3cefba35116306fc82f</guid>
+<pubDate>Wed, 04 Nov 2026 18:02:56 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>NIKKE PC game launcher hacked to spread remote access, data-stealing malware</title>
 <link>https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/</link>
 <guid isPermaLink="false">997ce6c7bd316d17c1747b60</guid>
@@ -130,120 +244,6 @@
 <link>https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/</link>
 <guid isPermaLink="false">a1379c4245cfb6872765268a</guid>
 <pubDate>Tue, 03 Nov 2026 22:18:50 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>WorkOS says attacker used ARTEX AI to breach internal sales app</title>
-<link>https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/</link>
-<guid isPermaLink="false">706165a2c97ede312033fe3b</guid>
-<pubDate>Tue, 03 Nov 2026 21:28:44 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Barracuda warns of critical flaws allowing root access to devices</title>
-<link>https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/</link>
-<guid isPermaLink="false">690e8ec0b5185be52714da90</guid>
-<pubDate>Tue, 03 Nov 2026 15:06:16 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028</title>
-<link>https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/</link>
-<guid isPermaLink="false">1cf31027b804f3b7a0bb978d</guid>
-<pubDate>Tue, 03 Nov 2026 15:00:10 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Frontline Education Data Breach Impacts Over 1.3 Million</title>
-<link>https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/</link>
-<guid isPermaLink="false">3dc16b14eabe212864ee5d73</guid>
-<pubDate>Tue, 03 Nov 2026 14:32:38 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode</title>
-<link>https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/</link>
-<guid isPermaLink="false">7a40967153c35a558d5941ab</guid>
-<pubDate>Tue, 03 Nov 2026 14:12:44 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>UK school estate hit by 3AM ransomware in suspected AI-assisted attack</title>
-<link>https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/</link>
-<guid isPermaLink="false">116e571775e9318cc440fa48</guid>
-<pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Police seizes over 100 servers in investment scam crackdown</title>
-<link>https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/</link>
-<guid isPermaLink="false">71e7b761b7c1159d69087c35</guid>
-<pubDate>Tue, 03 Nov 2026 13:33:49 +0000</pubDate>
-<description>Categorias: GRC. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Android’s November 2026 Updates Patch Over 200 Vulnerabilities</title>
-<link>https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/</link>
-<guid isPermaLink="false">3fdab89e82c85d7bcb6c7036</guid>
-<pubDate>Tue, 03 Nov 2026 12:21:49 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Critical Node-RED Flaw Exploited in Attacks</title>
-<link>https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/</link>
-<guid isPermaLink="false">5bcc7161c9894680dd0121ce</guid>
-<pubDate>Tue, 03 Nov 2026 12:10:19 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs</title>
-<link>https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/</link>
-<guid isPermaLink="false">744632de37ba9a1dd3bdefb5</guid>
-<pubDate>Tue, 03 Nov 2026 12:05:52 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Harvard University data breach exposed info of 851,000 accounts</title>
-<link>https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/</link>
-<guid isPermaLink="false">dbeafc8bd6b1208d16ed52ff</guid>
-<pubDate>Tue, 03 Nov 2026 10:53:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028</title>
-<link>https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/</link>
-<guid isPermaLink="false">ac9dabb71d96bfea39730596</guid>
-<pubDate>Tue, 03 Nov 2026 09:49:12 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Google Dismantles XCPE Botnet of 1.3 Million Android Devices</title>
-<link>https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/</link>
-<guid isPermaLink="false">acbdebead69b3a63699ce7ea</guid>
-<pubDate>Tue, 03 Nov 2026 09:22:09 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training</title>
-<link>https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/</link>
-<guid isPermaLink="false">d9b78c4328a36957936c8eec</guid>
-<pubDate>Tue, 03 Nov 2026 08:49:03 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Over 100 European Stores Hit as Supermarket Fridge Attacks Return</title>
-<link>https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/</link>
-<guid isPermaLink="false">b407f4693a5cc55af0845a0f</guid>
-<pubDate>Tue, 03 Nov 2026 07:43:24 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies</title>
-<link>https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/</link>
-<guid isPermaLink="false">b57b66d8369af9a03ec147d1</guid>
-<pubDate>Tue, 03 Nov 2026 02:24:31 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: KrebsOnSecurity.</description>
-</item><item>
-<title>Chinese hackers use ARTEX AI in automated attacks against 200 orgs</title>
-<link>https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/</link>
-<guid isPermaLink="false">7d9da3a689228771c643e06f</guid>
-<pubDate>Mon, 02 Nov 2026 21:40:14 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Fintech platform Sageworks taken offline after suspected cyberattack</title>
-<link>https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/</link>
-<guid isPermaLink="false">040859624e61dd84db5ec1ef</guid>
-<pubDate>Mon, 02 Nov 2026 19:00:45 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Google disrupts million-device XCPE Android malware botnet, bans TV box maker</title>
-<link>https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/</link>
-<guid isPermaLink="false">7a5664b6cd87b78bfb979461</guid>
-<pubDate>Mon, 02 Nov 2026 18:16:34 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
 </item>
 </channel></rss>
