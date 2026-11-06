@@ -1,6 +1,303 @@
 {
-  "updated_at": "2026-11-05T18:02:30.682608+00:00",
+  "updated_at": "2026-11-06T17:30:23.036542+00:00",
   "items": [
+    {
+      "id": "822902b0ab44d262fdf2db96",
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T17:04:23+00:00",
+      "collected_at": "2026-11-06T17:30:21.600849+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 46.33
+    },
+    {
+      "id": "8ce52b04eae8e75021d38745",
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T15:25:31+00:00",
+      "collected_at": "2026-11-06T17:30:21.601547+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.19
+    },
+    {
+      "id": "9e7551b263e96c1f3b14aa4a",
+      "title": "Japão anuncia pacote emergencial de cibersegurança após onda de ataques - Brasil 247",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOEhpZzJfUW9iaDR5RXFvZHRIN1hLMXk4SlVnVDN6TE9rcnhDRFV2Sko2bjNMTXZtR3NyS3RVdllRQjU1Rlp5ZjdBeUpXZ193SnMzZ2h2MGhlZVlvV2FYb2hrNkpCR3haQjdhNVlXQzc2ckF6a0IzcVdOZGFuTzR6b0RuaGdiRFlDcU9XUS1CY1ZzVnpUV0o5UG1XYWVBX3hUWWxua2d0Zw?oc=5",
+      "source": "Brasil 247",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-06T15:24:33+00:00",
+      "collected_at": "2026-11-06T17:30:22.331874+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ciber"
+      ],
+      "score": 43.18
+    },
+    {
+      "id": "bfd625c1a7b092e7873ac978",
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T15:00:10+00:00",
+      "collected_at": "2026-11-06T17:30:21.602224+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.03
+    },
+    {
+      "id": "22c1226ed74a5fa11745853b",
+      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T14:40:09+00:00",
+      "collected_at": "2026-11-06T17:30:21.905518+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.9
+    },
+    {
+      "id": "b9d84da81794fd987d9f0f21",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T14:17:07+00:00",
+      "collected_at": "2026-11-06T17:30:21.602867+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.25
+    },
+    {
+      "id": "e5b0abeaa41381767182c895",
+      "title": "DigiCert Data Breach Impacts Business Customer Information",
+      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T14:00:07+00:00",
+      "collected_at": "2026-11-06T17:30:21.906296+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.14
+    },
+    {
+      "id": "02ad076740720b54090f2934",
+      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T13:19:52+00:00",
+      "collected_at": "2026-11-06T17:30:21.907055+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.88
+    },
+    {
+      "id": "8bf35f58a9615f767c7887ce",
+      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T13:02:26+00:00",
+      "collected_at": "2026-11-06T17:30:21.907790+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.26
+    },
+    {
+      "id": "d9a7d8650afc988ae9c1a5cc",
+      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T12:47:55+00:00",
+      "collected_at": "2026-11-06T17:30:21.908558+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.67
+    },
+    {
+      "id": "a1a9069d38a0014cac396999",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T12:37:22+00:00",
+      "collected_at": "2026-11-06T17:30:21.603534+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 44.6
+    },
+    {
+      "id": "b02d6df96cb626c5887aefb7",
+      "title": "Researchers Find Residential Proxies on White House Network",
+      "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T12:16:13+00:00",
+      "collected_at": "2026-11-06T17:30:21.909302+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.96
+    },
+    {
+      "id": "e473373ce7a5bec62ae9d4ea",
+      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+      "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T12:07:42+00:00",
+      "collected_at": "2026-11-06T17:30:21.910064+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.91
+    },
+    {
+      "id": "c8c8b59ecee89210e98701ff",
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T09:33:51+00:00",
+      "collected_at": "2026-11-06T17:30:21.910800+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.91
+    },
+    {
+      "id": "28983440453cdd6ad1541709",
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T09:22:28+00:00",
+      "collected_at": "2026-11-06T17:30:21.604190+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.84
+    },
+    {
+      "id": "e7966fdf4db0951dff4a22d1",
+      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+      "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T03:03:29+00:00",
+      "collected_at": "2026-11-06T17:30:21.911560+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.38
+    },
+    {
+      "id": "0cb06374f64ab2aec5dfa743",
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T00:56:44+00:00",
+      "collected_at": "2026-11-06T17:30:21.604822+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 38.06
+    },
+    {
+      "id": "fffdcbbd5dfb7afe869ab5a0",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T21:30:30+00:00",
+      "collected_at": "2026-11-06T17:30:21.605647+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.22
+    },
+    {
+      "id": "4641b970584fa66f944487ab",
+      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+      "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T20:15:08+00:00",
+      "collected_at": "2026-11-06T17:30:21.606389+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.73
+    },
+    {
+      "id": "5b17553237aa6d3495523b84",
+      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-05T19:24:26+00:00",
+      "collected_at": "2026-11-06T17:30:21.607079+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.41
+    },
     {
       "id": "8753f883659d9c18f45cefcc",
       "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
@@ -59,6 +356,23 @@
         "identity"
       ],
       "score": 47.29
+    },
+    {
+      "id": "1e7199004f944076e6055acc",
+      "title": "Onda de ciberataques atinge supermercados europeus e gera alerta de segurança alimentar - Leouve",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBzck1GMEhKV3cwQkFsTi1FRWhCUkVudXhDaVJZQ2lyUHVCcDN4VWVET3h6YzRndVAtRmxEeDR5YWlZUmw1RWFn?oc=5",
+      "source": "Leouve",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-05T15:10:00+00:00",
+      "collected_at": "2026-11-06T17:30:22.343491+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ciber"
+      ],
+      "score": 33.76
     },
     {
       "id": "56e960e2299668f6548c862e",
