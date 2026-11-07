@@ -1,6 +1,182 @@
 {
-  "updated_at": "2026-11-06T17:30:23.036542+00:00",
+  "updated_at": "2026-11-07T16:27:28.645480+00:00",
   "items": [
+    {
+      "id": "2cfb8ae184731e87718a9149",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-07T15:25:35+00:00",
+      "collected_at": "2026-11-07T16:27:27.263835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.6
+    },
+    {
+      "id": "ee6d9deb57ffea9bcad7f984",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-07T14:10:19+00:00",
+      "collected_at": "2026-11-07T16:27:27.264593+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.61
+    },
+    {
+      "id": "dcfa9fafbf4d9d9a86338606",
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-07T10:16:23+00:00",
+      "collected_at": "2026-11-07T16:27:27.644149+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "vulnerability"
+      ],
+      "score": 45.59
+    },
+    {
+      "id": "290111c2b0b4024c402f5af6",
+      "title": "Cibersegurança Avança E Se Sofistica, Mas Riscos Seguem O Mesmo Ritmo - Nitro News Brasil",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORnJsaDBwVTk5OS1BTnBUSXNHYjRYc3F2dkJWTUpacXhJbFZ3VUtOTTV4M1hmMWdpQU1DdEE3SWRlRHNNOXg5LXlRUnJSVDZEMmVLQnUyNkF3WWQzWTdlMFdiS3ROanVIbm50WU54RUg5OTF5YXJ2RWh1Y1Rfb3B0UTBGQ2dCdzFrWXRQb1RXNHJUbTg?oc=5",
+      "source": "Nitro News Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-07T02:01:36+00:00",
+      "collected_at": "2026-11-07T16:27:28.111276+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "risco"
+      ],
+      "score": 45.39
+    },
+    {
+      "id": "0f9bc66ddeda96f56688f854",
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-07T00:00:55+00:00",
+      "collected_at": "2026-11-07T16:27:27.265081+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 40.11
+    },
+    {
+      "id": "c88ce15c84f520297eda4680",
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T22:27:25+00:00",
+      "collected_at": "2026-11-07T16:27:27.265563+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 39.5
+    },
+    {
+      "id": "6782cd0318efb04dd59cf684",
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T20:24:19+00:00",
+      "collected_at": "2026-11-07T16:27:27.266030+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 36.7
+    },
+    {
+      "id": "c7c4fa8b21870e55a060585d",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-06T18:46:52+00:00",
+      "collected_at": "2026-11-07T16:27:27.266499+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.57
+    },
+    {
+      "id": "e5f9d915a830c81881c47671",
+      "title": "Brasil | Serpro revela ataque cibernético em massa ao Gov.br - DPL News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVUwtRWlWTi1kZlZmVDRSTDl2THdlcmpOdl9iOGlJUUwybk16N0JTX0U0OXBldTQ5VzNWaGhidGMwOElReDJ4T296YlJkbGJobnphUS03aEVGUmpkTDU4LXByUEpiWkNVTTYycGNzZm9wT04xd0VGbWZ1My1FN2UtNmR3Ry1SUQ?oc=5",
+      "source": "DPL News",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-06T18:42:20+00:00",
+      "collected_at": "2026-11-07T16:27:28.105301+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ciber"
+      ],
+      "score": 35.54
+    },
+    {
+      "id": "473b65b5038ef41c412ebc6e",
+      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-06T18:28:41+00:00",
+      "collected_at": "2026-11-07T16:27:27.644724+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 35.95
+    },
+    {
+      "id": "e63f3610d341918b516927a9",
+      "title": "A cibersegurança do indivíduo: um desafio que ultrapassa os ativos digitais - JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVHFnNC1QQmpRdDl3eU5sWWZUbUNkbm9uUWNiSnR4Y0ttdUQzbnotdzBfc1NwaDRqYjV5M0k0NHFfajYtNWN0VDNpbzJ5c2MxblhyQXRoM0NMT19HX2llRXJDQ1d5czNzMjhxMDhOTmpZLXFFQkhyNGNxSlljUm15d29rbDNNOWlrXy14ZjR1V1hLeGw2YklPdERyaDBHRndIdV9fVFRrTzlGcW52WWhOS1FCdGE1YXVBUXpPQTJOZGdCbG1vQTd1SlJCUDVBVjRGVy1JUHJTSEtRSDg?oc=5",
+      "source": "JOTA Info",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-06T18:08:13+00:00",
+      "collected_at": "2026-11-07T16:27:28.103643+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 33.82
+    },
     {
       "id": "822902b0ab44d262fdf2db96",
       "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
