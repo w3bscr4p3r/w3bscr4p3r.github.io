@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T16:27:28.645480+00:00",
+  "generated_at": "2026-11-08T16:41:00.131796+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 11,
+  "new_count": 4,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 6
+      "items": 7
     },
     {
       "name": "Google News — GRC",
@@ -52,20 +52,84 @@
   ],
   "items": [
     {
+      "id": "ea7b9e5152552a8a89a8c8b8",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-08T15:43:08+00:00",
+      "collected_at": "2026-11-08T16:40:58.633518+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 46.13
+    },
+    {
+      "id": "86c4bc8e4d65c3c7240255fe",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-08T12:14:00+00:00",
+      "collected_at": "2026-11-08T16:40:59.023008+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.27
+    },
+    {
+      "id": "7ff11c2f855df91034b60716",
+      "title": "Brasil lidera América Latina em exposição a ransomware e ataques à cadeia de suprimentos - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbllQZUpLZUx3dm95NXBCdHJMYUxNcngwUEh3UXlibl9HTmJSQmh2cDQ5VTZudG53QW1EMUNxQndsUUdHQlVBWHdndlNzUEJNUGRXQjQwX2lHTkVlcTNjWU5xeXFndHgzVDZXUHFXeHdKTXZ5NnZoUDRYTTBsQ25sZnJfejl3SE9neHk4MlN1WmNXZl9zYkxOd2ZuUURMZTBSVWVReEo4SDNfeElSVTBqVDZaSDQyRG9GOWFv?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-07T23:15:05+00:00",
+      "collected_at": "2026-11-08T16:40:59.612124+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "cadeia de suprimentos",
+        "ransomware"
+      ],
+      "score": 40.72
+    },
+    {
+      "id": "13963b77756035bcf59c2ec0",
+      "title": "João Brasio anuncia doação de R$ 150 mil da Elytron CyberSecurity à AACD - Gazeta de São Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN1hqY0NiWTBaTVdyRHBINnFMRGpTNlZzcUVDallQTkdqQ1VkODl5enVaOS1IX3U2eVVpMGZmWGxnQVllTXA1RVVXM2diekRpaTJpRlJwcWVFdXNDLWRSUXRCOThRZzd2NGZPS1N2aTF5THFOOUlQZXZSRzJPOEdsSzdhQmVVcVJuSVg2aklxQ19EdUhrWlQxZ2dSZDhoVGEtQzNKWExuNVBJSWc?oc=5",
+      "source": "Gazeta de São Paulo",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-08T08:00:00+00:00",
+      "collected_at": "2026-11-08T16:40:59.612799+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 39.12
+    },
+    {
       "id": "ee6d9deb57ffea9bcad7f984",
       "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
       "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-07T14:10:19+00:00",
-      "collected_at": "2026-11-07T16:27:27.264593+00:00",
+      "collected_at": "2026-11-08T16:40:58.634850+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 45.61
+      "score": 36.19
     },
     {
       "id": "dcfa9fafbf4d9d9a86338606",
@@ -74,7 +138,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-07T10:16:23+00:00",
-      "collected_at": "2026-11-07T16:27:27.644149+00:00",
+      "collected_at": "2026-11-08T16:40:59.023739+00:00",
       "categories": [
         "Cyber"
       ],
@@ -82,7 +146,7 @@
         "exploit",
         "vulnerability"
       ],
-      "score": 45.59
+      "score": 36.17
     },
     {
       "id": "290111c2b0b4024c402f5af6",
@@ -91,7 +155,7 @@
       "source": "Nitro News Brasil",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-07T02:01:36+00:00",
-      "collected_at": "2026-11-07T16:27:28.111276+00:00",
+      "collected_at": "2026-11-08T16:40:59.623644+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -100,7 +164,7 @@
         "ciber",
         "risco"
       ],
-      "score": 45.39
+      "score": 35.97
     },
     {
       "id": "2cfb8ae184731e87718a9149",
@@ -109,12 +173,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-07T15:25:35+00:00",
-      "collected_at": "2026-11-07T16:27:27.263835+00:00",
+      "collected_at": "2026-11-08T16:40:58.634210+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.6
+      "score": 33.18
     },
     {
       "id": "0f9bc66ddeda96f56688f854",
@@ -123,14 +187,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-07T00:00:55+00:00",
-      "collected_at": "2026-11-07T16:27:27.265081+00:00",
+      "collected_at": "2026-11-08T16:40:58.635505+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 40.11
+      "score": 30.68
     },
     {
       "id": "c88ce15c84f520297eda4680",
@@ -139,14 +203,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T22:27:25+00:00",
-      "collected_at": "2026-11-07T16:27:27.265563+00:00",
+      "collected_at": "2026-11-08T16:40:58.636165+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 39.5
+      "score": 30.08
     },
     {
       "id": "822902b0ab44d262fdf2db96",
@@ -155,14 +219,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T17:04:23+00:00",
-      "collected_at": "2026-11-07T16:27:27.266964+00:00",
+      "collected_at": "2026-11-08T16:40:58.638090+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 37.41
+      "score": 27.99
     },
     {
       "id": "6782cd0318efb04dd59cf684",
@@ -171,14 +235,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T20:24:19+00:00",
-      "collected_at": "2026-11-07T16:27:27.266030+00:00",
+      "collected_at": "2026-11-08T16:40:58.636806+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 36.7
+      "score": 27.28
     },
     {
       "id": "b9d84da81794fd987d9f0f21",
@@ -187,14 +251,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T14:17:07+00:00",
-      "collected_at": "2026-11-07T16:27:27.268307+00:00",
+      "collected_at": "2026-11-08T16:40:58.640003+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.32
+      "score": 26.9
     },
     {
       "id": "e5b0abeaa41381767182c895",
@@ -203,14 +267,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-06T14:00:07+00:00",
-      "collected_at": "2026-11-07T16:27:27.645806+00:00",
+      "collected_at": "2026-11-08T16:40:59.025921+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.21
+      "score": 26.79
     },
     {
       "id": "473b65b5038ef41c412ebc6e",
@@ -219,14 +283,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-06T18:28:41+00:00",
-      "collected_at": "2026-11-07T16:27:27.644724+00:00",
+      "collected_at": "2026-11-08T16:40:59.024473+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 35.95
+      "score": 26.53
     },
     {
       "id": "a1a9069d38a0014cac396999",
@@ -235,14 +299,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T12:37:22+00:00",
-      "collected_at": "2026-11-07T16:27:27.268746+00:00",
+      "collected_at": "2026-11-08T16:40:58.640626+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 35.68
+      "score": 26.25
     },
     {
       "id": "e5f9d915a830c81881c47671",
@@ -251,7 +315,7 @@
       "source": "DPL News",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-06T18:42:20+00:00",
-      "collected_at": "2026-11-07T16:27:28.105301+00:00",
+      "collected_at": "2026-11-08T16:40:59.615715+00:00",
       "categories": [
         "Cyber"
       ],
@@ -259,7 +323,7 @@
         "ataque",
         "ciber"
       ],
-      "score": 35.54
+      "score": 26.12
     },
     {
       "id": "c7c4fa8b21870e55a060585d",
@@ -268,12 +332,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T18:46:52+00:00",
-      "collected_at": "2026-11-07T16:27:27.266499+00:00",
+      "collected_at": "2026-11-08T16:40:58.637450+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 34.57
+      "score": 25.15
     },
     {
       "id": "9e7551b263e96c1f3b14aa4a",
@@ -282,7 +346,7 @@
       "source": "Brasil 247",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-06T15:24:33+00:00",
-      "collected_at": "2026-11-07T16:27:28.104708+00:00",
+      "collected_at": "2026-11-08T16:40:59.614161+00:00",
       "categories": [
         "Cyber"
       ],
@@ -290,7 +354,7 @@
         "ataque",
         "ciber"
       ],
-      "score": 34.26
+      "score": 24.84
     },
     {
       "id": "02ad076740720b54090f2934",
@@ -299,14 +363,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-06T13:19:52+00:00",
-      "collected_at": "2026-11-07T16:27:27.646335+00:00",
+      "collected_at": "2026-11-08T16:40:59.026661+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 33.95
+      "score": 24.53
     },
     {
       "id": "e63f3610d341918b516927a9",
@@ -315,14 +379,14 @@
       "source": "JOTA Info",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-06T18:08:13+00:00",
-      "collected_at": "2026-11-07T16:27:28.103643+00:00",
+      "collected_at": "2026-11-08T16:40:59.611382+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ciber"
       ],
-      "score": 33.82
+      "score": 24.4
     },
     {
       "id": "d9a7d8650afc988ae9c1a5cc",
@@ -331,14 +395,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-06T12:47:55+00:00",
-      "collected_at": "2026-11-07T16:27:27.647384+00:00",
+      "collected_at": "2026-11-08T16:40:59.028127+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 33.74
+      "score": 24.32
     },
     {
       "id": "8ce52b04eae8e75021d38745",
@@ -347,12 +411,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T15:25:31+00:00",
-      "collected_at": "2026-11-07T16:27:27.267413+00:00",
+      "collected_at": "2026-11-08T16:40:58.638717+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.27
+      "score": 23.84
     },
     {
       "id": "bfd625c1a7b092e7873ac978",
@@ -361,68 +425,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-06T15:00:10+00:00",
-      "collected_at": "2026-11-07T16:27:27.267871+00:00",
+      "collected_at": "2026-11-08T16:40:58.639362+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.1
-    },
-    {
-      "id": "22c1226ed74a5fa11745853b",
-      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-06T14:40:09+00:00",
-      "collected_at": "2026-11-07T16:27:27.645271+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.97
-    },
-    {
-      "id": "8bf35f58a9615f767c7887ce",
-      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-06T13:02:26+00:00",
-      "collected_at": "2026-11-07T16:27:27.646864+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.34
-    },
-    {
-      "id": "b02d6df96cb626c5887aefb7",
-      "title": "Researchers Find Residential Proxies on White House Network",
-      "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-06T12:16:13+00:00",
-      "collected_at": "2026-11-07T16:27:27.647909+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.04
-    },
-    {
-      "id": "e473373ce7a5bec62ae9d4ea",
-      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
-      "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-06T12:07:42+00:00",
-      "collected_at": "2026-11-07T16:27:27.648431+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.98
+      "score": 23.68
     }
   ]
 }

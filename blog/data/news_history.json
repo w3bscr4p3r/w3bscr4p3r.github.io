@@ -1,6 +1,70 @@
 {
-  "updated_at": "2026-11-07T16:27:28.645480+00:00",
+  "updated_at": "2026-11-08T16:41:00.131796+00:00",
   "items": [
+    {
+      "id": "ea7b9e5152552a8a89a8c8b8",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-08T15:43:08+00:00",
+      "collected_at": "2026-11-08T16:40:58.633518+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 46.13
+    },
+    {
+      "id": "86c4bc8e4d65c3c7240255fe",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-08T12:14:00+00:00",
+      "collected_at": "2026-11-08T16:40:59.023008+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.27
+    },
+    {
+      "id": "13963b77756035bcf59c2ec0",
+      "title": "João Brasio anuncia doação de R$ 150 mil da Elytron CyberSecurity à AACD - Gazeta de São Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN1hqY0NiWTBaTVdyRHBINnFMRGpTNlZzcUVDallQTkdqQ1VkODl5enVaOS1IX3U2eVVpMGZmWGxnQVllTXA1RVVXM2diekRpaTJpRlJwcWVFdXNDLWRSUXRCOThRZzd2NGZPS1N2aTF5THFOOUlQZXZSRzJPOEdsSzdhQmVVcVJuSVg2aklxQ19EdUhrWlQxZ2dSZDhoVGEtQzNKWExuNVBJSWc?oc=5",
+      "source": "Gazeta de São Paulo",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-08T08:00:00+00:00",
+      "collected_at": "2026-11-08T16:40:59.612799+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 39.12
+    },
+    {
+      "id": "7ff11c2f855df91034b60716",
+      "title": "Brasil lidera América Latina em exposição a ransomware e ataques à cadeia de suprimentos - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbllQZUpLZUx3dm95NXBCdHJMYUxNcngwUEh3UXlibl9HTmJSQmh2cDQ5VTZudG53QW1EMUNxQndsUUdHQlVBWHdndlNzUEJNUGRXQjQwX2lHTkVlcTNjWU5xeXFndHgzVDZXUHFXeHdKTXZ5NnZoUDRYTTBsQ25sZnJfejl3SE9neHk4MlN1WmNXZl9zYkxOd2ZuUURMZTBSVWVReEo4SDNfeElSVTBqVDZaSDQyRG9GOWFv?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-07T23:15:05+00:00",
+      "collected_at": "2026-11-08T16:40:59.612124+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "cadeia de suprimentos",
+        "ransomware"
+      ],
+      "score": 40.72
+    },
     {
       "id": "2cfb8ae184731e87718a9149",
       "title": "Hackers pull off $133 million French bank heist via service provider",
