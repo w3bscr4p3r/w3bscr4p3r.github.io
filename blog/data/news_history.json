@@ -1,6 +1,288 @@
 {
-  "updated_at": "2026-11-08T16:41:00.131796+00:00",
+  "updated_at": "2026-11-09T20:45:03.626391+00:00",
   "items": [
+    {
+      "id": "ea66d193d79764ae7daf10aa",
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T18:32:42+00:00",
+      "collected_at": "2026-11-09T20:45:02.300658+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.14
+    },
+    {
+      "id": "622ef7fa62b3ed391831cbbe",
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T17:50:32+00:00",
+      "collected_at": "2026-11-09T20:45:02.301349+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "cra"
+      ],
+      "score": 43.37
+    },
+    {
+      "id": "2d3a3f9e731634e76239a5b5",
+      "title": "Every Cybersecurity amplia atuação internacional e avança em expansão para a Europa - Portal Lago Sul",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObmZJVmpnc1B4a0tRN093bFdsZ0UyRUExR3RkVUxBTGlqMmdpOHpEMUl1a3Q4YlphelRMNGZNQWhxaEotdGJmNGxCVUlWYXM3b01LRHU5OGl6TngxLUxLenlGQzNKV1ljX05pb21ZakJMaXlHbTdMMkdaZFI0cGU1RjlsUGJ5WVZreEtERDVtT3RrT1RwMnBod3pQWWxjLU5MMEs4OU5aOHdBMjg?oc=5",
+      "source": "Portal Lago Sul",
+      "feed": "Google News — GRC",
+      "published_at": "2026-11-09T16:40:59+00:00",
+      "collected_at": "2026-11-09T20:45:03.327434+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 40.92
+    },
+    {
+      "id": "bb92b3218e049045a7bbc28b",
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T16:12:39+00:00",
+      "collected_at": "2026-11-09T20:45:02.301906+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 44.73
+    },
+    {
+      "id": "371ae1c60ebdd9f35bda7b4b",
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T16:04:57+00:00",
+      "collected_at": "2026-11-09T20:45:02.302427+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "exploit"
+      ],
+      "score": 48.18
+    },
+    {
+      "id": "54e4b3783844bce43371e815",
+      "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+      "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T15:05:15+00:00",
+      "collected_at": "2026-11-09T20:45:02.302971+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "grc",
+        "threat"
+      ],
+      "score": 50.8
+    },
+    {
+      "id": "90838930116a585bcd7c764d",
+      "title": "Brasil é o quarto país mais afetado por ataques de ransomware - 33 Giga",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9obEFrczM1ZnRzbGFSOGVpNUxNR0FWN0lSZmZEeVVOaGl6MjN3LTl2MTN2dFpvVXpQalJYT05FR2ZTRlV6WHpmM2lJSTFaYjZTNmFCMEdOQmRXLTY4dWtIcmVLcDlNS01P?oc=5",
+      "source": "33 Giga",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-09T15:04:05+00:00",
+      "collected_at": "2026-11-09T20:45:03.047048+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ransomware"
+      ],
+      "score": 43.79
+    },
+    {
+      "id": "171d7a44662286acfed81b94",
+      "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T14:34:03+00:00",
+      "collected_at": "2026-11-09T20:45:02.303521+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.6
+    },
+    {
+      "id": "5892039b99d6b8e8883cb5da",
+      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T14:08:08+00:00",
+      "collected_at": "2026-11-09T20:45:02.625537+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.93
+    },
+    {
+      "id": "09c03b3a3676da32bf2ee943",
+      "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+      "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T13:28:56+00:00",
+      "collected_at": "2026-11-09T20:45:02.304060+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 41.67
+    },
+    {
+      "id": "136ef5ca0c8dbf9aa8b03595",
+      "title": "Plex2Shell Exploited Against QNAP NAS Users",
+      "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T13:13:28+00:00",
+      "collected_at": "2026-11-09T20:45:02.626211+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.57
+    },
+    {
+      "id": "a1b94c17588475eb994f5f58",
+      "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T12:41:27+00:00",
+      "collected_at": "2026-11-09T20:45:02.626849+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 43.37
+    },
+    {
+      "id": "38f5d39cecf252b5522fe5be",
+      "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T12:22:12+00:00",
+      "collected_at": "2026-11-09T20:45:02.627495+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.74
+    },
+    {
+      "id": "c097a8c70e23dcc196dda3dd",
+      "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T12:16:13+00:00",
+      "collected_at": "2026-11-09T20:45:02.304578+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.7
+    },
+    {
+      "id": "e57c85c78444964279ab2d05",
+      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+      "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T12:13:32+00:00",
+      "collected_at": "2026-11-09T20:45:02.628129+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.18
+    },
+    {
+      "id": "30f329c9acbf8eff63462da8",
+      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T11:20:09+00:00",
+      "collected_at": "2026-11-09T20:45:02.628735+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 42.84
+    },
+    {
+      "id": "777a6e64233010acf53f91e2",
+      "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+      "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T10:09:02+00:00",
+      "collected_at": "2026-11-09T20:45:02.629325+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 42.38
+    },
+    {
+      "id": "d71cd90906000914d0e68893",
+      "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+      "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-09T08:35:50+00:00",
+      "collected_at": "2026-11-09T20:45:02.629963+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.27
+    },
     {
       "id": "ea7b9e5152552a8a89a8c8b8",
       "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
