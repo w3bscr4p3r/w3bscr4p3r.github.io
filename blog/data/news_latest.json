@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T20:45:03.626391+00:00",
+  "generated_at": "2026-11-10T17:51:33.316746+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 18,
+  "new_count": 23,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -22,7 +22,7 @@
     {
       "name": "BleepingComputer",
       "status": "ok",
-      "items": 13
+      "items": 15
     },
     {
       "name": "KrebsOnSecurity",
@@ -52,80 +52,355 @@
   ],
   "items": [
     {
-      "id": "54e4b3783844bce43371e815",
-      "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-      "url": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T15:05:15+00:00",
-      "collected_at": "2026-11-09T20:45:02.302971+00:00",
-      "categories": [
-        "Cyber",
-        "GRC"
-      ],
-      "tags": [
-        "grc",
-        "threat"
-      ],
-      "score": 50.8
-    },
-    {
-      "id": "371ae1c60ebdd9f35bda7b4b",
-      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T16:04:57+00:00",
-      "collected_at": "2026-11-09T20:45:02.302427+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "exploit"
-      ],
-      "score": 48.18
-    },
-    {
-      "id": "bb92b3218e049045a7bbc28b",
-      "title": "Binance denies data breach after alleged ShinyHunters claims",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T16:12:39+00:00",
-      "collected_at": "2026-11-09T20:45:02.301906+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 44.73
-    },
-    {
-      "id": "5892039b99d6b8e8883cb5da",
-      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+      "id": "eb81dbed99964bd5225c0527",
+      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-09T14:08:08+00:00",
-      "collected_at": "2026-11-09T20:45:02.625537+00:00",
+      "published_at": "2026-11-10T15:00:00+00:00",
+      "collected_at": "2026-11-10T17:51:32.273093+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "ciso",
+        "cyber",
+        "security leader"
+      ],
+      "score": 54.89
+    },
+    {
+      "id": "d6f920fcc7d7ec7c71f445d6",
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T16:17:16+00:00",
+      "collected_at": "2026-11-10T17:51:31.909737+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 47.89
+    },
+    {
+      "id": "746cc37b8c8a8caf8fc40183",
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T08:51:25+00:00",
+      "collected_at": "2026-11-10T17:51:31.912567+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 46.5
+    },
+    {
+      "id": "a8f90e9cb3a0488976db0aae",
+      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T10:10:20+00:00",
+      "collected_at": "2026-11-10T17:51:31.911642+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.51
+    },
+    {
+      "id": "ccc7249c9ae61c110423ac45",
+      "title": "Ransomware recovery is now a client retention metric",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T15:01:11+00:00",
+      "collected_at": "2026-11-10T17:51:31.910721+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 45.4
+    },
+    {
+      "id": "7ea6e395bdda7461e62558d3",
+      "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+      "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T13:27:44+00:00",
+      "collected_at": "2026-11-10T17:51:32.274684+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "supply chain"
+      ],
+      "score": 44.79
+    },
+    {
+      "id": "938ee1957155b0adb81402c5",
+      "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+      "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T14:46:28+00:00",
+      "collected_at": "2026-11-10T17:51:32.274159+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.8
+    },
+    {
+      "id": "e1a52cefda11851e3b8ab99a",
+      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
+      "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T09:56:28+00:00",
+      "collected_at": "2026-11-10T17:51:32.275800+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 43.42
+    },
+    {
+      "id": "e8312ba2c418f570a6cebed2",
+      "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
+      "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T09:42:27+00:00",
+      "collected_at": "2026-11-10T17:51:32.276312+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.33
+    },
+    {
+      "id": "14b7d5f3849ca6a680d76309",
+      "title": "Fireworks AI discloses new breach after cloud provider hack",
+      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T07:49:58+00:00",
+      "collected_at": "2026-11-10T17:51:31.913018+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 43.93
+      "score": 42.6
     },
     {
-      "id": "90838930116a585bcd7c764d",
-      "title": "Brasil é o quarto país mais afetado por ataques de ransomware - 33 Giga",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9obEFrczM1ZnRzbGFSOGVpNUxNR0FWN0lSZmZEeVVOaGl6MjN3LTl2MTN2dFpvVXpQalJYT05FR2ZTRlV6WHpmM2lJSTFaYjZTNmFCMEdOQmRXLTY4dWtIcmVLcDlNS01P?oc=5",
-      "source": "33 Giga",
+      "id": "7b8844d53f5b7d23363e769b",
+      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+      "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T16:45:00+00:00",
+      "collected_at": "2026-11-10T17:51:32.272042+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.57
+    },
+    {
+      "id": "03e9b5541ce26f1c359cc83c",
+      "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+      "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T16:42:02+00:00",
+      "collected_at": "2026-11-10T17:51:32.272616+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.55
+    },
+    {
+      "id": "ca5851d222105e46e62d11b1",
+      "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T15:59:19+00:00",
+      "collected_at": "2026-11-10T17:51:31.910239+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.27
+    },
+    {
+      "id": "0ffa73bc876d30eb151b8b28",
+      "title": "WhiteMatter Raises $20 Million in Series A Funding",
+      "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T14:58:19+00:00",
+      "collected_at": "2026-11-10T17:51:32.273624+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.88
+    },
+    {
+      "id": "54d6c7550b0f052b94a4f69e",
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T10:04:32+00:00",
+      "collected_at": "2026-11-10T17:51:31.912104+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 41.47
+    },
+    {
+      "id": "8772119f252045d64bad0387",
+      "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
+      "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T12:17:13+00:00",
+      "collected_at": "2026-11-10T17:51:32.275259+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.83
+    },
+    {
+      "id": "463c779eabbc47c7454a07d8",
+      "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T12:07:03+00:00",
+      "collected_at": "2026-11-10T17:51:31.911172+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.77
+    },
+    {
+      "id": "a9aca6fcdfc746eb79965756",
+      "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators",
+      "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-10T07:35:05+00:00",
+      "collected_at": "2026-11-10T17:51:32.276835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 40.5
+    },
+    {
+      "id": "d73dc2e9d68b1f87e3a9b193",
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T23:52:12+00:00",
+      "collected_at": "2026-11-10T17:51:31.913470+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 39.5
+    },
+    {
+      "id": "ffdd6043a05b0550ae495293",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T22:09:33+00:00",
+      "collected_at": "2026-11-10T17:51:31.913926+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 38.84
+    },
+    {
+      "id": "d36d03ceb244cb61227adbb4",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T21:26:25+00:00",
+      "collected_at": "2026-11-10T17:51:31.914373+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 38.56
+    },
+    {
+      "id": "144250db6291d6fcf799b146",
+      "title": "York University breach exposed personal information dating to 2007",
+      "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-09T21:22:31+00:00",
+      "collected_at": "2026-11-10T17:51:31.914826+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 38.53
+    },
+    {
+      "id": "7846973ae6db061473eb2ed7",
+      "title": "Brasil é o 4º país com mais ataques de ransomware no mundo - TI INSIDE Online",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTl9sQmhCdnByZTcyWHBhaTdfMTAxbTBKQmZtVzc0bG03VVVNMHlYWGw4TzJHZjRyZ1I1aHpnWXVMRDU3X3ZGbzlyQ3BrUGhFM3FyVDNmU2k0dy1iVk9HbUs1bHU0bURKMEJMZl94YmZRZzZmVTJNc1NpcXVsZ2llc1FJUVMtVllnVll1RFJNbEhoNXRmQndWNmJR?oc=5",
+      "source": "TI INSIDE Online",
       "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-09T15:04:05+00:00",
-      "collected_at": "2026-11-09T20:45:03.047048+00:00",
+      "published_at": "2026-11-09T22:06:12+00:00",
+      "collected_at": "2026-11-10T17:51:32.614465+00:00",
       "categories": [
         "Cyber"
       ],
@@ -133,23 +408,7 @@
         "ataque",
         "ransomware"
       ],
-      "score": 43.79
-    },
-    {
-      "id": "136ef5ca0c8dbf9aa8b03595",
-      "title": "Plex2Shell Exploited Against QNAP NAS Users",
-      "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T13:13:28+00:00",
-      "collected_at": "2026-11-09T20:45:02.626211+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 43.57
+      "score": 38.32
     },
     {
       "id": "622ef7fa62b3ed391831cbbe",
@@ -158,275 +417,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-09T17:50:32+00:00",
-      "collected_at": "2026-11-09T20:45:02.301349+00:00",
+      "collected_at": "2026-11-10T17:51:31.915828+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 43.37
-    },
-    {
-      "id": "a1b94c17588475eb994f5f58",
-      "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T12:41:27+00:00",
-      "collected_at": "2026-11-09T20:45:02.626849+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 43.37
-    },
-    {
-      "id": "e57c85c78444964279ab2d05",
-      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
-      "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T12:13:32+00:00",
-      "collected_at": "2026-11-09T20:45:02.628129+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 43.18
-    },
-    {
-      "id": "30f329c9acbf8eff63462da8",
-      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
-      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T11:20:09+00:00",
-      "collected_at": "2026-11-09T20:45:02.628735+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 42.84
-    },
-    {
-      "id": "777a6e64233010acf53f91e2",
-      "title": "Over 3 Million People Hit by Frontline Education Data Breach",
-      "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T10:09:02+00:00",
-      "collected_at": "2026-11-09T20:45:02.629325+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 42.38
-    },
-    {
-      "id": "ea66d193d79764ae7daf10aa",
-      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T18:32:42+00:00",
-      "collected_at": "2026-11-09T20:45:02.300658+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.14
-    },
-    {
-      "id": "38f5d39cecf252b5522fe5be",
-      "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
-      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T12:22:12+00:00",
-      "collected_at": "2026-11-09T20:45:02.627495+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.74
-    },
-    {
-      "id": "09c03b3a3676da32bf2ee943",
-      "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-      "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T13:28:56+00:00",
-      "collected_at": "2026-11-09T20:45:02.304060+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 41.67
-    },
-    {
-      "id": "2d3a3f9e731634e76239a5b5",
-      "title": "Every Cybersecurity amplia atuação internacional e avança em expansão para a Europa - Portal Lago Sul",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObmZJVmpnc1B4a0tRN093bFdsZ0UyRUExR3RkVUxBTGlqMmdpOHpEMUl1a3Q4YlphelRMNGZNQWhxaEotdGJmNGxCVUlWYXM3b01LRHU5OGl6TngxLUxLenlGQzNKV1ljX05pb21ZakJMaXlHbTdMMkdaZFI0cGU1RjlsUGJ5WVZreEtERDVtT3RrT1RwMnBod3pQWWxjLU5MMEs4OU5aOHdBMjg?oc=5",
-      "source": "Portal Lago Sul",
-      "feed": "Google News — GRC",
-      "published_at": "2026-11-09T16:40:59+00:00",
-      "collected_at": "2026-11-09T20:45:03.327434+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 40.92
-    },
-    {
-      "id": "171d7a44662286acfed81b94",
-      "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T14:34:03+00:00",
-      "collected_at": "2026-11-09T20:45:02.303521+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.6
-    },
-    {
-      "id": "c097a8c70e23dcc196dda3dd",
-      "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-09T12:16:13+00:00",
-      "collected_at": "2026-11-09T20:45:02.304578+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.7
-    },
-    {
-      "id": "d71cd90906000914d0e68893",
-      "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-      "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-09T08:35:50+00:00",
-      "collected_at": "2026-11-09T20:45:02.629963+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 38.27
-    },
-    {
-      "id": "ea7b9e5152552a8a89a8c8b8",
-      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-08T15:43:08+00:00",
-      "collected_at": "2026-11-09T20:45:02.305117+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 35.21
-    },
-    {
-      "id": "86c4bc8e4d65c3c7240255fe",
-      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
-      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-08T12:14:00+00:00",
-      "collected_at": "2026-11-09T20:45:02.630561+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 30.35
-    },
-    {
-      "id": "7ff11c2f855df91034b60716",
-      "title": "Brasil lidera América Latina em exposição a ransomware e ataques à cadeia de suprimentos - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbllQZUpLZUx3dm95NXBCdHJMYUxNcngwUEh3UXlibl9HTmJSQmh2cDQ5VTZudG53QW1EMUNxQndsUUdHQlVBWHdndlNzUEJNUGRXQjQwX2lHTkVlcTNjWU5xeXFndHgzVDZXUHFXeHdKTXZ5NnZoUDRYTTBsQ25sZnJfejl3SE9neHk4MlN1WmNXZl9zYkxOd2ZuUURMZTBSVWVReEo4SDNfeElSVTBqVDZaSDQyRG9GOWFv?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-07T23:15:05+00:00",
-      "collected_at": "2026-11-09T20:45:03.047658+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "cadeia de suprimentos",
-        "ransomware"
-      ],
-      "score": 29.81
-    },
-    {
-      "id": "ee6d9deb57ffea9bcad7f984",
-      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-07T14:10:19+00:00",
-      "collected_at": "2026-11-09T20:45:02.306196+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 25.27
-    },
-    {
-      "id": "dcfa9fafbf4d9d9a86338606",
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-07T10:16:23+00:00",
-      "collected_at": "2026-11-09T20:45:02.631204+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "vulnerability"
-      ],
-      "score": 25.26
-    },
-    {
-      "id": "2cfb8ae184731e87718a9149",
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-07T15:25:35+00:00",
-      "collected_at": "2026-11-09T20:45:02.305673+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 22.26
+      "score": 35.16
     }
   ]
 }

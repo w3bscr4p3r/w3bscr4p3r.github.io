@@ -4,8 +4,146 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Mon, 09 Nov 2026 20:45:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 17:51:33 +0000</lastBuildDate>
 <item>
+<title>Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next</title>
+<link>https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/</link>
+<guid isPermaLink="false">7b8844d53f5b7d23363e769b</guid>
+<pubDate>Tue, 10 Nov 2026 16:45:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code</title>
+<link>https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/</link>
+<guid isPermaLink="false">03e9b5541ce26f1c359cc83c</guid>
+<pubDate>Tue, 10 Nov 2026 16:42:02 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers</title>
+<link>https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/</link>
+<guid isPermaLink="false">d6f920fcc7d7ec7c71f445d6</guid>
+<pubDate>Tue, 10 Nov 2026 16:17:16 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Binance warns of iOS flaw that could leak crypto wallet secrets</title>
+<link>https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/</link>
+<guid isPermaLink="false">ca5851d222105e46e62d11b1</guid>
+<pubDate>Tue, 10 Nov 2026 15:59:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Ransomware recovery is now a client retention metric</title>
+<link>https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/</link>
+<guid isPermaLink="false">ccc7249c9ae61c110423ac45</guid>
+<pubDate>Tue, 10 Nov 2026 15:01:11 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders</title>
+<link>https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/</link>
+<guid isPermaLink="false">eb81dbed99964bd5225c0527</guid>
+<pubDate>Tue, 10 Nov 2026 15:00:00 +0000</pubDate>
+<description>Categorias: CISO, Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>WhiteMatter Raises $20 Million in Series A Funding</title>
+<link>https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/</link>
+<guid isPermaLink="false">0ffa73bc876d30eb151b8b28</guid>
+<pubDate>Tue, 10 Nov 2026 14:58:19 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities</title>
+<link>https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/</link>
+<guid isPermaLink="false">938ee1957155b0adb81402c5</guid>
+<pubDate>Tue, 10 Nov 2026 14:46:28 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Over a Dozen Organizations Hit in Qubole Supply Chain Attack</title>
+<link>https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/</link>
+<guid isPermaLink="false">7ea6e395bdda7461e62558d3</guid>
+<pubDate>Tue, 10 Nov 2026 13:27:44 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes</title>
+<link>https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/</link>
+<guid isPermaLink="false">8772119f252045d64bad0387</guid>
+<pubDate>Tue, 10 Nov 2026 12:17:13 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>SAP patches ICM2SHELL and PROXYGATE maximum severity flaws</title>
+<link>https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/</link>
+<guid isPermaLink="false">463c779eabbc47c7454a07d8</guid>
+<pubDate>Tue, 10 Nov 2026 12:07:03 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Hackers now exploit critical Barracuda ESG flaws to gain root access</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/</link>
+<guid isPermaLink="false">a8f90e9cb3a0488976db0aae</guid>
+<pubDate>Tue, 10 Nov 2026 10:10:20 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Turla hackers use new Cereal malware to spy on govt Exchange servers</title>
+<link>https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/</link>
+<guid isPermaLink="false">54d6c7550b0f052b94a4f69e</guid>
+<pubDate>Tue, 10 Nov 2026 10:04:32 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</title>
+<link>https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/</link>
+<guid isPermaLink="false">e1a52cefda11851e3b8ab99a</guid>
+<pubDate>Tue, 10 Nov 2026 09:56:28 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks</title>
+<link>https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/</link>
+<guid isPermaLink="false">e8312ba2c418f570a6cebed2</guid>
+<pubDate>Tue, 10 Nov 2026 09:42:27 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Google patches eighth Chrome zero-day exploited in attacks this year</title>
+<link>https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/</link>
+<guid isPermaLink="false">746cc37b8c8a8caf8fc40183</guid>
+<pubDate>Tue, 10 Nov 2026 08:51:25 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Fireworks AI discloses new breach after cloud provider hack</title>
+<link>https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/</link>
+<guid isPermaLink="false">14b7d5f3849ca6a680d76309</guid>
+<pubDate>Tue, 10 Nov 2026 07:49:58 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators</title>
+<link>https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/</link>
+<guid isPermaLink="false">a9aca6fcdfc746eb79965756</guid>
+<pubDate>Tue, 10 Nov 2026 07:35:05 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Vanderbilt University hit in BYOD ransomware attack, data theft claimed</title>
+<link>https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/</link>
+<guid isPermaLink="false">d73dc2e9d68b1f87e3a9b193</guid>
+<pubDate>Mon, 09 Nov 2026 23:52:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>SEGA newsletter data breach exposes 2.2 million email addresses</title>
+<link>https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/</link>
+<guid isPermaLink="false">ffdd6043a05b0550ae495293</guid>
+<pubDate>Mon, 09 Nov 2026 22:09:33 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Brasil é o 4º país com mais ataques de ransomware no mundo - TI INSIDE Online</title>
+<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxNTl9sQmhCdnByZTcyWHBhaTdfMTAxbTBKQmZtVzc0bG03VVVNMHlYWGw4TzJHZjRyZ1I1aHpnWXVMRDU3X3ZGbzlyQ3BrUGhFM3FyVDNmU2k0dy1iVk9HbUs1bHU0bURKMEJMZl94YmZRZzZmVTJNc1NpcXVsZ2llc1FJUVMtVllnVll1RFJNbEhoNXRmQndWNmJR?oc=5</link>
+<guid isPermaLink="false">7846973ae6db061473eb2ed7</guid>
+<pubDate>Mon, 09 Nov 2026 22:06:12 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: TI INSIDE Online.</description>
+</item><item>
+<title>N-able takes cloud platform offline after 30+ &quot;zero-days&quot; published</title>
+<link>https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/</link>
+<guid isPermaLink="false">d36d03ceb244cb61227adbb4</guid>
+<pubDate>Mon, 09 Nov 2026 21:26:25 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>York University breach exposed personal information dating to 2007</title>
+<link>https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/</link>
+<guid isPermaLink="false">144250db6291d6fcf799b146</guid>
+<pubDate>Mon, 09 Nov 2026 21:22:31 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>France blames Iranian hackers for supermarket attacks that sparked fires</title>
 <link>https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/</link>
 <guid isPermaLink="false">ea66d193d79764ae7daf10aa</guid>
@@ -106,144 +244,6 @@
 <link>https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/</link>
 <guid isPermaLink="false">777a6e64233010acf53f91e2</guid>
 <pubDate>Mon, 09 Nov 2026 10:09:02 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack</title>
-<link>https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/</link>
-<guid isPermaLink="false">d71cd90906000914d0e68893</guid>
-<pubDate>Mon, 09 Nov 2026 08:35:50 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Iris Ohyama data cloud breach exposes info of 7.7 million customers</title>
-<link>https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/</link>
-<guid isPermaLink="false">ea7b9e5152552a8a89a8c8b8</guid>
-<pubDate>Sun, 08 Nov 2026 15:43:08 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Brava Security Emerges From Stealth With $15 Million in Funding</title>
-<link>https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/</link>
-<guid isPermaLink="false">86c4bc8e4d65c3c7240255fe</guid>
-<pubDate>Sun, 08 Nov 2026 12:14:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>João Brasio anuncia doação de R$ 150 mil da Elytron CyberSecurity à AACD - Gazeta de São Paulo</title>
-<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN1hqY0NiWTBaTVdyRHBINnFMRGpTNlZzcUVDallQTkdqQ1VkODl5enVaOS1IX3U2eVVpMGZmWGxnQVllTXA1RVVXM2diekRpaTJpRlJwcWVFdXNDLWRSUXRCOThRZzd2NGZPS1N2aTF5THFOOUlQZXZSRzJPOEdsSzdhQmVVcVJuSVg2aklxQ19EdUhrWlQxZ2dSZDhoVGEtQzNKWExuNVBJSWc?oc=5</link>
-<guid isPermaLink="false">13963b77756035bcf59c2ec0</guid>
-<pubDate>Sun, 08 Nov 2026 08:00:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Gazeta de São Paulo.</description>
-</item><item>
-<title>Brasil lidera América Latina em exposição a ransomware e ataques à cadeia de suprimentos - Brasil Inovador</title>
-<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbllQZUpLZUx3dm95NXBCdHJMYUxNcngwUEh3UXlibl9HTmJSQmh2cDQ5VTZudG53QW1EMUNxQndsUUdHQlVBWHdndlNzUEJNUGRXQjQwX2lHTkVlcTNjWU5xeXFndHgzVDZXUHFXeHdKTXZ5NnZoUDRYTTBsQ25sZnJfejl3SE9neHk4MlN1WmNXZl9zYkxOd2ZuUURMZTBSVWVReEo4SDNfeElSVTBqVDZaSDQyRG9GOWFv?oc=5</link>
-<guid isPermaLink="false">7ff11c2f855df91034b60716</guid>
-<pubDate>Sat, 07 Nov 2026 23:15:05 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Brasil Inovador.</description>
-</item><item>
-<title>Hackers pull off $133 million French bank heist via service provider</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/</link>
-<guid isPermaLink="false">2cfb8ae184731e87718a9149</guid>
-<pubDate>Sat, 07 Nov 2026 15:25:35 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands</title>
-<link>https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/</link>
-<guid isPermaLink="false">ee6d9deb57ffea9bcad7f984</guid>
-<pubDate>Sat, 07 Nov 2026 14:10:19 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</title>
-<link>https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/</link>
-<guid isPermaLink="false">dcfa9fafbf4d9d9a86338606</guid>
-<pubDate>Sat, 07 Nov 2026 10:16:23 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Cibersegurança Avança E Se Sofistica, Mas Riscos Seguem O Mesmo Ritmo - Nitro News Brasil</title>
-<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxORnJsaDBwVTk5OS1BTnBUSXNHYjRYc3F2dkJWTUpacXhJbFZ3VUtOTTV4M1hmMWdpQU1DdEE3SWRlRHNNOXg5LXlRUnJSVDZEMmVLQnUyNkF3WWQzWTdlMFdiS3ROanVIbm50WU54RUg5OTF5YXJ2RWh1Y1Rfb3B0UTBGQ2dCdzFrWXRQb1RXNHJUbTg?oc=5</link>
-<guid isPermaLink="false">290111c2b0b4024c402f5af6</guid>
-<pubDate>Sat, 07 Nov 2026 02:01:36 +0000</pubDate>
-<description>Categorias: Cyber, GRC. Fonte: Nitro News Brasil.</description>
-</item><item>
-<title>SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks</title>
-<link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/</link>
-<guid isPermaLink="false">0f9bc66ddeda96f56688f854</guid>
-<pubDate>Sat, 07 Nov 2026 00:00:55 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Runaway AI hacking agent behind WorkOS breach after escaping sandbox</title>
-<link>https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/</link>
-<guid isPermaLink="false">c88ce15c84f520297eda4680</guid>
-<pubDate>Fri, 06 Nov 2026 22:27:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>OpenAI&#x27;s new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs</title>
-<link>https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/</link>
-<guid isPermaLink="false">6782cd0318efb04dd59cf684</guid>
-<pubDate>Fri, 06 Nov 2026 20:24:19 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Fake security tools on GitHub push backdoors and infostealers</title>
-<link>https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/</link>
-<guid isPermaLink="false">c7c4fa8b21870e55a060585d</guid>
-<pubDate>Fri, 06 Nov 2026 18:46:52 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Brasil | Serpro revela ataque cibernético em massa ao Gov.br - DPL News</title>
-<link>https://news.google.com/rss/articles/CBMihgFBVV95cUxNVUwtRWlWTi1kZlZmVDRSTDl2THdlcmpOdl9iOGlJUUwybk16N0JTX0U0OXBldTQ5VzNWaGhidGMwOElReDJ4T296YlJkbGJobnphUS03aEVGUmpkTDU4LXByUEpiWkNVTTYycGNzZm9wT04xd0VGbWZ1My1FN2UtNmR3Ry1SUQ?oc=5</link>
-<guid isPermaLink="false">e5f9d915a830c81881c47671</guid>
-<pubDate>Fri, 06 Nov 2026 18:42:20 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: DPL News.</description>
-</item><item>
-<title>Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks</title>
-<link>https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/</link>
-<guid isPermaLink="false">473b65b5038ef41c412ebc6e</guid>
-<pubDate>Fri, 06 Nov 2026 18:28:41 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>A cibersegurança do indivíduo: um desafio que ultrapassa os ativos digitais - JOTA Info</title>
-<link>https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVHFnNC1QQmpRdDl3eU5sWWZUbUNkbm9uUWNiSnR4Y0ttdUQzbnotdzBfc1NwaDRqYjV5M0k0NHFfajYtNWN0VDNpbzJ5c2MxblhyQXRoM0NMT19HX2llRXJDQ1d5czNzMjhxMDhOTmpZLXFFQkhyNGNxSlljUm15d29rbDNNOWlrXy14ZjR1V1hLeGw2YklPdERyaDBHRndIdV9fVFRrTzlGcW52WWhOS1FCdGE1YXVBUXpPQTJOZGdCbG1vQTd1SlJCUDVBVjRGVy1JUHJTSEtRSDg?oc=5</link>
-<guid isPermaLink="false">e63f3610d341918b516927a9</guid>
-<pubDate>Fri, 06 Nov 2026 18:08:13 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: JOTA Info.</description>
-</item><item>
-<title>QNAP says hackers breaching NAS devices in Plex2Shell attacks</title>
-<link>https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/</link>
-<guid isPermaLink="false">822902b0ab44d262fdf2db96</guid>
-<pubDate>Fri, 06 Nov 2026 17:04:23 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Veeam warns of Software Appliance boot failures on AMD EPYC hosts</title>
-<link>https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/</link>
-<guid isPermaLink="false">8ce52b04eae8e75021d38745</guid>
-<pubDate>Fri, 06 Nov 2026 15:25:31 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Japão anuncia pacote emergencial de cibersegurança após onda de ataques - Brasil 247</title>
-<link>https://news.google.com/rss/articles/CBMipwFBVV95cUxPOEhpZzJfUW9iaDR5RXFvZHRIN1hLMXk4SlVnVDN6TE9rcnhDRFV2Sko2bjNMTXZtR3NyS3RVdllRQjU1Rlp5ZjdBeUpXZ193SnMzZ2h2MGhlZVlvV2FYb2hrNkpCR3haQjdhNVlXQzc2ckF6a0IzcVdOZGFuTzR6b0RuaGdiRFlDcU9XUS1CY1ZzVnpUV0o5UG1XYWVBX3hUWWxua2d0Zw?oc=5</link>
-<guid isPermaLink="false">9e7551b263e96c1f3b14aa4a</guid>
-<pubDate>Fri, 06 Nov 2026 15:24:33 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Brasil 247.</description>
-</item><item>
-<title>IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It</title>
-<link>https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/</link>
-<guid isPermaLink="false">bfd625c1a7b092e7873ac978</guid>
-<pubDate>Fri, 06 Nov 2026 15:00:10 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days</title>
-<link>https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/</link>
-<guid isPermaLink="false">22c1226ed74a5fa11745853b</guid>
-<pubDate>Fri, 06 Nov 2026 14:40:09 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Chainalysis says breach exposed credentials for all customers</title>
-<link>https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/</link>
-<guid isPermaLink="false">b9d84da81794fd987d9f0f21</guid>
-<pubDate>Fri, 06 Nov 2026 14:17:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>DigiCert Data Breach Impacts Business Customer Information</title>
-<link>https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/</link>
-<guid isPermaLink="false">e5b0abeaa41381767182c895</guid>
-<pubDate>Fri, 06 Nov 2026 14:00:07 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
 </item>
 </channel></rss>
