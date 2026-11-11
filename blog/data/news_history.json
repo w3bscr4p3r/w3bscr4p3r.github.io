@@ -1,6 +1,359 @@
 {
-  "updated_at": "2026-11-10T17:51:33.316746+00:00",
+  "updated_at": "2026-11-11T17:54:12.482291+00:00",
   "items": [
+    {
+      "id": "6dd614c48ec2b11ee2815745",
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T16:29:42+00:00",
+      "collected_at": "2026-11-11T17:54:11.439313+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "ciso",
+        "cyber",
+        "security leader"
+      ],
+      "score": 55.45
+    },
+    {
+      "id": "5a86169a26104475da405d85",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T16:24:18+00:00",
+      "collected_at": "2026-11-11T17:54:11.051425+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "ransomware"
+      ],
+      "score": 49.42
+    },
+    {
+      "id": "d513c1a00304ddcfd80a4fd3",
+      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T15:42:47+00:00",
+      "collected_at": "2026-11-11T17:54:11.440090+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 47.65
+    },
+    {
+      "id": "f74147ac5615e396c401eff7",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T15:12:59+00:00",
+      "collected_at": "2026-11-11T17:54:11.052116+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.96
+    },
+    {
+      "id": "7cdf23713ff6fde101958533",
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T15:01:11+00:00",
+      "collected_at": "2026-11-11T17:54:11.052778+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.88
+    },
+    {
+      "id": "3f6e78b5b7f82cf7974805d5",
+      "title": "Asus, Zoom Release Security Patches",
+      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T13:58:38+00:00",
+      "collected_at": "2026-11-11T17:54:11.440835+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.47
+    },
+    {
+      "id": "daf0f4fca3cd2c0ec4118e37",
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T13:37:19+00:00",
+      "collected_at": "2026-11-11T17:54:11.441580+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.34
+    },
+    {
+      "id": "30f4bc09646fba64ecf93977",
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T12:32:27+00:00",
+      "collected_at": "2026-11-11T17:54:11.053419+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 44.41
+    },
+    {
+      "id": "09682bd97432e0b111b1d1e7",
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T12:24:33+00:00",
+      "collected_at": "2026-11-11T17:54:11.442330+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.86
+    },
+    {
+      "id": "2b69410a4a813084d2d7a514",
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T12:10:14+00:00",
+      "collected_at": "2026-11-11T17:54:11.443088+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.77
+    },
+    {
+      "id": "e92bfe5b7aeb7aad40213266",
+      "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+      "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T11:30:00+00:00",
+      "collected_at": "2026-11-11T17:54:11.443843+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.51
+    },
+    {
+      "id": "11a409225a7c788eac1a9c2f",
+      "title": "Microsoft fixes audio issues caused by September security updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T11:18:36+00:00",
+      "collected_at": "2026-11-11T17:54:11.054072+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.44
+    },
+    {
+      "id": "be36d1aed67ce9777b11d062",
+      "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+      "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T11:16:40+00:00",
+      "collected_at": "2026-11-11T17:54:11.444604+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 41.92
+    },
+    {
+      "id": "26048662df1f4a1b1fa66e29",
+      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T10:35:15+00:00",
+      "collected_at": "2026-11-11T17:54:11.445348+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ics",
+        "siem"
+      ],
+      "score": 43.16
+    },
+    {
+      "id": "6b0f4070025ccf82551b303a",
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T10:12:08+00:00",
+      "collected_at": "2026-11-11T17:54:11.054726+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 43.51
+    },
+    {
+      "id": "7e8a8a61387531a9f642895c",
+      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-11T09:07:27+00:00",
+      "collected_at": "2026-11-11T17:54:11.055409+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.59
+    },
+    {
+      "id": "77715db0adf0640af0bdfda4",
+      "title": "Lei de cibersegurança no Brasil: o que muda para devs - iMasters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbXRiMkhzMVZ1V2tDcG9ScEhRMGg5TWRrVDdRc0J6UF9aeDFxcmtXUmRPV1RWUmt0YWc0bURUTnhLeW1kb2ZhQ1lYRHNGMXQteTVCYlNId2dfQXYzLVV5dzcydW9SUUdMakQyc0s2cU1NRTZpSUtOTmo0SzNmY0RHN3BjMkc5b3h3RlMwdmNEQ2diazlEZlJPLWQ3MURLSGRkSjFkbDFCTU9nQlhkM3MzZ2JsNFA0dw?oc=5",
+      "source": "iMasters",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-11T09:05:13+00:00",
+      "collected_at": "2026-11-11T17:54:11.983351+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 39.07
+    },
+    {
+      "id": "cb8ead635b177c50d3141f0e",
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-11T09:01:07+00:00",
+      "collected_at": "2026-11-11T17:54:11.446097+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "threat"
+      ],
+      "score": 44.54
+    },
+    {
+      "id": "7ebeec28d8ca3f60ef230098",
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T22:20:19+00:00",
+      "collected_at": "2026-11-11T17:54:11.056096+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 38.89
+    },
+    {
+      "id": "30b0785fbe4d75a58e2c5682",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "KrebsOnSecurity",
+      "feed": "KrebsOnSecurity",
+      "published_at": "2026-11-10T21:55:03+00:00",
+      "collected_at": "2026-11-11T17:54:11.218056+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.23
+    },
+    {
+      "id": "52be99152c3302d05cb52cb3",
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T20:54:55+00:00",
+      "collected_at": "2026-11-11T17:54:11.056757+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.84
+    },
+    {
+      "id": "b790db292d6c768363587aac",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T19:31:11+00:00",
+      "collected_at": "2026-11-11T17:54:11.058051+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach",
+        "exploit"
+      ],
+      "score": 41.3
+    },
+    {
+      "id": "332a6ac8453026861843bf38",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-10T19:07:36+00:00",
+      "collected_at": "2026-11-11T17:54:11.058709+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 37.64
+    },
     {
       "id": "7b8844d53f5b7d23363e769b",
       "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
