@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T18:20:36.416939+00:00",
+  "generated_at": "2026-11-13T17:45:18.377578+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 21,
+  "new_count": 22,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -52,23 +52,332 @@
   ],
   "items": [
     {
-      "id": "6dd614c48ec2b11ee2815745",
-      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
-      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-11T16:29:42+00:00",
-      "collected_at": "2026-11-12T18:20:35.290783+00:00",
+      "id": "376ed8341000619a5feb5b6e",
+      "title": "Ataques hackers podem causar apagão em larga escala no Brasil? Especialista em cibersegurança explica riscos - Banda B",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRFFOQ2FnZklHaHduakFvbloybEhoeXBqWFlxSFVpYjVONjVxUVJaWE1zb2JWYTFYNXgzWTNKakhWM0dtcFFuWXI3VFJlYUtKdVJldVc5R2NlRmdSUDJiSDRjSnBTZWJKcFJaMFhVNTdxZTBzS0RJajRhaS1MV2d2a3FXX3pCQm1tdTNnTG9vUVE4WmFHaWZPemhDVGlvc0dWWlBIQzFyUU5zbmg1ZG9FQ0RUemVRNHFIM1FNZUdkaHJzSnpFeGtBbFBEZXFQYWJPdTBXYlpUeXc1a2vSAeABQVVfeXFMTlJHZURvMGFsdEZMSGRVX2Y1MjVDZ1JuY3R0Vk1BVTY1QVBzSkdWR3pCc1JEamI0UFFRdjNJb3VlVXBhT00wR2w1eUFoeHdPNWdCVUJQOXQ0c3dPLW9nRGxIUmxtQ0VjcFVhQlcyejI4NTZEV1Y5ajJmd2FvbkNYTEZLTnRUOU9oaDFUMHExNFlWTkRWLU51blhNRDdwaTg1REJtNmZOakV0TE02TEFNYTNZUVN3NExCZ3hyUWpEdVYxRHFuZjJXdGRFNFhNQmdrWG9VZWJmazgyenprbG55dXM?oc=5",
+      "source": "Banda B",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-13T14:56:00+00:00",
+      "collected_at": "2026-11-13T17:45:17.810223+00:00",
       "categories": [
-        "CISO",
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ataque",
+        "ciber",
+        "risco"
+      ],
+      "score": 50.9
+    },
+    {
+      "id": "b07cabbc75810d0f7e7197b5",
+      "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T08:34:20+00:00",
+      "collected_at": "2026-11-13T17:45:16.957050+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "cra",
+        "cyber"
+      ],
+      "score": 49.43
+    },
+    {
+      "id": "fb2b118adde0554d4c4de888",
+      "title": "Check Point warns of zero-day flaw exploited for root access",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T10:44:22+00:00",
+      "collected_at": "2026-11-13T17:45:16.956360+00:00",
+      "categories": [
         "Cyber"
       ],
       "tags": [
-        "ciso",
-        "cyber",
-        "security leader"
+        "exploit",
+        "zero-day"
+      ],
+      "score": 47.27
+    },
+    {
+      "id": "510bc84147d09580ee4e23ee",
+      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T08:50:36+00:00",
+      "collected_at": "2026-11-13T17:45:17.259870+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 46.53
+    },
+    {
+      "id": "6bf2f2c7689ea1f5d7b515d5",
+      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+      "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T07:20:50+00:00",
+      "collected_at": "2026-11-13T17:45:17.260687+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
       ],
       "score": 45.95
+    },
+    {
+      "id": "b19c4d087674654ee133a6ac",
+      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+      "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T15:20:00+00:00",
+      "collected_at": "2026-11-13T17:45:17.256911+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.56
+    },
+    {
+      "id": "302fe2269f92d950cfcc85c0",
+      "title": "German military drone operations disrupted by cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T17:31:56+00:00",
+      "collected_at": "2026-11-13T17:45:16.954927+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 44.41
+    },
+    {
+      "id": "b89f47840a3c9d3bb47bccb9",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T15:01:11+00:00",
+      "collected_at": "2026-11-13T17:45:16.955669+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.94
+    },
+    {
+      "id": "e2ce95af26b5afb1e92cafcb",
+      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+      "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T07:39:04+00:00",
+      "collected_at": "2026-11-13T17:45:17.260278+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 42.57
+    },
+    {
+      "id": "110ccdfe2bbbeaa5ed1a54e9",
+      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T12:41:01+00:00",
+      "collected_at": "2026-11-13T17:45:17.257780+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.53
+    },
+    {
+      "id": "69e7e851b5a0f50406a17bbb",
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T16:21:43+00:00",
+      "collected_at": "2026-11-13T17:45:16.955313+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.46
+    },
+    {
+      "id": "b79ea27a7ff4ec66b12c8556",
+      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T09:36:56+00:00",
+      "collected_at": "2026-11-13T17:45:17.259036+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.83
+    },
+    {
+      "id": "3a973d09eaaa8d2751e4fd1c",
+      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-12T19:51:16+00:00",
+      "collected_at": "2026-11-13T17:45:16.958422+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 41.48
+    },
+    {
+      "id": "e70b73e0a7fb1ecd9ac0f51d",
+      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+      "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T13:47:42+00:00",
+      "collected_at": "2026-11-13T17:45:17.257359+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.46
+    },
+    {
+      "id": "4b30dbd927badb2de6f9a976",
+      "title": "Microsoft says November security updates cause printing issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T12:27:40+00:00",
+      "collected_at": "2026-11-13T17:45:16.956023+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.94
+    },
+    {
+      "id": "a13400e4f71896147a6eed29",
+      "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+      "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T12:20:28+00:00",
+      "collected_at": "2026-11-13T17:45:17.258191+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.89
+    },
+    {
+      "id": "381dd7990e7cf9fcb55b6bb4",
+      "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+      "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T10:48:40+00:00",
+      "collected_at": "2026-11-13T17:45:17.258606+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.3
+    },
+    {
+      "id": "a91c108c0b169c0447c3c346",
+      "title": "Microsoft confirms Windows activation failures after November updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T09:36:18+00:00",
+      "collected_at": "2026-11-13T17:45:16.956701+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.83
+    },
+    {
+      "id": "a10baa7f7a5da46af332ecbb",
+      "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+      "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T09:21:01+00:00",
+      "collected_at": "2026-11-13T17:45:17.259447+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.73
+    },
+    {
+      "id": "0131f2b5b373eb10d34828ed",
+      "title": "Brasil sofre 487 mil ataques hacker, entra no top 4 de ransomware e criminosos ampliam ataques com IA e criptomoedas - BitNotícias",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHhJN2lQU0RPbFhMTHlVNmFRRF9Ucnh6cGtWTGhkV3JnRENvdnZPcDZpdGY3MDZYc0RXSG1RSlRrNnNkemNMekhhbkdoVFVfTUxvNERwS2FSYVFLNm9fUEVZemFWZFBQRklNSDVoaTV0Z2FGcF9oSG84S1FjV0ZsYy1ralFxeDBiZXZ1Zm1haUJadnJRUS1qcQ?oc=5",
+      "source": "BitNotícias",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-12T23:00:22+00:00",
+      "collected_at": "2026-11-13T17:45:17.804351+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ransomware"
+      ],
+      "score": 38.71
+    },
+    {
+      "id": "7874b5f9c1215f8bc4c3d927",
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-12T22:53:10+00:00",
+      "collected_at": "2026-11-13T17:45:16.957387+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 37.16
     },
     {
       "id": "46ed553d62942633bcf2dd7b",
@@ -77,60 +386,28 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-12T16:04:00+00:00",
-      "collected_at": "2026-11-12T18:20:34.836494+00:00",
+      "collected_at": "2026-11-13T17:45:16.959113+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 45.61
+      "score": 36.51
     },
     {
-      "id": "2763d5e60d29512683190bb4",
-      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "id": "4706ccd44d2209318891fed6",
+      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
-      "published_at": "2026-11-12T14:36:47+00:00",
-      "collected_at": "2026-11-12T18:20:34.838244+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 45.05
-    },
-    {
-      "id": "23a8bf2deb464641062a637c",
-      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-      "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T15:38:31+00:00",
-      "collected_at": "2026-11-12T18:20:35.285426+00:00",
+      "published_at": "2026-11-12T19:12:55+00:00",
+      "collected_at": "2026-11-13T17:45:16.958779+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 43.95
-    },
-    {
-      "id": "5c1e61a7295cb9b78dc53419",
-      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T15:07:20+00:00",
-      "collected_at": "2026-11-12T18:20:34.837081+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 43.25
+      "score": 36.23
     },
     {
       "id": "496371450760d4174f1cd6bd",
@@ -139,287 +416,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-12T15:00:10+00:00",
-      "collected_at": "2026-11-12T18:20:34.837734+00:00",
+      "collected_at": "2026-11-13T17:45:16.959895+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "risk"
       ],
-      "score": 43.2
-    },
-    {
-      "id": "ee13877b2b8d6f67cf0ea002",
-      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-      "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T09:39:55+00:00",
-      "collected_at": "2026-11-12T18:20:35.289059+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 43.13
-    },
-    {
-      "id": "4e8dd992a667bfee830d3aea",
-      "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
-      "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T09:23:21+00:00",
-      "collected_at": "2026-11-12T18:20:35.289652+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerability"
-      ],
-      "score": 43.02
-    },
-    {
-      "id": "2134cab9c011a35f0c43d872",
-      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
-      "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T10:39:34+00:00",
-      "collected_at": "2026-11-12T18:20:35.288477+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 41.51
-    },
-    {
-      "id": "243198de9b5f7d6ecf58ff5c",
-      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T13:42:09+00:00",
-      "collected_at": "2026-11-12T18:20:35.286053+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.2
-    },
-    {
-      "id": "3a3a428aa4d7670e88fbae49",
-      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-      "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T13:39:03+00:00",
-      "collected_at": "2026-11-12T18:20:35.286701+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.18
-    },
-    {
-      "id": "8a9db19bf4be6a7a7c9f0755",
-      "title": "Hackers plant GSocket on Linux servers for persistent access",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T09:38:00+00:00",
-      "collected_at": "2026-11-12T18:20:34.839789+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "soc"
-      ],
-      "score": 41.11
-    },
-    {
-      "id": "dd923fe4eed0953ec4fee01c",
-      "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
-      "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T13:12:11+00:00",
-      "collected_at": "2026-11-12T18:20:35.287292+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.0
-    },
-    {
-      "id": "41f60db8d06a5b451c8ff1a5",
-      "title": "Baker Tilly notifies clients of data breach at third-party provider",
-      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T23:01:31+00:00",
-      "collected_at": "2026-11-12T18:20:34.840296+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 40.99
-    },
-    {
-      "id": "afc8f7789b0bd292d32d3a1b",
-      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T12:11:11+00:00",
-      "collected_at": "2026-11-12T18:20:34.838761+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.61
-    },
-    {
-      "id": "a0bf9a29397b4f6670872a52",
-      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T11:08:52+00:00",
-      "collected_at": "2026-11-12T18:20:35.287897+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.2
-    },
-    {
-      "id": "90ace6f48be7e762772253e8",
-      "title": "Microsoft confirms Windows security updates installation issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T10:24:07+00:00",
-      "collected_at": "2026-11-12T18:20:34.839271+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.91
-    },
-    {
-      "id": "5a86169a26104475da405d85",
-      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T16:24:18+00:00",
-      "collected_at": "2026-11-12T18:20:34.842381+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "ransomware"
-      ],
-      "score": 39.91
-    },
-    {
-      "id": "a23a29100465fc451f625d1e",
-      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-      "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-12T08:38:47+00:00",
-      "collected_at": "2026-11-12T18:20:35.290245+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.23
-    },
-    {
-      "id": "300e8245edcda1a9021ceae9",
-      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T22:56:21+00:00",
-      "collected_at": "2026-11-12T18:20:34.840820+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 38.95
-    },
-    {
-      "id": "cc510506cbe8dac171181859",
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T20:54:20+00:00",
-      "collected_at": "2026-11-12T18:20:34.841876+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 38.16
-    },
-    {
-      "id": "e44eb7f9ff85e22c7cfc2697",
-      "title": "Who Runs the Ransomware Group Qilin?",
-      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-      "source": "KrebsOnSecurity",
-      "feed": "KrebsOnSecurity",
-      "published_at": "2026-11-11T18:06:01+00:00",
-      "collected_at": "2026-11-12T18:20:35.062881+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 37.07
-    },
-    {
-      "id": "30f4bc09646fba64ecf93977",
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T12:32:27+00:00",
-      "collected_at": "2026-11-12T18:20:34.843900+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 34.91
-    },
-    {
-      "id": "5730ad465c843c25ff9e6fd5",
-      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-11T21:27:40+00:00",
-      "collected_at": "2026-11-12T18:20:34.841347+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 34.88
+      "score": 34.1
     }
   ]
 }
