@@ -1,6 +1,109 @@
 {
-  "updated_at": "2026-11-13T17:45:18.377578+00:00",
+  "updated_at": "2026-11-14T16:36:33.110488+00:00",
   "items": [
+    {
+      "id": "18b9e1262806b431b963186b",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-14T15:15:49+00:00",
+      "collected_at": "2026-11-14T16:36:31.844015+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.48
+    },
+    {
+      "id": "41b70de314c278b0f2c830e8",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T14:00:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.175512+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.49
+    },
+    {
+      "id": "9dfa20acd93d8d48827aa4bb",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T11:00:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.176170+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.82
+    },
+    {
+      "id": "5244add5740e152568246884",
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T08:40:22+00:00",
+      "collected_at": "2026-11-14T16:36:32.176784+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.91
+    },
+    {
+      "id": "83bb31a101b777a35171ccf0",
+      "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+      "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T21:33:27+00:00",
+      "collected_at": "2026-11-14T16:36:32.177409+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.59
+    },
+    {
+      "id": "8825affae9f0a0ebcdf5c5fa",
+      "title": "Brasil é o 4º país em ataques de ransomware no mundo - allconnected.media",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRlk5d1E0Z0RRRGMwd2hmT2FMTndpMm5NRXctQzdtQmJWeUhUSmk4WkJWR3RIakhacndscUE2LXJ1UlVFRTNlQU5OMzlsdEtjaUdCRDJQUmxqLTV6Y0xVOWlReXRMZ3ZFRTI2RjRSWUVnWWhlS1RJRkQ1SjlmV3FYMGpGOUtsa0k?oc=5",
+      "source": "allconnected.media",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-13T20:43:45+00:00",
+      "collected_at": "2026-11-14T16:36:32.591658+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ransomware"
+      ],
+      "score": 38.27
+    },
+    {
+      "id": "5be49caa060fa1af27afab8c",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T19:38:36+00:00",
+      "collected_at": "2026-11-14T16:36:31.844588+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.85
+    },
     {
       "id": "302fe2269f92d950cfcc85c0",
       "title": "German military drone operations disrupted by cyberattack",
@@ -79,6 +182,20 @@
         "risco"
       ],
       "score": 50.9
+    },
+    {
+      "id": "b9d6ae5e56ab931d8ddcc123",
+      "title": "EXCLUSIVO: Dados regulamentados e código-fonte somam 93% das violações com IA no Brasil; 83% das fraudes na indústria global vêm de envio indevido - Times Brasil | CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFdTajN4Yy0tR1lOQnZaQi1JQjdNYmNTVUI5N0l3TkFFNXlTQWVoR0hoSU44c2xpaUdKYXhIanNEWDRPRzkyQnhuRlVqdTRWT2ZfZHAzaFVLZWpBckhwRy1yc2xkVXM2ZEFsYVBXZFY5OGpoRFZ5R2tZYktjaEFQRXh5V2pjOEwxOWpCbmlVanExV2g0cV9uRTdMOXdHd3g0amZ5RlA5dTlWUHFibGJpU09HNG5sdFBwWTRnTmtRc09Jb01PZXRtcnhZcmM?oc=5",
+      "source": "Times Brasil | CNBC",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-13T14:15:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.585032+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 30.75
     },
     {
       "id": "e70b73e0a7fb1ecd9ac0f51d",

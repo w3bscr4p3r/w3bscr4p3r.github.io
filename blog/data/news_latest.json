@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T17:45:18.377578+00:00",
+  "generated_at": "2026-11-14T16:36:33.110488+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 22,
+  "new_count": 8,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,43 @@
   ],
   "items": [
     {
+      "id": "41b70de314c278b0f2c830e8",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T14:00:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.175512+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.49
+    },
+    {
+      "id": "18b9e1262806b431b963186b",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-14T15:15:49+00:00",
+      "collected_at": "2026-11-14T16:36:31.844015+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.48
+    },
+    {
       "id": "376ed8341000619a5feb5b6e",
       "title": "Ataques hackers podem causar apagão em larga escala no Brasil? Especialista em cibersegurança explica riscos - Banda B",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRFFOQ2FnZklHaHduakFvbloybEhoeXBqWFlxSFVpYjVONjVxUVJaWE1zb2JWYTFYNXgzWTNKakhWM0dtcFFuWXI3VFJlYUtKdVJldVc5R2NlRmdSUDJiSDRjSnBTZWJKcFJaMFhVNTdxZTBzS0RJajRhaS1MV2d2a3FXX3pCQm1tdTNnTG9vUVE4WmFHaWZPemhDVGlvc0dWWlBIQzFyUU5zbmg1ZG9FQ0RUemVRNHFIM1FNZUdkaHJzSnpFeGtBbFBEZXFQYWJPdTBXYlpUeXc1a2vSAeABQVVfeXFMTlJHZURvMGFsdEZMSGRVX2Y1MjVDZ1JuY3R0Vk1BVTY1QVBzSkdWR3pCc1JEamI0UFFRdjNJb3VlVXBhT00wR2w1eUFoeHdPNWdCVUJQOXQ0c3dPLW9nRGxIUmxtQ0VjcFVhQlcyejI4NTZEV1Y5ajJmd2FvbkNYTEZLTnRUOU9oaDFUMHExNFlWTkRWLU51blhNRDdwaTg1REJtNmZOakV0TE02TEFNYTNZUVN3NExCZ3hyUWpEdVYxRHFuZjJXdGRFNFhNQmdrWG9VZWJmazgyenprbG55dXM?oc=5",
       "source": "Banda B",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-13T14:56:00+00:00",
-      "collected_at": "2026-11-13T17:45:17.810223+00:00",
+      "collected_at": "2026-11-14T16:36:32.592228+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -68,7 +98,21 @@
         "ciber",
         "risco"
       ],
-      "score": 50.9
+      "score": 42.01
+    },
+    {
+      "id": "9dfa20acd93d8d48827aa4bb",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T11:00:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.176170+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.82
     },
     {
       "id": "b07cabbc75810d0f7e7197b5",
@@ -77,7 +121,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T08:34:20+00:00",
-      "collected_at": "2026-11-13T17:45:16.957050+00:00",
+      "collected_at": "2026-11-14T16:36:31.848219+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -86,7 +130,21 @@
         "cra",
         "cyber"
       ],
-      "score": 49.43
+      "score": 40.54
+    },
+    {
+      "id": "5244add5740e152568246884",
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T08:40:22+00:00",
+      "collected_at": "2026-11-14T16:36:32.176784+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.91
     },
     {
       "id": "fb2b118adde0554d4c4de888",
@@ -95,7 +153,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T10:44:22+00:00",
-      "collected_at": "2026-11-13T17:45:16.956360+00:00",
+      "collected_at": "2026-11-14T16:36:31.847193+00:00",
       "categories": [
         "Cyber"
       ],
@@ -103,41 +161,24 @@
         "exploit",
         "zero-day"
       ],
-      "score": 47.27
+      "score": 38.38
     },
     {
-      "id": "510bc84147d09580ee4e23ee",
-      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T08:50:36+00:00",
-      "collected_at": "2026-11-13T17:45:17.259870+00:00",
+      "id": "8825affae9f0a0ebcdf5c5fa",
+      "title": "Brasil é o 4º país em ataques de ransomware no mundo - allconnected.media",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRlk5d1E0Z0RRRGMwd2hmT2FMTndpMm5NRXctQzdtQmJWeUhUSmk4WkJWR3RIakhacndscUE2LXJ1UlVFRTNlQU5OMzlsdEtjaUdCRDJQUmxqLTV6Y0xVOWlReXRMZ3ZFRTI2RjRSWUVnWWhlS1RJRkQ1SjlmV3FYMGpGOUtsa0k?oc=5",
+      "source": "allconnected.media",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-13T20:43:45+00:00",
+      "collected_at": "2026-11-14T16:36:32.591658+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "exploit",
-        "zero-day"
+        "ataque",
+        "ransomware"
       ],
-      "score": 46.53
-    },
-    {
-      "id": "6bf2f2c7689ea1f5d7b515d5",
-      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-      "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T07:20:50+00:00",
-      "collected_at": "2026-11-13T17:45:17.260687+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 45.95
+      "score": 38.27
     },
     {
       "id": "b19c4d087674654ee133a6ac",
@@ -146,14 +187,28 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T15:20:00+00:00",
-      "collected_at": "2026-11-13T17:45:17.256911+00:00",
+      "collected_at": "2026-11-14T16:36:32.178019+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.56
+      "score": 36.67
+    },
+    {
+      "id": "83bb31a101b777a35171ccf0",
+      "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+      "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-13T21:33:27+00:00",
+      "collected_at": "2026-11-14T16:36:32.177409+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.59
     },
     {
       "id": "302fe2269f92d950cfcc85c0",
@@ -162,14 +217,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T17:31:56+00:00",
-      "collected_at": "2026-11-13T17:45:16.954927+00:00",
+      "collected_at": "2026-11-14T16:36:31.845120+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 44.41
+      "score": 35.53
     },
     {
       "id": "b89f47840a3c9d3bb47bccb9",
@@ -178,28 +233,26 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T15:01:11+00:00",
-      "collected_at": "2026-11-13T17:45:16.955669+00:00",
+      "collected_at": "2026-11-14T16:36:31.846163+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 43.94
+      "score": 35.05
     },
     {
-      "id": "e2ce95af26b5afb1e92cafcb",
-      "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-      "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T07:39:04+00:00",
-      "collected_at": "2026-11-13T17:45:17.260278+00:00",
+      "id": "5be49caa060fa1af27afab8c",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-13T19:38:36+00:00",
+      "collected_at": "2026-11-14T16:36:31.844588+00:00",
       "categories": [
         "Cyber"
       ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 42.57
+      "tags": [],
+      "score": 34.85
     },
     {
       "id": "110ccdfe2bbbeaa5ed1a54e9",
@@ -208,14 +261,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T12:41:01+00:00",
-      "collected_at": "2026-11-13T17:45:17.257780+00:00",
+      "collected_at": "2026-11-14T16:36:32.179224+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 42.53
+      "score": 33.64
     },
     {
       "id": "69e7e851b5a0f50406a17bbb",
@@ -224,12 +277,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T16:21:43+00:00",
-      "collected_at": "2026-11-13T17:45:16.955313+00:00",
+      "collected_at": "2026-11-14T16:36:31.845639+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.46
+      "score": 33.57
     },
     {
       "id": "b79ea27a7ff4ec66b12c8556",
@@ -238,12 +291,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T09:36:56+00:00",
-      "collected_at": "2026-11-13T17:45:17.259036+00:00",
+      "collected_at": "2026-11-14T16:36:32.181021+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.83
+      "score": 32.95
     },
     {
       "id": "3a973d09eaaa8d2751e4fd1c",
@@ -252,7 +305,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-12T19:51:16+00:00",
-      "collected_at": "2026-11-13T17:45:16.958422+00:00",
+      "collected_at": "2026-11-14T16:36:31.850216+00:00",
       "categories": [
         "Cyber"
       ],
@@ -260,7 +313,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 41.48
+      "score": 32.6
     },
     {
       "id": "e70b73e0a7fb1ecd9ac0f51d",
@@ -269,12 +322,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T13:47:42+00:00",
-      "collected_at": "2026-11-13T17:45:17.257359+00:00",
+      "collected_at": "2026-11-14T16:36:32.178640+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.46
+      "score": 32.57
     },
     {
       "id": "4b30dbd927badb2de6f9a976",
@@ -283,12 +336,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T12:27:40+00:00",
-      "collected_at": "2026-11-13T17:45:16.956023+00:00",
+      "collected_at": "2026-11-14T16:36:31.846678+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.94
+      "score": 32.05
     },
     {
       "id": "a13400e4f71896147a6eed29",
@@ -297,12 +350,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T12:20:28+00:00",
-      "collected_at": "2026-11-13T17:45:17.258191+00:00",
+      "collected_at": "2026-11-14T16:36:32.179857+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.89
+      "score": 32.01
     },
     {
       "id": "381dd7990e7cf9fcb55b6bb4",
@@ -311,12 +364,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T10:48:40+00:00",
-      "collected_at": "2026-11-13T17:45:17.258606+00:00",
+      "collected_at": "2026-11-14T16:36:32.180449+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.3
+      "score": 31.41
     },
     {
       "id": "a91c108c0b169c0447c3c346",
@@ -325,26 +378,26 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T09:36:18+00:00",
-      "collected_at": "2026-11-13T17:45:16.956701+00:00",
+      "collected_at": "2026-11-14T16:36:31.847700+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.83
+      "score": 30.94
     },
     {
-      "id": "a10baa7f7a5da46af332ecbb",
-      "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-      "url": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T09:21:01+00:00",
-      "collected_at": "2026-11-13T17:45:17.259447+00:00",
+      "id": "b9d6ae5e56ab931d8ddcc123",
+      "title": "EXCLUSIVO: Dados regulamentados e código-fonte somam 93% das violações com IA no Brasil; 83% das fraudes na indústria global vêm de envio indevido - Times Brasil | CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFdTajN4Yy0tR1lOQnZaQi1JQjdNYmNTVUI5N0l3TkFFNXlTQWVoR0hoSU44c2xpaUdKYXhIanNEWDRPRzkyQnhuRlVqdTRWT2ZfZHAzaFVLZWpBckhwRy1yc2xkVXM2ZEFsYVBXZFY5OGpoRFZ5R2tZYktjaEFQRXh5V2pjOEwxOWpCbmlVanExV2g0cV9uRTdMOXdHd3g0amZ5RlA5dTlWUHFibGJpU09HNG5sdFBwWTRnTmtRc09Jb01PZXRtcnhZcmM?oc=5",
+      "source": "Times Brasil | CNBC",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-13T14:15:00+00:00",
+      "collected_at": "2026-11-14T16:36:32.585032+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.73
+      "score": 30.75
     },
     {
       "id": "0131f2b5b373eb10d34828ed",
@@ -353,7 +406,7 @@
       "source": "BitNotícias",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-12T23:00:22+00:00",
-      "collected_at": "2026-11-13T17:45:17.804351+00:00",
+      "collected_at": "2026-11-14T16:36:32.584027+00:00",
       "categories": [
         "Cyber"
       ],
@@ -361,69 +414,7 @@
         "ataque",
         "ransomware"
       ],
-      "score": 38.71
-    },
-    {
-      "id": "7874b5f9c1215f8bc4c3d927",
-      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T22:53:10+00:00",
-      "collected_at": "2026-11-13T17:45:16.957387+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 37.16
-    },
-    {
-      "id": "46ed553d62942633bcf2dd7b",
-      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T16:04:00+00:00",
-      "collected_at": "2026-11-13T17:45:16.959113+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 36.51
-    },
-    {
-      "id": "4706ccd44d2209318891fed6",
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T19:12:55+00:00",
-      "collected_at": "2026-11-13T17:45:16.958779+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 36.23
-    },
-    {
-      "id": "496371450760d4174f1cd6bd",
-      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-12T15:00:10+00:00",
-      "collected_at": "2026-11-13T17:45:16.959895+00:00",
-      "categories": [
-        "GRC"
-      ],
-      "tags": [
-        "risk"
-      ],
-      "score": 34.1
+      "score": 29.82
     }
   ]
 }
