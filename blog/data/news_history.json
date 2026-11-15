@@ -1,6 +1,82 @@
 {
-  "updated_at": "2026-11-14T16:36:33.110488+00:00",
+  "updated_at": "2026-11-15T17:12:28.573360+00:00",
   "items": [
+    {
+      "id": "8c31e9283a68eea50e86429e",
+      "title": "Opinião - Ronaldo Lemos: Brasil não tem plano B na crise de cibersegurança - Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2NFb2RReGhxR3hwRHdVSmZsVU9uNE96VlhmOGVneWwxSUtPc3NNXzVtLVhSSUhpRm5XV05tTnlJMnloZzdNcUIyckJkOEZHdlRfWDBEZ0VuNmNMeUJ6SlNpRHF6OXJIQXpQV2FKR0s3bHBDVlBkUVZrbEhsSmJFMmVEblR2Z2NrUXhYblQ4Qlh2ZXpMVDZyWkMyMTFJeWZmUHlrN0JMaVZoMzBLWUU2M3BOcW0?oc=5",
+      "source": "Folha de S.Paulo",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-15T17:00:00+00:00",
+      "collected_at": "2026-11-15T17:12:28.078730+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 42.42
+    },
+    {
+      "id": "dce1525e4f54b370a9292528",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-15T15:23:48+00:00",
+      "collected_at": "2026-11-15T17:12:27.241400+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.8
+    },
+    {
+      "id": "c020a010a1f6836b5c47f31c",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-15T12:51:33+00:00",
+      "collected_at": "2026-11-15T17:12:27.641830+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.31
+    },
+    {
+      "id": "60bc41bd43cc314c965cf964",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T19:00:00+00:00",
+      "collected_at": "2026-11-15T17:12:27.642249+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.36
+    },
+    {
+      "id": "751b11f3fc4322578f366b7d",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-14T17:27:25+00:00",
+      "collected_at": "2026-11-15T17:12:27.241775+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.26
+    },
     {
       "id": "18b9e1262806b431b963186b",
       "title": "US disrupts North Korean campaign behind $400 million crypto theft",

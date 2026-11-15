@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T16:36:33.110488+00:00",
+  "generated_at": "2026-11-15T17:12:28.573360+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 8,
+  "new_count": 5,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "Google News — GRC",
@@ -52,20 +52,96 @@
   ],
   "items": [
     {
+      "id": "dce1525e4f54b370a9292528",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-15T15:23:48+00:00",
+      "collected_at": "2026-11-15T17:12:27.241400+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.8
+    },
+    {
+      "id": "8c31e9283a68eea50e86429e",
+      "title": "Opinião - Ronaldo Lemos: Brasil não tem plano B na crise de cibersegurança - Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2NFb2RReGhxR3hwRHdVSmZsVU9uNE96VlhmOGVneWwxSUtPc3NNXzVtLVhSSUhpRm5XV05tTnlJMnloZzdNcUIyckJkOEZHdlRfWDBEZ0VuNmNMeUJ6SlNpRHF6OXJIQXpQV2FKR0s3bHBDVlBkUVZrbEhsSmJFMmVEblR2Z2NrUXhYblQ4Qlh2ZXpMVDZyWkMyMTFJeWZmUHlrN0JMaVZoMzBLWUU2M3BOcW0?oc=5",
+      "source": "Folha de S.Paulo",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-15T17:00:00+00:00",
+      "collected_at": "2026-11-15T17:12:28.078730+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 42.42
+    },
+    {
+      "id": "c020a010a1f6836b5c47f31c",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-15T12:51:33+00:00",
+      "collected_at": "2026-11-15T17:12:27.641830+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.31
+    },
+    {
+      "id": "751b11f3fc4322578f366b7d",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-14T17:27:25+00:00",
+      "collected_at": "2026-11-15T17:12:27.241775+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.26
+    },
+    {
+      "id": "60bc41bd43cc314c965cf964",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-14T19:00:00+00:00",
+      "collected_at": "2026-11-15T17:12:27.642249+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.36
+    },
+    {
       "id": "41b70de314c278b0f2c830e8",
       "title": "Is AI Making Us Worse at Cybersecurity?",
       "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-14T14:00:00+00:00",
-      "collected_at": "2026-11-14T16:36:32.175512+00:00",
+      "collected_at": "2026-11-15T17:12:27.642674+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 43.49
+      "score": 33.92
     },
     {
       "id": "18b9e1262806b431b963186b",
@@ -74,12 +150,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-14T15:15:49+00:00",
-      "collected_at": "2026-11-14T16:36:31.844015+00:00",
+      "collected_at": "2026-11-15T17:12:27.242115+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.48
+      "score": 32.91
     },
     {
       "id": "376ed8341000619a5feb5b6e",
@@ -88,7 +164,7 @@
       "source": "Banda B",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-13T14:56:00+00:00",
-      "collected_at": "2026-11-14T16:36:32.592228+00:00",
+      "collected_at": "2026-11-15T17:12:28.083458+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -98,7 +174,7 @@
         "ciber",
         "risco"
       ],
-      "score": 42.01
+      "score": 32.45
     },
     {
       "id": "9dfa20acd93d8d48827aa4bb",
@@ -107,12 +183,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-14T11:00:00+00:00",
-      "collected_at": "2026-11-14T16:36:32.176170+00:00",
+      "collected_at": "2026-11-15T17:12:27.643104+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 40.82
+      "score": 31.25
     },
     {
       "id": "b07cabbc75810d0f7e7197b5",
@@ -121,7 +197,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T08:34:20+00:00",
-      "collected_at": "2026-11-14T16:36:31.848219+00:00",
+      "collected_at": "2026-11-15T17:12:27.244698+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -130,7 +206,7 @@
         "cra",
         "cyber"
       ],
-      "score": 40.54
+      "score": 30.98
     },
     {
       "id": "5244add5740e152568246884",
@@ -139,12 +215,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-14T08:40:22+00:00",
-      "collected_at": "2026-11-14T16:36:32.176784+00:00",
+      "collected_at": "2026-11-15T17:12:27.643513+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.91
+      "score": 30.35
     },
     {
       "id": "fb2b118adde0554d4c4de888",
@@ -153,7 +229,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T10:44:22+00:00",
-      "collected_at": "2026-11-14T16:36:31.847193+00:00",
+      "collected_at": "2026-11-15T17:12:27.244054+00:00",
       "categories": [
         "Cyber"
       ],
@@ -161,24 +237,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 38.38
-    },
-    {
-      "id": "8825affae9f0a0ebcdf5c5fa",
-      "title": "Brasil é o 4º país em ataques de ransomware no mundo - allconnected.media",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRlk5d1E0Z0RRRGMwd2hmT2FMTndpMm5NRXctQzdtQmJWeUhUSmk4WkJWR3RIakhacndscUE2LXJ1UlVFRTNlQU5OMzlsdEtjaUdCRDJQUmxqLTV6Y0xVOWlReXRMZ3ZFRTI2RjRSWUVnWWhlS1RJRkQ1SjlmV3FYMGpGOUtsa0k?oc=5",
-      "source": "allconnected.media",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-13T20:43:45+00:00",
-      "collected_at": "2026-11-14T16:36:32.591658+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "ransomware"
-      ],
-      "score": 38.27
+      "score": 28.82
     },
     {
       "id": "b19c4d087674654ee133a6ac",
@@ -187,14 +246,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T15:20:00+00:00",
-      "collected_at": "2026-11-14T16:36:32.178019+00:00",
+      "collected_at": "2026-11-15T17:12:27.644292+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.67
+      "score": 27.1
     },
     {
       "id": "83bb31a101b777a35171ccf0",
@@ -203,12 +262,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T21:33:27+00:00",
-      "collected_at": "2026-11-14T16:36:32.177409+00:00",
+      "collected_at": "2026-11-15T17:12:27.643909+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 35.59
+      "score": 26.02
     },
     {
       "id": "302fe2269f92d950cfcc85c0",
@@ -217,14 +276,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T17:31:56+00:00",
-      "collected_at": "2026-11-14T16:36:31.845120+00:00",
+      "collected_at": "2026-11-15T17:12:27.242771+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 35.53
+      "score": 25.96
     },
     {
       "id": "b89f47840a3c9d3bb47bccb9",
@@ -233,12 +292,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T15:01:11+00:00",
-      "collected_at": "2026-11-14T16:36:31.846163+00:00",
+      "collected_at": "2026-11-15T17:12:27.243410+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 35.05
+      "score": 25.48
     },
     {
       "id": "5be49caa060fa1af27afab8c",
@@ -247,12 +306,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T19:38:36+00:00",
-      "collected_at": "2026-11-14T16:36:31.844588+00:00",
+      "collected_at": "2026-11-15T17:12:27.242445+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 34.85
+      "score": 25.28
     },
     {
       "id": "110ccdfe2bbbeaa5ed1a54e9",
@@ -261,14 +320,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T12:41:01+00:00",
-      "collected_at": "2026-11-14T16:36:32.179224+00:00",
+      "collected_at": "2026-11-15T17:12:27.645042+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 33.64
+      "score": 24.07
     },
     {
       "id": "69e7e851b5a0f50406a17bbb",
@@ -277,26 +336,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T16:21:43+00:00",
-      "collected_at": "2026-11-14T16:36:31.845639+00:00",
+      "collected_at": "2026-11-15T17:12:27.243088+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.57
-    },
-    {
-      "id": "b79ea27a7ff4ec66b12c8556",
-      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-      "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T09:36:56+00:00",
-      "collected_at": "2026-11-14T16:36:32.181021+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.95
+      "score": 24.0
     },
     {
       "id": "3a973d09eaaa8d2751e4fd1c",
@@ -305,7 +350,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-12T19:51:16+00:00",
-      "collected_at": "2026-11-14T16:36:31.850216+00:00",
+      "collected_at": "2026-11-15T17:12:27.245992+00:00",
       "categories": [
         "Cyber"
       ],
@@ -313,7 +358,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 32.6
+      "score": 23.03
     },
     {
       "id": "e70b73e0a7fb1ecd9ac0f51d",
@@ -322,12 +367,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T13:47:42+00:00",
-      "collected_at": "2026-11-14T16:36:32.178640+00:00",
+      "collected_at": "2026-11-15T17:12:27.644673+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.57
+      "score": 23.01
     },
     {
       "id": "4b30dbd927badb2de6f9a976",
@@ -336,12 +381,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T12:27:40+00:00",
-      "collected_at": "2026-11-14T16:36:31.846678+00:00",
+      "collected_at": "2026-11-15T17:12:27.243736+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.05
+      "score": 22.49
     },
     {
       "id": "a13400e4f71896147a6eed29",
@@ -350,26 +395,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-13T12:20:28+00:00",
-      "collected_at": "2026-11-14T16:36:32.179857+00:00",
+      "collected_at": "2026-11-15T17:12:27.645411+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.01
-    },
-    {
-      "id": "381dd7990e7cf9fcb55b6bb4",
-      "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-      "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-13T10:48:40+00:00",
-      "collected_at": "2026-11-14T16:36:32.180449+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.41
+      "score": 22.44
     },
     {
       "id": "a91c108c0b169c0447c3c346",
@@ -378,43 +409,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-13T09:36:18+00:00",
-      "collected_at": "2026-11-14T16:36:31.847700+00:00",
+      "collected_at": "2026-11-15T17:12:27.244375+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 30.94
-    },
-    {
-      "id": "b9d6ae5e56ab931d8ddcc123",
-      "title": "EXCLUSIVO: Dados regulamentados e código-fonte somam 93% das violações com IA no Brasil; 83% das fraudes na indústria global vêm de envio indevido - Times Brasil | CNBC",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcFdTajN4Yy0tR1lOQnZaQi1JQjdNYmNTVUI5N0l3TkFFNXlTQWVoR0hoSU44c2xpaUdKYXhIanNEWDRPRzkyQnhuRlVqdTRWT2ZfZHAzaFVLZWpBckhwRy1yc2xkVXM2ZEFsYVBXZFY5OGpoRFZ5R2tZYktjaEFQRXh5V2pjOEwxOWpCbmlVanExV2g0cV9uRTdMOXdHd3g0amZ5RlA5dTlWUHFibGJpU09HNG5sdFBwWTRnTmtRc09Jb01PZXRtcnhZcmM?oc=5",
-      "source": "Times Brasil | CNBC",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-13T14:15:00+00:00",
-      "collected_at": "2026-11-14T16:36:32.585032+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 30.75
-    },
-    {
-      "id": "0131f2b5b373eb10d34828ed",
-      "title": "Brasil sofre 487 mil ataques hacker, entra no top 4 de ransomware e criminosos ampliam ataques com IA e criptomoedas - BitNotícias",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHhJN2lQU0RPbFhMTHlVNmFRRF9Ucnh6cGtWTGhkV3JnRENvdnZPcDZpdGY3MDZYc0RXSG1RSlRrNnNkemNMekhhbkdoVFVfTUxvNERwS2FSYVFLNm9fUEVZemFWZFBQRklNSDVoaTV0Z2FGcF9oSG84S1FjV0ZsYy1ralFxeDBiZXZ1Zm1haUJadnJRUS1qcQ?oc=5",
-      "source": "BitNotícias",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-12T23:00:22+00:00",
-      "collected_at": "2026-11-14T16:36:32.584027+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "ransomware"
-      ],
-      "score": 29.82
+      "score": 21.38
     }
   ]
 }
