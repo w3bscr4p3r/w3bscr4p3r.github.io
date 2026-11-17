@@ -1,6 +1,355 @@
 {
-  "updated_at": "2026-11-16T20:30:02.515464+00:00",
+  "updated_at": "2026-11-17T19:11:41.639347+00:00",
   "items": [
+    {
+      "id": "a56519dd5b6de14f8deebfb8",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T18:21:24+00:00",
+      "collected_at": "2026-11-17T19:11:40.189252+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.67
+    },
+    {
+      "id": "76e4e6ea9d4aa23c823c0436",
+      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T18:16:17+00:00",
+      "collected_at": "2026-11-17T19:11:40.632094+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.64
+    },
+    {
+      "id": "7e1bbb5496eb79cd088d0925",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T18:04:15+00:00",
+      "collected_at": "2026-11-17T19:11:40.189807+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ddos"
+      ],
+      "score": 44.06
+    },
+    {
+      "id": "b37d92b676b5b4a6fe896f33",
+      "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "collected_at": "2026-11-17T19:11:40.190328+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.76
+    },
+    {
+      "id": "e84dd49fb16166da59ea7274",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T15:01:11+00:00",
+      "collected_at": "2026-11-17T19:11:40.190856+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "phishing"
+      ],
+      "score": 42.88
+    },
+    {
+      "id": "417eb3282bfe83dcaee29c7b",
+      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T14:55:30+00:00",
+      "collected_at": "2026-11-17T19:11:40.632722+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 44.84
+    },
+    {
+      "id": "83874aa539a2b052cf8a423f",
+      "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+      "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T14:14:24+00:00",
+      "collected_at": "2026-11-17T19:11:40.633333+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.07
+    },
+    {
+      "id": "6fe0ccba8732e6afedf6cdfd",
+      "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+      "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "collected_at": "2026-11-17T19:11:40.633924+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.98
+    },
+    {
+      "id": "f601c19b8ee492f2461c9af1",
+      "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+      "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T13:24:43+00:00",
+      "collected_at": "2026-11-17T19:11:40.634493+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.75
+    },
+    {
+      "id": "07590c8d50dbb1820bd7175d",
+      "title": "Access Dental Management Data Breach Impacts Over 340,000",
+      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T12:59:04+00:00",
+      "collected_at": "2026-11-17T19:11:40.635080+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 44.08
+    },
+    {
+      "id": "e164d115e934db8ab5296f12",
+      "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
+      "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T12:51:54+00:00",
+      "collected_at": "2026-11-17T19:11:40.635678+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.04
+    },
+    {
+      "id": "cd0c2f43bf9cf61bab7d7ccf",
+      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T12:28:45+00:00",
+      "collected_at": "2026-11-17T19:11:40.636253+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 43.89
+    },
+    {
+      "id": "680ef5b53b4554a00b23a13d",
+      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "collected_at": "2026-11-17T19:11:40.636855+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.2
+    },
+    {
+      "id": "b992f673f0112daf21e026d0",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T11:19:51+00:00",
+      "collected_at": "2026-11-17T19:11:40.191356+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.94
+    },
+    {
+      "id": "3b1765ae620625dca6f06497",
+      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-17T10:22:20+00:00",
+      "collected_at": "2026-11-17T19:11:40.637453+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "malware",
+        "vulnerability"
+      ],
+      "score": 46.07
+    },
+    {
+      "id": "8156ffd0322b3600c9fb4d4e",
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T09:44:22+00:00",
+      "collected_at": "2026-11-17T19:11:40.191868+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.32
+    },
+    {
+      "id": "96d870ce4aba52460be8e3fe",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T08:35:42+00:00",
+      "collected_at": "2026-11-17T19:11:40.192358+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 42.38
+    },
+    {
+      "id": "2cb4fd2bb450b273e552a356",
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T07:25:44+00:00",
+      "collected_at": "2026-11-17T19:11:40.192930+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 41.92
+    },
+    {
+      "id": "ff787d32a88b5851dfac51ab",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T02:12:17+00:00",
+      "collected_at": "2026-11-17T19:11:40.193459+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 37.89
+    },
+    {
+      "id": "a2185938726a558bd76b3d5e",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-16T22:54:00+00:00",
+      "collected_at": "2026-11-17T19:11:40.194007+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 35.11
+    },
+    {
+      "id": "8ba32c02a11a0d4517e62658",
+      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança - Itamaraju Notícias",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY3QwVnRKbGRJOVhjWldJejZvcC1jVkcyZWpuR1YzMmlOWUV0WlFJb1JtbGlCVmJYRG5Wd0d4OFFRakNiNmlhSi1qMXc3MmUzX1ZfcHBleHdNVkpWT3pxQmxZYUdVX1hlaXhZX1hhNE91SXUzT1Z1cFplOXlTS2c3N2JHempvdFRxcGxwTGJGdkRQYjMxTlVEb2tOa0NUOWRGLWhEMTZvdkJkMnFjajhxbUVCajhKTDdLR2YxdHhGQTE?oc=5",
+      "source": "Itamaraju Notícias",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-16T21:38:08+00:00",
+      "collected_at": "2026-11-17T19:11:41.118099+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber",
+        "incidente"
+      ],
+      "score": 35.62
+    },
+    {
+      "id": "3f69dc53dd127ac873b5fb4e",
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-16T21:31:44+00:00",
+      "collected_at": "2026-11-17T19:11:40.194573+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "threat"
+      ],
+      "score": 36.07
+    },
+    {
+      "id": "bf993815c200dbc8c87889bf",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-16T20:59:44+00:00",
+      "collected_at": "2026-11-17T19:11:40.195086+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.37
+    },
     {
       "id": "6f0d3f1124c4ca4d0eceaeca",
       "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
