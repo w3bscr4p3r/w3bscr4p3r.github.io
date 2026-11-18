@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T19:11:41.639347+00:00",
+  "generated_at": "2026-11-18T18:51:56.241107+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 23,
+  "new_count": 22,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -27,7 +27,7 @@
     {
       "name": "KrebsOnSecurity",
       "status": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "SecurityWeek",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 2
+      "items": 5
     },
     {
       "name": "Google News — GRC",
@@ -52,54 +52,337 @@
   ],
   "items": [
     {
-      "id": "3b1765ae620625dca6f06497",
-      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+      "id": "249db6e8b00e8bb2429fc66e",
+      "title": "Cibersegurança corporativa em 2027 exige governança sobre agentes de inteligência artificial e criptografia quântica, avalia consultoria - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQay05Vm12c1BJcjhnSWJIY2tWLUVLdVFqNzJ6N3E5NVdSeF84NkdBME9kVjdWTFZaZHN5d3hKaVRramI3X3BJN2d6UkFTTHdBMDhrQVRjdHZaLWo0dkdfNFA2NGZZc0dxOFVRcjlRWU9CUE9sbkZXY1ZSS21VWU9hRi0wMEVNZkxzOEFEVUZxcVJqSGNBWk0zLWY4UUFHSkJlNlJldU1Db1k2VHpRcVJrcDd6QVl4MGxrcm1PR0p0RTVnaVFmWERGVG9iRTlDZzRWNkJpWEZldnBKYzNOb1lFTG9wN1I2VXdCQ2VfZmJpbDRIajVFNXQ5UWdR?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-18T13:35:18+00:00",
+      "collected_at": "2026-11-18T18:51:55.725840+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "governanca"
+      ],
+      "score": 48.95
+    },
+    {
+      "id": "87950b9279bc00c99b95f436",
+      "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
+      "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-17T10:22:20+00:00",
-      "collected_at": "2026-11-17T19:11:40.637453+00:00",
+      "published_at": "2026-11-18T07:43:34+00:00",
+      "collected_at": "2026-11-18T18:51:55.333044+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "risk",
+        "vulnerability"
+      ],
+      "score": 48.67
+    },
+    {
+      "id": "d98c97f196ca1ab84e81446f",
+      "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T10:37:08+00:00",
+      "collected_at": "2026-11-18T18:51:55.332204+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.29
+    },
+    {
+      "id": "4d1a488cbafd99bda319f581",
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T10:35:05+00:00",
+      "collected_at": "2026-11-18T18:51:55.029174+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit",
-        "malware",
         "vulnerability"
       ],
-      "score": 46.07
+      "score": 44.78
     },
     {
-      "id": "417eb3282bfe83dcaee29c7b",
-      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
-      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+      "id": "c2c1683b444f500bfa3b7e82",
+      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+      "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-17T14:55:30+00:00",
-      "collected_at": "2026-11-17T19:11:40.632722+00:00",
+      "published_at": "2026-11-18T13:33:47+00:00",
+      "collected_at": "2026-11-18T18:51:55.329610+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 44.84
+      "score": 44.44
     },
     {
-      "id": "07590c8d50dbb1820bd7175d",
-      "title": "Access Dental Management Data Breach Impacts Over 340,000",
-      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+      "id": "360ceb01c144f86538d816da",
+      "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+      "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-17T12:59:04+00:00",
-      "collected_at": "2026-11-17T19:11:40.635080+00:00",
+      "published_at": "2026-11-18T12:00:00+00:00",
+      "collected_at": "2026-11-18T18:51:55.330952+00:00",
+      "categories": [
+        "CISO"
+      ],
+      "tags": [
+        "ciso"
+      ],
+      "score": 43.83
+    },
+    {
+      "id": "ccc9b9f79a6b8b295e1c4cc8",
+      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T16:58:42+00:00",
+      "collected_at": "2026-11-18T18:51:55.027954+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.27
+    },
+    {
+      "id": "5514128121291326fe8a90a2",
+      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+      "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T15:30:42+00:00",
+      "collected_at": "2026-11-18T18:51:55.329140+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.7
+    },
+    {
+      "id": "bacc026080d934ecb1f4b37a",
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T15:00:10+00:00",
+      "collected_at": "2026-11-18T18:51:55.028383+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.5
+    },
+    {
+      "id": "d134ae9916a01f7475db05e4",
+      "title": "Grupo hacker ameaça divulgar supostos dados da Nvidia em 10 dias; empresa ainda não se pronunciou - Times Brasil | CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTDM4ejllbWs0d2pPSEo2Y09OS0R4X0ZNUVh5c1dOdFdxajdDa0FtSU1JazFabnhaOVJBbnJOWjc0SXp3RmZSdGwwM2FJU1FIaFF5ZnhzeGpCbV9acGIwWXlJRlBXUUtwUkZVc19OdnhaczBQeVlVTjlRRVN3R25hTWJoelA0VFRoaFFpZEdrd1BEcHZyUXA1TjdVT2FTTWRGRXlrXzhlQTludmlqY1hMSWFRWlAyT2tuYlNEeFFUUXM2eGZ6WUw2VWVNWEJ3Y1lPWTg2UHl1OUdZaFBq?oc=5",
+      "source": "Times Brasil | CNBC",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-18T15:14:00+00:00",
+      "collected_at": "2026-11-18T18:51:55.726344+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "breach"
+        "ameaca"
       ],
-      "score": 44.08
+      "score": 41.09
+    },
+    {
+      "id": "7a4ff7124c01039045d019a2",
+      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+      "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T13:19:32+00:00",
+      "collected_at": "2026-11-18T18:51:55.330056+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.85
+    },
+    {
+      "id": "9f61996627ae44c0c4d9893e",
+      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T12:14:23+00:00",
+      "collected_at": "2026-11-18T18:51:55.330483+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.42
+    },
+    {
+      "id": "8a2fc6fb4dd8a70241b03518",
+      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T11:50:25+00:00",
+      "collected_at": "2026-11-18T18:51:55.028769+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.27
+    },
+    {
+      "id": "00de3c424ef602b0245517fd",
+      "title": "Chrome 158 Patches 204 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T11:43:22+00:00",
+      "collected_at": "2026-11-18T18:51:55.331363+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.22
+    },
+    {
+      "id": "3feff58eaeefaca4c555a759",
+      "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+      "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T11:05:39+00:00",
+      "collected_at": "2026-11-18T18:51:55.331774+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.98
+    },
+    {
+      "id": "93584e07d9df637d2a104796",
+      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T09:24:31+00:00",
+      "collected_at": "2026-11-18T18:51:55.029549+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.32
+    },
+    {
+      "id": "909cfcec7d5afe8dfa06ec31",
+      "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+      "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-18T08:47:18+00:00",
+      "collected_at": "2026-11-18T18:51:55.332620+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.08
+    },
+    {
+      "id": "d0835f059161e82c7d305425",
+      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-18T08:24:18+00:00",
+      "collected_at": "2026-11-18T18:51:55.029932+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.93
+    },
+    {
+      "id": "8218bdf1b7e88407b75a1396",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "source": "KrebsOnSecurity",
+      "feed": "KrebsOnSecurity",
+      "published_at": "2026-11-18T02:52:04+00:00",
+      "collected_at": "2026-11-18T18:51:55.187414+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 38.28
+    },
+    {
+      "id": "cbdc51290635d00e3533b7a0",
+      "title": "Microsoft revela modelos de IA para programação e cibersegurança - CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWhZSDNpLTJRNDVRMWxQNUY5Y2M1TXNTZ2pQRW9GVnhMcWE0bFJMRHFNVlRJVjE1NTVjV3l3SUxoUWlkM0pOMFFyTFhobHh2V3ZyNlJ0RjNBanlEYXphZk54VVJKTF9fM2pZUm03elF6MW5aelBRaXMtUzRDaHg2czFmbGY0Wk9Ua0c5dGFDWHN4eHNFTUZoNW1QdnVibk5iN2RuTkZOM2cxQkJmaHhidUROUjFsMGRZUEp1RjlpcG9RTFFUd3NtN0hzSGhSQQ?oc=5",
+      "source": "CNN Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-18T07:10:12+00:00",
+      "collected_at": "2026-11-18T18:51:55.725386+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 37.95
+    },
+    {
+      "id": "6b5cd1aa2e5bbbbc1fe3508f",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T23:04:21+00:00",
+      "collected_at": "2026-11-18T18:51:55.030317+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 37.3
+    },
+    {
+      "id": "2084bd3cfdf77fc9bb99d47f",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-17T20:51:21+00:00",
+      "collected_at": "2026-11-18T18:51:55.031092+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 35.94
     },
     {
       "id": "7e1bbb5496eb79cd088d0925",
@@ -108,314 +391,32 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-17T18:04:15+00:00",
-      "collected_at": "2026-11-17T19:11:40.189807+00:00",
+      "collected_at": "2026-11-18T18:51:55.032206+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ddos"
       ],
-      "score": 44.06
+      "score": 34.86
     },
     {
-      "id": "cd0c2f43bf9cf61bab7d7ccf",
-      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T12:28:45+00:00",
-      "collected_at": "2026-11-17T19:11:40.636253+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 43.89
-    },
-    {
-      "id": "e84dd49fb16166da59ea7274",
-      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T15:01:11+00:00",
-      "collected_at": "2026-11-17T19:11:40.190856+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "phishing"
-      ],
-      "score": 42.88
-    },
-    {
-      "id": "a56519dd5b6de14f8deebfb8",
-      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T18:21:24+00:00",
-      "collected_at": "2026-11-17T19:11:40.189252+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.67
-    },
-    {
-      "id": "76e4e6ea9d4aa23c823c0436",
-      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
-      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T18:16:17+00:00",
-      "collected_at": "2026-11-17T19:11:40.632094+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.64
-    },
-    {
-      "id": "96d870ce4aba52460be8e3fe",
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T08:35:42+00:00",
-      "collected_at": "2026-11-17T19:11:40.192358+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 42.38
-    },
-    {
-      "id": "e164d115e934db8ab5296f12",
-      "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
-      "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T12:51:54+00:00",
-      "collected_at": "2026-11-17T19:11:40.635678+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 42.04
-    },
-    {
-      "id": "2cb4fd2bb450b273e552a356",
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T07:25:44+00:00",
-      "collected_at": "2026-11-17T19:11:40.192930+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 41.92
-    },
-    {
-      "id": "b37d92b676b5b4a6fe896f33",
-      "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
-      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T16:00:00+00:00",
-      "collected_at": "2026-11-17T19:11:40.190328+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.76
-    },
-    {
-      "id": "83874aa539a2b052cf8a423f",
-      "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
-      "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T14:14:24+00:00",
-      "collected_at": "2026-11-17T19:11:40.633333+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.07
-    },
-    {
-      "id": "6fe0ccba8732e6afedf6cdfd",
-      "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
-      "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T14:00:00+00:00",
-      "collected_at": "2026-11-17T19:11:40.633924+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.98
-    },
-    {
-      "id": "f601c19b8ee492f2461c9af1",
-      "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
-      "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T13:24:43+00:00",
-      "collected_at": "2026-11-17T19:11:40.634493+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.75
-    },
-    {
-      "id": "680ef5b53b4554a00b23a13d",
-      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-17T12:00:00+00:00",
-      "collected_at": "2026-11-17T19:11:40.636855+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.2
-    },
-    {
-      "id": "b992f673f0112daf21e026d0",
-      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T11:19:51+00:00",
-      "collected_at": "2026-11-17T19:11:40.191356+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.94
-    },
-    {
-      "id": "8156ffd0322b3600c9fb4d4e",
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T09:44:22+00:00",
-      "collected_at": "2026-11-17T19:11:40.191868+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.32
-    },
-    {
-      "id": "0c081682709ff05e96205960",
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-16T19:57:13+00:00",
-      "collected_at": "2026-11-17T19:11:40.195604+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "cyber"
-      ],
-      "score": 38.96
-    },
-    {
-      "id": "ff787d32a88b5851dfac51ab",
-      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-17T02:12:17+00:00",
-      "collected_at": "2026-11-17T19:11:40.193459+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 37.89
-    },
-    {
-      "id": "3f69dc53dd127ac873b5fb4e",
-      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-16T21:31:44+00:00",
-      "collected_at": "2026-11-17T19:11:40.194573+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "threat"
-      ],
-      "score": 36.07
-    },
-    {
-      "id": "8ba32c02a11a0d4517e62658",
-      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança - Itamaraju Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY3QwVnRKbGRJOVhjWldJejZvcC1jVkcyZWpuR1YzMmlOWUV0WlFJb1JtbGlCVmJYRG5Wd0d4OFFRakNiNmlhSi1qMXc3MmUzX1ZfcHBleHdNVkpWT3pxQmxZYUdVX1hlaXhZX1hhNE91SXUzT1Z1cFplOXlTS2c3N2JHempvdFRxcGxwTGJGdkRQYjMxTlVEb2tOa0NUOWRGLWhEMTZvdkJkMnFjajhxbUVCajhKTDdLR2YxdHhGQTE?oc=5",
-      "source": "Itamaraju Notícias",
+      "id": "09add86cc6c92a3d8243168e",
+      "title": "Autonomia de inteligência artificial e armas militares redefinem riscos de cibersegurança corporativa para 2027 - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa2FMV19xQjVtRkxVclQ5dHllWmNqZl9QdDZPSDFEMEhGcnRaek9EbG9jS0Zsa0pmVzBra1Y0Nk1DemtlWEx4YmVXMHFRYkNsYTdaWnJGVFdKcHBkV3NIcGRzc0JzQ0ZyOHhZY2RUMjdfenlGZEQ4eXhHdEZfT1dneTRtRHVBRHZHUGhLYTlxNXl2MG9SREZ3N0VIWEJZcnF4V0VFVXI2djFpNmFUaXpDUTVEWUVuUXBzUHA4bWg0Vzl6YTNINXVSM21tendpM2tUSXdzMlZ5VFJHUQ?oc=5",
+      "source": "Brasil Inovador",
       "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-16T21:38:08+00:00",
-      "collected_at": "2026-11-17T19:11:41.118099+00:00",
+      "published_at": "2026-11-16T19:05:07+00:00",
+      "collected_at": "2026-11-18T18:51:55.727405+00:00",
       "categories": [
-        "Cyber"
+        "Cyber",
+        "GRC"
       ],
       "tags": [
         "ciber",
-        "incidente"
+        "risco"
       ],
-      "score": 35.62
-    },
-    {
-      "id": "a2185938726a558bd76b3d5e",
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-16T22:54:00+00:00",
-      "collected_at": "2026-11-17T19:11:40.194007+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 35.11
-    },
-    {
-      "id": "bf993815c200dbc8c87889bf",
-      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-16T20:59:44+00:00",
-      "collected_at": "2026-11-17T19:11:40.195086+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 34.37
+      "score": 32.42
     }
   ]
 }
