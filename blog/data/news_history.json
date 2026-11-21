@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-20T18:37:32.282424+00:00",
+  "updated_at": "2026-11-21T17:33:44.851985+00:00",
   "items": [
+    {
+      "id": "473714e95d97213d7b378059",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-21T15:17:27+00:00",
+      "collected_at": "2026-11-21T17:33:43.509218+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "botnet"
+      ],
+      "score": 43.62
+    },
+    {
+      "id": "147a1575937569c45b1220d1",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-21T14:26:04+00:00",
+      "collected_at": "2026-11-21T17:33:43.509732+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.78
+    },
+    {
+      "id": "863423ce7393c8c3ac039b2e",
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-21T12:08:50+00:00",
+      "collected_at": "2026-11-21T17:33:43.812223+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 47.89
+    },
+    {
+      "id": "16da546560bffd64337cded9",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "KrebsOnSecurity",
+      "feed": "KrebsOnSecurity",
+      "published_at": "2026-11-21T00:36:39+00:00",
+      "collected_at": "2026-11-21T17:33:43.721099+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 39.91
+    },
+    {
+      "id": "6ac529efa2234a80758b55c6",
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-20T18:51:43+00:00",
+      "collected_at": "2026-11-21T17:33:43.510235+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.17
+    },
     {
       "id": "f6d639cc93d206f9f6b8641a",
       "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
@@ -227,6 +304,22 @@
       ],
       "tags": [],
       "score": 40.71
+    },
+    {
+      "id": "9fea0276f26b83c47b5c2ea3",
+      "title": "Casa Branca demite diretor de cibersegurança após falhas nos EUA - TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHNFbUs4UmxlSHllTEZxM3FyY2YtSVU4a3czdmFmaVU0Tzg5aElSUzUtX0pRb2dNLVU5Z1VKSkRYTU9kc1RKaG8tSy1JelJiR1paRHZhdDRWcVJJSXF1WHpqLU1FSWxJVjROWkFVZ2xjMWxtbzRPTTVMb0pCdC1IWFc0SXlRLXFWcnd1cmVNbnd0Yk5URFdYdGlXTlc3OEh6R3BJQXFYaDJlNnk1aWs4aXZaQXlwdw?oc=5",
+      "source": "TV Sim Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-20T03:44:44+00:00",
+      "collected_at": "2026-11-21T17:33:44.247425+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 27.79
     },
     {
       "id": "64bddef7e04910d7783eb12b",
@@ -9079,99 +9172,6 @@
       ],
       "tags": [],
       "score": 40.0
-    },
-    {
-      "id": "6b164b9497e9dad3cbf4382a",
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-16T07:37:35+00:00",
-      "collected_at": "2026-10-16T15:38:06.703531+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 41.39
-    },
-    {
-      "id": "9409f8b44cf432d0577953b8",
-      "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
-      "url": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-16T07:12:51+00:00",
-      "collected_at": "2026-10-16T15:38:07.200913+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.73
-    },
-    {
-      "id": "ac3068584dac1871fc0cf9e1",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-16T06:18:08+00:00",
-      "collected_at": "2026-10-16T15:38:06.704205+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 46.37
-    },
-    {
-      "id": "c9eead69184d91c38f78f026",
-      "title": "CISA alerta para exploração de zero-day no Ivanti",
-      "url": "https://www.cisoadvisor.com.br/cisa-alerta-para-exploracao-de-zero-day-no-ivanti/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:36:40+00:00",
-      "collected_at": "2026-10-16T15:38:06.472813+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 41.49
-    },
-    {
-      "id": "0e45ef798b51073b7d0c42b3",
-      "title": "Falhas no Citrix XenServer ameaçam sistemas host",
-      "url": "https://www.cisoadvisor.com.br/falhas-no-citrix-xenserver-ameacam-sistemas-host/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:27:58+00:00",
-      "collected_at": "2026-10-16T15:38:06.473749+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ameaca"
-      ],
-      "score": 39.43
-    },
-    {
-      "id": "184b6c9252403baaec8babe8",
-      "title": "Proofpoint adquire Varonis por US$ 6,3 bilhões",
-      "url": "https://www.cisoadvisor.com.br/proofpoint-adquire-varonis-por-us-63-bilhoes/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-15T21:20:57+00:00",
-      "collected_at": "2026-10-16T15:38:06.474614+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 37.89
     }
   ]
 }

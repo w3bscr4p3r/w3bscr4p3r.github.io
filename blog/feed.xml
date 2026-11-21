@@ -4,8 +4,38 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Fri, 20 Nov 2026 18:37:32 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 17:33:45 +0000</lastBuildDate>
 <item>
+<title>BADBOX botnet returns with record-breaking 40 billion daily ad requests</title>
+<link>https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/</link>
+<guid isPermaLink="false">473714e95d97213d7b378059</guid>
+<pubDate>Sat, 21 Nov 2026 15:17:27 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>FBI reportedly hacked again, this time targeting nationwide police database</title>
+<link>https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/</link>
+<guid isPermaLink="false">147a1575937569c45b1220d1</guid>
+<pubDate>Sat, 21 Nov 2026 14:26:04 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day</title>
+<link>https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/</link>
+<guid isPermaLink="false">863423ce7393c8c3ac039b2e</guid>
+<pubDate>Sat, 21 Nov 2026 12:08:50 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>CTO of ‘RansomwareHelp’ Indicted for Wire Fraud</title>
+<link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
+<guid isPermaLink="false">16da546560bffd64337cded9</guid>
+<pubDate>Sat, 21 Nov 2026 00:36:39 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: KrebsOnSecurity.</description>
+</item><item>
+<title>Bell Canada says &#x27;agentic&#x27; hacker stole enterprise customer data</title>
+<link>https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/</link>
+<guid isPermaLink="false">6ac529efa2234a80758b55c6</guid>
+<pubDate>Fri, 20 Nov 2026 18:51:43 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
 <link>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</link>
 <guid isPermaLink="false">f6d639cc93d206f9f6b8641a</guid>
@@ -95,6 +125,12 @@
 <guid isPermaLink="false">92881561e7b73f2b1f391ce4</guid>
 <pubDate>Fri, 20 Nov 2026 07:35:46 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Casa Branca demite diretor de cibersegurança após falhas nos EUA - TV Sim Brasil</title>
+<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHNFbUs4UmxlSHllTEZxM3FyY2YtSVU4a3czdmFmaVU0Tzg5aElSUzUtX0pRb2dNLVU5Z1VKSkRYTU9kc1RKaG8tSy1JelJiR1paRHZhdDRWcVJJSXF1WHpqLU1FSWxJVjROWkFVZ2xjMWxtbzRPTTVMb0pCdC1IWFc0SXlRLXFWcnd1cmVNbnd0Yk5URFdYdGlXTlc3OEh6R3BJQXFYaDJlNnk1aWs4aXZaQXlwdw?oc=5</link>
+<guid isPermaLink="false">9fea0276f26b83c47b5c2ea3</guid>
+<pubDate>Fri, 20 Nov 2026 03:44:44 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: TV Sim Brasil.</description>
 </item><item>
 <title>VMware patches vCenter zero-day exploited in attacks since September</title>
 <link>https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/</link>
@@ -208,42 +244,6 @@
 <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/</link>
 <guid isPermaLink="false">cb6619b8a50a3ca8bf4cf48a</guid>
 <pubDate>Thu, 19 Nov 2026 10:35:05 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public</title>
-<link>https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/</link>
-<guid isPermaLink="false">eaff3bbc5479d2018b63fa67</guid>
-<pubDate>Thu, 19 Nov 2026 10:26:51 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>NVIDIA investigating Gentlemen ransomware breach claims</title>
-<link>https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/</link>
-<guid isPermaLink="false">8b8e5c9bdc14417fe66d477b</guid>
-<pubDate>Thu, 19 Nov 2026 09:23:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories</title>
-<link>https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/</link>
-<guid isPermaLink="false">903c8177bfd947130e241955</guid>
-<pubDate>Thu, 19 Nov 2026 09:10:58 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>PHP Readies Critical Security Updates to Patch Another RCE Flaw</title>
-<link>https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/</link>
-<guid isPermaLink="false">afa6a4d7e406c3354d09118e</guid>
-<pubDate>Thu, 19 Nov 2026 07:45:17 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Microsoft expande ecossistema do Copilot e introduz arquitetura agêntica para cibersegurança corporativa - Brasil Inovador</title>
-<link>https://news.google.com/rss/articles/CBMi0AFBVV95cUxQazNlc043MEpYT0lVbU5QVUZBSkw2Q0NBbGR1clg2MkpJc2VhVjNraExFWVQ3TjYtQW1OZUdpeTQ3SkY0SklTLTIyUlpvNWh4cm5fUDJ2LUt5R2hzWWNwYVJoLUJFU18xWG9WakNXOWxOZHZDX0RwRlFkLVpneEhDX3M5VkpIUEdBMC11emxLVnV3QWZSUjVweHkxQk53RTlEdkZRZVBNd2VXenZOZndSV0hIVzJxZmZQeU1iNEFxQ3cwekhlZkE2eU90MFM1WEVy?oc=5</link>
-<guid isPermaLink="false">e543f1a02cbae443281c5cb3</guid>
-<pubDate>Thu, 19 Nov 2026 06:55:06 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Brasil Inovador.</description>
-</item><item>
-<title>Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms</title>
-<link>https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/</link>
-<guid isPermaLink="false">7da6a148cf91e3320b1fe05a</guid>
-<pubDate>Wed, 18 Nov 2026 23:08:33 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
 </item>
 </channel></rss>
