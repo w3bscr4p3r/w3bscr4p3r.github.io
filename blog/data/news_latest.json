@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T17:33:44.851985+00:00",
+  "generated_at": "2026-11-22T17:50:06.352079+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 6,
+  "new_count": 9,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 3
+      "items": 5
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,93 @@
   ],
   "items": [
     {
+      "id": "920f4499caefc33c050c5142",
+      "title": "Avanço da IA pode ampliar riscos à cibersegurança, afirma especialista - BossaNews Brasil",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWtuVWF2MjFEVl9VUDFPMFF3VDVmQnZKbWNoSU5VMUw1eGhIanZqQlhaclk5NkFnZXkzYkNQTzdwaGRuMEdiMlJWVW1DQ21RVXh0NC00aEJLTk1hX3V2aG8wOWRjZDVDS1dxcFdsczAtWW1lZXF2eEdTVW9LQWdsaXJpUjlrRVlCUERvc2poOU9yTzFCV3RFOEtVZG5Sdw?oc=5",
+      "source": "BossaNews Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-22T14:09:36+00:00",
+      "collected_at": "2026-11-22T17:50:05.839392+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "risco"
+      ],
+      "score": 49.57
+    },
+    {
+      "id": "d1f50f2f3ea06d8cbdf6e412",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-22T15:43:04+00:00",
+      "collected_at": "2026-11-22T17:50:05.111906+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 45.68
+    },
+    {
+      "id": "fc0b22c4d18376beae545af8",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-22T15:15:25+00:00",
+      "collected_at": "2026-11-22T17:50:05.112452+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.0
+    },
+    {
+      "id": "cde729e16d8fa929ee65a232",
+      "title": "Brasil e Índia avançam em acordo para combater crimes com criptomoedas, ransomware e dark web - BitNotícias",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTDMwdGJWMWFSLUlnUG9YZk9NTWlvRUJxX2hGRzE1MEhrekJxVWM3eWtQRmhxR2sxY0UyMG1HMjlkd3paQzM4Z3FqSFZwX1NTSHpueHZFLWp1ang5ZDk3Nk5uSi0tOWlmVHhDa2tXYVoxY0lmT2tWdldVSk9qN3Y4bXZGVHFWNEx2emlNMHZVMA?oc=5",
+      "source": "BitNotícias",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-22T10:00:50+00:00",
+      "collected_at": "2026-11-22T17:50:05.830926+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 41.46
+    },
+    {
+      "id": "7aa2a83b386cec09916365cc",
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-21T22:59:58+00:00",
+      "collected_at": "2026-11-22T17:50:05.112986+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 39.18
+    },
+    {
       "id": "863423ce7393c8c3ac039b2e",
       "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
       "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-21T12:08:50+00:00",
-      "collected_at": "2026-11-21T17:33:43.812223+00:00",
+      "collected_at": "2026-11-22T17:50:05.353730+00:00",
       "categories": [
         "Cyber"
       ],
@@ -66,7 +146,37 @@
         "exploit",
         "zero-day"
       ],
-      "score": 47.89
+      "score": 38.45
+    },
+    {
+      "id": "c7ef7cf533892a4b96193d98",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-21T18:01:58+00:00",
+      "collected_at": "2026-11-22T17:50:05.113482+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 37.24
+    },
+    {
+      "id": "d691c6b598472e920671e30c",
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-22T00:53:02+00:00",
+      "collected_at": "2026-11-22T17:50:05.352502+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 36.41
     },
     {
       "id": "473714e95d97213d7b378059",
@@ -75,14 +185,30 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-21T15:17:27+00:00",
-      "collected_at": "2026-11-21T17:33:43.509218+00:00",
+      "collected_at": "2026-11-22T17:50:05.113996+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "botnet"
       ],
-      "score": 43.62
+      "score": 34.18
+    },
+    {
+      "id": "b4c8192dcc025e6d12e712b0",
+      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-21T13:00:00+00:00",
+      "collected_at": "2026-11-22T17:50:05.353128+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 33.29
     },
     {
       "id": "147a1575937569c45b1220d1",
@@ -91,12 +217,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-21T14:26:04+00:00",
-      "collected_at": "2026-11-21T17:33:43.509732+00:00",
+      "collected_at": "2026-11-22T17:50:05.114487+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 41.78
+      "score": 32.34
     },
     {
       "id": "16da546560bffd64337cded9",
@@ -105,14 +231,30 @@
       "source": "KrebsOnSecurity",
       "feed": "KrebsOnSecurity",
       "published_at": "2026-11-21T00:36:39+00:00",
-      "collected_at": "2026-11-21T17:33:43.721099+00:00",
+      "collected_at": "2026-11-22T17:50:05.262257+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "ransomware"
       ],
-      "score": 39.91
+      "score": 30.47
+    },
+    {
+      "id": "533ac7a1f4b6bf28f782072a",
+      "title": "Avanço da robótica industrial no Brasil exige nova abordagem de segurança e cibersegurança fabril - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmxOSWZTZm5UQTIxUllBckRNZnB1Vml2N0piT3hua0RfZDk0elh4bE9JcXRmSWxqOF9KdEZ2Qy12TG5Ic281YjRRY2VWWXV3QlVRZTN4c0JvSmo3MXN5ejVyRnlnOEpidEhsODM4OTRQWmpVcXlrQlVENFF1Y3BWUWhoaUZFRTJqNGtKNnNTQTdsV3doZUUwYWZ6X2M5V01YbEt2N0JidTdEYnVCdldLbkM3blhSQ1Zxd0QtcUNLVVA0aXFjQ3RR?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-21T08:35:09+00:00",
+      "collected_at": "2026-11-22T17:50:05.832195+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 29.57
     },
     {
       "id": "3cab1e1eb3c242ec7d7a9f50",
@@ -121,7 +263,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-20T14:56:23+00:00",
-      "collected_at": "2026-11-21T17:33:43.813351+00:00",
+      "collected_at": "2026-11-22T17:50:05.354887+00:00",
       "categories": [
         "Cyber"
       ],
@@ -129,7 +271,7 @@
         "cyber",
         "exploit"
       ],
-      "score": 37.65
+      "score": 28.21
     },
     {
       "id": "f6d639cc93d206f9f6b8641a",
@@ -138,14 +280,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T17:30:00+00:00",
-      "collected_at": "2026-11-21T17:33:43.510696+00:00",
+      "collected_at": "2026-11-22T17:50:05.115487+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 37.14
+      "score": 27.7
     },
     {
       "id": "cef10f9850b40a5f5b59be7f",
@@ -154,14 +296,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T15:58:06+00:00",
-      "collected_at": "2026-11-21T17:33:43.511169+00:00",
+      "collected_at": "2026-11-22T17:50:05.115985+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 36.55
+      "score": 27.11
     },
     {
       "id": "0b522444b33942aa92e18de4",
@@ -170,14 +312,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T13:18:36+00:00",
-      "collected_at": "2026-11-21T17:33:43.512113+00:00",
+      "collected_at": "2026-11-22T17:50:05.117002+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 35.51
+      "score": 26.07
     },
     {
       "id": "263cb711f0afdbd75e21e2e1",
@@ -186,14 +328,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-20T11:36:51+00:00",
-      "collected_at": "2026-11-21T17:33:43.814420+00:00",
+      "collected_at": "2026-11-22T17:50:05.356033+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 34.85
+      "score": 25.41
     },
     {
       "id": "6ac529efa2234a80758b55c6",
@@ -202,12 +344,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T18:51:43+00:00",
-      "collected_at": "2026-11-21T17:33:43.510235+00:00",
+      "collected_at": "2026-11-22T17:50:05.114999+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 34.17
+      "score": 24.73
     },
     {
       "id": "64bddef7e04910d7783eb12b",
@@ -216,7 +358,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T00:26:25+00:00",
-      "collected_at": "2026-11-21T17:33:43.513928+00:00",
+      "collected_at": "2026-11-22T17:50:05.118943+00:00",
       "categories": [
         "Cyber"
       ],
@@ -224,7 +366,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 34.01
+      "score": 24.57
     },
     {
       "id": "b49286d4f547ad7fc6780306",
@@ -233,12 +375,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T10:57:43+00:00",
-      "collected_at": "2026-11-21T17:33:43.513021+00:00",
+      "collected_at": "2026-11-22T17:50:05.117981+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.1
+      "score": 23.66
     },
     {
       "id": "c59ca03d2c8e2f57b0293c93",
@@ -247,12 +389,12 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-20T16:01:02+00:00",
-      "collected_at": "2026-11-21T17:33:43.812786+00:00",
+      "collected_at": "2026-11-22T17:50:05.354306+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 33.07
+      "score": 23.63
     },
     {
       "id": "8eaed8f6ce3b594fa4fb870b",
@@ -261,12 +403,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-20T15:00:10+00:00",
-      "collected_at": "2026-11-21T17:33:43.511638+00:00",
+      "collected_at": "2026-11-22T17:50:05.116490+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 32.67
+      "score": 23.23
     },
     {
       "id": "04138c9d0e0e052b7e3dfc9d",
@@ -275,151 +417,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-20T10:51:42+00:00",
-      "collected_at": "2026-11-21T17:33:43.814945+00:00",
+      "collected_at": "2026-11-22T17:50:05.356598+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 32.56
-    },
-    {
-      "id": "beff9445c2d13521292bbbb2",
-      "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-      "url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T10:34:10+00:00",
-      "collected_at": "2026-11-21T17:33:43.815482+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerability"
-      ],
-      "score": 32.45
-    },
-    {
-      "id": "fa06ac44a3c1d09182340448",
-      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-19T19:21:06+00:00",
-      "collected_at": "2026-11-21T17:33:43.817120+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 32.03
-    },
-    {
-      "id": "a2888813ece759bceb53eaff",
-      "title": "N-able Blames Service Disruption on Cyberattack",
-      "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T09:08:35+00:00",
-      "collected_at": "2026-11-21T17:33:43.816005+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 31.89
-    },
-    {
-      "id": "92881561e7b73f2b1f391ce4",
-      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-      "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T07:35:46+00:00",
-      "collected_at": "2026-11-21T17:33:43.816548+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.79
-    },
-    {
-      "id": "b1481991d708f94504447a8c",
-      "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
-      "url": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T12:38:55+00:00",
-      "collected_at": "2026-11-21T17:33:43.813890+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.76
-    },
-    {
-      "id": "71d2d9ee634345ab34a24e55",
-      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T12:14:28+00:00",
-      "collected_at": "2026-11-21T17:33:43.512575+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 31.6
-    },
-    {
-      "id": "61dfcc8a42e7cedebac67314",
-      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T09:25:35+00:00",
-      "collected_at": "2026-11-21T17:33:43.513480+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 30.5
-    },
-    {
-      "id": "2eb66bac1fb6362230fd85ce",
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-19T18:20:01+00:00",
-      "collected_at": "2026-11-21T17:33:43.515300+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 28.13
-    },
-    {
-      "id": "9fea0276f26b83c47b5c2ea3",
-      "title": "Casa Branca demite diretor de cibersegurança após falhas nos EUA - TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHNFbUs4UmxlSHllTEZxM3FyY2YtSVU4a3czdmFmaVU0Tzg5aElSUzUtX0pRb2dNLVU5Z1VKSkRYTU9kc1RKaG8tSy1JelJiR1paRHZhdDRWcVJJSXF1WHpqLU1FSWxJVjROWkFVZ2xjMWxtbzRPTTVMb0pCdC1IWFc0SXlRLXFWcnd1cmVNbnd0Yk5URFdYdGlXTlc3OEh6R3BJQXFYaDJlNnk1aWs4aXZaQXlwdw?oc=5",
-      "source": "TV Sim Brasil",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-20T03:44:44+00:00",
-      "collected_at": "2026-11-21T17:33:44.247425+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 27.79
+      "score": 23.12
     }
   ]
 }
