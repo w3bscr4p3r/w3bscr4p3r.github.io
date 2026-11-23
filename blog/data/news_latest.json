@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T17:50:06.352079+00:00",
+  "generated_at": "2026-11-23T22:03:27.061468+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 9,
+  "new_count": 22,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,267 @@
   ],
   "items": [
     {
-      "id": "920f4499caefc33c050c5142",
+      "id": "2269e27ce9fa94fa1cacd025",
+      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T20:54:51+00:00",
+      "collected_at": "2026-11-23T22:03:25.674329+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 46.06
+    },
+    {
+      "id": "65a994954f28297da0a2ec93",
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T19:42:20+00:00",
+      "collected_at": "2026-11-23T22:03:25.675465+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.59
+    },
+    {
+      "id": "8119de68e7292d1717ec0a53",
+      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T15:47:40+00:00",
+      "collected_at": "2026-11-23T22:03:25.950463+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 44.06
+    },
+    {
+      "id": "964a1db8849574a5ed0a5d3b",
+      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T15:06:49+00:00",
+      "collected_at": "2026-11-23T22:03:25.951107+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.8
+    },
+    {
+      "id": "8c37ff4c8bb3b0dd4de790e7",
+      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T18:38:40+00:00",
+      "collected_at": "2026-11-23T22:03:25.676018+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "soc"
+      ],
+      "score": 43.17
+    },
+    {
+      "id": "bd15f5a02c00a5fae62c6709",
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T07:44:19+00:00",
+      "collected_at": "2026-11-23T22:03:25.679210+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 42.93
+    },
+    {
+      "id": "3b5d53441c3a8bf5c29b3139",
+      "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T11:35:15+00:00",
+      "collected_at": "2026-11-23T22:03:25.954240+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 42.43
+    },
+    {
+      "id": "9dc921dd9d74c5e632839337",
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T20:00:20+00:00",
+      "collected_at": "2026-11-23T22:03:25.674921+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.2
+    },
+    {
+      "id": "25e69c8f5cd92eb904da2e4b",
+      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+      "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T13:58:07+00:00",
+      "collected_at": "2026-11-23T22:03:25.951745+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "vulnerability"
+      ],
+      "score": 41.35
+    },
+    {
+      "id": "a2d1f37d2b4cce125dfb6b5a",
+      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T16:50:01+00:00",
+      "collected_at": "2026-11-23T22:03:25.676563+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.97
+    },
+    {
+      "id": "ab5a50f6000bf08d48fad1c0",
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T15:00:10+00:00",
+      "collected_at": "2026-11-23T22:03:25.677095+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.26
+    },
+    {
+      "id": "e4e81ed41660e19af1910c7a",
+      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T13:28:45+00:00",
+      "collected_at": "2026-11-23T22:03:25.677623+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.66
+    },
+    {
+      "id": "be192fa235e63486b74ea4d5",
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T13:26:22+00:00",
+      "collected_at": "2026-11-23T22:03:25.952390+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.65
+    },
+    {
+      "id": "11198da5b9115165130a2466",
+      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T12:16:20+00:00",
+      "collected_at": "2026-11-23T22:03:25.953012+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.19
+    },
+    {
+      "id": "d4883ba61ecbb9888bb9bb80",
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T12:02:23+00:00",
+      "collected_at": "2026-11-23T22:03:25.678159+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.1
+    },
+    {
+      "id": "e687538e8f5effea91973fa4",
+      "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+      "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T11:44:18+00:00",
+      "collected_at": "2026-11-23T22:03:25.953625+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.99
+    },
+    {
+      "id": "7a4e477cbf61e3d1a825e345",
+      "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
+      "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-23T11:31:44+00:00",
+      "collected_at": "2026-11-23T22:03:25.954857+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.91
+    },
+    {
+      "id": "328ea96d1c905f9dc29e2509",
       "title": "Avanço da IA pode ampliar riscos à cibersegurança, afirma especialista - BossaNews Brasil",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWtuVWF2MjFEVl9VUDFPMFF3VDVmQnZKbWNoSU5VMUw1eGhIanZqQlhaclk5NkFnZXkzYkNQTzdwaGRuMEdiMlJWVW1DQ21RVXh0NC00aEJLTk1hX3V2aG8wOWRjZDVDS1dxcFdsczAtWW1lZXF2eEdTVW9LQWdsaXJpUjlrRVlCUERvc2poOU9yTzFCV3RFOEtVZG5Sdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYWFfeTY2U19OREtJSGF6LWljcS1HbnRCNFNzT2R5TGgyOGQwV1lETHhnYVduQkxFcU1vZzZZdnpXN0hHTmZEUlhsMXJNcV9EdFRJZmVDcnU0bTZvMldHZlB0bEUtSlVBcFdGem1SaERMMl9DdnlxZEdIUXhKNW1raWpCUU1ET3pZNnVDb081QVhPcE0xdUo1SkJ4MA?oc=5",
       "source": "BossaNews Brasil",
       "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-22T14:09:36+00:00",
-      "collected_at": "2026-11-22T17:50:05.839392+00:00",
+      "published_at": "2026-11-22T14:09:28+00:00",
+      "collected_at": "2026-11-23T22:03:26.417026+00:00",
       "categories": [
         "Cyber",
         "GRC"
@@ -67,7 +321,53 @@
         "ciber",
         "risco"
       ],
-      "score": 49.57
+      "score": 38.59
+    },
+    {
+      "id": "5614bdac096e2c23cec3a521",
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-23T09:11:15+00:00",
+      "collected_at": "2026-11-23T22:03:25.678680+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.0
+    },
+    {
+      "id": "87608feb73a75fe59556a9e5",
+      "title": "MercTech estreia no Brasil e destaca cibersegurança como prioridade para o futuro do controle de acesso - Revista Segurança Eletrônica",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd0Z0WFl4ZlRNd0lfdnp6Nm5RdHdYWGhHeGxLUmJEVFpRN1hGaXpMX2syNEl2emVWYTBmSDRhMDZrZjE5dVRWNlZIVXBhQ1VBTnJnaThwYlFGdkdvLUpKamszN2VBM24xSFA3VXJhRjdKREgwdktJYmJrZ2lTclFlTmNuVVFfNVB6N0lDWDRGbnc2RVVhNkJXTTNKaHQ5YTRRWWpLTjZDaWx0a21DVFhfbWM2eXgzUlA5ekE3SHBZR0VaMUN5MDZ5LVczUzVCdTcxYzlpa3R6U0RyU1lXc3Jr?oc=5",
+      "source": "Revista Segurança Eletrônica",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-23T08:00:24+00:00",
+      "collected_at": "2026-11-23T22:03:26.408526+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 37.04
+    },
+    {
+      "id": "e8f712fb9b7386e92fa2ef67",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-22T18:45:37+00:00",
+      "collected_at": "2026-11-23T22:03:25.679738+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 35.88
     },
     {
       "id": "d1f50f2f3ea06d8cbdf6e412",
@@ -76,14 +376,31 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-22T15:43:04+00:00",
-      "collected_at": "2026-11-22T17:50:05.111906+00:00",
+      "collected_at": "2026-11-23T22:03:25.680272+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.68
+      "score": 34.7
+    },
+    {
+      "id": "0faec5c929a9cbdde2be19e2",
+      "title": "Adoção de inteligência artificial na cibersegurança reduz custo de violações mas eleva superfícies de ataque - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTW8zcDQyanV2M2xIQnFzcTNRYVFfYWFnMEhHTmZDdlgtckdsU1JBQ3pLdXF0cmR3b0hwNDhMZDVQSnI2bGEtdWhvb1VMaFlkRV9UM3JySk5kQ1N4Yk1TZzFkdC1nT1dYbEFqajlxWjhkdll0a0tqM2dCM2YtWDBWZVpxbldJN2pZWU9VWGNSenc2RDdiQWRYU0JOTk95T2p0MFVGamU4WUxyYWFCdnR1TGdiY1RnYXlqTzJKcGFxbGp4WG0wVVpoT0ZMWll6M0thaWhkNUpB?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-22T19:30:12+00:00",
+      "collected_at": "2026-11-23T22:03:26.409306+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ciber"
+      ],
+      "score": 33.67
     },
     {
       "id": "fc0b22c4d18376beae545af8",
@@ -92,339 +409,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-22T15:15:25+00:00",
-      "collected_at": "2026-11-22T17:50:05.112452+00:00",
+      "collected_at": "2026-11-23T22:03:25.680796+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.0
-    },
-    {
-      "id": "cde729e16d8fa929ee65a232",
-      "title": "Brasil e Índia avançam em acordo para combater crimes com criptomoedas, ransomware e dark web - BitNotícias",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTDMwdGJWMWFSLUlnUG9YZk9NTWlvRUJxX2hGRzE1MEhrekJxVWM3eWtQRmhxR2sxY0UyMG1HMjlkd3paQzM4Z3FqSFZwX1NTSHpueHZFLWp1ang5ZDk3Nk5uSi0tOWlmVHhDa2tXYVoxY0lmT2tWdldVSk9qN3Y4bXZGVHFWNEx2emlNMHZVMA?oc=5",
-      "source": "BitNotícias",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-22T10:00:50+00:00",
-      "collected_at": "2026-11-22T17:50:05.830926+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 41.46
-    },
-    {
-      "id": "7aa2a83b386cec09916365cc",
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-21T22:59:58+00:00",
-      "collected_at": "2026-11-22T17:50:05.112986+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 39.18
-    },
-    {
-      "id": "863423ce7393c8c3ac039b2e",
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-21T12:08:50+00:00",
-      "collected_at": "2026-11-22T17:50:05.353730+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 38.45
-    },
-    {
-      "id": "c7ef7cf533892a4b96193d98",
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-21T18:01:58+00:00",
-      "collected_at": "2026-11-22T17:50:05.113482+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 37.24
-    },
-    {
-      "id": "d691c6b598472e920671e30c",
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-22T00:53:02+00:00",
-      "collected_at": "2026-11-22T17:50:05.352502+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 36.41
-    },
-    {
-      "id": "473714e95d97213d7b378059",
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-21T15:17:27+00:00",
-      "collected_at": "2026-11-22T17:50:05.113996+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "botnet"
-      ],
-      "score": 34.18
-    },
-    {
-      "id": "b4c8192dcc025e6d12e712b0",
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-21T13:00:00+00:00",
-      "collected_at": "2026-11-22T17:50:05.353128+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 33.29
-    },
-    {
-      "id": "147a1575937569c45b1220d1",
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-21T14:26:04+00:00",
-      "collected_at": "2026-11-22T17:50:05.114487+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.34
-    },
-    {
-      "id": "16da546560bffd64337cded9",
-      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-      "source": "KrebsOnSecurity",
-      "feed": "KrebsOnSecurity",
-      "published_at": "2026-11-21T00:36:39+00:00",
-      "collected_at": "2026-11-22T17:50:05.262257+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ransomware"
-      ],
-      "score": 30.47
-    },
-    {
-      "id": "533ac7a1f4b6bf28f782072a",
-      "title": "Avanço da robótica industrial no Brasil exige nova abordagem de segurança e cibersegurança fabril - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmxOSWZTZm5UQTIxUllBckRNZnB1Vml2N0piT3hua0RfZDk0elh4bE9JcXRmSWxqOF9KdEZ2Qy12TG5Ic281YjRRY2VWWXV3QlVRZTN4c0JvSmo3MXN5ejVyRnlnOEpidEhsODM4OTRQWmpVcXlrQlVENFF1Y3BWUWhoaUZFRTJqNGtKNnNTQTdsV3doZUUwYWZ6X2M5V01YbEt2N0JidTdEYnVCdldLbkM3blhSQ1Zxd0QtcUNLVVA0aXFjQ3RR?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-21T08:35:09+00:00",
-      "collected_at": "2026-11-22T17:50:05.832195+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 29.57
-    },
-    {
-      "id": "3cab1e1eb3c242ec7d7a9f50",
-      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
-      "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T14:56:23+00:00",
-      "collected_at": "2026-11-22T17:50:05.354887+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber",
-        "exploit"
-      ],
-      "score": 28.21
-    },
-    {
-      "id": "f6d639cc93d206f9f6b8641a",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T17:30:00+00:00",
-      "collected_at": "2026-11-22T17:50:05.115487+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "zero-day"
-      ],
-      "score": 27.7
-    },
-    {
-      "id": "cef10f9850b40a5f5b59be7f",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T15:58:06+00:00",
-      "collected_at": "2026-11-22T17:50:05.115985+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 27.11
-    },
-    {
-      "id": "0b522444b33942aa92e18de4",
-      "title": "N-able says recent security breach led to major service outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T13:18:36+00:00",
-      "collected_at": "2026-11-22T17:50:05.117002+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 26.07
-    },
-    {
-      "id": "263cb711f0afdbd75e21e2e1",
-      "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
-      "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T11:36:51+00:00",
-      "collected_at": "2026-11-22T17:50:05.356033+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 25.41
-    },
-    {
-      "id": "6ac529efa2234a80758b55c6",
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T18:51:43+00:00",
-      "collected_at": "2026-11-22T17:50:05.114999+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 24.73
-    },
-    {
-      "id": "64bddef7e04910d7783eb12b",
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T00:26:25+00:00",
-      "collected_at": "2026-11-22T17:50:05.118943+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "zero-day"
-      ],
-      "score": 24.57
-    },
-    {
-      "id": "b49286d4f547ad7fc6780306",
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T10:57:43+00:00",
-      "collected_at": "2026-11-22T17:50:05.117981+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.66
-    },
-    {
-      "id": "c59ca03d2c8e2f57b0293c93",
-      "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
-      "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T16:01:02+00:00",
-      "collected_at": "2026-11-22T17:50:05.354306+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.63
-    },
-    {
-      "id": "8eaed8f6ce3b594fa4fb870b",
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-20T15:00:10+00:00",
-      "collected_at": "2026-11-22T17:50:05.116490+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 23.23
-    },
-    {
-      "id": "04138c9d0e0e052b7e3dfc9d",
-      "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-      "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-20T10:51:42+00:00",
-      "collected_at": "2026-11-22T17:50:05.356598+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 23.12
+      "score": 31.02
     }
   ]
 }
