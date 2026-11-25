@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T20:39:59.968803+00:00",
+  "generated_at": "2026-11-25T19:57:06.241278+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 21,
+  "new_count": 22,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 5
+      "items": 7
     },
     {
       "name": "Google News — GRC",
@@ -52,31 +52,282 @@
   ],
   "items": [
     {
-      "id": "021717239c0bb6237d5fa44b",
-      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-      "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T15:01:11+00:00",
-      "collected_at": "2026-11-24T20:39:58.556798+00:00",
+      "id": "0b4c492bf74aca6501c9ac7f",
+      "title": "Cibersegurança e Inteligência Artificial: Não existe soberania sem orçamento - ConvergenciaDigital",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW9mbU8wQ3VlQkh5SXBoa05wV3lTY0wtdHFYTjFfMDBwUExQN3JsSEZ5MHA0U2NlZnRMVGE3ajYxS2RLall2X05YSUZBeUY5cko0d3N6WUJ2Mnk1VzdHbkNLUTk1S0FYcVNmT1I5SnlqQ3F4YXFRS2ZXQ1dXRkNTMW51VXRCX1dHUXdfX05hQmxQcEV4T2FZbm9lcXVJbEg1WnR3Z0tNdXk2c21ielBLQ3RmdERwUDFZZkRV?oc=5",
+      "source": "ConvergenciaDigital",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-25T13:22:36+00:00",
+      "collected_at": "2026-11-25T19:57:05.718659+00:00",
       "categories": [
-        "Cyber",
-        "GRC"
+        "CISO",
+        "Cyber"
       ],
       "tags": [
-        "resilience",
-        "vulnerability"
+        "ciber",
+        "orcamento"
       ],
-      "score": 50.8
+      "score": 48.44
     },
     {
-      "id": "8449665c08f4c94f02eba654",
-      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "id": "272b9849442b7516d2eb0674",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T15:00:00+00:00",
+      "collected_at": "2026-11-25T19:57:04.686934+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "supply chain"
+      ],
+      "score": 48.07
+    },
+    {
+      "id": "87d8075c713922e643c167cd",
+      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+      "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
-      "published_at": "2026-11-24T14:49:59+00:00",
-      "collected_at": "2026-11-24T20:39:58.791344+00:00",
+      "published_at": "2026-11-25T13:30:00+00:00",
+      "collected_at": "2026-11-25T19:57:05.149379+00:00",
+      "categories": [
+        "CISO"
+      ],
+      "tags": [
+        "budget",
+        "ciso"
+      ],
+      "score": 45.49
+    },
+    {
+      "id": "f997244a0382db2eb32fb80f",
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T10:10:20+00:00",
+      "collected_at": "2026-11-25T19:57:04.687665+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 44.7
+    },
+    {
+      "id": "83fdc4c16bbf101a92816329",
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T19:39:31+00:00",
+      "collected_at": "2026-11-25T19:57:04.685771+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 44.39
+    },
+    {
+      "id": "674c07c674be082f38354423",
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T09:05:13+00:00",
+      "collected_at": "2026-11-25T19:57:05.150214+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "ics"
+      ],
+      "score": 43.77
+    },
+    {
+      "id": "2533b831cbd707f2ad3c5124",
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T16:13:40+00:00",
+      "collected_at": "2026-11-25T19:57:04.686183+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 43.55
+    },
+    {
+      "id": "d1da5194e2ca03ef347b1ecf",
+      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T13:39:21+00:00",
+      "collected_at": "2026-11-25T19:57:05.148911+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 42.05
+    },
+    {
+      "id": "cfe87b60720767819d123b21",
+      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T08:01:06+00:00",
+      "collected_at": "2026-11-25T19:57:05.151053+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 41.86
+    },
+    {
+      "id": "d842a7079dc7b8ae0b0d8a33",
+      "title": "GSI quer Lei Geral de Cibersegurança sendo levada com urgência ao Presidente Lula na próxima semana - ConvergenciaDigital",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGJINTl1MW5LZlk2WjRGQlByYVhtUXc5SURuTTlZMVBhZDlFZGVwQ21MLVdDLWJIM3BnT1MySnRJVl80RjByMGdFNk5OanJWZHk4MUVxNWd1MlBaVlBYZmpnOHJRSlVacFJJdmp4X3hfVHhCOTEwTndqaUN0ejltYUVyUVQ4MVdVMWNQbVRQcGJBRTc0SWdDWGRiZW5saUpiRy1falpXNzV6LWtmUTFSc0gzZ0xMM3I5cENPT1B6djZtWDE1eEg4cWtYWXN0dm9ZaXhxcklLZG9SNE0?oc=5",
+      "source": "ConvergenciaDigital",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-25T18:14:34+00:00",
+      "collected_at": "2026-11-25T19:57:05.717846+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 41.84
+    },
+    {
+      "id": "18b9481beaf6d73c7ef3c8a4",
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T07:45:03+00:00",
+      "collected_at": "2026-11-25T19:57:04.688384+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 41.76
+    },
+    {
+      "id": "0a0c44c27ddb032307e3dc4a",
+      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T15:27:36+00:00",
+      "collected_at": "2026-11-25T19:57:05.148025+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.25
+    },
+    {
+      "id": "0a87785d1a9828b4e868e18b",
+      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T15:00:10+00:00",
+      "collected_at": "2026-11-25T19:57:04.686565+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.08
+    },
+    {
+      "id": "aa37fb985e0411838f261dd8",
+      "title": "Senador propõe criação de agência para fortalecer cibersegurança no Brasil - Metrô News Jornal",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTlRSlk3OGZFY1FMbE5oZ1BRZHl0U095Yjk5NEFKeWN0cDEzQ282QzdmSUphMVg2RzA1RHVTd1g5VXZVRGJTaTJJV0d6alNBUUhNdFBOa1JZZldQYVNzampZblduZmduQU5oR2NLM2R6QmFUVHJOTlhEcUk2czFaNVF3cVpmUmtWQlpxZ0dHMFpuRW9iMHVFRUg0VmNIZGxkVEE?oc=5",
+      "source": "Metrô News Jornal",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-25T16:10:00+00:00",
+      "collected_at": "2026-11-25T19:57:05.718264+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 41.03
+    },
+    {
+      "id": "799015563b29b600929c2ebb",
+      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T10:40:07+00:00",
+      "collected_at": "2026-11-25T19:57:05.149792+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 40.89
+    },
+    {
+      "id": "81590aa3decfc8d8b0a65f85",
+      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T14:15:25+00:00",
+      "collected_at": "2026-11-25T19:57:05.148483+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 40.79
+    },
+    {
+      "id": "3e74824fb5a35cec4839c1a6",
+      "title": "CRE avalia Sistema Nacional de Cibersegurança - 25/11/26 - Senado",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmdFb0lYNGlTRnljbjd1ZVowaE8tREJZTHkxWUNQWU5hSExGOHpVcng4Y3BsLTZOalVjYWVnOE16SkY5SzdBNEtaeXFzVkhXcUU0c1F4RHhwMHRpNzltdFJsZEgyYnBIVjhpUW5fb3lnNUcxVjY1WHNUODJ0bWJhQWp0TEpLd3MtRTFfcUpaS1lYTWtoVGZZMDQ0MjR5VFJlWFlXeUdKZjRLRFE1TU16MlB5R1k?oc=5",
+      "source": "Senado",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-25T13:31:30+00:00",
+      "collected_at": "2026-11-25T19:57:05.717413+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.0
+    },
+    {
+      "id": "702b9fc7a2a9f5d4c538dd11",
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-24T22:41:58+00:00",
+      "collected_at": "2026-11-25T19:57:05.151470+00:00",
       "categories": [
         "Cyber"
       ],
@@ -84,7 +335,65 @@
         "breach",
         "cyber"
       ],
-      "score": 45.73
+      "score": 39.74
+    },
+    {
+      "id": "486ee5786154a2100a0772fd",
+      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T11:16:32+00:00",
+      "collected_at": "2026-11-25T19:57:04.687305+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.63
+    },
+    {
+      "id": "d58380c6fc4212a5adf0cd06",
+      "title": "Microsoft confirms authentication issues after November updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T09:02:57+00:00",
+      "collected_at": "2026-11-25T19:57:04.688023+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.76
+    },
+    {
+      "id": "a85d0a94c9ba1fbeb35d2c03",
+      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-25T08:12:24+00:00",
+      "collected_at": "2026-11-25T19:57:05.150631+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.43
+    },
+    {
+      "id": "39a1a040c6a774d441ee06de",
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-24T21:37:30+00:00",
+      "collected_at": "2026-11-25T19:57:04.688740+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.82
     },
     {
       "id": "cb331be6e6d6fc06458b597d",
@@ -93,14 +402,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-24T17:49:05+00:00",
-      "collected_at": "2026-11-24T20:39:58.553486+00:00",
+      "collected_at": "2026-11-25T19:57:04.689815+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 45.39
+      "score": 36.34
     },
     {
       "id": "ebb6ca0cf8816c9bf2a9f3f6",
@@ -109,320 +418,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-24T16:22:44+00:00",
-      "collected_at": "2026-11-24T20:39:58.554826+00:00",
+      "collected_at": "2026-11-25T19:57:04.690536+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 44.83
-    },
-    {
-      "id": "6e8ec8de590c6b4a4a85a367",
-      "title": "McDonald's Japan data breach exposes customer location information",
-      "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T14:09:37+00:00",
-      "collected_at": "2026-11-24T20:39:58.557443+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 43.97
-    },
-    {
-      "id": "385f07e7c32086c1ef9062fd",
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T18:59:52+00:00",
-      "collected_at": "2026-11-24T20:39:58.552831+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 43.85
-    },
-    {
-      "id": "5a5d4ea49176ad972d538147",
-      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-      "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T13:34:23+00:00",
-      "collected_at": "2026-11-24T20:39:58.558102+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 43.74
-    },
-    {
-      "id": "94adc4654665c11df472a5e4",
-      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
-      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T16:32:56+00:00",
-      "collected_at": "2026-11-24T20:39:58.790554+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 43.4
-    },
-    {
-      "id": "035db24cbcec0849ef268566",
-      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T11:50:21+00:00",
-      "collected_at": "2026-11-24T20:39:58.794352+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 43.07
-    },
-    {
-      "id": "d1ab8d9e3cacfe7275a29632",
-      "title": "New Inception extortion gang launches large-scale vishing campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T20:21:20+00:00",
-      "collected_at": "2026-11-24T20:39:58.552144+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.88
-    },
-    {
-      "id": "e3575551456b2ca3022c7937",
-      "title": "Brasil concentra 43% dos ataques de ransomware na América Latina segundo levantamento da Kaspersky - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc3JMakNKeVNybFFJLWYweXVKN0JSZlQ2ZkM1akFxNUpiYVJSZ3NhM3dVei1wVXRUc2dOLTNhbGhHUUdfaXhZb2YyWWh0bkhjVmdzM1JOWXRSTEV1aU5rcVNnbFdkVVYtUFNWT0w3QTZfeC1vZGRjcEZsd2ZhRHBFM2pKSmRFSFEyLUVEUmM2RnRzYm9XaUM4Sl9ENk5HaEpWc183eFRjdlhvMldxTV8wU2RGc3BhRmt0ZXdKeFlNWi1lMFRnZE9n?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-24T12:15:10+00:00",
-      "collected_at": "2026-11-24T20:39:59.219375+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "ransomware"
-      ],
-      "score": 42.73
-    },
-    {
-      "id": "af77c619aa19ee9fe44a488e",
-      "title": "Brasil registra 487 mil ataques DDoS no semestre - allconnected.media",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZjhTbkxjR3RGOWotRUdMcmdkMHFDZHZuVzdkZTY0cVZfZmlxdGxlQ2xXSzI0Z2V1ZTRoLU1jQjN0X0Y1TTJhTXp2N2JUOTU1elJBWENWXzdZQnEwYmV2bDNsU2w4UlpvaGJxa1AxUXM3cFZoS1BTNW84a0pYcFNmUzZn?oc=5",
-      "source": "allconnected.media",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-24T14:19:05+00:00",
-      "collected_at": "2026-11-24T20:39:59.228758+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ataque",
-        "ddos"
-      ],
-      "score": 41.53
-    },
-    {
-      "id": "810bc3d83085cb368bfe8bd0",
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T16:30:19+00:00",
-      "collected_at": "2026-11-24T20:39:58.554160+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.38
-    },
-    {
-      "id": "a955ae8df39f07b1d24a4bb0",
-      "title": "Hackers compromise Check Point Servers in 22 organizations",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T16:15:23+00:00",
-      "collected_at": "2026-11-24T20:39:58.555477+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.29
-    },
-    {
-      "id": "43e55da08642f246c955e37b",
-      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-      "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T15:10:10+00:00",
-      "collected_at": "2026-11-24T20:39:58.556142+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.86
-    },
-    {
-      "id": "4938713f323e99dd9f3479a2",
-      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T10:35:04+00:00",
-      "collected_at": "2026-11-24T20:39:58.795868+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 40.58
-    },
-    {
-      "id": "fb9c595736a542c0582e9856",
-      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T14:21:56+00:00",
-      "collected_at": "2026-11-24T20:39:58.792107+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.55
-    },
-    {
-      "id": "ed4ec7fa1d5664bab876604c",
-      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
-      "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T13:30:23+00:00",
-      "collected_at": "2026-11-24T20:39:58.792871+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.22
-    },
-    {
-      "id": "2c26281cd5384d940485d53e",
-      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-      "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T12:20:41+00:00",
-      "collected_at": "2026-11-24T20:39:58.793605+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.76
-    },
-    {
-      "id": "3fb79008433d9b49e3ee18b2",
-      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-      "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T10:44:44+00:00",
-      "collected_at": "2026-11-24T20:39:58.795107+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.14
-    },
-    {
-      "id": "6478df312e4477900b94a2f6",
-      "title": "De pizzaiolo à cibersegurança: Qualifica SP abre 2,5 mil vagas em cursos gratuitos e amplia oportunidades profissionais - O Mariliense",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLUJRSTEzUXRXeEVUNmRNc0ZXdmd3RHphcUZLQUhlSGlvVjFpZTdiRm1yU3dnOFRsYmdDZUowbi10U2ZnTFRHeEhUYWdiMGx0YTAwWGZxNGVhQi00aXdVVVkwOFZmOEJLMk1lS2pGUUY4NnNUem9ZemNVV3M1TUlpVS1DSmxsejFmSVpXTktPck10aDFOZWluYTlBdVUyS2lqNV9RM1h5LTlMVV9yWVp3TGVwc1pBa2pwWmQ1V1hMd25CU2MzUE9BbmVGSy1tdzQyVXhobG4zeXQ4dHQxY0E?oc=5",
-      "source": "O Mariliense",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-24T11:54:59+00:00",
-      "collected_at": "2026-11-24T20:39:59.229459+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 39.1
-    },
-    {
-      "id": "2269e27ce9fa94fa1cacd025",
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-23T20:54:51+00:00",
-      "collected_at": "2026-11-24T20:39:58.558771+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 37.26
-    },
-    {
-      "id": "65a994954f28297da0a2ec93",
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-23T19:42:20+00:00",
-      "collected_at": "2026-11-24T20:39:58.560065+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 36.79
-    },
-    {
-      "id": "328ea96d1c905f9dc29e2509",
-      "title": "Avanço da IA pode ampliar riscos à cibersegurança, afirma especialista - BossaNews Brasil",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYWFfeTY2U19OREtJSGF6LWljcS1HbnRCNFNzT2R5TGgyOGQwV1lETHhnYVduQkxFcU1vZzZZdnpXN0hHTmZEUlhsMXJNcV9EdFRJZmVDcnU0bTZvMldHZlB0bEUtSlVBcFdGem1SaERMMl9DdnlxZEdIUXhKNW1raWpCUU1ET3pZNnVDb081QVhPcE0xdUo1SkJ4MA?oc=5",
-      "source": "BossaNews Brasil",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-22T14:09:28+00:00",
-      "collected_at": "2026-11-24T20:39:59.230160+00:00",
-      "categories": [
-        "Cyber",
-        "GRC"
-      ],
-      "tags": [
-        "ciber",
-        "risco"
-      ],
-      "score": 29.8
+      "score": 35.78
     }
   ]
 }
