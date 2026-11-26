@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T19:57:06.241278+00:00",
+  "generated_at": "2026-11-26T19:37:51.613275+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 22,
+  "new_count": 17,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -37,7 +37,7 @@
     {
       "name": "Google News — Cyber Brasil",
       "status": "ok",
-      "items": 7
+      "items": 12
     },
     {
       "name": "Google News — GRC",
@@ -52,13 +52,253 @@
   ],
   "items": [
     {
+      "id": "66b7a71c85d3512972ff4df0",
+      "title": "Ransomware agêntico e automação ofensiva redefinem riscos cibernéticos corporativos, aponta levantamento da Apura - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZlVHV1U0bUQwOGI3aktKMzd3WldUd2NNQ2NnZmhKLXZuZUNFYlRSRzhNTi1sUk5UQTJJVk5kOTFtR2haUzYtV0g5QlhTaExwVGdZTmJDTC1zU0xvTnd0Y3BoRjM5TE5oaExlNW81UDhzSGNTdnZ6ZW93cGlQRkV3dlIzQkpfeF9RNGpGSXpVUUU5dlVHUWpjZV9vY1hfRGpYVmgxZkd2WGZ1MER4bUJ3UFdGWU9SalE5eVNEME1EUzdCeTdfYlU1SHIzaGtSbkxXdm5keXNoVG1IQ1U?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T13:30:05+00:00",
+      "collected_at": "2026-11-26T19:37:51.000887+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "ransomware",
+        "risco"
+      ],
+      "score": 51.62
+    },
+    {
+      "id": "46a4a49420d03d81858212d9",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-26T11:35:25+00:00",
+      "collected_at": "2026-11-26T19:37:50.513458+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit",
+        "zero-day"
+      ],
+      "score": 46.87
+    },
+    {
+      "id": "0fa0bd26c50f3a76dacfaf85",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-26T13:04:06+00:00",
+      "collected_at": "2026-11-26T19:37:50.512701+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 45.95
+    },
+    {
+      "id": "6f461d8a9123bf538f44d66b",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-26T17:06:55+00:00",
+      "collected_at": "2026-11-26T19:37:50.511951+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 43.52
+    },
+    {
+      "id": "fde7acbfdcbd376a59241051",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-26T15:23:28+00:00",
+      "collected_at": "2026-11-26T19:37:50.168501+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 42.85
+    },
+    {
+      "id": "02a6482beb758224e15df841",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-26T09:12:26+00:00",
+      "collected_at": "2026-11-26T19:37:50.514207+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 42.45
+    },
+    {
+      "id": "414c20407474efd1e8be3816",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-26T17:58:42+00:00",
+      "collected_at": "2026-11-26T19:37:50.167174+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.36
+    },
+    {
+      "id": "3b42d776b5372dcd2ce0fc02",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-26T08:32:10+00:00",
+      "collected_at": "2026-11-26T19:37:50.514948+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 42.19
+    },
+    {
+      "id": "9202ec6cb84b102ee5864158",
+      "title": "Brasil necessita de legislação específica para cibersegurança, avalia especialista - Tribuna do Sertão",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMXczWksxLWZSanIxNEZSQjYtS0QtZ0ZxM19tb3AwbHNSTXZ1TTNuUk5FaWFYUjk1T2cyb041c3dXbGJoUlBNdnZpWUc5YTM3TzhlWTJ2WUJJMUFHRklCamdsR01wdzFOVmlmdnU0Vk5wemZWYjU1U0JxcHpvTVFCeFQ5WWdOQ2lfdzVfdVJBWUJWY3VwcXoxTUR0dVRtVWllZmxHRmludGxZNjFfcmxJUkdMbGYyRE5DODVaYUNGUVNYVThkemJzc3hoNEpkdERROURUNkQ2ZEc?oc=5",
+      "source": "Tribuna do Sertão",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T18:44:55+00:00",
+      "collected_at": "2026-11-26T19:37:50.999402+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 42.16
+    },
+    {
+      "id": "76832c8da65cc5da100736d3",
+      "title": "Brasil necessita de legislação específica para cibersegurança, avalia especialista - Tribuna do Agreste",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEdQd1IxUHhFNVAxMXRwb1RTbmFHREJmLWNvVm9rdmFyOVZjQkY0NzAzdVZsSkVqZDgwdGlrelA2UlR3SHlaMkJnM3AxN0JGQTQzSV9vZFhNWHZoekJNVWtUWEdvLTM3WGpHQkRod1NvTW9UMXg2TElCazhRYThicE1MVDFyd3VNX05EOGJNZDcySlFvemctM0pBTHAtTFpsNG5HaHBBaGxwWF9mb0xJQkUyZjZJeUo3Z3ZEOGpWOGp1ZTlUTzdrNDFQRkd4VmZLTjJlS2p2ME8wQQ?oc=5",
+      "source": "Tribuna do Agreste",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T18:44:00+00:00",
+      "collected_at": "2026-11-26T19:37:51.013245+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 42.15
+    },
+    {
+      "id": "419d56af58566508ab3581bf",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-26T17:15:27+00:00",
+      "collected_at": "2026-11-26T19:37:50.167855+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.08
+    },
+    {
+      "id": "3684c5a409a202c4ae60e14f",
+      "title": "Especialista critica formação e dependência em cibersegurança no Brasil - Tribuna do Agreste",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORVhRVTN1SV9QLW4zWVVyYU9qZFA3THV1TF93S3NpdmhrSDF3RUdLZnJrZDV3UTZNcldQbzNIcFlFUzllRjg5OUVsekZ1aHVSamVyYk1BcWprYmFuV3d6QWNqNnRVS0NrQnhuRWlsd3lxZmFqWmV0eTl5a1lnM2czTS0za0hwcTQ4NVk2YVVNdTNwLVUtektRbDFILWNON0diSk1SRXg5YWR2ZmtoUWJ0eDFEa3llM1p5eDJza3NvQzVlNk9oMmNLN3ZTQ3A?oc=5",
+      "source": "Tribuna do Agreste",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T17:04:00+00:00",
+      "collected_at": "2026-11-26T19:37:51.013978+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 41.5
+    },
+    {
+      "id": "dd4dacaf11dec69053cd3910",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-26T11:50:17+00:00",
+      "collected_at": "2026-11-26T19:37:50.169145+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 41.47
+    },
+    {
+      "id": "d14b14e8ddaf56ec22a8abb8",
+      "title": "Rockwell Automation estrutura estratégias de cibersegurança industrial para proteger sistemas legados e redes operacionais - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYTRPN0N6bnh3VDloSWExYW1CYVdlZ0pPYndPaHJld0hjOHVEZ3BqN3hYTzg5VVU2TG9HLXVQVHZZS3NPQ0lnRnhNWE1PSWJXQzdWSzlpQkF5Z2t2Ml84LTJFUFlNdUhBMWw2eUdlUGFVNHRYYWFoODdMSGFsNGdObkl0WU1fVFoweHFBTWZYTXE1X0RpRHlHVU9aeDNwNWlaSWZKeTg1VVlmT2g0b0gtbkxTVWU1NW5jaWVwdlJDNjN2UVBsOXA1TU1vclRDLWloSG1ibWMxWmVWRXAwTkRuVHNDOGFCdWF2?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T12:40:05+00:00",
+      "collected_at": "2026-11-26T19:37:51.004337+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 39.79
+    },
+    {
+      "id": "5f582fcd3f8a4673bac2b8ac",
+      "title": "‘ChatGPT da polícia’: startup brasileira entra em programa restrito de cibersegurança da OpenAI - Times Brasil | CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjdxZUhYcnJvSkcxeUhGQlVPVzVqeWJQenlURWdYMG1HRUk0dnVaNC1LYjM1SGt5WXRyV3ZmbEdiWDFwT0RpYTViQ21wcWdaSG82UDdISGZIdXg1NUNpMHhEMkZ1VHZUaUFyRmY0bzFrTFR6ZFBoVW9TYm9VQ1g1VWUxa0pCb0diYzFKaWNZVEdtR3lRaUNIcURyeXY4am9FWFVxR0R2VGxoZ25vbmpOWWV1S0ZCdzVxQlNfZzFQLVVOYnFIbF9wTEg4S1ZtYjM5WG1JNTlfMVJkaFN3eGJNeS1PdWVQSVBCN1djY2VjeElrS2NP?oc=5",
+      "source": "Times Brasil | CNBC",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T12:02:00+00:00",
+      "collected_at": "2026-11-26T19:37:51.002268+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 39.55
+    },
+    {
       "id": "0b4c492bf74aca6501c9ac7f",
       "title": "Cibersegurança e Inteligência Artificial: Não existe soberania sem orçamento - ConvergenciaDigital",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW9mbU8wQ3VlQkh5SXBoa05wV3lTY0wtdHFYTjFfMDBwUExQN3JsSEZ5MHA0U2NlZnRMVGE3ajYxS2RLall2X05YSUZBeUY5cko0d3N6WUJ2Mnk1VzdHbkNLUTk1S0FYcVNmT1I5SnlqQ3F4YXFRS2ZXQ1dXRkNTMW51VXRCX1dHUXdfX05hQmxQcEV4T2FZbm9lcXVJbEg1WnR3Z0tNdXk2c21ielBLQ3RmdERwUDFZZkRV?oc=5",
       "source": "ConvergenciaDigital",
       "feed": "Google News — Cyber Brasil",
       "published_at": "2026-11-25T13:22:36+00:00",
-      "collected_at": "2026-11-25T19:57:05.718659+00:00",
+      "collected_at": "2026-11-26T19:37:51.005205+00:00",
       "categories": [
         "CISO",
         "Cyber"
@@ -67,7 +307,7 @@
         "ciber",
         "orcamento"
       ],
-      "score": 48.44
+      "score": 39.23
     },
     {
       "id": "272b9849442b7516d2eb0674",
@@ -76,7 +316,7 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-25T15:00:00+00:00",
-      "collected_at": "2026-11-25T19:57:04.686934+00:00",
+      "collected_at": "2026-11-26T19:37:50.172970+00:00",
       "categories": [
         "Cyber"
       ],
@@ -84,7 +324,39 @@
         "exploit",
         "supply chain"
       ],
-      "score": 48.07
+      "score": 38.87
+    },
+    {
+      "id": "3e451ab931cc9b9cd62e4e4f",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T22:05:09+00:00",
+      "collected_at": "2026-11-26T19:37:50.169772+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 38.12
+    },
+    {
+      "id": "bc3ab5b3de61d99820e39076",
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-25T21:33:33+00:00",
+      "collected_at": "2026-11-26T19:37:50.170419+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 37.92
     },
     {
       "id": "87d8075c713922e643c167cd",
@@ -93,7 +365,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-25T13:30:00+00:00",
-      "collected_at": "2026-11-25T19:57:05.149379+00:00",
+      "collected_at": "2026-11-26T19:37:50.517988+00:00",
       "categories": [
         "CISO"
       ],
@@ -101,7 +373,7 @@
         "budget",
         "ciso"
       ],
-      "score": 45.49
+      "score": 36.28
     },
     {
       "id": "f997244a0382db2eb32fb80f",
@@ -110,14 +382,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-25T10:10:20+00:00",
-      "collected_at": "2026-11-25T19:57:04.687665+00:00",
+      "collected_at": "2026-11-26T19:37:50.174225+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 44.7
+      "score": 35.49
     },
     {
       "id": "83fdc4c16bbf101a92816329",
@@ -126,31 +398,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-25T19:39:31+00:00",
-      "collected_at": "2026-11-25T19:57:04.685771+00:00",
+      "collected_at": "2026-11-26T19:37:50.171054+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 44.39
-    },
-    {
-      "id": "674c07c674be082f38354423",
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T09:05:13+00:00",
-      "collected_at": "2026-11-25T19:57:05.150214+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "ics"
-      ],
-      "score": 43.77
+      "score": 35.18
     },
     {
       "id": "2533b831cbd707f2ad3c5124",
@@ -159,12 +414,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-25T16:13:40+00:00",
-      "collected_at": "2026-11-25T19:57:04.686183+00:00",
+      "collected_at": "2026-11-26T19:37:50.171678+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 43.55
+      "score": 34.34
     },
     {
       "id": "d1da5194e2ca03ef347b1ecf",
@@ -173,259 +428,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-25T13:39:21+00:00",
-      "collected_at": "2026-11-25T19:57:05.148911+00:00",
+      "collected_at": "2026-11-26T19:37:50.517179+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 42.05
-    },
-    {
-      "id": "cfe87b60720767819d123b21",
-      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T08:01:06+00:00",
-      "collected_at": "2026-11-25T19:57:05.151053+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 41.86
-    },
-    {
-      "id": "d842a7079dc7b8ae0b0d8a33",
-      "title": "GSI quer Lei Geral de Cibersegurança sendo levada com urgência ao Presidente Lula na próxima semana - ConvergenciaDigital",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGJINTl1MW5LZlk2WjRGQlByYVhtUXc5SURuTTlZMVBhZDlFZGVwQ21MLVdDLWJIM3BnT1MySnRJVl80RjByMGdFNk5OanJWZHk4MUVxNWd1MlBaVlBYZmpnOHJRSlVacFJJdmp4X3hfVHhCOTEwTndqaUN0ejltYUVyUVQ4MVdVMWNQbVRQcGJBRTc0SWdDWGRiZW5saUpiRy1falpXNzV6LWtmUTFSc0gzZ0xMM3I5cENPT1B6djZtWDE1eEg4cWtYWXN0dm9ZaXhxcklLZG9SNE0?oc=5",
-      "source": "ConvergenciaDigital",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-25T18:14:34+00:00",
-      "collected_at": "2026-11-25T19:57:05.717846+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.84
-    },
-    {
-      "id": "18b9481beaf6d73c7ef3c8a4",
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T07:45:03+00:00",
-      "collected_at": "2026-11-25T19:57:04.688384+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 41.76
-    },
-    {
-      "id": "0a0c44c27ddb032307e3dc4a",
-      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
-      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T15:27:36+00:00",
-      "collected_at": "2026-11-25T19:57:05.148025+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.25
-    },
-    {
-      "id": "0a87785d1a9828b4e868e18b",
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T15:00:10+00:00",
-      "collected_at": "2026-11-25T19:57:04.686565+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 41.08
-    },
-    {
-      "id": "aa37fb985e0411838f261dd8",
-      "title": "Senador propõe criação de agência para fortalecer cibersegurança no Brasil - Metrô News Jornal",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTlRSlk3OGZFY1FMbE5oZ1BRZHl0U095Yjk5NEFKeWN0cDEzQ282QzdmSUphMVg2RzA1RHVTd1g5VXZVRGJTaTJJV0d6alNBUUhNdFBOa1JZZldQYVNzampZblduZmduQU5oR2NLM2R6QmFUVHJOTlhEcUk2czFaNVF3cVpmUmtWQlpxZ0dHMFpuRW9iMHVFRUg0VmNIZGxkVEE?oc=5",
-      "source": "Metrô News Jornal",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-25T16:10:00+00:00",
-      "collected_at": "2026-11-25T19:57:05.718264+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.03
-    },
-    {
-      "id": "799015563b29b600929c2ebb",
-      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T10:40:07+00:00",
-      "collected_at": "2026-11-25T19:57:05.149792+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 40.89
-    },
-    {
-      "id": "81590aa3decfc8d8b0a65f85",
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T14:15:25+00:00",
-      "collected_at": "2026-11-25T19:57:05.148483+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 40.79
-    },
-    {
-      "id": "3e74824fb5a35cec4839c1a6",
-      "title": "CRE avalia Sistema Nacional de Cibersegurança - 25/11/26 - Senado",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmdFb0lYNGlTRnljbjd1ZVowaE8tREJZTHkxWUNQWU5hSExGOHpVcng4Y3BsLTZOalVjYWVnOE16SkY5SzdBNEtaeXFzVkhXcUU0c1F4RHhwMHRpNzltdFJsZEgyYnBIVjhpUW5fb3lnNUcxVjY1WHNUODJ0bWJhQWp0TEpLd3MtRTFfcUpaS1lYTWtoVGZZMDQ0MjR5VFJlWFlXeUdKZjRLRFE1TU16MlB5R1k?oc=5",
-      "source": "Senado",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-25T13:31:30+00:00",
-      "collected_at": "2026-11-25T19:57:05.717413+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 40.0
-    },
-    {
-      "id": "702b9fc7a2a9f5d4c538dd11",
-      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-24T22:41:58+00:00",
-      "collected_at": "2026-11-25T19:57:05.151470+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach",
-        "cyber"
-      ],
-      "score": 39.74
-    },
-    {
-      "id": "486ee5786154a2100a0772fd",
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T11:16:32+00:00",
-      "collected_at": "2026-11-25T19:57:04.687305+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 39.63
-    },
-    {
-      "id": "d58380c6fc4212a5adf0cd06",
-      "title": "Microsoft confirms authentication issues after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T09:02:57+00:00",
-      "collected_at": "2026-11-25T19:57:04.688023+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 38.76
-    },
-    {
-      "id": "a85d0a94c9ba1fbeb35d2c03",
-      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T08:12:24+00:00",
-      "collected_at": "2026-11-25T19:57:05.150631+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 38.43
-    },
-    {
-      "id": "39a1a040c6a774d441ee06de",
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T21:37:30+00:00",
-      "collected_at": "2026-11-25T19:57:04.688740+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 37.82
-    },
-    {
-      "id": "cb331be6e6d6fc06458b597d",
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T17:49:05+00:00",
-      "collected_at": "2026-11-25T19:57:04.689815+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 36.34
-    },
-    {
-      "id": "ebb6ca0cf8816c9bf2a9f3f6",
-      "title": "European Commission confirms data theft in EU Academy breach",
-      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-24T16:22:44+00:00",
-      "collected_at": "2026-11-25T19:57:04.690536+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 35.78
+      "score": 32.84
     }
   ]
 }
