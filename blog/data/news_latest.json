@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T19:37:51.613275+00:00",
+  "generated_at": "2026-11-27T19:29:28.239623+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 17,
+  "new_count": 16,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -36,39 +36,252 @@
     },
     {
       "name": "Google News — Cyber Brasil",
-      "status": "ok",
-      "items": 12
+      "status": "error",
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(ciberseguran%C3%A7a%20OR%20cybersecurity%20OR%20ransomware%20OR%20%22zero-day%22)%20Brasil&hl=p"
     },
     {
       "name": "Google News — GRC",
-      "status": "ok",
-      "items": 0
+      "status": "error",
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(GRC%20OR%20governan%C3%A7a%20OR%20compliance%20OR%20%22gest%C3%A3o%20de%20riscos%22%20OR%20NIS2"
     },
     {
       "name": "Google News — CISO",
-      "status": "ok",
-      "items": 0
+      "status": "error",
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(CISO%20OR%20%22Chief%20Information%20Security%20Officer%22%20OR%20%22lideran%C3%A7a%20de%20segu"
     }
   ],
   "items": [
     {
-      "id": "66b7a71c85d3512972ff4df0",
-      "title": "Ransomware agêntico e automação ofensiva redefinem riscos cibernéticos corporativos, aponta levantamento da Apura - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZlVHV1U0bUQwOGI3aktKMzd3WldUd2NNQ2NnZmhKLXZuZUNFYlRSRzhNTi1sUk5UQTJJVk5kOTFtR2haUzYtV0g5QlhTaExwVGdZTmJDTC1zU0xvTnd0Y3BoRjM5TE5oaExlNW81UDhzSGNTdnZ6ZW93cGlQRkV3dlIzQkpfeF9RNGpGSXpVUUU5dlVHUWpjZV9vY1hfRGpYVmgxZkd2WGZ1MER4bUJ3UFdGWU9SalE5eVNEME1EUzdCeTdfYlU1SHIzaGtSbkxXdm5keXNoVG1IQ1U?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T13:30:05+00:00",
-      "collected_at": "2026-11-26T19:37:51.000887+00:00",
+      "id": "92608e919543f5b69efbea12",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T18:57:42+00:00",
+      "collected_at": "2026-11-27T19:29:03.207719+00:00",
       "categories": [
-        "Cyber",
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 46.3
+    },
+    {
+      "id": "deb1db1bedd5515f9568c5e6",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T17:06:13+00:00",
+      "collected_at": "2026-11-27T19:29:03.208106+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "zero-day"
+      ],
+      "score": 45.57
+    },
+    {
+      "id": "db03e9c92ebe5d83dde4b5a9",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T15:09:40+00:00",
+      "collected_at": "2026-11-27T19:29:03.208495+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 44.82
+    },
+    {
+      "id": "9cf1972aff1db126c29d15e2",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T19:26:04+00:00",
+      "collected_at": "2026-11-27T19:29:03.207307+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 42.98
+    },
+    {
+      "id": "9540e4ee793196ff0b61959c",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T10:10:15+00:00",
+      "collected_at": "2026-11-27T19:29:03.210120+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "exploit"
+      ],
+      "score": 42.88
+    },
+    {
+      "id": "92afd7e75902a8b0995fa8a6",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T15:00:10+00:00",
+      "collected_at": "2026-11-27T19:29:03.208967+00:00",
+      "categories": [
         "GRC"
       ],
       "tags": [
-        "ciber",
-        "ransomware",
-        "risco"
+        "risk"
       ],
-      "score": 51.62
+      "score": 42.76
+    },
+    {
+      "id": "d998ea23ff8ab1b3f965b886",
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-27T09:30:54+00:00",
+      "collected_at": "2026-11-27T19:29:03.418185+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 42.62
+    },
+    {
+      "id": "6e5448657b366f14b0d5caa7",
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T14:22:06+00:00",
+      "collected_at": "2026-11-27T19:29:03.209363+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "malware"
+      ],
+      "score": 42.51
+    },
+    {
+      "id": "4fe7d945c5a8658cf7153c99",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-27T07:44:49+00:00",
+      "collected_at": "2026-11-27T19:29:03.418656+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "breach"
+      ],
+      "score": 41.94
+    },
+    {
+      "id": "df6cc5dd9ca379c1b7432e5e",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-27T11:00:00+00:00",
+      "collected_at": "2026-11-27T19:29:03.417721+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 41.2
+    },
+    {
+      "id": "75fce52046a7bf5317ab1a66",
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T09:08:16+00:00",
+      "collected_at": "2026-11-27T19:29:03.210962+00:00",
+      "categories": [
+        "GRC"
+      ],
+      "tags": [
+        "cra"
+      ],
+      "score": 40.48
+    },
+    {
+      "id": "20428db878af8b171b975182",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "source": "SecurityWeek",
+      "feed": "SecurityWeek",
+      "published_at": "2026-11-27T07:36:14+00:00",
+      "collected_at": "2026-11-27T19:29:03.419089+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "cyber"
+      ],
+      "score": 39.88
+    },
+    {
+      "id": "0efdcfe0383dd5890074ec42",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T11:18:36+00:00",
+      "collected_at": "2026-11-27T19:29:03.209744+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.82
+    },
+    {
+      "id": "5970025390c750ccf208a081",
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T09:56:36+00:00",
+      "collected_at": "2026-11-27T19:29:03.210507+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 39.29
+    },
+    {
+      "id": "5610bba272c6dea09485240f",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-27T08:06:58+00:00",
+      "collected_at": "2026-11-27T19:29:03.211347+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 38.58
     },
     {
       "id": "46a4a49420d03d81858212d9",
@@ -77,7 +290,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T11:35:25+00:00",
-      "collected_at": "2026-11-26T19:37:50.513458+00:00",
+      "collected_at": "2026-11-27T19:29:03.420428+00:00",
       "categories": [
         "Cyber"
       ],
@@ -85,7 +298,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 46.87
+      "score": 37.6
     },
     {
       "id": "0fa0bd26c50f3a76dacfaf85",
@@ -94,14 +307,28 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T13:04:06+00:00",
-      "collected_at": "2026-11-26T19:37:50.512701+00:00",
+      "collected_at": "2026-11-27T19:29:03.419987+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 45.95
+      "score": 36.67
+    },
+    {
+      "id": "8ca30bcf0a0c13534616a5ae",
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-26T21:06:22+00:00",
+      "collected_at": "2026-11-27T19:29:03.211727+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 34.3
     },
     {
       "id": "6f461d8a9123bf538f44d66b",
@@ -110,14 +337,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T17:06:55+00:00",
-      "collected_at": "2026-11-26T19:37:50.511951+00:00",
+      "collected_at": "2026-11-27T19:29:03.419551+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 43.52
+      "score": 34.25
     },
     {
       "id": "fde7acbfdcbd376a59241051",
@@ -126,14 +353,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-26T15:23:28+00:00",
-      "collected_at": "2026-11-26T19:37:50.168501+00:00",
+      "collected_at": "2026-11-27T19:29:03.212858+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "malware"
       ],
-      "score": 42.85
+      "score": 33.57
     },
     {
       "id": "02a6482beb758224e15df841",
@@ -142,14 +369,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T09:12:26+00:00",
-      "collected_at": "2026-11-26T19:37:50.514207+00:00",
+      "collected_at": "2026-11-27T19:29:03.420873+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 42.45
+      "score": 33.17
     },
     {
       "id": "414c20407474efd1e8be3816",
@@ -158,12 +385,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-26T17:58:42+00:00",
-      "collected_at": "2026-11-26T19:37:50.167174+00:00",
+      "collected_at": "2026-11-27T19:29:03.212089+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.36
+      "score": 33.08
     },
     {
       "id": "3b42d776b5372dcd2ce0fc02",
@@ -172,46 +399,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T08:32:10+00:00",
-      "collected_at": "2026-11-26T19:37:50.514948+00:00",
+      "collected_at": "2026-11-27T19:29:03.421312+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 42.19
-    },
-    {
-      "id": "9202ec6cb84b102ee5864158",
-      "title": "Brasil necessita de legislação específica para cibersegurança, avalia especialista - Tribuna do Sertão",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMXczWksxLWZSanIxNEZSQjYtS0QtZ0ZxM19tb3AwbHNSTXZ1TTNuUk5FaWFYUjk1T2cyb041c3dXbGJoUlBNdnZpWUc5YTM3TzhlWTJ2WUJJMUFHRklCamdsR01wdzFOVmlmdnU0Vk5wemZWYjU1U0JxcHpvTVFCeFQ5WWdOQ2lfdzVfdVJBWUJWY3VwcXoxTUR0dVRtVWllZmxHRmludGxZNjFfcmxJUkdMbGYyRE5DODVaYUNGUVNYVThkemJzc3hoNEpkdERROURUNkQ2ZEc?oc=5",
-      "source": "Tribuna do Sertão",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T18:44:55+00:00",
-      "collected_at": "2026-11-26T19:37:50.999402+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 42.16
-    },
-    {
-      "id": "76832c8da65cc5da100736d3",
-      "title": "Brasil necessita de legislação específica para cibersegurança, avalia especialista - Tribuna do Agreste",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEdQd1IxUHhFNVAxMXRwb1RTbmFHREJmLWNvVm9rdmFyOVZjQkY0NzAzdVZsSkVqZDgwdGlrelA2UlR3SHlaMkJnM3AxN0JGQTQzSV9vZFhNWHZoekJNVWtUWEdvLTM3WGpHQkRod1NvTW9UMXg2TElCazhRYThicE1MVDFyd3VNX05EOGJNZDcySlFvemctM0pBTHAtTFpsNG5HaHBBaGxwWF9mb0xJQkUyZjZJeUo3Z3ZEOGpWOGp1ZTlUTzdrNDFQRkd4VmZLTjJlS2p2ME8wQQ?oc=5",
-      "source": "Tribuna do Agreste",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T18:44:00+00:00",
-      "collected_at": "2026-11-26T19:37:51.013245+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 42.15
+      "score": 32.91
     },
     {
       "id": "419d56af58566508ab3581bf",
@@ -220,222 +415,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-26T17:15:27+00:00",
-      "collected_at": "2026-11-26T19:37:50.167855+00:00",
+      "collected_at": "2026-11-27T19:29:03.212472+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.08
-    },
-    {
-      "id": "3684c5a409a202c4ae60e14f",
-      "title": "Especialista critica formação e dependência em cibersegurança no Brasil - Tribuna do Agreste",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORVhRVTN1SV9QLW4zWVVyYU9qZFA3THV1TF93S3NpdmhrSDF3RUdLZnJrZDV3UTZNcldQbzNIcFlFUzllRjg5OUVsekZ1aHVSamVyYk1BcWprYmFuV3d6QWNqNnRVS0NrQnhuRWlsd3lxZmFqWmV0eTl5a1lnM2czTS0za0hwcTQ4NVk2YVVNdTNwLVUtektRbDFILWNON0diSk1SRXg5YWR2ZmtoUWJ0eDFEa3llM1p5eDJza3NvQzVlNk9oMmNLN3ZTQ3A?oc=5",
-      "source": "Tribuna do Agreste",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T17:04:00+00:00",
-      "collected_at": "2026-11-26T19:37:51.013978+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 41.5
-    },
-    {
-      "id": "dd4dacaf11dec69053cd3910",
-      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-26T11:50:17+00:00",
-      "collected_at": "2026-11-26T19:37:50.169145+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 41.47
-    },
-    {
-      "id": "d14b14e8ddaf56ec22a8abb8",
-      "title": "Rockwell Automation estrutura estratégias de cibersegurança industrial para proteger sistemas legados e redes operacionais - Brasil Inovador",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYTRPN0N6bnh3VDloSWExYW1CYVdlZ0pPYndPaHJld0hjOHVEZ3BqN3hYTzg5VVU2TG9HLXVQVHZZS3NPQ0lnRnhNWE1PSWJXQzdWSzlpQkF5Z2t2Ml84LTJFUFlNdUhBMWw2eUdlUGFVNHRYYWFoODdMSGFsNGdObkl0WU1fVFoweHFBTWZYTXE1X0RpRHlHVU9aeDNwNWlaSWZKeTg1VVlmT2g0b0gtbkxTVWU1NW5jaWVwdlJDNjN2UVBsOXA1TU1vclRDLWloSG1ibWMxWmVWRXAwTkRuVHNDOGFCdWF2?oc=5",
-      "source": "Brasil Inovador",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T12:40:05+00:00",
-      "collected_at": "2026-11-26T19:37:51.004337+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 39.79
-    },
-    {
-      "id": "5f582fcd3f8a4673bac2b8ac",
-      "title": "‘ChatGPT da polícia’: startup brasileira entra em programa restrito de cibersegurança da OpenAI - Times Brasil | CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTjdxZUhYcnJvSkcxeUhGQlVPVzVqeWJQenlURWdYMG1HRUk0dnVaNC1LYjM1SGt5WXRyV3ZmbEdiWDFwT0RpYTViQ21wcWdaSG82UDdISGZIdXg1NUNpMHhEMkZ1VHZUaUFyRmY0bzFrTFR6ZFBoVW9TYm9VQ1g1VWUxa0pCb0diYzFKaWNZVEdtR3lRaUNIcURyeXY4am9FWFVxR0R2VGxoZ25vbmpOWWV1S0ZCdzVxQlNfZzFQLVVOYnFIbF9wTEg4S1ZtYjM5WG1JNTlfMVJkaFN3eGJNeS1PdWVQSVBCN1djY2VjeElrS2NP?oc=5",
-      "source": "Times Brasil | CNBC",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-26T12:02:00+00:00",
-      "collected_at": "2026-11-26T19:37:51.002268+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "ciber"
-      ],
-      "score": 39.55
-    },
-    {
-      "id": "0b4c492bf74aca6501c9ac7f",
-      "title": "Cibersegurança e Inteligência Artificial: Não existe soberania sem orçamento - ConvergenciaDigital",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW9mbU8wQ3VlQkh5SXBoa05wV3lTY0wtdHFYTjFfMDBwUExQN3JsSEZ5MHA0U2NlZnRMVGE3ajYxS2RLall2X05YSUZBeUY5cko0d3N6WUJ2Mnk1VzdHbkNLUTk1S0FYcVNmT1I5SnlqQ3F4YXFRS2ZXQ1dXRkNTMW51VXRCX1dHUXdfX05hQmxQcEV4T2FZbm9lcXVJbEg1WnR3Z0tNdXk2c21ielBLQ3RmdERwUDFZZkRV?oc=5",
-      "source": "ConvergenciaDigital",
-      "feed": "Google News — Cyber Brasil",
-      "published_at": "2026-11-25T13:22:36+00:00",
-      "collected_at": "2026-11-26T19:37:51.005205+00:00",
-      "categories": [
-        "CISO",
-        "Cyber"
-      ],
-      "tags": [
-        "ciber",
-        "orcamento"
-      ],
-      "score": 39.23
-    },
-    {
-      "id": "272b9849442b7516d2eb0674",
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T15:00:00+00:00",
-      "collected_at": "2026-11-26T19:37:50.172970+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit",
-        "supply chain"
-      ],
-      "score": 38.87
-    },
-    {
-      "id": "3e451ab931cc9b9cd62e4e4f",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T22:05:09+00:00",
-      "collected_at": "2026-11-26T19:37:50.169772+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 38.12
-    },
-    {
-      "id": "bc3ab5b3de61d99820e39076",
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T21:33:33+00:00",
-      "collected_at": "2026-11-26T19:37:50.170419+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 37.92
-    },
-    {
-      "id": "87d8075c713922e643c167cd",
-      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-      "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T13:30:00+00:00",
-      "collected_at": "2026-11-26T19:37:50.517988+00:00",
-      "categories": [
-        "CISO"
-      ],
-      "tags": [
-        "budget",
-        "ciso"
-      ],
-      "score": 36.28
-    },
-    {
-      "id": "f997244a0382db2eb32fb80f",
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T10:10:20+00:00",
-      "collected_at": "2026-11-26T19:37:50.174225+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 35.49
-    },
-    {
-      "id": "83fdc4c16bbf101a92816329",
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T19:39:31+00:00",
-      "collected_at": "2026-11-26T19:37:50.171054+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 35.18
-    },
-    {
-      "id": "2533b831cbd707f2ad3c5124",
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-25T16:13:40+00:00",
-      "collected_at": "2026-11-26T19:37:50.171678+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 34.34
-    },
-    {
-      "id": "d1da5194e2ca03ef347b1ecf",
-      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-25T13:39:21+00:00",
-      "collected_at": "2026-11-26T19:37:50.517179+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 32.84
+      "score": 32.8
     }
   ]
 }

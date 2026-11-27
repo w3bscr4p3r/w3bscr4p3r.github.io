@@ -4,8 +4,104 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Thu, 26 Nov 2026 19:37:51 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 19:29:28 +0000</lastBuildDate>
 <item>
+<title>pCloud confirms password manager hack after suspicious login alerts</title>
+<link>https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/</link>
+<guid isPermaLink="false">9cf1972aff1db126c29d15e2</guid>
+<pubDate>Fri, 27 Nov 2026 19:26:04 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>New Boston Scientific data breach exposes personal, medical info</title>
+<link>https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/</link>
+<guid isPermaLink="false">92608e919543f5b69efbea12</guid>
+<pubDate>Fri, 27 Nov 2026 18:57:42 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Unpatched Cacti zero-day with public PoC gives remote code execution</title>
+<link>https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/</link>
+<guid isPermaLink="false">deb1db1bedd5515f9568c5e6</guid>
+<pubDate>Fri, 27 Nov 2026 17:06:13 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>US Air Force cloud platform reportedly hacked in latest federal breach</title>
+<link>https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/</link>
+<guid isPermaLink="false">db03e9c92ebe5d83dde4b5a9</guid>
+<pubDate>Fri, 27 Nov 2026 15:09:40 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Your Firewall Isn&#x27;t Enough: The Hidden Risk of Unmanaged VMs</title>
+<link>https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/</link>
+<guid isPermaLink="false">92afd7e75902a8b0995fa8a6</guid>
+<pubDate>Fri, 27 Nov 2026 15:00:10 +0000</pubDate>
+<description>Categorias: GRC. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Malwarebytes Antivirus: Get 50% off during Black Friday 2026</title>
+<link>https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/</link>
+<guid isPermaLink="false">6e5448657b366f14b0d5caa7</guid>
+<pubDate>Fri, 27 Nov 2026 14:22:06 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Microsoft removes WSUS server role in Windows Server 2028</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/</link>
+<guid isPermaLink="false">0efdcfe0383dd5890074ec42</guid>
+<pubDate>Fri, 27 Nov 2026 11:18:36 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities</title>
+<link>https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/</link>
+<guid isPermaLink="false">df6cc5dd9ca379c1b7432e5e</guid>
+<pubDate>Fri, 27 Nov 2026 11:00:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Drupal warns of new site takeover flaw exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/</link>
+<guid isPermaLink="false">9540e4ee793196ff0b61959c</guid>
+<pubDate>Fri, 27 Nov 2026 10:10:15 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>SAP confirms security incident after suspicious GitHub activity</title>
+<link>https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/</link>
+<guid isPermaLink="false">5970025390c750ccf208a081</guid>
+<pubDate>Fri, 27 Nov 2026 09:56:36 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>100,000 Potentially Impacted by Colorado Data Breach</title>
+<link>https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/</link>
+<guid isPermaLink="false">d998ea23ff8ab1b3f965b886</guid>
+<pubDate>Fri, 27 Nov 2026 09:30:54 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Microsoft pushes emergency hotpatch to fix Windows Server crashes</title>
+<link>https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/</link>
+<guid isPermaLink="false">75fce52046a7bf5317ab1a66</guid>
+<pubDate>Fri, 27 Nov 2026 09:08:16 +0000</pubDate>
+<description>Categorias: GRC. Fonte: BleepingComputer.</description>
+</item><item>
+<title>New NFS2ROOT Linux flaw can let attackers gain root privileges</title>
+<link>https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/</link>
+<guid isPermaLink="false">5610bba272c6dea09485240f</guid>
+<pubDate>Fri, 27 Nov 2026 08:06:58 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Hex Package Manager Warns of Potential Data Breach</title>
+<link>https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/</link>
+<guid isPermaLink="false">4fe7d945c5a8658cf7153c99</guid>
+<pubDate>Fri, 27 Nov 2026 07:44:49 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>SAP Confirms Cyberattack, Source Code Reportedly Compromised</title>
+<link>https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/</link>
+<guid isPermaLink="false">20428db878af8b171b975182</guid>
+<pubDate>Fri, 27 Nov 2026 07:36:14 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug</title>
+<link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/</link>
+<guid isPermaLink="false">8ca30bcf0a0c13534616a5ae</guid>
+<pubDate>Thu, 26 Nov 2026 21:06:22 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
 <title>Brasil necessita de legislação específica para cibersegurança, avalia especialista - Tribuna do Sertão</title>
 <link>https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMXczWksxLWZSanIxNEZSQjYtS0QtZ0ZxM19tb3AwbHNSTXZ1TTNuUk5FaWFYUjk1T2cyb041c3dXbGJoUlBNdnZpWUc5YTM3TzhlWTJ2WUJJMUFHRklCamdsR01wdzFOVmlmdnU0Vk5wemZWYjU1U0JxcHpvTVFCeFQ5WWdOQ2lfdzVfdVJBWUJWY3VwcXoxTUR0dVRtVWllZmxHRmludGxZNjFfcmxJUkdMbGYyRE5DODVaYUNGUVNYVThkemJzc3hoNEpkdERROURUNkQ2ZEc?oc=5</link>
 <guid isPermaLink="false">9202ec6cb84b102ee5864158</guid>
@@ -148,102 +244,6 @@
 <link>https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/</link>
 <guid isPermaLink="false">272b9849442b7516d2eb0674</guid>
 <pubDate>Wed, 25 Nov 2026 15:00:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties</title>
-<link>https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/</link>
-<guid isPermaLink="false">81590aa3decfc8d8b0a65f85</guid>
-<pubDate>Wed, 25 Nov 2026 14:15:25 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>US Treasury’s FinCEN Disconnects Systems Following Cyber Incident</title>
-<link>https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/</link>
-<guid isPermaLink="false">d1da5194e2ca03ef347b1ecf</guid>
-<pubDate>Wed, 25 Nov 2026 13:39:21 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>CRE avalia Sistema Nacional de Cibersegurança - 25/11/26 - Senado</title>
-<link>https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmdFb0lYNGlTRnljbjd1ZVowaE8tREJZTHkxWUNQWU5hSExGOHpVcng4Y3BsLTZOalVjYWVnOE16SkY5SzdBNEtaeXFzVkhXcUU0c1F4RHhwMHRpNzltdFJsZEgyYnBIVjhpUW5fb3lnNUcxVjY1WHNUODJ0bWJhQWp0TEpLd3MtRTFfcUpaS1lYTWtoVGZZMDQ0MjR5VFJlWFlXeUdKZjRLRFE1TU16MlB5R1k?oc=5</link>
-<guid isPermaLink="false">3e74824fb5a35cec4839c1a6</guid>
-<pubDate>Wed, 25 Nov 2026 13:31:30 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Senado.</description>
-</item><item>
-<title>Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget</title>
-<link>https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/</link>
-<guid isPermaLink="false">87d8075c713922e643c167cd</guid>
-<pubDate>Wed, 25 Nov 2026 13:30:00 +0000</pubDate>
-<description>Categorias: CISO. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Cibersegurança e Inteligência Artificial: Não existe soberania sem orçamento - ConvergenciaDigital</title>
-<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdW9mbU8wQ3VlQkh5SXBoa05wV3lTY0wtdHFYTjFfMDBwUExQN3JsSEZ5MHA0U2NlZnRMVGE3ajYxS2RLall2X05YSUZBeUY5cko0d3N6WUJ2Mnk1VzdHbkNLUTk1S0FYcVNmT1I5SnlqQ3F4YXFRS2ZXQ1dXRkNTMW51VXRCX1dHUXdfX05hQmxQcEV4T2FZbm9lcXVJbEg1WnR3Z0tNdXk2c21ielBLQ3RmdERwUDFZZkRV?oc=5</link>
-<guid isPermaLink="false">0b4c492bf74aca6501c9ac7f</guid>
-<pubDate>Wed, 25 Nov 2026 13:22:36 +0000</pubDate>
-<description>Categorias: CISO, Cyber. Fonte: ConvergenciaDigital.</description>
-</item><item>
-<title>Microsoft fixes Microsoft 365 bug blocking access to Office apps</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/</link>
-<guid isPermaLink="false">486ee5786154a2100a0772fd</guid>
-<pubDate>Wed, 25 Nov 2026 11:16:32 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Plagiarism Checker Turnitin Investigating Cyberattack</title>
-<link>https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/</link>
-<guid isPermaLink="false">799015563b29b600929c2ebb</guid>
-<pubDate>Wed, 25 Nov 2026 10:40:07 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Hackers now exploit critical Drupal RCE flaw to hijack sites</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/</link>
-<guid isPermaLink="false">f997244a0382db2eb32fb80f</guid>
-<pubDate>Wed, 25 Nov 2026 10:10:20 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library</title>
-<link>https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/</link>
-<guid isPermaLink="false">674c07c674be082f38354423</guid>
-<pubDate>Wed, 25 Nov 2026 09:05:13 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Microsoft confirms authentication issues after November updates</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/</link>
-<guid isPermaLink="false">d58380c6fc4212a5adf0cd06</guid>
-<pubDate>Wed, 25 Nov 2026 09:02:57 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls</title>
-<link>https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/</link>
-<guid isPermaLink="false">a85d0a94c9ba1fbeb35d2c03</guid>
-<pubDate>Wed, 25 Nov 2026 08:12:24 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Drupal Flaw Found by Anthropic Scanner Exploited in Attacks</title>
-<link>https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/</link>
-<guid isPermaLink="false">cfe87b60720767819d123b21</guid>
-<pubDate>Wed, 25 Nov 2026 08:01:06 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Hackers reportedly breached CIA intelligence analysis system</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/</link>
-<guid isPermaLink="false">18b9481beaf6d73c7ef3c8a4</guid>
-<pubDate>Wed, 25 Nov 2026 07:45:03 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says</title>
-<link>https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/</link>
-<guid isPermaLink="false">702b9fc7a2a9f5d4c538dd11</guid>
-<pubDate>Tue, 24 Nov 2026 22:41:58 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>Rackspace shuts down Spot cloud platform after security breach</title>
-<link>https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/</link>
-<guid isPermaLink="false">39a1a040c6a774d441ee06de</guid>
-<pubDate>Tue, 24 Nov 2026 21:37:30 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>New Inception extortion gang launches large-scale vishing campaign</title>
-<link>https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/</link>
-<guid isPermaLink="false">d1ab8d9e3cacfe7275a29632</guid>
-<pubDate>Tue, 24 Nov 2026 20:21:20 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
 </item>
 </channel></rss>
