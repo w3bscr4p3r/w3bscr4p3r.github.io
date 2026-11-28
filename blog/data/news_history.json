@@ -1,6 +1,54 @@
 {
-  "updated_at": "2026-11-27T19:29:28.239623+00:00",
+  "updated_at": "2026-11-28T18:15:11.089784+00:00",
   "items": [
+    {
+      "id": "913af9bc3629a6326b49c0d3",
+      "title": "College Board confirms data breach after unauthorized password changes",
+      "url": "https://www.bleepingcomputer.com/news/security/college-board-confirms-data-breach-after-unauthorized-password-changes/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-28T17:45:59+00:00",
+      "collected_at": "2026-11-28T18:15:09.480082+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "board",
+        "breach"
+      ],
+      "score": 56.81
+    },
+    {
+      "id": "7fb815572bc23a74419bd77b",
+      "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+      "url": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-28T15:32:49+00:00",
+      "collected_at": "2026-11-28T18:15:09.480476+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "8dd470cf29f947d6b5a8136a",
+      "title": "Senado recomenda criação de Agência Nacional de Cibersegurança - TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmpURXM5N0tMazVqVkh6UDFwZ202TjNDbGFveEVoS0lRMmVCN0xVcGQ5cFAwM1o3Wmt6WGlfU3Q4Nm9Zc0o0RG9Mb2tpUkpXT2huVXg0d0pRclY2aS1DWnotZTJEZ0VaQm90MDd5MkxWQ0llM0xua2I4WnRJcFVWUjFQdm5mbURqaDdKSDRYa256b2NVSTlxZDlkd0stakFyVUhBc19ZYTVqYklOTURGLVln?oc=5",
+      "source": "TV Sim Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-28T12:58:39+00:00",
+      "collected_at": "2026-11-28T18:15:10.450723+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.45
+    },
     {
       "id": "9cf1972aff1db126c29d15e2",
       "title": "pCloud confirms password manager hack after suspicious login alerts",
@@ -62,6 +110,22 @@
         "breach"
       ],
       "score": 44.82
+    },
+    {
+      "id": "b4d6311f0e8e720c1d68cbc6",
+      "title": "Brasil registra maior número de vítimas de ransomware na América Latina - SITEPD",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkRLSzAyX3g1UnhpNWR4VXhnN2NEeDJpLU5mbjFLcFd5emoxR1hySVhhUVBKZUxZcXMzd3dkcFBwVG9xV2twMFFRR1JYT0N0V3c2WVRLMkp5bzB6OUZCTTdkOHpwa2JVRUpzQVBiS240THlwdDAta1pxWEZPb2VTcVFsdVdIRWh5ODE1OURGTnltdXFoMThWWFlhVVJhSWZYVjRvQzlWb3U?oc=5",
+      "source": "SITEPD",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-27T15:03:10+00:00",
+      "collected_at": "2026-11-28T18:15:10.450321+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 33.92
     },
     {
       "id": "92afd7e75902a8b0995fa8a6",
@@ -232,6 +296,39 @@
         "cyber"
       ],
       "score": 39.88
+    },
+    {
+      "id": "8e36d71e6a970502e7a9e3d9",
+      "title": "Parceria entre ClearFi e GoHacking mira mercado de cibersegurança de US$ 80 bilhões nos Estados Unidos - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUVqcDNzT1NoeFZYSWpDanVxYzExMXE3QkxHV0ZxR29GRVhNS2hGQXJXd0t4YXNkMHNRSXlWLTRadFE2dHFON1RIUjQ4clp1MGlFblhabEVVXzRYel9wX2h5ckV1ajBIWnZxVDByNy1lU3BPdnpKblpwSHJLWV9FM2tNTHdRY0tMVGZkdmY0WGdhbGg2bS1aUkwzZlB0Q1gtU0tFeER3bDZCTHN1UGZ6WHJDWFJObnd6WGRjMktBZjdSWHU2TlJKZjVsVTU?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-27T07:05:08+00:00",
+      "collected_at": "2026-11-28T18:15:10.453697+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 28.82
+    },
+    {
+      "id": "356919a689820dbc3d44c8f9",
+      "title": "Especialistas alertam: Criação de Agência Nacional de Cibersegurança é vital para fortalecer a soberania digital e proteger o Brasil de ataques cibernéticos. - Repórter Maceió",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcldLaEFNMGJnYmFqTjQ5T2tMTVZiVjBvS0RRYkhPdEV3NGhQTFhobUpwQ1BCUHN5Z3RUN2FGZzZfLTN4dkpCd0p4T0ozNW15QjB5bTBkc2pSYmlfdGtnbUNJQ3l4VkE1M1dKS2J3bmNKYzdtcFJvTktRMW1EOUdWRjNGNTlDTGJMNXMtUFo1ZXpvR0UyTzlqMVJ6UVMzNGJKZS0yRWFtWFZmd0pzeFJzVlpvak1zZU5ZQkZYaWxDQVVpYzBJYTBQRkp4OVc2N2ZPTzl2M25DVUdPQmpVazN2RWYxR2U4Z29OaHc2V2pVOFpUemFKdE80dDZJUWNiZ3lubUVPcGk3U2t4NVkwS2lWRTVIN0U?oc=5",
+      "source": "Repórter Maceió",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T21:43:00+00:00",
+      "collected_at": "2026-11-28T18:15:10.455763+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ataque",
+        "ciber"
+      ],
+      "score": 26.68
     },
     {
       "id": "8ca30bcf0a0c13534616a5ae",
@@ -9136,98 +9233,6 @@
         "zero-day"
       ],
       "score": 41.53
-    },
-    {
-      "id": "d6ff2a37e642602f0d31b8bb",
-      "title": "Lumu anuncia nova integração com SIEM CrowdStrike",
-      "url": "https://www.cisoadvisor.com.br/lumu-anuncia-nova-integracao-com-siem-crowdstrike/",
-      "source": "CISO Advisor",
-      "feed": "CISO Advisor",
-      "published_at": "2026-10-22T14:52:23+00:00",
-      "collected_at": "2026-10-22T15:18:30.584699+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "siem"
-      ],
-      "score": 46.33
-    },
-    {
-      "id": "b8dae92ba7a09e1216b22f8d",
-      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
-      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-22T14:31:34+00:00",
-      "collected_at": "2026-10-22T15:18:31.112681+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.7
-    },
-    {
-      "id": "3f59b477b031b2aa833ef584",
-      "title": "Machine speed attacks require machine speed detection and response",
-      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T14:02:12+00:00",
-      "collected_at": "2026-10-22T15:18:30.787685+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 42.51
-    },
-    {
-      "id": "bd539c36355ce39d07cab2dd",
-      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-10-22T13:09:12+00:00",
-      "collected_at": "2026-10-22T15:18:30.788372+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 45.66
-    },
-    {
-      "id": "2fd2e13002551cc6e3735e2f",
-      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "collected_at": "2026-10-22T15:18:31.113428+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "cyber"
-      ],
-      "score": 43.6
-    },
-    {
-      "id": "c7353ac6c471d2094c13f6ee",
-      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-10-22T12:34:31+00:00",
-      "collected_at": "2026-10-22T15:18:31.114156+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "vulnerability"
-      ],
-      "score": 43.44
     }
   ]
 }

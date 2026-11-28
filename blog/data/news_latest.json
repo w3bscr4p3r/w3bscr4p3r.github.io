@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T19:29:28.239623+00:00",
+  "generated_at": "2026-11-28T18:15:11.089784+00:00",
   "lookback_hours": 72,
   "selected_count": 24,
-  "new_count": 16,
+  "new_count": 6,
   "sources": [
     {
       "name": "CISO Advisor",
@@ -32,25 +32,73 @@
     {
       "name": "SecurityWeek",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "name": "Google News — Cyber Brasil",
-      "status": "error",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(ciberseguran%C3%A7a%20OR%20cybersecurity%20OR%20ransomware%20OR%20%22zero-day%22)%20Brasil&hl=p"
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "Google News — GRC",
-      "status": "error",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(GRC%20OR%20governan%C3%A7a%20OR%20compliance%20OR%20%22gest%C3%A3o%20de%20riscos%22%20OR%20NIS2"
+      "status": "ok",
+      "items": 0
     },
     {
       "name": "Google News — CISO",
-      "status": "error",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=(CISO%20OR%20%22Chief%20Information%20Security%20Officer%22%20OR%20%22lideran%C3%A7a%20de%20segu"
+      "status": "ok",
+      "items": 0
     }
   ],
   "items": [
+    {
+      "id": "913af9bc3629a6326b49c0d3",
+      "title": "College Board confirms data breach after unauthorized password changes",
+      "url": "https://www.bleepingcomputer.com/news/security/college-board-confirms-data-breach-after-unauthorized-password-changes/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-28T17:45:59+00:00",
+      "collected_at": "2026-11-28T18:15:09.480082+00:00",
+      "categories": [
+        "CISO",
+        "Cyber"
+      ],
+      "tags": [
+        "board",
+        "breach"
+      ],
+      "score": 56.81
+    },
+    {
+      "id": "7fb815572bc23a74419bd77b",
+      "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+      "url": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/",
+      "source": "BleepingComputer",
+      "feed": "BleepingComputer",
+      "published_at": "2026-11-28T15:32:49+00:00",
+      "collected_at": "2026-11-28T18:15:09.480476+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [],
+      "score": 41.95
+    },
+    {
+      "id": "8dd470cf29f947d6b5a8136a",
+      "title": "Senado recomenda criação de Agência Nacional de Cibersegurança - TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONmpURXM5N0tMazVqVkh6UDFwZ202TjNDbGFveEVoS0lRMmVCN0xVcGQ5cFAwM1o3Wmt6WGlfU3Q4Nm9Zc0o0RG9Mb2tpUkpXT2huVXg0d0pRclY2aS1DWnotZTJEZ0VaQm90MDd5MkxWQ0llM0xua2I4WnRJcFVWUjFQdm5mbURqaDdKSDRYa256b2NVSTlxZDlkd0stakFyVUhBc19ZYTVqYklOTURGLVln?oc=5",
+      "source": "TV Sim Brasil",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-28T12:58:39+00:00",
+      "collected_at": "2026-11-28T18:15:10.450723+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 40.45
+    },
     {
       "id": "92608e919543f5b69efbea12",
       "title": "New Boston Scientific data breach exposes personal, medical info",
@@ -58,14 +106,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T18:57:42+00:00",
-      "collected_at": "2026-11-27T19:29:03.207719+00:00",
+      "collected_at": "2026-11-28T18:15:09.481255+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 46.3
+      "score": 37.44
     },
     {
       "id": "deb1db1bedd5515f9568c5e6",
@@ -74,14 +122,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T17:06:13+00:00",
-      "collected_at": "2026-11-27T19:29:03.208106+00:00",
+      "collected_at": "2026-11-28T18:15:09.481662+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "zero-day"
       ],
-      "score": 45.57
+      "score": 36.72
     },
     {
       "id": "db03e9c92ebe5d83dde4b5a9",
@@ -90,14 +138,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T15:09:40+00:00",
-      "collected_at": "2026-11-27T19:29:03.208495+00:00",
+      "collected_at": "2026-11-28T18:15:09.482017+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 44.82
+      "score": 35.96
     },
     {
       "id": "9cf1972aff1db126c29d15e2",
@@ -106,12 +154,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T19:26:04+00:00",
-      "collected_at": "2026-11-27T19:29:03.207307+00:00",
+      "collected_at": "2026-11-28T18:15:09.480831+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 42.98
+      "score": 34.13
     },
     {
       "id": "9540e4ee793196ff0b61959c",
@@ -120,14 +168,30 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T10:10:15+00:00",
-      "collected_at": "2026-11-27T19:29:03.210120+00:00",
+      "collected_at": "2026-11-28T18:15:09.483434+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 42.88
+      "score": 34.02
+    },
+    {
+      "id": "b4d6311f0e8e720c1d68cbc6",
+      "title": "Brasil registra maior número de vítimas de ransomware na América Latina - SITEPD",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkRLSzAyX3g1UnhpNWR4VXhnN2NEeDJpLU5mbjFLcFd5emoxR1hySVhhUVBKZUxZcXMzd3dkcFBwVG9xV2twMFFRR1JYT0N0V3c2WVRLMkp5bzB6OUZCTTdkOHpwa2JVRUpzQVBiS240THlwdDAta1pxWEZPb2VTcVFsdVdIRWh5ODE1OURGTnltdXFoMThWWFlhVVJhSWZYVjRvQzlWb3U?oc=5",
+      "source": "SITEPD",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-27T15:03:10+00:00",
+      "collected_at": "2026-11-28T18:15:10.450321+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ransomware"
+      ],
+      "score": 33.92
     },
     {
       "id": "92afd7e75902a8b0995fa8a6",
@@ -136,14 +200,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T15:00:10+00:00",
-      "collected_at": "2026-11-27T19:29:03.208967+00:00",
+      "collected_at": "2026-11-28T18:15:09.482426+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "risk"
       ],
-      "score": 42.76
+      "score": 33.9
     },
     {
       "id": "d998ea23ff8ab1b3f965b886",
@@ -152,14 +216,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-27T09:30:54+00:00",
-      "collected_at": "2026-11-27T19:29:03.418185+00:00",
+      "collected_at": "2026-11-28T18:15:09.861344+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 42.62
+      "score": 33.77
     },
     {
       "id": "6e5448657b366f14b0d5caa7",
@@ -168,14 +232,33 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T14:22:06+00:00",
-      "collected_at": "2026-11-27T19:29:03.209363+00:00",
+      "collected_at": "2026-11-28T18:15:09.482765+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "malware"
       ],
-      "score": 42.51
+      "score": 33.66
+    },
+    {
+      "id": "66b7a71c85d3512972ff4df0",
+      "title": "Ransomware agêntico e automação ofensiva redefinem riscos cibernéticos corporativos, aponta levantamento da Apura - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZlVHV1U0bUQwOGI3aktKMzd3WldUd2NNQ2NnZmhKLXZuZUNFYlRSRzhNTi1sUk5UQTJJVk5kOTFtR2haUzYtV0g5QlhTaExwVGdZTmJDTC1zU0xvTnd0Y3BoRjM5TE5oaExlNW81UDhzSGNTdnZ6ZW93cGlQRkV3dlIzQkpfeF9RNGpGSXpVUUU5dlVHUWpjZV9vY1hfRGpYVmgxZkd2WGZ1MER4bUJ3UFdGWU9SalE5eVNEME1EUzdCeTdfYlU1SHIzaGtSbkxXdm5keXNoVG1IQ1U?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T13:30:05+00:00",
+      "collected_at": "2026-11-28T18:15:10.452858+00:00",
+      "categories": [
+        "Cyber",
+        "GRC"
+      ],
+      "tags": [
+        "ciber",
+        "ransomware",
+        "risco"
+      ],
+      "score": 33.49
     },
     {
       "id": "4fe7d945c5a8658cf7153c99",
@@ -184,14 +267,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-27T07:44:49+00:00",
-      "collected_at": "2026-11-27T19:29:03.418656+00:00",
+      "collected_at": "2026-11-28T18:15:09.861744+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "breach"
       ],
-      "score": 41.94
+      "score": 33.08
     },
     {
       "id": "df6cc5dd9ca379c1b7432e5e",
@@ -200,14 +283,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-27T11:00:00+00:00",
-      "collected_at": "2026-11-27T19:29:03.417721+00:00",
+      "collected_at": "2026-11-28T18:15:09.860928+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 41.2
+      "score": 32.35
     },
     {
       "id": "75fce52046a7bf5317ab1a66",
@@ -216,14 +299,14 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T09:08:16+00:00",
-      "collected_at": "2026-11-27T19:29:03.210962+00:00",
+      "collected_at": "2026-11-28T18:15:09.484181+00:00",
       "categories": [
         "GRC"
       ],
       "tags": [
         "cra"
       ],
-      "score": 40.48
+      "score": 31.62
     },
     {
       "id": "20428db878af8b171b975182",
@@ -232,14 +315,14 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-27T07:36:14+00:00",
-      "collected_at": "2026-11-27T19:29:03.419089+00:00",
+      "collected_at": "2026-11-28T18:15:09.862129+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "cyber"
       ],
-      "score": 39.88
+      "score": 31.03
     },
     {
       "id": "0efdcfe0383dd5890074ec42",
@@ -248,12 +331,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T11:18:36+00:00",
-      "collected_at": "2026-11-27T19:29:03.209744+00:00",
+      "collected_at": "2026-11-28T18:15:09.483099+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.82
+      "score": 30.97
     },
     {
       "id": "5970025390c750ccf208a081",
@@ -262,12 +345,12 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T09:56:36+00:00",
-      "collected_at": "2026-11-27T19:29:03.210507+00:00",
+      "collected_at": "2026-11-28T18:15:09.483773+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 39.29
+      "score": 30.44
     },
     {
       "id": "5610bba272c6dea09485240f",
@@ -276,12 +359,28 @@
       "source": "BleepingComputer",
       "feed": "BleepingComputer",
       "published_at": "2026-11-27T08:06:58+00:00",
-      "collected_at": "2026-11-27T19:29:03.211347+00:00",
+      "collected_at": "2026-11-28T18:15:09.484519+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [],
-      "score": 38.58
+      "score": 29.72
+    },
+    {
+      "id": "8e36d71e6a970502e7a9e3d9",
+      "title": "Parceria entre ClearFi e GoHacking mira mercado de cibersegurança de US$ 80 bilhões nos Estados Unidos - Brasil Inovador",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUVqcDNzT1NoeFZYSWpDanVxYzExMXE3QkxHV0ZxR29GRVhNS2hGQXJXd0t4YXNkMHNRSXlWLTRadFE2dHFON1RIUjQ4clp1MGlFblhabEVVXzRYel9wX2h5ckV1ajBIWnZxVDByNy1lU3BPdnpKblpwSHJLWV9FM2tNTHdRY0tMVGZkdmY0WGdhbGg2bS1aUkwzZlB0Q1gtU0tFeER3bDZCTHN1UGZ6WHJDWFJObnd6WGRjMktBZjdSWHU2TlJKZjVsVTU?oc=5",
+      "source": "Brasil Inovador",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-27T07:05:08+00:00",
+      "collected_at": "2026-11-28T18:15:10.453697+00:00",
+      "categories": [
+        "Cyber"
+      ],
+      "tags": [
+        "ciber"
+      ],
+      "score": 28.82
     },
     {
       "id": "46a4a49420d03d81858212d9",
@@ -290,7 +389,7 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T11:35:25+00:00",
-      "collected_at": "2026-11-27T19:29:03.420428+00:00",
+      "collected_at": "2026-11-28T18:15:09.863345+00:00",
       "categories": [
         "Cyber"
       ],
@@ -298,7 +397,7 @@
         "exploit",
         "zero-day"
       ],
-      "score": 37.6
+      "score": 28.74
     },
     {
       "id": "0fa0bd26c50f3a76dacfaf85",
@@ -307,120 +406,31 @@
       "source": "SecurityWeek",
       "feed": "SecurityWeek",
       "published_at": "2026-11-26T13:04:06+00:00",
-      "collected_at": "2026-11-27T19:29:03.419987+00:00",
+      "collected_at": "2026-11-28T18:15:09.862948+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
         "exploit"
       ],
-      "score": 36.67
+      "score": 27.82
     },
     {
-      "id": "8ca30bcf0a0c13534616a5ae",
-      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-26T21:06:22+00:00",
-      "collected_at": "2026-11-27T19:29:03.211727+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 34.3
-    },
-    {
-      "id": "6f461d8a9123bf538f44d66b",
-      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-26T17:06:55+00:00",
-      "collected_at": "2026-11-27T19:29:03.419551+00:00",
+      "id": "356919a689820dbc3d44c8f9",
+      "title": "Especialistas alertam: Criação de Agência Nacional de Cibersegurança é vital para fortalecer a soberania digital e proteger o Brasil de ataques cibernéticos. - Repórter Maceió",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcldLaEFNMGJnYmFqTjQ5T2tMTVZiVjBvS0RRYkhPdEV3NGhQTFhobUpwQ1BCUHN5Z3RUN2FGZzZfLTN4dkpCd0p4T0ozNW15QjB5bTBkc2pSYmlfdGtnbUNJQ3l4VkE1M1dKS2J3bmNKYzdtcFJvTktRMW1EOUdWRjNGNTlDTGJMNXMtUFo1ZXpvR0UyTzlqMVJ6UVMzNGJKZS0yRWFtWFZmd0pzeFJzVlpvak1zZU5ZQkZYaWxDQVVpYzBJYTBQRkp4OVc2N2ZPTzl2M25DVUdPQmpVazN2RWYxR2U4Z29OaHc2V2pVOFpUemFKdE80dDZJUWNiZ3lubUVPcGk3U2t4NVkwS2lWRTVIN0U?oc=5",
+      "source": "Repórter Maceió",
+      "feed": "Google News — Cyber Brasil",
+      "published_at": "2026-11-26T21:43:00+00:00",
+      "collected_at": "2026-11-28T18:15:10.455763+00:00",
       "categories": [
         "Cyber"
       ],
       "tags": [
-        "cyber"
+        "ataque",
+        "ciber"
       ],
-      "score": 34.25
-    },
-    {
-      "id": "fde7acbfdcbd376a59241051",
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-26T15:23:28+00:00",
-      "collected_at": "2026-11-27T19:29:03.212858+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "malware"
-      ],
-      "score": 33.57
-    },
-    {
-      "id": "02a6482beb758224e15df841",
-      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
-      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-26T09:12:26+00:00",
-      "collected_at": "2026-11-27T19:29:03.420873+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "exploit"
-      ],
-      "score": 33.17
-    },
-    {
-      "id": "414c20407474efd1e8be3816",
-      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-26T17:58:42+00:00",
-      "collected_at": "2026-11-27T19:29:03.212089+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 33.08
-    },
-    {
-      "id": "3b42d776b5372dcd2ce0fc02",
-      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
-      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
-      "source": "SecurityWeek",
-      "feed": "SecurityWeek",
-      "published_at": "2026-11-26T08:32:10+00:00",
-      "collected_at": "2026-11-27T19:29:03.421312+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [
-        "breach"
-      ],
-      "score": 32.91
-    },
-    {
-      "id": "419d56af58566508ab3581bf",
-      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-      "source": "BleepingComputer",
-      "feed": "BleepingComputer",
-      "published_at": "2026-11-26T17:15:27+00:00",
-      "collected_at": "2026-11-27T19:29:03.212472+00:00",
-      "categories": [
-        "Cyber"
-      ],
-      "tags": [],
-      "score": 32.8
+      "score": 26.68
     }
   ]
 }

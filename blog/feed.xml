@@ -4,8 +4,26 @@
 <link>https://w3bscr4p3r.github.io/blog/</link>
 <description>Curadoria automatizada de notícias sobre cibersegurança, GRC e liderança CISO.</description>
 <language>pt-BR</language>
-<lastBuildDate>Fri, 27 Nov 2026 19:29:28 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 18:15:11 +0000</lastBuildDate>
 <item>
+<title>College Board confirms data breach after unauthorized password changes</title>
+<link>https://www.bleepingcomputer.com/news/security/college-board-confirms-data-breach-after-unauthorized-password-changes/</link>
+<guid isPermaLink="false">913af9bc3629a6326b49c0d3</guid>
+<pubDate>Sat, 28 Nov 2026 17:45:59 +0000</pubDate>
+<description>Categorias: CISO, Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Q-Dir and DesktopOK Windows utilities compromised to push Python RAT</title>
+<link>https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/</link>
+<guid isPermaLink="false">7fb815572bc23a74419bd77b</guid>
+<pubDate>Sat, 28 Nov 2026 15:32:49 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Senado recomenda criação de Agência Nacional de Cibersegurança - TV Sim Brasil</title>
+<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxONmpURXM5N0tMazVqVkh6UDFwZ202TjNDbGFveEVoS0lRMmVCN0xVcGQ5cFAwM1o3Wmt6WGlfU3Q4Nm9Zc0o0RG9Mb2tpUkpXT2huVXg0d0pRclY2aS1DWnotZTJEZ0VaQm90MDd5MkxWQ0llM0xua2I4WnRJcFVWUjFQdm5mbURqaDdKSDRYa256b2NVSTlxZDlkd0stakFyVUhBc19ZYTVqYklOTURGLVln?oc=5</link>
+<guid isPermaLink="false">8dd470cf29f947d6b5a8136a</guid>
+<pubDate>Sat, 28 Nov 2026 12:58:39 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: TV Sim Brasil.</description>
+</item><item>
 <title>pCloud confirms password manager hack after suspicious login alerts</title>
 <link>https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/</link>
 <guid isPermaLink="false">9cf1972aff1db126c29d15e2</guid>
@@ -29,6 +47,12 @@
 <guid isPermaLink="false">db03e9c92ebe5d83dde4b5a9</guid>
 <pubDate>Fri, 27 Nov 2026 15:09:40 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
+</item><item>
+<title>Brasil registra maior número de vítimas de ransomware na América Latina - SITEPD</title>
+<link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkRLSzAyX3g1UnhpNWR4VXhnN2NEeDJpLU5mbjFLcFd5emoxR1hySVhhUVBKZUxZcXMzd3dkcFBwVG9xV2twMFFRR1JYT0N0V3c2WVRLMkp5bzB6OUZCTTdkOHpwa2JVRUpzQVBiS240THlwdDAta1pxWEZPb2VTcVFsdVdIRWh5ODE1OURGTnltdXFoMThWWFlhVVJhSWZYVjRvQzlWb3U?oc=5</link>
+<guid isPermaLink="false">b4d6311f0e8e720c1d68cbc6</guid>
+<pubDate>Fri, 27 Nov 2026 15:03:10 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: SITEPD.</description>
 </item><item>
 <title>Your Firewall Isn&#x27;t Enough: The Hidden Risk of Unmanaged VMs</title>
 <link>https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/</link>
@@ -95,6 +119,18 @@
 <guid isPermaLink="false">20428db878af8b171b975182</guid>
 <pubDate>Fri, 27 Nov 2026 07:36:14 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: SecurityWeek.</description>
+</item><item>
+<title>Parceria entre ClearFi e GoHacking mira mercado de cibersegurança de US$ 80 bilhões nos Estados Unidos - Brasil Inovador</title>
+<link>https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUVqcDNzT1NoeFZYSWpDanVxYzExMXE3QkxHV0ZxR29GRVhNS2hGQXJXd0t4YXNkMHNRSXlWLTRadFE2dHFON1RIUjQ4clp1MGlFblhabEVVXzRYel9wX2h5ckV1ajBIWnZxVDByNy1lU3BPdnpKblpwSHJLWV9FM2tNTHdRY0tMVGZkdmY0WGdhbGg2bS1aUkwzZlB0Q1gtU0tFeER3bDZCTHN1UGZ6WHJDWFJObnd6WGRjMktBZjdSWHU2TlJKZjVsVTU?oc=5</link>
+<guid isPermaLink="false">8e36d71e6a970502e7a9e3d9</guid>
+<pubDate>Fri, 27 Nov 2026 07:05:08 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: Brasil Inovador.</description>
+</item><item>
+<title>Especialistas alertam: Criação de Agência Nacional de Cibersegurança é vital para fortalecer a soberania digital e proteger o Brasil de ataques cibernéticos. - Repórter Maceió</title>
+<link>https://news.google.com/rss/articles/CBMilAJBVV95cUxOcldLaEFNMGJnYmFqTjQ5T2tMTVZiVjBvS0RRYkhPdEV3NGhQTFhobUpwQ1BCUHN5Z3RUN2FGZzZfLTN4dkpCd0p4T0ozNW15QjB5bTBkc2pSYmlfdGtnbUNJQ3l4VkE1M1dKS2J3bmNKYzdtcFJvTktRMW1EOUdWRjNGNTlDTGJMNXMtUFo1ZXpvR0UyTzlqMVJ6UVMzNGJKZS0yRWFtWFZmd0pzeFJzVlpvak1zZU5ZQkZYaWxDQVVpYzBJYTBQRkp4OVc2N2ZPTzl2M25DVUdPQmpVazN2RWYxR2U4Z29OaHc2V2pVOFpUemFKdE80dDZJUWNiZ3lubUVPcGk3U2t4NVkwS2lWRTVIN0U?oc=5</link>
+<guid isPermaLink="false">356919a689820dbc3d44c8f9</guid>
+<pubDate>Thu, 26 Nov 2026 21:43:00 +0000</pubDate>
+<description>Categorias: Cyber. Fonte: Repórter Maceió.</description>
 </item><item>
 <title>OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug</title>
 <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/</link>
@@ -208,42 +244,6 @@
 <link>https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/</link>
 <guid isPermaLink="false">83fdc4c16bbf101a92816329</guid>
 <pubDate>Wed, 25 Nov 2026 19:39:31 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>GSI quer Lei Geral de Cibersegurança sendo levada com urgência ao Presidente Lula na próxima semana - ConvergenciaDigital</title>
-<link>https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeGJINTl1MW5LZlk2WjRGQlByYVhtUXc5SURuTTlZMVBhZDlFZGVwQ21MLVdDLWJIM3BnT1MySnRJVl80RjByMGdFNk5OanJWZHk4MUVxNWd1MlBaVlBYZmpnOHJRSlVacFJJdmp4X3hfVHhCOTEwTndqaUN0ejltYUVyUVQ4MVdVMWNQbVRQcGJBRTc0SWdDWGRiZW5saUpiRy1falpXNzV6LWtmUTFSc0gzZ0xMM3I5cENPT1B6djZtWDE1eEg4cWtYWXN0dm9ZaXhxcklLZG9SNE0?oc=5</link>
-<guid isPermaLink="false">d842a7079dc7b8ae0b0d8a33</guid>
-<pubDate>Wed, 25 Nov 2026 18:14:34 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: ConvergenciaDigital.</description>
-</item><item>
-<title>CISA warns of critical unpatched flaw in Danfoss refrigeration controllers</title>
-<link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/</link>
-<guid isPermaLink="false">2533b831cbd707f2ad3c5124</guid>
-<pubDate>Wed, 25 Nov 2026 16:13:40 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>Senador propõe criação de agência para fortalecer cibersegurança no Brasil - Metrô News Jornal</title>
-<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTlRSlk3OGZFY1FMbE5oZ1BRZHl0U095Yjk5NEFKeWN0cDEzQ282QzdmSUphMVg2RzA1RHVTd1g5VXZVRGJTaTJJV0d6alNBUUhNdFBOa1JZZldQYVNzampZblduZmduQU5oR2NLM2R6QmFUVHJOTlhEcUk2czFaNVF3cVpmUmtWQlpxZ0dHMFpuRW9iMHVFRUg0VmNIZGxkVEE?oc=5</link>
-<guid isPermaLink="false">aa37fb985e0411838f261dd8</guid>
-<pubDate>Wed, 25 Nov 2026 16:10:00 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: Metrô News Jornal.</description>
-</item><item>
-<title>Two Newly Disclosed GeoServer Vulnerabilities Under Attack</title>
-<link>https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/</link>
-<guid isPermaLink="false">0a0c44c27ddb032307e3dc4a</guid>
-<pubDate>Wed, 25 Nov 2026 15:27:36 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: SecurityWeek.</description>
-</item><item>
-<title>More Pentests Without More Pentesters: Where AI Safely Helps</title>
-<link>https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/</link>
-<guid isPermaLink="false">0a87785d1a9828b4e868e18b</guid>
-<pubDate>Wed, 25 Nov 2026 15:00:10 +0000</pubDate>
-<description>Categorias: Cyber. Fonte: BleepingComputer.</description>
-</item><item>
-<title>InfraTrust warns of exploited supply chain flaws in network appliances</title>
-<link>https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/</link>
-<guid isPermaLink="false">272b9849442b7516d2eb0674</guid>
-<pubDate>Wed, 25 Nov 2026 15:00:00 +0000</pubDate>
 <description>Categorias: Cyber. Fonte: BleepingComputer.</description>
 </item>
 </channel></rss>
